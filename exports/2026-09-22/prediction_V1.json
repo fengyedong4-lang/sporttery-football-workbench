@@ -1,0 +1,2411 @@
+{
+  "schema_version": 4,
+  "prediction_date": "2026-09-22",
+  "prediction_version": 1,
+  "state": "formal",
+  "generated_at": "2026-09-22T16:27:07.660954+08:00",
+  "finalized_at": "2026-09-22T16:30:06.402453+08:00",
+  "parent_version": null,
+  "amendment": {
+    "version_type": null,
+    "reason_category": null,
+    "reason_detail": null,
+    "evidence_source": null,
+    "changed_at": null,
+    "changes": []
+  },
+  "freeze": {
+    "is_frozen": true,
+    "frozen_at": "2026-09-22T16:30:06.402453+08:00",
+    "frozen_by": "当前主代理",
+    "freeze_reason": "赛前独立判断及适用范围复核完成，通过formal校验后保存V1"
+  },
+  "prediction_scope": [
+    "result",
+    "handicap_result"
+  ],
+  "applied_review_rule_ids": [],
+  "rule_application_note": "无匹配历史场景规则；固定规则第六、七、八节独立执行；术数关闭。",
+  "rule_application_timeline": {
+    "independent_judgment_file": "independent_judgment_baseline.json",
+    "independent_judgment_sha256": "e1dddf1ce8df7d60d732b79d79e1f6dd50319c6483e7e0d590287920e5abd633",
+    "independent_judgment_saved_at": "2026-09-22T16:27:07.660954+08:00",
+    "rules_read_at": "2026-09-22T16:30:06.400254+08:00",
+    "rules_applied_at": "2026-09-22T16:30:06.400254+08:00",
+    "comparison_saved_at": "2026-09-22T16:30:06.401447+08:00",
+    "no_post_match_backfill": true,
+    "note": "rules_read_at为基线后最终适用范围复核时间，先前已读库的事实保留在基线中。"
+  },
+  "snapshot_hash": "9c6332b92c5979f411eb9290ae20f3e10453ff55d908373dcf310d0a55f7b8b0",
+  "general_notes": "仅预测90分钟含补时的两项结果。主观概率未校准，首发和完整伤停未确认；所有场次不标稳胆。英甲积分页缓存时间冲突，具体实时排名不作为最终依据。",
+  "relative_picks": {
+    "status": "formal",
+    "selected_at": "2026-09-22T16:30:06.401447+08:00",
+    "selection_basis": "比较阵容层级、近期攻防、比赛条件和反证；非奖金排序",
+    "confidence_note": "两场均仅中置信、高风险；相对优先，不是稳胆。",
+    "items": [
+      {
+        "match_number": "周二001",
+        "sequence": 1,
+        "play": "result",
+        "selection": "胜",
+        "official_handicap": null,
+        "confidence": "中",
+        "risk_level": "高",
+        "reason": "韩国阵容层级和首战攻势占优、休息充分，普通胜对持续扩大优势的要求更低",
+        "risk": "双方已出线，韩国领先后可能收缩；沙特定位球与反击及未确认轮换削弱韩国持续扩大优势的可信度。",
+        "prediction_version": 1,
+        "selected_at": "2026-09-22T16:30:06.401447+08:00"
+      },
+      {
+        "match_number": "周二004",
+        "sequence": 4,
+        "play": "handicap_result",
+        "selection": "让负",
+        "official_handicap": -1,
+        "confidence": "中",
+        "risk_level": "高",
+        "reason": "维冈连续3场未得分，布莱克浦仍有连续进球能力；主不胜的集合支持更强",
+        "risk": "布莱克浦近4场失11球，近两次客场均负；维冈可利用对方防守问题反弹，客胜置信只中低。",
+        "prediction_version": 1,
+        "selected_at": "2026-09-22T16:30:06.401447+08:00"
+      }
+    ]
+  },
+  "relative_picks_supplement_ref": {
+    "is_separate_supplement": false,
+    "supplement_id": null,
+    "supplement_path": null,
+    "created_at": null,
+    "referenced_prediction_version": null
+  },
+  "matches": [
+    {
+      "sequence": 1,
+      "match_number": "周二001",
+      "competition": "亚运男足",
+      "match_type": "杯赛小组赛",
+      "match_status": "未开赛",
+      "match_status_checked_at": "2026-09-22T16:30:06.401447+08:00",
+      "kickoff_time": "2026-09-22T18:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": "日本名古屋中立场",
+      "home_team": "韩国亚",
+      "away_team": "沙特亚",
+      "strength_type": "韩国U23含超龄对沙特U21",
+      "pre_match_facts": {
+        "home_rank": "[Group D1]",
+        "away_rank": "[Group D2]",
+        "home_points": 3,
+        "away_points": 3,
+        "matches_played": {
+          "home": 1,
+          "away": 1
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-15",
+              "opponent": "卡塔尔",
+              "score": "4:1",
+              "competition": "亚运男足",
+              "venue": "中立"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-18",
+              "opponent": "卡塔尔",
+              "score": "2:0",
+              "competition": "亚运男足",
+              "venue": "中立"
+            }
+          ],
+          "note": "本届同阵容正式赛各1场，不以1月U23亚洲杯或6月土伦杯拼凑本届阵容5场。韩国6月三场为友谊赛，已排除；沙特土伦杯四场为旧阵容参照，不用于本届状态计数。",
+          "formal_matches_only": true,
+          "season": "2026亚运"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "continuity_assessment": "本轮未取得足够可核实的同阵容交锋样本，不以旧交锋凑数",
+          "weight": "低"
+        },
+        "home_away_form": {
+          "home_team_at_home": [],
+          "away_team_away": []
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "motivation": {
+          "home": "已出线，争小组第一；平局按当前净胜优势有利，缺少必须大胜条件",
+          "away": "已出线，取胜可获小组第一"
+        },
+        "future_schedule_3_to_5_days": {
+          "home": [
+            "2026-09-25 亚运八强，名古屋，对手取决于分组名次"
+          ],
+          "away": [
+            "2026-09-25 亚运八强，名古屋，对手取决于分组名次"
+          ]
+        },
+        "travel_and_fatigue": {
+          "home": "日本中立场，距9月15日首战7天",
+          "away": "日本中立场，距9月18日首战4天"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "待核实",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.saff.com.sa/en/nationalteams.php?id=17&type=2",
+            "source_type": "协会官方/通讯社",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.saff.com.sa/news.php?id=4363",
+            "source_type": "协会官方/通讯社",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&con=2444718faafdd61acb0a15d5e12bc6e3&idx=5103",
+            "source_type": "协会官方/通讯社",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://en.yna.co.kr/view/AEN20260918011700315",
+            "source_type": "协会官方/通讯社",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://kfa.or.kr/national/?act=mu_23&cursor=&position=Coach&s_idx=8031&search_val=2026",
+            "source_type": "协会官方/通讯社",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          }
+        ],
+        "rank_note": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方接口",
+        "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad%2Chad&channel=c&matchBeginDate=2026-09-22&matchEndDate=2026-09-22",
+        "published_at": null,
+        "checked_at": "2026-09-22T16:24:06.188513+08:00",
+        "source_note": "逐玩法poolList.poolStatus=Selling；9月23营业日两场排除；固定奖金以出票时为准。",
+        "sale_status": "销售中",
+        "spf": {
+          "status": "销售中",
+          "official_win_odds": 1.29,
+          "official_draw_odds": 4.5,
+          "official_loss_odds": 7.6
+        },
+        "handicap": {
+          "status": "销售中",
+          "official_handicap": -1,
+          "handicap_win_odds": 1.95,
+          "handicap_draw_odds": 3.75,
+          "handicap_loss_odds": 2.86
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        }
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "韩国U23加超龄球员对沙特U21，韩国首战攻击更突出且多休三天；两队已出线及三天后淘汰赛限制持续进攻。净胜2+仅略高于不胜集合，不能称稳。",
+        "match_openness": "中高",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "play_status": {
+          "result": {
+            "status": "已确认",
+            "selection": "胜",
+            "confidence": "中",
+            "reason_unavailable": null
+          },
+          "handicap_result": {
+            "status": "已确认",
+            "selection": "让胜",
+            "confidence": "低",
+            "reason_unavailable": null
+          }
+        },
+        "three_way_probabilities": {
+          "home": 65,
+          "draw": 23,
+          "away": 12,
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "reason_unavailable": null,
+          "evidence_checked_at": "2026-09-22T16:27:07.660954+08:00",
+          "estimated_at": "2026-09-22T16:27:07.660954+08:00",
+          "main_uncertainty": "双方已出线，韩国领先后可能收缩；沙特定位球与反击及未确认轮换削弱韩国持续扩大优势的可信度。"
+        },
+        "handicap_assessment": {
+          "status": "已确认",
+          "official_handicap": -1,
+          "expression": "d+h",
+          "d_definition": "主队90分钟进球数减客队90分钟进球数",
+          "h_definition": "中国体彩官方主队让球数",
+          "handicap_win_condition": "d+h>0",
+          "handicap_draw_condition": "d+h=0",
+          "handicap_loss_condition": "d+h<0",
+          "most_likely_region": "d+h>0",
+          "region_probabilities": {
+            "d_plus_h_gt_0": 38,
+            "d_plus_h_eq_0": 27,
+            "d_plus_h_lt_0": 35
+          },
+          "reason_unavailable": null,
+          "assessed_at": "2026-09-22T16:27:07.660954+08:00",
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "note": "主-1：净胜2+ / 恰好净胜1 / 主不胜；前两场区间优势很小，置信低。"
+        },
+        "handicap_probability_ranges": {
+          "home_not_win_probability": 35,
+          "home_win_by_one_probability": 27,
+          "home_win_by_two_plus_probability": 38,
+          "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "韩国U23含超龄对沙特U21",
+          "近期5至10场攻防状态": {
+            "home": [
+              {
+                "date": "2026-09-15",
+                "opponent": "卡塔尔",
+                "score": "4:1",
+                "competition": "亚运男足",
+                "venue": "中立"
+              }
+            ],
+            "away": [
+              {
+                "date": "2026-09-18",
+                "opponent": "卡塔尔",
+                "score": "2:0",
+                "competition": "亚运男足",
+                "venue": "中立"
+              }
+            ],
+            "note": "本届同阵容正式赛各1场，不以1月U23亚洲杯或6月土伦杯拼凑本届阵容5场。韩国6月三场为友谊赛，已排除；沙特土伦杯四场为旧阵容参照，不用于本届状态计数。"
+          },
+          "主客场表现": "日本中立场，无韩国本土主场加成",
+          "当前积分排名及争冠保级晋级形势": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。",
+          "小组积分及出线条件": {
+            "home": "已出线，争小组第一；平局按当前净胜优势有利，缺少必须大胜条件",
+            "away": "已出线，取胜可获小组第一"
+          },
+          "杯赛首回合或次回合总比分": "不适用：小组赛",
+          "球队真实战意": {
+            "home": "已出线，争小组第一；平局按当前净胜优势有利，缺少必须大胜条件",
+            "away": "已出线，取胜可获小组第一"
+          },
+          "轮换留力或赛程取舍": "人员轮换未确认；只提高不确定性，不宣称大轮换",
+          "未来3至5天关键赛程": {
+            "home": [
+              "2026-09-25 亚运八强，名古屋，对手取决于分组名次"
+            ],
+            "away": [
+              "2026-09-25 亚运八强，名古屋，对手取决于分组名次"
+            ]
+          },
+          "伤停停赛及预计首发": "检索未取得可靠完整清单；缺失不是全员健康",
+          "最终首发和替补阵容深度": "截至核验未确认最终首发",
+          "战术风格及相互克制": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "定位球防反击防高空球能力": "沙特足协9月21训练公告含定位球演练，说明准备内容，不等于已证明转化率高。",
+          "近期进球效率和防守稳定性": "韩国U23加超龄球员对沙特U21，韩国首战攻击更突出且多休三天；两队已出线及三天后淘汰赛限制持续进攻。净胜2+仅略高于不胜集合，不能称稳。",
+          "红黄牌犯规及纪律风险": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "赛程密度旅行体能天气": {
+            "rest": {
+              "home": "日本中立场，距9月15日首战7天",
+              "away": "日本中立场，距9月18日首战4天"
+            },
+            "weather": "未获取"
+          },
+          "近期交锋持续性压制": "样本未可靠获取，不作为依据",
+          "领先后收缩崩盘或被逆转倾向": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "低级别或波动联赛异常发挥风险": "青年赛事阵容与小样本风险"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录，不得填正式选项。",
+        "analysis_result": null,
+        "handicap_confidence": "低",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "draw_positive_evidence": "本场未选平；未因资料冲突机械选平。",
+        "favorite_no_win_path": "双方已出线，韩国领先后可能收缩；沙特定位球与反击及未确认轮换削弱韩国持续扩大优势的可信度。",
+        "counter_evidence_effect": "反证已纳入独立基线；双方已出线，韩国领先后可能收缩；沙特定位球与反击及未确认轮换削弱韩国持续扩大优势的可信度。",
+        "net_margin_assessment": "韩国U23加超龄球员对沙特U21，韩国首战攻击更突出且多休三天；两队已出线及三天后淘汰赛限制持续进攻。净胜2+仅略高于不胜集合，不能称稳。",
+        "clean_sheet_assessment": "未确认首发和门将，不因胜负方向推定零封；双方进球路径存在，不做数值零封估计。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "result_confidence": "中",
+            "handicap_confidence": "低",
+            "probabilities": {
+              "home": 65,
+              "draw": 23,
+              "away": 12
+            },
+            "evidence_refs": [
+              "https://www.saff.com.sa/en/nationalteams.php?id=17&type=2",
+              "https://www.saff.com.sa/news.php?id=4363",
+              "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&con=2444718faafdd61acb0a15d5e12bc6e3&idx=5103",
+              "https://en.yna.co.kr/view/AEN20260918011700315",
+              "https://kfa.or.kr/national/?act=mu_23&cursor=&position=Coach&s_idx=8031&search_val=2026"
+            ],
+            "source_file": "independent_judgment_baseline.json",
+            "source_sha256": "e1dddf1ce8df7d60d732b79d79e1f6dd50319c6483e7e0d590287920e5abd633",
+            "saved_at": "2026-09-22T16:27:07.660954+08:00"
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "result_confidence": "中",
+            "handicap_confidence": "低",
+            "probabilities": {
+              "home": 65,
+              "draw": 23,
+              "away": 12
+            },
+            "evidence_refs": [
+              "https://www.saff.com.sa/en/nationalteams.php?id=17&type=2",
+              "https://www.saff.com.sa/news.php?id=4363",
+              "https://media.kfa.or.kr/bbs/bbs.php?act=bbs_view&con=2444718faafdd61acb0a15d5e12bc6e3&idx=5103",
+              "https://en.yna.co.kr/view/AEN20260918011700315",
+              "https://kfa.or.kr/national/?act=mu_23&cursor=&position=Coach&s_idx=8031&search_val=2026"
+            ],
+            "saved_at": "2026-09-22T16:30:06.401447+08:00"
+          },
+          "applied_rule_ids": [],
+          "effects": [
+            "无匹配历史场景规则；保持独立判断，不宣称增益。"
+          ],
+          "changes_final_direction": false,
+          "created_pre_match": true,
+          "no_post_match_backfill": true
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": null,
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "韩国U23加超龄球员对沙特U21，韩国首战攻击更突出且多休三天；两队已出线及三天后淘汰赛限制持续进攻。净胜2+仅略高于不胜集合，不能称稳。",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "match_completion_status": "未开赛",
+        "score_90": null,
+        "verified_90_minutes": false,
+        "fact_confirmation": {
+          "status": "待核实",
+          "source_url": null,
+          "source_type": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": null
+        },
+        "official_settlement": {
+          "status": "待核实",
+          "source_url": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": "赛果事实确认不等于体彩官方结算确认。"
+        },
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停停赛",
+        "机会质量/xG",
+        "可靠近期同阵容交锋",
+        "天气及场地状态",
+        "英甲实时完整积分表（缓存时点冲突）"
+      ]
+    },
+    {
+      "sequence": 2,
+      "match_number": "周二002",
+      "competition": "英锦标赛",
+      "match_type": "杯赛小组赛",
+      "match_status": "未开赛",
+      "match_status_checked_at": "2026-09-22T16:30:06.401447+08:00",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": "Stadium MK",
+      "home_team": "米尔顿",
+      "away_team": "克劳利",
+      "strength_type": "英甲主队对英乙客队",
+      "pre_match_facts": {
+        "home_rank": "[南部赛区H组4]",
+        "away_rank": "[南部赛区H组3]",
+        "home_points": 0,
+        "away_points": 0,
+        "matches_played": {
+          "home": 0,
+          "away": 0
+        },
+        "recent_form": {
+          "home": [
+            [
+              "09-17",
+              "温布尔登",
+              "0:0",
+              "客"
+            ],
+            [
+              "09-12",
+              "彼得堡",
+              "1:1",
+              "主"
+            ],
+            [
+              "09-05",
+              "韦康比",
+              "3:3",
+              "客"
+            ],
+            [
+              "09-02",
+              "维冈",
+              "1:3",
+              "客"
+            ],
+            [
+              "08-29",
+              "莱斯特",
+              "0:0",
+              "主"
+            ]
+          ],
+          "away": [
+            [
+              "09-19",
+              "格里姆斯比",
+              "0:2",
+              "客"
+            ],
+            [
+              "09-12",
+              "切尔滕汉姆",
+              "1:3",
+              "主"
+            ],
+            [
+              "09-05",
+              "阿克灵顿",
+              "2:3",
+              "客"
+            ],
+            [
+              "09-01",
+              "北安普顿",
+              "1:1",
+              "客"
+            ],
+            [
+              "08-29",
+              "布里斯托流浪",
+              "0:2",
+              "主"
+            ]
+          ],
+          "formal_matches_only": true,
+          "season": "2026-2027"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "continuity_assessment": "本轮未取得足够可核实的同阵容交锋样本，不以旧交锋凑数",
+          "weight": "低"
+        },
+        "home_away_form": {
+          "home_team_at_home": [
+            [
+              "09-12",
+              "彼得堡",
+              "1:1",
+              "主"
+            ],
+            [
+              "08-29",
+              "莱斯特",
+              "0:0",
+              "主"
+            ]
+          ],
+          "away_team_away": [
+            [
+              "09-19",
+              "格里姆斯比",
+              "0:2",
+              "客"
+            ],
+            [
+              "09-05",
+              "阿克灵顿",
+              "2:3",
+              "客"
+            ],
+            [
+              "09-01",
+              "北安普顿",
+              "1:1",
+              "客"
+            ]
+          ],
+          "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "motivation": {
+          "home": "英锦小组首战争积分；具体教练取舍未确认",
+          "away": "英锦小组首战争积分；具体教练取舍未确认"
+        },
+        "future_schedule_3_to_5_days": {
+          "home": [
+            "9月26日对布罗姆利：Sky赛程标延期，未按正常周末赛程强加疲劳"
+          ],
+          "away": [
+            "9月26日对巴尼特：Sky赛程标延期"
+          ]
+        },
+        "travel_and_fatigue": {
+          "home": "距上一场5天",
+          "away": "距上一场3天；国内客场，未取得实际旅程资料"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "待核实",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.skysports.com/football/milton-keynes-dons-vs-crawley-town/7031950767229158232",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/crawley-town",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/milton-keynes-dons",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          }
+        ],
+        "rank_note": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方接口",
+        "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad%2Chad&channel=c&matchBeginDate=2026-09-22&matchEndDate=2026-09-22",
+        "published_at": null,
+        "checked_at": "2026-09-22T16:24:06.188513+08:00",
+        "source_note": "逐玩法poolList.poolStatus=Selling；9月23营业日两场排除；固定奖金以出票时为准。",
+        "sale_status": "销售中",
+        "spf": {
+          "status": "销售中",
+          "official_win_odds": 1.37,
+          "official_draw_odds": 4.6,
+          "official_loss_odds": 5.5
+        },
+        "handicap": {
+          "status": "销售中",
+          "official_handicap": -1,
+          "handicap_win_odds": 2.18,
+          "handicap_draw_odds": 3.6,
+          "handicap_loss_odds": 2.55
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        }
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "主队高一级联赛、主场且多休两天；客队近5场四次失至少两球且联赛垫底。主队近5场4平1负限制信心；客队持续防守失守支持2+边际优先，仍与主不胜接近。",
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "play_status": {
+          "result": {
+            "status": "已确认",
+            "selection": "胜",
+            "confidence": "中低",
+            "reason_unavailable": null
+          },
+          "handicap_result": {
+            "status": "已确认",
+            "selection": "让胜",
+            "confidence": "低",
+            "reason_unavailable": null
+          }
+        },
+        "three_way_probabilities": {
+          "home": 62,
+          "draw": 24,
+          "away": 14,
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "reason_unavailable": null,
+          "evidence_checked_at": "2026-09-22T16:27:07.660954+08:00",
+          "estimated_at": "2026-09-22T16:27:07.660954+08:00",
+          "main_uncertainty": "米尔顿近期4平1负，攻坚效率不足；未确认轮换，不能把克劳利防守失球直接等同主队必然大胜。"
+        },
+        "handicap_assessment": {
+          "status": "已确认",
+          "official_handicap": -1,
+          "expression": "d+h",
+          "d_definition": "主队90分钟进球数减客队90分钟进球数",
+          "h_definition": "中国体彩官方主队让球数",
+          "handicap_win_condition": "d+h>0",
+          "handicap_draw_condition": "d+h=0",
+          "handicap_loss_condition": "d+h<0",
+          "most_likely_region": "d+h>0",
+          "region_probabilities": {
+            "d_plus_h_gt_0": 40,
+            "d_plus_h_eq_0": 22,
+            "d_plus_h_lt_0": 38
+          },
+          "reason_unavailable": null,
+          "assessed_at": "2026-09-22T16:27:07.660954+08:00",
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "note": "主-1：净胜2+ / 恰好净胜1 / 主不胜；前两场区间优势很小，置信低。"
+        },
+        "handicap_probability_ranges": {
+          "home_not_win_probability": 38,
+          "home_win_by_one_probability": 22,
+          "home_win_by_two_plus_probability": 40,
+          "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "英甲主队对英乙客队",
+          "近期5至10场攻防状态": {
+            "home": [
+              [
+                "09-17",
+                "温布尔登",
+                "0:0",
+                "客"
+              ],
+              [
+                "09-12",
+                "彼得堡",
+                "1:1",
+                "主"
+              ],
+              [
+                "09-05",
+                "韦康比",
+                "3:3",
+                "客"
+              ],
+              [
+                "09-02",
+                "维冈",
+                "1:3",
+                "客"
+              ],
+              [
+                "08-29",
+                "莱斯特",
+                "0:0",
+                "主"
+              ]
+            ],
+            "away": [
+              [
+                "09-19",
+                "格里姆斯比",
+                "0:2",
+                "客"
+              ],
+              [
+                "09-12",
+                "切尔滕汉姆",
+                "1:3",
+                "主"
+              ],
+              [
+                "09-05",
+                "阿克灵顿",
+                "2:3",
+                "客"
+              ],
+              [
+                "09-01",
+                "北安普顿",
+                "1:1",
+                "客"
+              ],
+              [
+                "08-29",
+                "布里斯托流浪",
+                "0:2",
+                "主"
+              ]
+            ]
+          },
+          "主客场表现": {
+            "home_team_at_home": [
+              [
+                "09-12",
+                "彼得堡",
+                "1:1",
+                "主"
+              ],
+              [
+                "08-29",
+                "莱斯特",
+                "0:0",
+                "主"
+              ]
+            ],
+            "away_team_away": [
+              [
+                "09-19",
+                "格里姆斯比",
+                "0:2",
+                "客"
+              ],
+              [
+                "09-05",
+                "阿克灵顿",
+                "2:3",
+                "客"
+              ],
+              [
+                "09-01",
+                "北安普顿",
+                "1:1",
+                "客"
+              ]
+            ],
+            "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+          },
+          "当前积分排名及争冠保级晋级形势": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。",
+          "小组积分及出线条件": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "杯赛首回合或次回合总比分": "不适用：小组赛",
+          "球队真实战意": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "轮换留力或赛程取舍": "人员轮换未确认；只提高不确定性，不宣称大轮换",
+          "未来3至5天关键赛程": {
+            "home": [
+              "9月26日对布罗姆利：Sky赛程标延期，未按正常周末赛程强加疲劳"
+            ],
+            "away": [
+              "9月26日对巴尼特：Sky赛程标延期"
+            ]
+          },
+          "伤停停赛及预计首发": "检索未取得可靠完整清单；缺失不是全员健康",
+          "最终首发和替补阵容深度": "截至核验未确认最终首发",
+          "战术风格及相互克制": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "定位球防反击防高空球能力": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "近期进球效率和防守稳定性": "主队高一级联赛、主场且多休两天；客队近5场四次失至少两球且联赛垫底。主队近5场4平1负限制信心；客队持续防守失守支持2+边际优先，仍与主不胜接近。",
+          "红黄牌犯规及纪律风险": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "赛程密度旅行体能天气": {
+            "rest": {
+              "home": "距上一场5天",
+              "away": "距上一场3天；国内客场，未取得实际旅程资料"
+            },
+            "weather": "未获取"
+          },
+          "近期交锋持续性压制": "样本未可靠获取，不作为依据",
+          "领先后收缩崩盘或被逆转倾向": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "低级别或波动联赛异常发挥风险": "低级别杯赛人员取舍和防守波动，风险高"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录，不得填正式选项。",
+        "analysis_result": null,
+        "handicap_confidence": "低",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "draw_positive_evidence": "本场未选平；未因资料冲突机械选平。",
+        "favorite_no_win_path": "米尔顿近期4平1负，攻坚效率不足；未确认轮换，不能把克劳利防守失球直接等同主队必然大胜。",
+        "counter_evidence_effect": "反证已纳入独立基线；米尔顿近期4平1负，攻坚效率不足；未确认轮换，不能把克劳利防守失球直接等同主队必然大胜。",
+        "net_margin_assessment": "主队高一级联赛、主场且多休两天；客队近5场四次失至少两球且联赛垫底。主队近5场4平1负限制信心；客队持续防守失守支持2+边际优先，仍与主不胜接近。",
+        "clean_sheet_assessment": "未确认首发和门将，不因胜负方向推定零封；双方进球路径存在，不做数值零封估计。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "result_confidence": "中低",
+            "handicap_confidence": "低",
+            "probabilities": {
+              "home": 62,
+              "draw": 24,
+              "away": 14
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/milton-keynes-dons-vs-crawley-town/7031950767229158232",
+              "https://www.skysports.com/crawley-town",
+              "https://www.skysports.com/milton-keynes-dons"
+            ],
+            "source_file": "independent_judgment_baseline.json",
+            "source_sha256": "e1dddf1ce8df7d60d732b79d79e1f6dd50319c6483e7e0d590287920e5abd633",
+            "saved_at": "2026-09-22T16:27:07.660954+08:00"
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "result_confidence": "中低",
+            "handicap_confidence": "低",
+            "probabilities": {
+              "home": 62,
+              "draw": 24,
+              "away": 14
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/milton-keynes-dons-vs-crawley-town/7031950767229158232",
+              "https://www.skysports.com/crawley-town",
+              "https://www.skysports.com/milton-keynes-dons"
+            ],
+            "saved_at": "2026-09-22T16:30:06.401447+08:00"
+          },
+          "applied_rule_ids": [],
+          "effects": [
+            "无匹配历史场景规则；保持独立判断，不宣称增益。"
+          ],
+          "changes_final_direction": false,
+          "created_pre_match": true,
+          "no_post_match_backfill": true
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": null,
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "主队高一级联赛、主场且多休两天；客队近5场四次失至少两球且联赛垫底。主队近5场4平1负限制信心；客队持续防守失守支持2+边际优先，仍与主不胜接近。",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "match_completion_status": "未开赛",
+        "score_90": null,
+        "verified_90_minutes": false,
+        "fact_confirmation": {
+          "status": "待核实",
+          "source_url": null,
+          "source_type": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": null
+        },
+        "official_settlement": {
+          "status": "待核实",
+          "source_url": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": "赛果事实确认不等于体彩官方结算确认。"
+        },
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停停赛",
+        "机会质量/xG",
+        "可靠近期同阵容交锋",
+        "天气及场地状态",
+        "英甲实时完整积分表（缓存时点冲突）"
+      ]
+    },
+    {
+      "sequence": 3,
+      "match_number": "周二003",
+      "competition": "英锦标赛",
+      "match_type": "杯赛小组赛",
+      "match_status": "未开赛",
+      "match_status_checked_at": "2026-09-22T16:30:06.401447+08:00",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": "Meadow Lane",
+      "home_team": "诺茨郡",
+      "away_team": "格里姆",
+      "strength_type": "英甲主队对英乙客队",
+      "pre_match_facts": {
+        "home_rank": "[北部赛区F组4]",
+        "away_rank": "[北部赛区F组2]",
+        "home_points": 0,
+        "away_points": 0,
+        "matches_played": {
+          "home": 0,
+          "away": 0
+        },
+        "recent_form": {
+          "home": [
+            [
+              "09-19",
+              "雷丁",
+              "0:2",
+              "客"
+            ],
+            [
+              "09-12",
+              "布拉德福德",
+              "0:1",
+              "主"
+            ],
+            [
+              "09-05",
+              "哈德斯菲尔德",
+              "1:1",
+              "客"
+            ],
+            [
+              "09-01",
+              "唐卡斯特",
+              "1:1",
+              "客"
+            ],
+            [
+              "08-29",
+              "伯顿",
+              "2:1",
+              "主"
+            ]
+          ],
+          "away": [
+            [
+              "09-19",
+              "克劳利",
+              "2:0",
+              "主"
+            ],
+            [
+              "09-12",
+              "布里斯托流浪",
+              "2:0",
+              "主"
+            ],
+            [
+              "09-05",
+              "切尔滕汉姆",
+              "2:2",
+              "客"
+            ],
+            [
+              "09-01",
+              "阿克灵顿",
+              "2:2",
+              "客"
+            ],
+            [
+              "08-29",
+              "弗利特伍德",
+              "2:2",
+              "主"
+            ]
+          ],
+          "formal_matches_only": true,
+          "season": "2026-2027"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "continuity_assessment": "本轮未取得足够可核实的同阵容交锋样本，不以旧交锋凑数",
+          "weight": "低"
+        },
+        "home_away_form": {
+          "home_team_at_home": [
+            [
+              "09-12",
+              "布拉德福德",
+              "0:1",
+              "主"
+            ],
+            [
+              "08-29",
+              "伯顿",
+              "2:1",
+              "主"
+            ]
+          ],
+          "away_team_away": [
+            [
+              "09-05",
+              "切尔滕汉姆",
+              "2:2",
+              "客"
+            ],
+            [
+              "09-01",
+              "阿克灵顿",
+              "2:2",
+              "客"
+            ]
+          ],
+          "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "motivation": {
+          "home": "英锦小组首战争积分；具体教练取舍未确认",
+          "away": "英锦小组首战争积分；具体教练取舍未确认"
+        },
+        "future_schedule_3_to_5_days": {
+          "home": [
+            "9月26日对布莱克浦延期；无已确认必须留力的周末场次"
+          ],
+          "away": [
+            "9月26日客场纽波特；轮换幅度未确认"
+          ]
+        },
+        "travel_and_fatigue": {
+          "home": "距上一场3天",
+          "away": "距上一场3天；国内客场，未取得实际旅程资料"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "待核实",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.skysports.com/football/notts-county-vs-grimsby-town/577353",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/grimsby-town",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://gtfc.co.uk/tickets-for-notts-county-port-vale-and-home-clash-against-shrewsbury-town-on-sale-from-tomorrow/",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/notts-county",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          }
+        ],
+        "rank_note": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方接口",
+        "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad%2Chad&channel=c&matchBeginDate=2026-09-22&matchEndDate=2026-09-22",
+        "published_at": null,
+        "checked_at": "2026-09-22T16:24:06.188513+08:00",
+        "source_note": "逐玩法poolList.poolStatus=Selling；9月23营业日两场排除；固定奖金以出票时为准。",
+        "sale_status": "销售中",
+        "spf": {
+          "status": "销售中",
+          "official_win_odds": 2.04,
+          "official_draw_odds": 3.45,
+          "official_loss_odds": 2.86
+        },
+        "handicap": {
+          "status": "销售中",
+          "official_handicap": -1,
+          "handicap_win_odds": 4.15,
+          "handicap_draw_odds": 3.8,
+          "handicap_loss_odds": 1.6
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        }
+      },
+      "prediction": {
+        "predicted_result": "负",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "客队近5场均进2球且连续两场零封获胜，主队近两场均未得分；跨级别对手强度限制比较。客胜略优，主不胜集合优先。",
+        "match_openness": "中高",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "play_status": {
+          "result": {
+            "status": "已确认",
+            "selection": "负",
+            "confidence": "低",
+            "reason_unavailable": null
+          },
+          "handicap_result": {
+            "status": "已确认",
+            "selection": "让负",
+            "confidence": "中",
+            "reason_unavailable": null
+          }
+        },
+        "three_way_probabilities": {
+          "home": 33,
+          "draw": 29,
+          "away": 38,
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "reason_unavailable": null,
+          "evidence_checked_at": "2026-09-22T16:27:07.660954+08:00",
+          "estimated_at": "2026-09-22T16:27:07.660954+08:00",
+          "main_uncertainty": "格里姆斯比状态来自低一级英乙，近期两胜均主场；诺茨郡主场和英甲对手强度可能令近期状态比较失真。"
+        },
+        "handicap_assessment": {
+          "status": "已确认",
+          "official_handicap": -1,
+          "expression": "d+h",
+          "d_definition": "主队90分钟进球数减客队90分钟进球数",
+          "h_definition": "中国体彩官方主队让球数",
+          "handicap_win_condition": "d+h>0",
+          "handicap_draw_condition": "d+h=0",
+          "handicap_loss_condition": "d+h<0",
+          "most_likely_region": "d+h<0",
+          "region_probabilities": {
+            "d_plus_h_gt_0": 13,
+            "d_plus_h_eq_0": 20,
+            "d_plus_h_lt_0": 67
+          },
+          "reason_unavailable": null,
+          "assessed_at": "2026-09-22T16:27:07.660954+08:00",
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "note": "主-1：净胜2+ / 恰好净胜1 / 主不胜；前两场区间优势很小，置信低。"
+        },
+        "handicap_probability_ranges": {
+          "home_not_win_probability": 67,
+          "home_win_by_one_probability": 20,
+          "home_win_by_two_plus_probability": 13,
+          "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "英甲主队对英乙客队",
+          "近期5至10场攻防状态": {
+            "home": [
+              [
+                "09-19",
+                "雷丁",
+                "0:2",
+                "客"
+              ],
+              [
+                "09-12",
+                "布拉德福德",
+                "0:1",
+                "主"
+              ],
+              [
+                "09-05",
+                "哈德斯菲尔德",
+                "1:1",
+                "客"
+              ],
+              [
+                "09-01",
+                "唐卡斯特",
+                "1:1",
+                "客"
+              ],
+              [
+                "08-29",
+                "伯顿",
+                "2:1",
+                "主"
+              ]
+            ],
+            "away": [
+              [
+                "09-19",
+                "克劳利",
+                "2:0",
+                "主"
+              ],
+              [
+                "09-12",
+                "布里斯托流浪",
+                "2:0",
+                "主"
+              ],
+              [
+                "09-05",
+                "切尔滕汉姆",
+                "2:2",
+                "客"
+              ],
+              [
+                "09-01",
+                "阿克灵顿",
+                "2:2",
+                "客"
+              ],
+              [
+                "08-29",
+                "弗利特伍德",
+                "2:2",
+                "主"
+              ]
+            ]
+          },
+          "主客场表现": {
+            "home_team_at_home": [
+              [
+                "09-12",
+                "布拉德福德",
+                "0:1",
+                "主"
+              ],
+              [
+                "08-29",
+                "伯顿",
+                "2:1",
+                "主"
+              ]
+            ],
+            "away_team_away": [
+              [
+                "09-05",
+                "切尔滕汉姆",
+                "2:2",
+                "客"
+              ],
+              [
+                "09-01",
+                "阿克灵顿",
+                "2:2",
+                "客"
+              ]
+            ],
+            "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+          },
+          "当前积分排名及争冠保级晋级形势": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。",
+          "小组积分及出线条件": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "杯赛首回合或次回合总比分": "不适用：小组赛",
+          "球队真实战意": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "轮换留力或赛程取舍": "人员轮换未确认；只提高不确定性，不宣称大轮换",
+          "未来3至5天关键赛程": {
+            "home": [
+              "9月26日对布莱克浦延期；无已确认必须留力的周末场次"
+            ],
+            "away": [
+              "9月26日客场纽波特；轮换幅度未确认"
+            ]
+          },
+          "伤停停赛及预计首发": "检索未取得可靠完整清单；缺失不是全员健康",
+          "最终首发和替补阵容深度": "截至核验未确认最终首发",
+          "战术风格及相互克制": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "定位球防反击防高空球能力": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "近期进球效率和防守稳定性": "客队近5场均进2球且连续两场零封获胜，主队近两场均未得分；跨级别对手强度限制比较。客胜略优，主不胜集合优先。",
+          "红黄牌犯规及纪律风险": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "赛程密度旅行体能天气": {
+            "rest": {
+              "home": "距上一场3天",
+              "away": "距上一场3天；国内客场，未取得实际旅程资料"
+            },
+            "weather": "未获取"
+          },
+          "近期交锋持续性压制": "样本未可靠获取，不作为依据",
+          "领先后收缩崩盘或被逆转倾向": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "低级别或波动联赛异常发挥风险": "低级别杯赛人员取舍和防守波动，风险高"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录，不得填正式选项。",
+        "analysis_result": null,
+        "handicap_confidence": "中",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "draw_positive_evidence": "本场未选平；未因资料冲突机械选平。",
+        "favorite_no_win_path": "格里姆斯比状态来自低一级英乙，近期两胜均主场；诺茨郡主场和英甲对手强度可能令近期状态比较失真。",
+        "counter_evidence_effect": "反证已纳入独立基线；格里姆斯比状态来自低一级英乙，近期两胜均主场；诺茨郡主场和英甲对手强度可能令近期状态比较失真。",
+        "net_margin_assessment": "客队近5场均进2球且连续两场零封获胜，主队近两场均未得分；跨级别对手强度限制比较。客胜略优，主不胜集合优先。",
+        "clean_sheet_assessment": "未确认首发和门将，不因胜负方向推定零封；双方进球路径存在，不做数值零封估计。",
+        "strict_stable": false,
+        "upset_tag": true,
+        "rule_application_comparison": {
+          "before": {
+            "result": "负",
+            "handicap_result": "让负",
+            "result_confidence": "低",
+            "handicap_confidence": "中",
+            "probabilities": {
+              "home": 33,
+              "draw": 29,
+              "away": 38
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/notts-county-vs-grimsby-town/577353",
+              "https://www.skysports.com/grimsby-town",
+              "https://gtfc.co.uk/tickets-for-notts-county-port-vale-and-home-clash-against-shrewsbury-town-on-sale-from-tomorrow/",
+              "https://www.skysports.com/notts-county"
+            ],
+            "source_file": "independent_judgment_baseline.json",
+            "source_sha256": "e1dddf1ce8df7d60d732b79d79e1f6dd50319c6483e7e0d590287920e5abd633",
+            "saved_at": "2026-09-22T16:27:07.660954+08:00"
+          },
+          "after": {
+            "result": "负",
+            "handicap_result": "让负",
+            "result_confidence": "低",
+            "handicap_confidence": "中",
+            "probabilities": {
+              "home": 33,
+              "draw": 29,
+              "away": 38
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/notts-county-vs-grimsby-town/577353",
+              "https://www.skysports.com/grimsby-town",
+              "https://gtfc.co.uk/tickets-for-notts-county-port-vale-and-home-clash-against-shrewsbury-town-on-sale-from-tomorrow/",
+              "https://www.skysports.com/notts-county"
+            ],
+            "saved_at": "2026-09-22T16:30:06.401447+08:00"
+          },
+          "applied_rule_ids": [],
+          "effects": [
+            "无匹配历史场景规则；保持独立判断，不宣称增益。"
+          ],
+          "changes_final_direction": false,
+          "created_pre_match": true,
+          "no_post_match_backfill": true
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": null,
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "客队近5场均进2球且连续两场零封获胜，主队近两场均未得分；跨级别对手强度限制比较。客胜略优，主不胜集合优先。",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "match_completion_status": "未开赛",
+        "score_90": null,
+        "verified_90_minutes": false,
+        "fact_confirmation": {
+          "status": "待核实",
+          "source_url": null,
+          "source_type": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": null
+        },
+        "official_settlement": {
+          "status": "待核实",
+          "source_url": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": "赛果事实确认不等于体彩官方结算确认。"
+        },
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停停赛",
+        "机会质量/xG",
+        "可靠近期同阵容交锋",
+        "天气及场地状态",
+        "英甲实时完整积分表（缓存时点冲突）"
+      ]
+    },
+    {
+      "sequence": 4,
+      "match_number": "周二004",
+      "competition": "英锦标赛",
+      "match_type": "杯赛小组赛",
+      "match_status": "未开赛",
+      "match_status_checked_at": "2026-09-22T16:30:06.401447+08:00",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": "DW Stadium",
+      "home_team": "维冈",
+      "away_team": "布莱克浦",
+      "strength_type": "同为英甲，客队近期进攻更强",
+      "pre_match_facts": {
+        "home_rank": "[北部赛区B组1]",
+        "away_rank": "[北部赛区B组2]",
+        "home_points": 0,
+        "away_points": 0,
+        "matches_played": {
+          "home": 0,
+          "away": 0
+        },
+        "recent_form": {
+          "home": [
+            [
+              "09-19",
+              "韦康比",
+              "0:1",
+              "主"
+            ],
+            [
+              "09-12",
+              "谢周三",
+              "0:0",
+              "客"
+            ],
+            [
+              "09-05",
+              "斯托克港",
+              "0:4",
+              "主"
+            ],
+            [
+              "09-02",
+              "米尔顿",
+              "3:1",
+              "主"
+            ],
+            [
+              "08-30",
+              "温布尔登",
+              "0:1",
+              "客"
+            ]
+          ],
+          "away": [
+            [
+              "09-19",
+              "普利茅斯",
+              "2:4",
+              "主"
+            ],
+            [
+              "09-12",
+              "布罗姆利",
+              "2:2",
+              "主"
+            ],
+            [
+              "09-05",
+              "雷丁",
+              "1:3",
+              "客"
+            ],
+            [
+              "09-02",
+              "巴恩斯利",
+              "1:2",
+              "客"
+            ],
+            [
+              "08-29",
+              "彼得堡",
+              "4:0",
+              "主"
+            ]
+          ],
+          "formal_matches_only": true,
+          "season": "2026-2027"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "continuity_assessment": "本轮未取得足够可核实的同阵容交锋样本，不以旧交锋凑数",
+          "weight": "低"
+        },
+        "home_away_form": {
+          "home_team_at_home": [
+            [
+              "09-19",
+              "韦康比",
+              "0:1",
+              "主"
+            ],
+            [
+              "09-05",
+              "斯托克港",
+              "0:4",
+              "主"
+            ],
+            [
+              "09-02",
+              "米尔顿",
+              "3:1",
+              "主"
+            ]
+          ],
+          "away_team_away": [
+            [
+              "09-05",
+              "雷丁",
+              "1:3",
+              "客"
+            ],
+            [
+              "09-02",
+              "巴恩斯利",
+              "1:2",
+              "客"
+            ]
+          ],
+          "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "published_at": null,
+          "checked_at": "2026-09-22T16:30:06.401447+08:00",
+          "confirmation_level": "待核实"
+        },
+        "motivation": {
+          "home": "英锦小组首战争积分；具体教练取舍未确认",
+          "away": "英锦小组首战争积分；具体教练取舍未确认"
+        },
+        "future_schedule_3_to_5_days": {
+          "home": [
+            "未来3至5天未取得已确认比赛；不可断言没有赛程"
+          ],
+          "away": [
+            "9月26日客诺茨郡延期"
+          ]
+        },
+        "travel_and_fatigue": {
+          "home": "距上一场3天",
+          "away": "距上一场3天；国内客场，未取得实际旅程资料"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "待核实",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.skysports.com/football/wigan-athletic-vs-blackpool/6256371860243083232",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/wigan-athletic",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          },
+          {
+            "url": "https://www.skysports.com/blackpool-scores-fixtures",
+            "source_type": "Sky Sports事实数据/俱乐部公告",
+            "published_at": null,
+            "checked_at": "2026-09-22T16:30:06.401447+08:00",
+            "confirmation_level": "已确认",
+            "note": "仅采纳与本场年份和赛前截点吻合的事实；发表时分未知保留null。轮换伤停未确认。"
+          }
+        ],
+        "rank_note": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方接口",
+        "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad%2Chad&channel=c&matchBeginDate=2026-09-22&matchEndDate=2026-09-22",
+        "published_at": null,
+        "checked_at": "2026-09-22T16:24:06.188513+08:00",
+        "source_note": "逐玩法poolList.poolStatus=Selling；9月23营业日两场排除；固定奖金以出票时为准。",
+        "sale_status": "销售中",
+        "spf": {
+          "status": "销售中",
+          "official_win_odds": 2.25,
+          "official_draw_odds": 3.4,
+          "official_loss_odds": 2.56
+        },
+        "handicap": {
+          "status": "销售中",
+          "official_handicap": -1,
+          "handicap_win_odds": 4.55,
+          "handicap_draw_odds": 4.3,
+          "handicap_loss_odds": 1.48
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        }
+      },
+      "prediction": {
+        "predicted_result": "负",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "同为英甲，维冈近3场未进球，布莱克浦近5场均有进球且积分更高；客队近4场失11球构成主队反弹的反证，下调客胜信心，但仍优先客胜及主不胜。",
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "play_status": {
+          "result": {
+            "status": "已确认",
+            "selection": "负",
+            "confidence": "中低",
+            "reason_unavailable": null
+          },
+          "handicap_result": {
+            "status": "已确认",
+            "selection": "让负",
+            "confidence": "中",
+            "reason_unavailable": null
+          }
+        },
+        "three_way_probabilities": {
+          "home": 31,
+          "draw": 28,
+          "away": 41,
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "reason_unavailable": null,
+          "evidence_checked_at": "2026-09-22T16:27:07.660954+08:00",
+          "estimated_at": "2026-09-22T16:27:07.660954+08:00",
+          "main_uncertainty": "布莱克浦近4场失11球，近两次客场均负；维冈可利用对方防守问题反弹，客胜置信只中低。"
+        },
+        "handicap_assessment": {
+          "status": "已确认",
+          "official_handicap": -1,
+          "expression": "d+h",
+          "d_definition": "主队90分钟进球数减客队90分钟进球数",
+          "h_definition": "中国体彩官方主队让球数",
+          "handicap_win_condition": "d+h>0",
+          "handicap_draw_condition": "d+h=0",
+          "handicap_loss_condition": "d+h<0",
+          "most_likely_region": "d+h<0",
+          "region_probabilities": {
+            "d_plus_h_gt_0": 11,
+            "d_plus_h_eq_0": 20,
+            "d_plus_h_lt_0": 69
+          },
+          "reason_unavailable": null,
+          "assessed_at": "2026-09-22T16:27:07.660954+08:00",
+          "method": "主代理基于已核实事实的主观情景估计，未训练未校准，非奖金归一化模型；整数概率仅表达判断强弱，不代表精确频率。",
+          "note": "主-1：净胜2+ / 恰好净胜1 / 主不胜；前两场区间优势很小，置信低。"
+        },
+        "handicap_probability_ranges": {
+          "home_not_win_probability": 69,
+          "home_win_by_one_probability": 20,
+          "home_win_by_two_plus_probability": 11,
+          "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "同为英甲，客队近期进攻更强",
+          "近期5至10场攻防状态": {
+            "home": [
+              [
+                "09-19",
+                "韦康比",
+                "0:1",
+                "主"
+              ],
+              [
+                "09-12",
+                "谢周三",
+                "0:0",
+                "客"
+              ],
+              [
+                "09-05",
+                "斯托克港",
+                "0:4",
+                "主"
+              ],
+              [
+                "09-02",
+                "米尔顿",
+                "3:1",
+                "主"
+              ],
+              [
+                "08-30",
+                "温布尔登",
+                "0:1",
+                "客"
+              ]
+            ],
+            "away": [
+              [
+                "09-19",
+                "普利茅斯",
+                "2:4",
+                "主"
+              ],
+              [
+                "09-12",
+                "布罗姆利",
+                "2:2",
+                "主"
+              ],
+              [
+                "09-05",
+                "雷丁",
+                "1:3",
+                "客"
+              ],
+              [
+                "09-02",
+                "巴恩斯利",
+                "1:2",
+                "客"
+              ],
+              [
+                "08-29",
+                "彼得堡",
+                "4:0",
+                "主"
+              ]
+            ]
+          },
+          "主客场表现": {
+            "home_team_at_home": [
+              [
+                "09-19",
+                "韦康比",
+                "0:1",
+                "主"
+              ],
+              [
+                "09-05",
+                "斯托克港",
+                "0:4",
+                "主"
+              ],
+              [
+                "09-02",
+                "米尔顿",
+                "3:1",
+                "主"
+              ]
+            ],
+            "away_team_away": [
+              [
+                "09-05",
+                "雷丁",
+                "1:3",
+                "客"
+              ],
+              [
+                "09-02",
+                "巴恩斯利",
+                "1:2",
+                "客"
+              ]
+            ],
+            "note": "仅近5场中的同主客子样本，不冒充赛季完整主客场统计"
+          },
+          "当前积分排名及争冠保级晋级形势": "官方展示为小组排序，不代表已赛积分高低；英锦各队尚未进行本组首战。英甲实时联赛名次未采信过期缓存。",
+          "小组积分及出线条件": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "杯赛首回合或次回合总比分": "不适用：小组赛",
+          "球队真实战意": {
+            "home": "英锦小组首战争积分；具体教练取舍未确认",
+            "away": "英锦小组首战争积分；具体教练取舍未确认"
+          },
+          "轮换留力或赛程取舍": "人员轮换未确认；只提高不确定性，不宣称大轮换",
+          "未来3至5天关键赛程": {
+            "home": [
+              "未来3至5天未取得已确认比赛；不可断言没有赛程"
+            ],
+            "away": [
+              "9月26日客诺茨郡延期"
+            ]
+          },
+          "伤停停赛及预计首发": "检索未取得可靠完整清单；缺失不是全员健康",
+          "最终首发和替补阵容深度": "截至核验未确认最终首发",
+          "战术风格及相互克制": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "定位球防反击防高空球能力": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "近期进球效率和防守稳定性": "同为英甲，维冈近3场未进球，布莱克浦近5场均有进球且积分更高；客队近4场失11球构成主队反弹的反证，下调客胜信心，但仍优先客胜及主不胜。",
+          "红黄牌犯规及纪律风险": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "赛程密度旅行体能天气": {
+            "rest": {
+              "home": "距上一场3天",
+              "away": "距上一场3天；国内客场，未取得实际旅程资料"
+            },
+            "weather": "未获取"
+          },
+          "近期交锋持续性压制": "样本未可靠获取，不作为依据",
+          "领先后收缩崩盘或被逆转倾向": "无法获取足够可靠的本场资料；未据此补造事实或强行赋权。",
+          "低级别或波动联赛异常发挥风险": "低级别杯赛人员取舍和防守波动，风险高"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录，不得填正式选项。",
+        "analysis_result": null,
+        "handicap_confidence": "中",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "draw_positive_evidence": "本场未选平；未因资料冲突机械选平。",
+        "favorite_no_win_path": "布莱克浦近4场失11球，近两次客场均负；维冈可利用对方防守问题反弹，客胜置信只中低。",
+        "counter_evidence_effect": "反证已纳入独立基线；布莱克浦近4场失11球，近两次客场均负；维冈可利用对方防守问题反弹，客胜置信只中低。",
+        "net_margin_assessment": "同为英甲，维冈近3场未进球，布莱克浦近5场均有进球且积分更高；客队近4场失11球构成主队反弹的反证，下调客胜信心，但仍优先客胜及主不胜。",
+        "clean_sheet_assessment": "未确认首发和门将，不因胜负方向推定零封；双方进球路径存在，不做数值零封估计。",
+        "strict_stable": false,
+        "upset_tag": true,
+        "rule_application_comparison": {
+          "before": {
+            "result": "负",
+            "handicap_result": "让负",
+            "result_confidence": "中低",
+            "handicap_confidence": "中",
+            "probabilities": {
+              "home": 31,
+              "draw": 28,
+              "away": 41
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/wigan-athletic-vs-blackpool/6256371860243083232",
+              "https://www.skysports.com/wigan-athletic",
+              "https://www.skysports.com/blackpool-scores-fixtures"
+            ],
+            "source_file": "independent_judgment_baseline.json",
+            "source_sha256": "e1dddf1ce8df7d60d732b79d79e1f6dd50319c6483e7e0d590287920e5abd633",
+            "saved_at": "2026-09-22T16:27:07.660954+08:00"
+          },
+          "after": {
+            "result": "负",
+            "handicap_result": "让负",
+            "result_confidence": "中低",
+            "handicap_confidence": "中",
+            "probabilities": {
+              "home": 31,
+              "draw": 28,
+              "away": 41
+            },
+            "evidence_refs": [
+              "https://www.skysports.com/football/wigan-athletic-vs-blackpool/6256371860243083232",
+              "https://www.skysports.com/wigan-athletic",
+              "https://www.skysports.com/blackpool-scores-fixtures"
+            ],
+            "saved_at": "2026-09-22T16:30:06.401447+08:00"
+          },
+          "applied_rule_ids": [],
+          "effects": [
+            "无匹配历史场景规则；保持独立判断，不宣称增益。"
+          ],
+          "changes_final_direction": false,
+          "created_pre_match": true,
+          "no_post_match_backfill": true
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": null,
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "同为英甲，维冈近3场未进球，布莱克浦近5场均有进球且积分更高；客队近4场失11球构成主队反弹的反证，下调客胜信心，但仍优先客胜及主不胜。",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "match_completion_status": "未开赛",
+        "score_90": null,
+        "verified_90_minutes": false,
+        "fact_confirmation": {
+          "status": "待核实",
+          "source_url": null,
+          "source_type": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": null
+        },
+        "official_settlement": {
+          "status": "待核实",
+          "source_url": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": "赛果事实确认不等于体彩官方结算确认。"
+        },
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停停赛",
+        "机会质量/xG",
+        "可靠近期同阵容交锋",
+        "天气及场地状态",
+        "英甲实时完整积分表（缓存时点冲突）"
+      ]
+    }
+  ]
+}

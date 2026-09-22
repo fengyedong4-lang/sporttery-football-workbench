@@ -1,0 +1,4129 @@
+{
+  "prediction_date": "2026-09-17",
+  "prediction_version": 1,
+  "state": "formal",
+  "generated_at": "2026-09-17T09:02:01+08:00",
+  "finalized_at": "2026-09-17T09:02:01+08:00",
+  "parent_version": null,
+  "amendment": {
+    "reason_category": null,
+    "reason_detail": null,
+    "changed_at": null,
+    "changes": []
+  },
+  "applied_review_rule_ids": [
+    14,
+    16,
+    18,
+    20,
+    22,
+    23,
+    143,
+    155
+  ],
+  "rule_application_note": "读取完整JSON，筛选本场赛事及场景。所有采用规则仅作provisional个案提醒；未用资格赛首回合、两回合特定总比分规则套用欧联联赛阶段；未把规则26的联赛范围套到尤文欧联。对照为本轮应用规则前后，而不是新建V2。",
+  "snapshot_hash": "d91212383d268dd63d8b165351768f656dc9f5b61e083a6c2601f4d1513c7a63",
+  "general_notes": "主代理独立预测，无子代理。仅胜平负、让球胜平负。001普通胜平负未开售，只保留分析方向；002待开售，官方让球缺失。未使用第三方赔率或他人预测方向。资料模块含第三方数据，已与官方奖金字段分离。数值概率证据不足，留null，不冒充校准模型。SQLite文件未找到，仅更新既有JSON镜像。",
+  "matches": [
+    {
+      "sequence": 1,
+      "match_number": "周四001",
+      "competition": "亚运女足",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-17T13:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "乌兹别克斯坦女足",
+      "away_team": "中国女足",
+      "strength_type": "中国女足整体实力明显占优，深让球区间不稳",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "剔除国际友谊赛：列表内双方各6场正式赛；乌兹1胜1平4负、进5失15；中国4胜1平1负、进13失4。中国首轮取胜，但曾被中国香港女足反击扳平。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "现有6次交锋中国全胜，近5次全零封，其中3场正式赛；近期2026年亚洲杯中国净胜3球，2023年两次亚运净胜6、7球。年份及阵容差异使旧大胜明显降权。",
+          "last_5": [
+            {
+              "date": "2026-03-06",
+              "home_goals": 0,
+              "away_goals": 3,
+              "same_home_away": true
+            },
+            {
+              "date": "2025-04-05",
+              "home_goals": 5,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2024-10-26",
+              "home_goals": 3,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-10-06",
+              "home_goals": 7,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-09-28",
+              "home_goals": 0,
+              "away_goals": 6,
+              "same_home_away": true
+            }
+          ],
+          "last_10": [
+            {
+              "date": "2026-03-06",
+              "home_goals": 0,
+              "away_goals": 3,
+              "same_home_away": true
+            },
+            {
+              "date": "2025-04-05",
+              "home_goals": 5,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2024-10-26",
+              "home_goals": 3,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-10-06",
+              "home_goals": 7,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-09-28",
+              "home_goals": 0,
+              "away_goals": 6,
+              "same_home_away": true
+            },
+            {
+              "date": "2016-10-22",
+              "home_goals": 4,
+              "away_goals": 1,
+              "same_home_away": false
+            }
+          ],
+          "same_venue": [
+            {
+              "date": "2026-03-06",
+              "home_goals": 0,
+              "away_goals": 3,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-09-28",
+              "home_goals": 0,
+              "away_goals": 6,
+              "same_home_away": true
+            }
+          ],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 5,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 5,
+            "mean_total_goals": 4.8,
+            "btts_rate": 0.0,
+            "large_margin_3plus_rate": 1.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 6,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 6,
+            "mean_total_goals": 4.833333333333333,
+            "btts_rate": 0.16666666666666666,
+            "large_margin_3plus_rate": 1.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 2,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 4.5,
+            "btts_rate": 0.0,
+            "large_margin_3plus_rate": 1.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "日本中立场，乌兹为名义主队，不加真实主场优势。中国首轮替补出场后仍能创造机会。"
+        },
+        "injuries": {
+          "summary": "足协确认首轮以亚洲杯班底配年轻队员，王霜首发并完成两传两射。今日伤停及最终首发未确认；首轮名单不可冒充本场首发。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "首轮中国3分、乌兹1分。足协/中国体育报称G组，体彩资料模块称C组；保留冲突，以足协G组为事实说明。前两名及两个较好第三名晋级八强。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "双方9月14日首战、17日次战、21日末轮：中国对菲律宾、乌兹对中国香港；没有迫切连续两天作战压力。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：中国中场创造力、边路接应和替补攻击选择占优；乌兹的低位密度与中国能否持续提高转换率决定是否跨过三球门槛。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041509",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.thecfa.cn/xiwen/20260914/38155.html",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.sport.org.cn/shouye/jjty/2026/0915/707989.html",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "首轮中国3分、乌兹1分。足协/中国体育报称G组，体彩资料模块称C组；保留冲突，以足协G组为事实说明。前两名及两个较好第三名晋级八强。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "未开售",
+          "official_win_odds": null,
+          "official_draw_odds": null,
+          "official_loss_odds": null
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": 3,
+          "handicap_win_odds": 2.32,
+          "handicap_draw_odds": 4.3,
+          "handicap_loss_odds": 2.15
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": null,
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "中国获胜方向明确，但主队受让3球需要区分中国净胜不超过2、恰好3、至少4三段。最近直接正式交锋止于三球，中国首轮也有被反击破门，暂偏乌兹受让后守住；让胜信心低。",
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "中国女足整体实力明显占优，深让球区间不稳",
+          "近期5至10场攻防状态": "剔除国际友谊赛：列表内双方各6场正式赛；乌兹1胜1平4负、进5失15；中国4胜1平1负、进13失4。中国首轮取胜，但曾被中国香港女足反击扳平。",
+          "主客场表现": "日本中立场，乌兹为名义主队，不加真实主场优势。中国首轮替补出场后仍能创造机会。",
+          "当前积分排名及争冠保级晋级形势": "首轮中国3分、乌兹1分。足协/中国体育报称G组，体彩资料模块称C组；保留冲突，以足协G组为事实说明。前两名及两个较好第三名晋级八强。",
+          "小组积分及出线条件": "首轮中国3分、乌兹1分。足协/中国体育报称G组，体彩资料模块称C组；保留冲突，以足协G组为事实说明。前两名及两个较好第三名晋级八强。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "首轮中国3分、乌兹1分。足协/中国体育报称G组，体彩资料模块称C组；保留冲突，以足协G组为事实说明。前两名及两个较好第三名晋级八强。",
+          "轮换留力或赛程取舍": "足协确认首轮以亚洲杯班底配年轻队员，王霜首发并完成两传两射。今日伤停及最终首发未确认；首轮名单不可冒充本场首发。 双方9月14日首战、17日次战、21日末轮：中国对菲律宾、乌兹对中国香港；没有迫切连续两天作战压力。",
+          "未来3至5天关键赛程": "双方9月14日首战、17日次战、21日末轮：中国对菲律宾、乌兹对中国香港；没有迫切连续两天作战压力。",
+          "伤停停赛及预计首发": "足协确认首轮以亚洲杯班底配年轻队员，王霜首发并完成两传两射。今日伤停及最终首发未确认；首轮名单不可冒充本场首发。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：中国中场创造力、边路接应和替补攻击选择占优；乌兹的低位密度与中国能否持续提高转换率决定是否跨过三球门槛。",
+          "定位球防反击防高空球能力": "推断：中国中场创造力、边路接应和替补攻击选择占优；乌兹的低位密度与中国能否持续提高转换率决定是否跨过三球门槛。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "剔除国际友谊赛：列表内双方各6场正式赛；乌兹1胜1平4负、进5失15；中国4胜1平1负、进13失4。中国首轮取胜，但曾被中国香港女足反击扳平。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "双方9月14日首战、17日次战、21日末轮：中国对菲律宾、乌兹对中国香港；没有迫切连续两天作战压力。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "现有6次交锋中国全胜，近5次全零封，其中3场正式赛；近期2026年亚洲杯中国净胜3球，2023年两次亚运净胜6、7球。年份及阵容差异使旧大胜明显降权。",
+          "领先后收缩崩盘或被逆转倾向": "中国首轮后程连续进球，乌兹今年曾被韩国大胜；中国净胜4球以上是实质反向风险，不能把让胜当稳健。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "负",
+        "handicap_confidence": "低",
+        "applied_review_rules": [],
+        "unoffered_play_note": "001胜平负未开售，负仅为分析方向，不作为实际投注或命中分母。",
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "负"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "中国首轮后程连续进球，乌兹今年曾被韩国大胜；中国净胜4球以上是实质反向风险，不能把让胜当稳健。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "中国净胜不超过2球的集合与恰好3球均有路径；暂把受让方守住列第一，恰好3球只是窄区间。中国净胜4+不能排除。",
+        "clean_sheet_assessment": "中国零封可能较高但非必然；首轮被反击失球降低零封确定性。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": null,
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "after": {
+            "result": null,
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "applied_rule_ids": [],
+          "effects": [],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-17T13:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "负",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041509,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "handicap_result"
+      ],
+      "applied_review_rules": []
+    },
+    {
+      "sequence": 2,
+      "match_number": "周四002",
+      "competition": "亚冠乙",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-17T20:15:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "上海申花",
+      "away_team": "淡宾尼士流浪",
+      "strength_type": "申花联赛层级与主场占优，阵容缺员削弱优势",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "申花近10正式赛5胜5负、进20失19，近5场2胜3负。淡宾尼士本季仅核实9月11日正式赛取胜；其7胜1平2负的近10场跨越3月至9月，不作为连续近期强势。FotMob另含热身赛，不混入正式赛样本。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "双方有效交锋未找到，近5/10及同主客均无样本，不使用交锋加成。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "申花最近两个正式主场都失3球；客队最近正式客场样本多在上赛季。比赛上海体育场，存在真实主场与客队跨国旅行差别。"
+        },
+        "injuries": {
+          "summary": "俱乐部官方微博9月16日发布会：米洛耶维奇明确阵容不齐，会给此前出场少的球员机会。完整缺员名单未确认；网络关于现任教练信息相互矛盾，以俱乐部发布会为准。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "亚冠乙G组首轮，均0场0分，初始化名次没有实力意义。完整国内最新积分榜未取得。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "申花9月6日后休息11天，客队9月11日后休息6天；可见未来列表均到10月，没有已确认3至5天内赛事。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：申花仍有更高强度的进攻与主场压迫资源，但前后场缺员和近期连续失球给客队转换进攻机会。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041517",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.tampinesrovers.com/men-fixtures",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.fotmob.com/matches/shanghai-shenhua-vs-tampines-rovers-fc/19atabv",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://widget.weibo.com/list/list.php?footbar=1&info=0&language=zh_cn&listid=205591801&listname=%E7%94%B3%E8%8A%B1%E5%AE%98%E6%96%B9%E5%BE%AE%E5%8D%9A&sidebar=0&uid=2060903445&width=280",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "亚冠乙G组首轮，均0场0分，初始化名次没有实力意义。完整国内最新积分榜未取得。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "待开售",
+          "official_win_odds": null,
+          "official_draw_odds": null,
+          "official_loss_odds": null
+        },
+        "handicap": {
+          "status": "官方数据暂未获取；待开售",
+          "official_handicap": null,
+          "handicap_win_odds": null,
+          "handicap_draw_odds": null,
+          "handicap_loss_odds": null
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "待开售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": null,
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "申花上轮客场反弹且休息充分，主场对新加坡球队仍偏胜；但主帅已确认缺员和人员调整，只给中低信心。官方让球未公布，不补猜。",
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "申花联赛层级与主场占优，阵容缺员削弱优势",
+          "近期5至10场攻防状态": "申花近10正式赛5胜5负、进20失19，近5场2胜3负。淡宾尼士本季仅核实9月11日正式赛取胜；其7胜1平2负的近10场跨越3月至9月，不作为连续近期强势。FotMob另含热身赛，不混入正式赛样本。",
+          "主客场表现": "申花最近两个正式主场都失3球；客队最近正式客场样本多在上赛季。比赛上海体育场，存在真实主场与客队跨国旅行差别。",
+          "当前积分排名及争冠保级晋级形势": "亚冠乙G组首轮，均0场0分，初始化名次没有实力意义。完整国内最新积分榜未取得。",
+          "小组积分及出线条件": "亚冠乙G组首轮，均0场0分，初始化名次没有实力意义。完整国内最新积分榜未取得。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "亚冠乙G组首轮，均0场0分，初始化名次没有实力意义。完整国内最新积分榜未取得。",
+          "轮换留力或赛程取舍": "俱乐部官方微博9月16日发布会：米洛耶维奇明确阵容不齐，会给此前出场少的球员机会。完整缺员名单未确认；网络关于现任教练信息相互矛盾，以俱乐部发布会为准。 申花9月6日后休息11天，客队9月11日后休息6天；可见未来列表均到10月，没有已确认3至5天内赛事。",
+          "未来3至5天关键赛程": "申花9月6日后休息11天，客队9月11日后休息6天；可见未来列表均到10月，没有已确认3至5天内赛事。",
+          "伤停停赛及预计首发": "俱乐部官方微博9月16日发布会：米洛耶维奇明确阵容不齐，会给此前出场少的球员机会。完整缺员名单未确认；网络关于现任教练信息相互矛盾，以俱乐部发布会为准。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：申花仍有更高强度的进攻与主场压迫资源，但前后场缺员和近期连续失球给客队转换进攻机会。",
+          "定位球防反击防高空球能力": "推断：申花仍有更高强度的进攻与主场压迫资源，但前后场缺员和近期连续失球给客队转换进攻机会。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "申花近10正式赛5胜5负、进20失19，近5场2胜3负。淡宾尼士本季仅核实9月11日正式赛取胜；其7胜1平2负的近10场跨越3月至9月，不作为连续近期强势。FotMob另含热身赛，不混入正式赛样本。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "申花9月6日后休息11天，客队9月11日后休息6天；可见未来列表均到10月，没有已确认3至5天内赛事。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "双方有效交锋未找到，近5/10及同主客均无样本，不使用交锋加成。",
+          "领先后收缩崩盘或被逆转倾向": "申花近期主场防线不稳且阵容不齐，优势未必转成持续压制；客队首轮联赛零封取胜。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "低",
+        "applied_review_rules": [],
+        "unoffered_play_note": "002待开售：普通方向预判，官方让球不猜测。",
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "申花近期主场防线不稳且阵容不齐，优势未必转成持续压制；客队首轮联赛零封取胜。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "不作官方让球结论；主胜与多球大胜分别看，人员缺失降低大净胜信心。",
+        "clean_sheet_assessment": "申花最近10场仅1次零封，不能同时假定主胜和零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": null,
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": null,
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [],
+          "effects": [],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-17T20:15:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041517,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": []
+    },
+    {
+      "sequence": 3,
+      "match_number": "周四003",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T00:45:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "克里特",
+      "away_team": "霍芬海姆",
+      "strength_type": "德国联赛层级占优，但克里特当前防守与主场构成反向证据",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "克里特列表剔除一场热身后9场正式赛6胜2平1负，近7场6次零封；最近客胜奥林匹亚科斯。霍芬本季4场正式赛2胜2负，三轮德甲失7球。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "无有效直接交锋，近5/10与同主客数据均不足。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "克里特最近4个正式主场均取胜且零封；霍芬本季两个正式客场一胜一负，杯赛对低级别奥厄的大胜不能与本场同等使用。"
+        },
+        "injuries": {
+          "summary": "资料库列霍芬曹法尔、普拉斯伤，尚未获俱乐部本场确认。德甲官网列预计4-2-3-1，明确非最终首发。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联联赛阶段首轮0分；德甲官方报道核实克里特希超4轮9分第3。霍芬德甲3轮3分，精确排名未核实。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "主队9月13日、客队9月12日上轮，均9月21日再战国内联赛；霍芬本场后还要客战帕德博恩。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：克里特连续零封和低位转换可针对霍芬领先后保护不足；霍芬更高联赛强度和前场个人能力是主队最大压力。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041518",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.bundesliga.com/de/bundesliga/news/europa-league-1-spieltag-tsg-hoffenheim-ofi-kreta-ticker-spielbericht-39188",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联联赛阶段首轮0分；德甲官方报道核实克里特希超4轮9分第3。霍芬德甲3轮3分，精确排名未核实。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 6.0,
+          "official_draw_odds": 4.62,
+          "official_loss_odds": 1.34
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": 1,
+          "handicap_win_odds": 2.73,
+          "handicap_draw_odds": 3.55,
+          "handicap_loss_odds": 2.08
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "这里选择冷门主胜：克里特最近主场连续零封、刚客胜希超强敌；霍芬两次德甲领先后遭逆转，客场控局尚不可靠。主队受让1球选让胜，普通主胜只有低信心。",
+        "match_openness": "中",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "德国联赛层级占优，但克里特当前防守与主场构成反向证据",
+          "近期5至10场攻防状态": "克里特列表剔除一场热身后9场正式赛6胜2平1负，近7场6次零封；最近客胜奥林匹亚科斯。霍芬本季4场正式赛2胜2负，三轮德甲失7球。",
+          "主客场表现": "克里特最近4个正式主场均取胜且零封；霍芬本季两个正式客场一胜一负，杯赛对低级别奥厄的大胜不能与本场同等使用。",
+          "当前积分排名及争冠保级晋级形势": "欧联联赛阶段首轮0分；德甲官方报道核实克里特希超4轮9分第3。霍芬德甲3轮3分，精确排名未核实。",
+          "小组积分及出线条件": "欧联联赛阶段首轮0分；德甲官方报道核实克里特希超4轮9分第3。霍芬德甲3轮3分，精确排名未核实。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联联赛阶段首轮0分；德甲官方报道核实克里特希超4轮9分第3。霍芬德甲3轮3分，精确排名未核实。",
+          "轮换留力或赛程取舍": "资料库列霍芬曹法尔、普拉斯伤，尚未获俱乐部本场确认。德甲官网列预计4-2-3-1，明确非最终首发。 主队9月13日、客队9月12日上轮，均9月21日再战国内联赛；霍芬本场后还要客战帕德博恩。",
+          "未来3至5天关键赛程": "主队9月13日、客队9月12日上轮，均9月21日再战国内联赛；霍芬本场后还要客战帕德博恩。",
+          "伤停停赛及预计首发": "资料库列霍芬曹法尔、普拉斯伤，尚未获俱乐部本场确认。德甲官网列预计4-2-3-1，明确非最终首发。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：克里特连续零封和低位转换可针对霍芬领先后保护不足；霍芬更高联赛强度和前场个人能力是主队最大压力。",
+          "定位球防反击防高空球能力": "推断：克里特连续零封和低位转换可针对霍芬领先后保护不足；霍芬更高联赛强度和前场个人能力是主队最大压力。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "克里特列表剔除一场热身后9场正式赛6胜2平1负，近7场6次零封；最近客胜奥林匹亚科斯。霍芬本季4场正式赛2胜2负，三轮德甲失7球。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "主队9月13日、客队9月12日上轮，均9月21日再战国内联赛；霍芬本场后还要客战帕德博恩。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "无有效直接交锋，近5/10与同主客数据均不足。",
+          "领先后收缩崩盘或被逆转倾向": "霍芬刚击败斯图加特，阵容与联赛层级优势真实存在；克里特近期对手整体强度较低，主胜不能列精选。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [
+          14
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "霍芬刚击败斯图加特，阵容与联赛层级优势真实存在；克里特近期对手整体强度较低，主胜不能列精选。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "独立把主队不败列受让+1首位，客净胜1与客净胜2+均有路径；不因客队名气默认让平。",
+        "clean_sheet_assessment": "主队近期零封多但对手层级改变，不宣称零封霍芬；霍芬三轮均失球降低客队零封判断。",
+        "strict_stable": false,
+        "upset_tag": true,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            14
+          ],
+          "effects": [
+            {
+              "id": 14,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T00:45:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041518,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        14
+      ]
+    },
+    {
+      "sequence": 4,
+      "match_number": "周四004",
+      "competition": "西甲",
+      "match_type": "联赛",
+      "kickoff_time": "2026-09-18T01:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "皇家贝蒂斯",
+      "away_team": "赫塔费",
+      "strength_type": "贝蒂斯近期正式赛与主客表现占优",
+      "pre_match_facts": {
+        "home_rank": 5,
+        "away_rank": 15,
+        "home_points": 12,
+        "away_points": 5,
+        "matches_played": {
+          "home": 5,
+          "away": 5
+        },
+        "recent_form": {
+          "summary": "贝蒂斯本季6场正式赛5胜1负，近3场全胜；赫塔费本季7场正式赛2胜2平3负，近4场不胜。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "近10次贝蒂斯5胜3平2负，近5次3胜1平1负；最近一次客场负，两次最近主场均胜。相同主场近5次3胜1平1负，非绝对克制。",
+          "last_5": [
+            {
+              "date": "2026-03-08",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2025-12-22",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2025-02-24",
+              "home_goals": 1,
+              "away_goals": 2,
+              "same_home_away": false
+            },
+            {
+              "date": "2024-09-19",
+              "home_goals": 2,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2024-02-05",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": true
+            }
+          ],
+          "last_10": [
+            {
+              "date": "2026-03-08",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2025-12-22",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2025-02-24",
+              "home_goals": 1,
+              "away_goals": 2,
+              "same_home_away": false
+            },
+            {
+              "date": "2024-09-19",
+              "home_goals": 2,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2024-02-05",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-10-21",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-05-25",
+              "home_goals": 0,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-01-29",
+              "home_goals": 0,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2022-05-03",
+              "home_goals": 0,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2021-09-27",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": true
+            }
+          ],
+          "same_venue": [
+            {
+              "date": "2025-12-22",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2024-09-19",
+              "home_goals": 2,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2024-02-05",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-05-25",
+              "home_goals": 0,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2021-09-27",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": true
+            }
+          ],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 5,
+            "wins_current_home_team": 3,
+            "draws": 1,
+            "losses_current_home_team": 1,
+            "mean_total_goals": 2.8,
+            "btts_rate": 0.6,
+            "large_margin_3plus_rate": 0.2,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 10,
+            "wins_current_home_team": 5,
+            "draws": 3,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 2.0,
+            "btts_rate": 0.4,
+            "large_margin_3plus_rate": 0.1,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 5,
+            "wins_current_home_team": 3,
+            "draws": 1,
+            "losses_current_home_team": 1,
+            "mean_total_goals": 2.4,
+            "btts_rate": 0.4,
+            "large_margin_3plus_rate": 0.2,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "贝蒂斯两场联赛主场均净胜1且零封；赫塔费两场联赛客场全败且未进球，另一个欧协客场也负。"
+        },
+        "injuries": {
+          "summary": "资料库列洛伦特缺阵，AS赛前阵容报道亦指仍缺席；轮换仅为预计，最终名单未确认。赫塔费多名伤员仅资料库线索，不作官方确认。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "贝蒂斯5轮12分第5，赫塔费5轮5分第15，均非必须保平局面。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "贝蒂斯9月15日、赫塔费9月14日上一场；随后分别9月21日与20日再战，主队本轮休息较少。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：贝蒂斯中场与边路创造力有利破防，赫塔费可压低节奏和争夺二点。主队门将近期发挥支持守住小优势，但缺完整xG，不能夸大场面控制。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "中",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041510",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://as.com/futbol/primera/alineacion-posible-del-betis-ante-el-getafe-en-laliga-ea-sports-f202609-n/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://as.com/futbol/primera/betis-getafe-tv-a-que-hora-es-donde-y-como-ver-laliga-ea-sports-online-hoy-f202609-n/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "贝蒂斯5轮12分第5，赫塔费5轮5分第15，均非必须保平局面。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.55,
+          "official_draw_odds": 3.3,
+          "official_loss_odds": 5.52
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -1,
+          "handicap_win_odds": 2.9,
+          "handicap_draw_odds": 3.2,
+          "handicap_loss_odds": 2.12
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让平",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "主胜依据是本季5轮赢4场、两场主场零封，赫塔费客场攻击尚未兑现；净胜区间优先一球，因贝蒂斯4场联赛胜利全为一球且赫塔费近4场只出现低比分窄差。",
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "中",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "贝蒂斯近期正式赛与主客表现占优",
+          "近期5至10场攻防状态": "贝蒂斯本季6场正式赛5胜1负，近3场全胜；赫塔费本季7场正式赛2胜2平3负，近4场不胜。",
+          "主客场表现": "贝蒂斯两场联赛主场均净胜1且零封；赫塔费两场联赛客场全败且未进球，另一个欧协客场也负。",
+          "当前积分排名及争冠保级晋级形势": "贝蒂斯5轮12分第5，赫塔费5轮5分第15，均非必须保平局面。",
+          "小组积分及出线条件": "不适用，淘汰赛总比分另列",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "贝蒂斯5轮12分第5，赫塔费5轮5分第15，均非必须保平局面。",
+          "轮换留力或赛程取舍": "资料库列洛伦特缺阵，AS赛前阵容报道亦指仍缺席；轮换仅为预计，最终名单未确认。赫塔费多名伤员仅资料库线索，不作官方确认。 贝蒂斯9月15日、赫塔费9月14日上一场；随后分别9月21日与20日再战，主队本轮休息较少。",
+          "未来3至5天关键赛程": "贝蒂斯9月15日、赫塔费9月14日上一场；随后分别9月21日与20日再战，主队本轮休息较少。",
+          "伤停停赛及预计首发": "资料库列洛伦特缺阵，AS赛前阵容报道亦指仍缺席；轮换仅为预计，最终名单未确认。赫塔费多名伤员仅资料库线索，不作官方确认。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：贝蒂斯中场与边路创造力有利破防，赫塔费可压低节奏和争夺二点。主队门将近期发挥支持守住小优势，但缺完整xG，不能夸大场面控制。",
+          "定位球防反击防高空球能力": "推断：贝蒂斯中场与边路创造力有利破防，赫塔费可压低节奏和争夺二点。主队门将近期发挥支持守住小优势，但缺完整xG，不能夸大场面控制。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "贝蒂斯本季6场正式赛5胜1负，近3场全胜；赫塔费本季7场正式赛2胜2平3负，近4场不胜。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "贝蒂斯9月15日、赫塔费9月14日上一场；随后分别9月21日与20日再战，主队本轮休息较少。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "近10次贝蒂斯5胜3平2负，近5次3胜1平1负；最近一次客场负，两次最近主场均胜。相同主场近5次3胜1平1负，非绝对克制。",
+          "领先后收缩崩盘或被逆转倾向": "密集赛程可能减弱终结效率，赫塔费已连续两轮拿到平局，闷平是主要反向路径。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [
+          23,
+          143
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "密集赛程可能减弱终结效率，赫塔费已连续两轮拿到平局，闷平是主要反向路径。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "净胜1为定性首位；分别比较不胜和净胜2+，不能把两场主场零封直接理解为大胜。让平仍是窄结果，评级低于普通主胜。",
+        "clean_sheet_assessment": "两场联赛主场零封支持低失球；样本仅2场且洛伦特缺阵，零封未锁定。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让平",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让平",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            23,
+            143
+          ],
+          "effects": [
+            {
+              "id": 23,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            },
+            {
+              "id": 143,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T01:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041510,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        23,
+        143
+      ]
+    },
+    {
+      "sequence": 5,
+      "match_number": "周四005",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "水晶宫",
+      "away_team": "波兹南莱赫",
+      "strength_type": "水晶宫联赛层级较强，波兹南正式赛攻击状态弥补差距",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "水晶宫本季5场正式赛2胜3负，4轮联赛全部失球共11球；最近负伊普斯包含上半场红牌，不能把该场失球全归正常防守。波兹南近10正式赛8胜1平1负、进27失8，部分大胜来自弱对手，降权。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "无可靠直接交锋，不给予历史优势。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "水晶宫两场联赛主场均负，杯赛主场零封米堡；波兹南近5正式客场3胜1平1负，但最近一场领先后遭逆转。"
+        },
+        "injuries": {
+          "summary": "俱乐部最新消息标题明确萨尔、恩凯蒂亚可能回归，不能继续把萨尔写成确定缺阵；资料库列亨德森、拉尔森、里亚德伤，逐人最终状态未确认。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联首轮均0分；国内完整积分榜未取得，不能用欧联初始15/19名比较实力。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "两队9月12日上轮；水晶宫9月20日客利兹，波兹南9月21日主场联赛，主队后续休息略短。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：水晶宫高强度进攻可制造机会，波兹南近期持续破门可回应；主队防转换与门将不确定降低领先后锁局能力。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041519",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.cpfc.co.uk/news/first-team/team-news-sage-hints-at-possible-sarr-nketiah-returns/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联首轮均0分；国内完整积分榜未取得，不能用欧联初始15/19名比较实力。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.26,
+          "official_draw_odds": 4.95,
+          "official_loss_odds": 7.55
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -1,
+          "handicap_win_odds": 1.92,
+          "handicap_draw_odds": 3.5,
+          "handicap_loss_odds": 3.1
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "平",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "平局的正面依据是两队均有持续得分能力，但水晶宫联赛防线尚未稳定、波兹南客场最近也有领先失守；主队层级和主场抵消客队状态优势后，暂把互相追平放在首位。不是因资料不足直接选平。",
+        "match_openness": "中高",
+        "direction_confidence": "低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "水晶宫联赛层级较强，波兹南正式赛攻击状态弥补差距",
+          "近期5至10场攻防状态": "水晶宫本季5场正式赛2胜3负，4轮联赛全部失球共11球；最近负伊普斯包含上半场红牌，不能把该场失球全归正常防守。波兹南近10正式赛8胜1平1负、进27失8，部分大胜来自弱对手，降权。",
+          "主客场表现": "水晶宫两场联赛主场均负，杯赛主场零封米堡；波兹南近5正式客场3胜1平1负，但最近一场领先后遭逆转。",
+          "当前积分排名及争冠保级晋级形势": "欧联首轮均0分；国内完整积分榜未取得，不能用欧联初始15/19名比较实力。",
+          "小组积分及出线条件": "欧联首轮均0分；国内完整积分榜未取得，不能用欧联初始15/19名比较实力。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联首轮均0分；国内完整积分榜未取得，不能用欧联初始15/19名比较实力。",
+          "轮换留力或赛程取舍": "俱乐部最新消息标题明确萨尔、恩凯蒂亚可能回归，不能继续把萨尔写成确定缺阵；资料库列亨德森、拉尔森、里亚德伤，逐人最终状态未确认。 两队9月12日上轮；水晶宫9月20日客利兹，波兹南9月21日主场联赛，主队后续休息略短。",
+          "未来3至5天关键赛程": "两队9月12日上轮；水晶宫9月20日客利兹，波兹南9月21日主场联赛，主队后续休息略短。",
+          "伤停停赛及预计首发": "俱乐部最新消息标题明确萨尔、恩凯蒂亚可能回归，不能继续把萨尔写成确定缺阵；资料库列亨德森、拉尔森、里亚德伤，逐人最终状态未确认。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：水晶宫高强度进攻可制造机会，波兹南近期持续破门可回应；主队防转换与门将不确定降低领先后锁局能力。",
+          "定位球防反击防高空球能力": "推断：水晶宫高强度进攻可制造机会，波兹南近期持续破门可回应；主队防转换与门将不确定降低领先后锁局能力。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "水晶宫本季5场正式赛2胜3负，4轮联赛全部失球共11球；最近负伊普斯包含上半场红牌，不能把该场失球全归正常防守。波兹南近10正式赛8胜1平1负、进27失8，部分大胜来自弱对手，降权。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "水晶宫上一场有红牌；赛事处分不可跨赛事自动套用。",
+          "赛程密度旅行体能天气": "两队9月12日上轮；水晶宫9月20日客利兹，波兹南9月21日主场联赛，主队后续休息略短。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "无可靠直接交锋，不给予历史优势。",
+          "领先后收缩崩盘或被逆转倾向": "水晶宫若迎回锋线并保持11人，强度差可能放大；波兹南资格赛的高产不能直接平移到英超对手，平局只有低信心。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "平",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [
+          18
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "平"
+        },
+        "draw_positive_evidence": "平局的正面依据是两队均有持续得分能力，但水晶宫联赛防线尚未稳定、波兹南客场最近也有领先失守；主队层级和主场抵消客队状态优势后，暂把互相追平放在首位。不是因资料不足直接选平。",
+        "favorite_no_win_path": "水晶宫若迎回锋线并保持11人，强度差可能放大；波兹南资格赛的高产不能直接平移到英超对手，平局只有低信心。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主-1以主队不胜为首位，选让负；主净胜1及2+作为反向区间保留。",
+        "clean_sheet_assessment": "两队近期得分与主队防守表现不支持任一方可靠零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "平",
+            "handicap_result": "让负",
+            "confidence": "低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "平",
+            "handicap_result": "让负",
+            "confidence": "低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            18
+          ],
+          "effects": [
+            {
+              "id": 18,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "平",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041519,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        18
+      ]
+    },
+    {
+      "sequence": 6,
+      "match_number": "周四006",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "皇家社会",
+      "away_team": "伯恩茅斯",
+      "strength_type": "伯恩茅斯攻击较活跃，皇家社会主场与客队控领先不足相抵",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "皇家社会6场联赛2胜1平3负、进6失11；伯恩茅斯本季4轮英超3平1负，杯赛对低级别林肯城大胜分开计。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "3场历史交锋全为热身，跨2022/2025，近5/10正式交锋无有效样本，降权至不影响方向。",
+          "last_5": [
+            {
+              "date": "2025-08-10",
+              "home_goals": 0,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2025-08-09",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2022-07-30",
+              "home_goals": 1,
+              "away_goals": 2,
+              "same_home_away": false
+            }
+          ],
+          "last_10": [
+            {
+              "date": "2025-08-10",
+              "home_goals": 0,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2025-08-09",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2022-07-30",
+              "home_goals": 1,
+              "away_goals": 2,
+              "same_home_away": false
+            }
+          ],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 3,
+            "wins_current_home_team": 1,
+            "draws": 2,
+            "losses_current_home_team": 0,
+            "mean_total_goals": 1.6666666666666667,
+            "btts_rate": 0.6666666666666666,
+            "large_margin_3plus_rate": 0.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 3,
+            "wins_current_home_team": 1,
+            "draws": 2,
+            "losses_current_home_team": 0,
+            "mean_total_goals": 1.6666666666666667,
+            "btts_rate": 0.6666666666666666,
+            "large_margin_3plus_rate": 0.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "皇家社会三场本季联赛主场1胜1平1负；伯恩两次联赛客场均进球，也均在领先后未胜。"
+        },
+        "injuries": {
+          "summary": "资料库列社会奥德里奥索拉、索莱尔伤，伯恩克鲁皮及部分后卫伤；本场官方逐人确认未取得，最终首发未出。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联首轮均0分；皇家社会联赛6轮7分，伯恩联赛4轮3分。精确当前国内排名未独立核实。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "皇家社会9月14日上轮，伯恩9月12日上轮；分别9月21日客巴伦西亚、20日主场对利物浦。不能仅靠下一场强敌判定放弃欧战。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：伯恩能进攻也易丢领先优势，社会主场有低事件和反击两条路径；客队无法持续控局给扳平留空间。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041520",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://next.gc.afcbournemouthservices.co.uk/news/2026/august/29/europa-league-fixtures-confirmed-for-afc-bournemouth/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联首轮均0分；皇家社会联赛6轮7分，伯恩联赛4轮3分。精确当前国内排名未独立核实。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 2.57,
+          "official_draw_odds": 3.42,
+          "official_loss_odds": 2.23
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": 1,
+          "handicap_win_odds": 1.51,
+          "handicap_draw_odds": 4.05,
+          "handicap_loss_odds": 4.55
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "平",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "伯恩本季连续三轮平局，且多场领先后被追平，提供明确的平局过程证据；社会主场可以对攻，也有零封平局样本，暂选平，受让1球选让胜。",
+        "match_openness": "中高",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "伯恩茅斯攻击较活跃，皇家社会主场与客队控领先不足相抵",
+          "近期5至10场攻防状态": "皇家社会6场联赛2胜1平3负、进6失11；伯恩茅斯本季4轮英超3平1负，杯赛对低级别林肯城大胜分开计。",
+          "主客场表现": "皇家社会三场本季联赛主场1胜1平1负；伯恩两次联赛客场均进球，也均在领先后未胜。",
+          "当前积分排名及争冠保级晋级形势": "欧联首轮均0分；皇家社会联赛6轮7分，伯恩联赛4轮3分。精确当前国内排名未独立核实。",
+          "小组积分及出线条件": "欧联首轮均0分；皇家社会联赛6轮7分，伯恩联赛4轮3分。精确当前国内排名未独立核实。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联首轮均0分；皇家社会联赛6轮7分，伯恩联赛4轮3分。精确当前国内排名未独立核实。",
+          "轮换留力或赛程取舍": "资料库列社会奥德里奥索拉、索莱尔伤，伯恩克鲁皮及部分后卫伤；本场官方逐人确认未取得，最终首发未出。 皇家社会9月14日上轮，伯恩9月12日上轮；分别9月21日客巴伦西亚、20日主场对利物浦。不能仅靠下一场强敌判定放弃欧战。",
+          "未来3至5天关键赛程": "皇家社会9月14日上轮，伯恩9月12日上轮；分别9月21日客巴伦西亚、20日主场对利物浦。不能仅靠下一场强敌判定放弃欧战。",
+          "伤停停赛及预计首发": "资料库列社会奥德里奥索拉、索莱尔伤，伯恩克鲁皮及部分后卫伤；本场官方逐人确认未取得，最终首发未出。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：伯恩能进攻也易丢领先优势，社会主场有低事件和反击两条路径；客队无法持续控局给扳平留空间。",
+          "定位球防反击防高空球能力": "推断：伯恩能进攻也易丢领先优势，社会主场有低事件和反击两条路径；客队无法持续控局给扳平留空间。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "皇家社会6场联赛2胜1平3负、进6失11；伯恩茅斯本季4轮英超3平1负，杯赛对低级别林肯城大胜分开计。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "皇家社会9月14日上轮，伯恩9月12日上轮；分别9月21日客巴伦西亚、20日主场对利物浦。不能仅靠下一场强敌判定放弃欧战。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "3场历史交锋全为热身，跨2022/2025，近5/10正式交锋无有效样本，降权至不影响方向。",
+          "领先后收缩崩盘或被逆转倾向": "社会刚被马竞后程连续破门，若再次失控，伯恩有直接取胜路径；主队近期进攻稳定性也不高。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "平",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [
+          16
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "平"
+        },
+        "draw_positive_evidence": "伯恩本季连续三轮平局，且多场领先后被追平，提供明确的平局过程证据；社会主场可以对攻，也有零封平局样本，暂选平，受让1球选让胜。",
+        "favorite_no_win_path": "社会刚被马竞后程连续破门，若再次失控，伯恩有直接取胜路径；主队近期进攻稳定性也不高。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主+1选主队不败，客一球胜与客两球以上分开；不以让胜倒推普通主胜。",
+        "clean_sheet_assessment": "社会近期防守与伯恩联赛场场失球，使零封均不可靠。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            16
+          ],
+          "effects": [
+            {
+              "id": 16,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "平",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041520,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        16
+      ]
+    },
+    {
+      "sequence": 7,
+      "match_number": "周四007",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "尤文图斯",
+      "away_team": "奈梅亨",
+      "strength_type": "尤文整体与主场占优，但人员及进攻产出限制大胜确定性",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "尤文本季4场联赛2胜1平1负、进6失4，近10中6场热身不能当正式状态；奈梅亨近10正式赛2胜3平5负、进13失19，近三场不胜。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "无可靠直接交锋，近5/10无样本。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "尤文本季两场联赛主场1胜1平，均未净胜3球；奈梅亨最近两次正式客场均输3球，但此前也有客场获胜，需按对手分层。"
+        },
+        "injuries": {
+          "summary": "尤文官网8日有洛卡特利、博加医疗公告，3日有图拉姆、卡瓦尔公告，8月31日有伊尔迪兹与Ekhator公告。16日记者称坎比亚索、麦肯尼已合练，不能照资料库写八人全部确定缺阵；本场名单未确认。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联首轮均0分；尤文4轮7分，奈梅亨6轮7分，完整国内排名未取得。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "尤文9月14日上轮、9月21日对亚特兰大；奈梅亨9月13日上轮、20日对前进之鹰。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "尤文发布会强调重新收紧传球线路、选择逼抢与低位时机；亦明确NEC进攻主动。推断：尤文能利用客队身后，但不能把其防守改进当作已完成。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041521",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.juventus.com/en/news/articles/spalletti-and-kalulu-look-ahead-to-juventus-vs-nec",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.juventus.com/en/teams/first-team-men/news/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.juventusnews24.com/allenamento-juve-vigilia-europa-league-nec-ultime-notizie/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联首轮均0分；尤文4轮7分，奈梅亨6轮7分，完整国内排名未取得。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.13,
+          "official_draw_odds": 6.0,
+          "official_loss_odds": 13.0
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -2,
+          "handicap_win_odds": 2.57,
+          "handicap_draw_odds": 3.78,
+          "handicap_loss_odds": 2.1
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "奈梅亨近期连续失球、尤文主场及阵容层级占优，普通胜仍优先；尤文四轮没有净胜3球，伤情和上轮后程失球使主让2球偏让负，即只小胜的路径。",
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "尤文整体与主场占优，但人员及进攻产出限制大胜确定性",
+          "近期5至10场攻防状态": "尤文本季4场联赛2胜1平1负、进6失4，近10中6场热身不能当正式状态；奈梅亨近10正式赛2胜3平5负、进13失19，近三场不胜。",
+          "主客场表现": "尤文本季两场联赛主场1胜1平，均未净胜3球；奈梅亨最近两次正式客场均输3球，但此前也有客场获胜，需按对手分层。",
+          "当前积分排名及争冠保级晋级形势": "欧联首轮均0分；尤文4轮7分，奈梅亨6轮7分，完整国内排名未取得。",
+          "小组积分及出线条件": "欧联首轮均0分；尤文4轮7分，奈梅亨6轮7分，完整国内排名未取得。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联首轮均0分；尤文4轮7分，奈梅亨6轮7分，完整国内排名未取得。",
+          "轮换留力或赛程取舍": "尤文官网8日有洛卡特利、博加医疗公告，3日有图拉姆、卡瓦尔公告，8月31日有伊尔迪兹与Ekhator公告。16日记者称坎比亚索、麦肯尼已合练，不能照资料库写八人全部确定缺阵；本场名单未确认。 尤文9月14日上轮、9月21日对亚特兰大；奈梅亨9月13日上轮、20日对前进之鹰。",
+          "未来3至5天关键赛程": "尤文9月14日上轮、9月21日对亚特兰大；奈梅亨9月13日上轮、20日对前进之鹰。",
+          "伤停停赛及预计首发": "尤文官网8日有洛卡特利、博加医疗公告，3日有图拉姆、卡瓦尔公告，8月31日有伊尔迪兹与Ekhator公告。16日记者称坎比亚索、麦肯尼已合练，不能照资料库写八人全部确定缺阵；本场名单未确认。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "尤文发布会强调重新收紧传球线路、选择逼抢与低位时机；亦明确NEC进攻主动。推断：尤文能利用客队身后，但不能把其防守改进当作已完成。",
+          "定位球防反击防高空球能力": "尤文发布会强调重新收紧传球线路、选择逼抢与低位时机；亦明确NEC进攻主动。推断：尤文能利用客队身后，但不能把其防守改进当作已完成。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "尤文本季4场联赛2胜1平1负、进6失4，近10中6场热身不能当正式状态；奈梅亨近10正式赛2胜3平5负、进13失19，近三场不胜。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "尤文9月14日上轮、9月21日对亚特兰大；奈梅亨9月13日上轮、20日对前进之鹰。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "无可靠直接交锋，近5/10无样本。",
+          "领先后收缩崩盘或被逆转倾向": "奈梅亨两次近期客场大败支持尤文大净胜；反过来尤文上轮被后程绝杀、若中场缺员，普通主胜也可能被破坏。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "奈梅亨两次近期客场大败支持尤文大净胜；反过来尤文上轮被后程绝杀、若中场缺员，普通主胜也可能被破坏。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主-2：不胜/净胜1、恰好净胜2、净胜3+分别比较，前者集合暂居首；主胜与让负的共同路径为净胜1。",
+        "clean_sheet_assessment": "尤文最近两场联赛均失球，不能以热身赛零封率推出正式零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让负",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让负",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "applied_rule_ids": [],
+          "effects": [],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041521,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": []
+    },
+    {
+      "sequence": 8,
+      "match_number": "周四008",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "贝西克塔斯",
+      "away_team": "马赛",
+      "strength_type": "贝西克塔斯当前主场和状态优于马赛",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "主队近10场正式赛8胜2负，最近三场均胜；注意页面摘要进19失5与逐场合计进21失4冲突，采用逐场记录并保留冲突。马赛本季联赛1胜3负，最近三连败。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "没有有效直接交锋，不能引用旧名气作为克制。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "贝西克塔斯所见最近5个正式主场全胜，其中4场零封；马赛本季两个联赛客场全负且均未进球。"
+        },
+        "injuries": {
+          "summary": "俱乐部确认16日完成战术、对抗及定位球训练。资料库与外部名单对弗拉霍维奇停赛、特罗萨德、伊尔马兹说法冲突，不把停赛传闻作为确认。欧足联注册名单不是本场首发或可用性确认。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联首轮均0分；主队土超5轮12分，马赛法甲4轮3分，精确排名未核实。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "双方9月12日上轮、21日再战；马赛下轮主场巴黎圣日耳曼，构成压力，但未取得明确留力声明。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：主队主场持续压迫和定位球训练可打击马赛当前客场低产；客队若过首道压迫仍有反击机会。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041511",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://bjk.com.tr/tr/haber/95119/olympique-de-marseille-maci-hazirliklari-tamamlandi.html",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.uefa.com/uefaeuropaleague/match/2050071--besiktas-vs-marseille/lineups/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.fotmob.com/en-GB/matches/marseille-vs-besiktas/2x01xi",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联首轮均0分；主队土超5轮12分，马赛法甲4轮3分，精确排名未核实。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.74,
+          "official_draw_odds": 3.7,
+          "official_loss_odds": 3.52
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -1,
+          "handicap_win_odds": 3.15,
+          "handicap_draw_odds": 3.65,
+          "handicap_loss_odds": 1.86
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "主队近期正式主场连胜且多数零封，马赛三连败且本季客场未进球，支持主胜；主队最近三个正式主场均至少净胜3球、马赛本季客场连续被零封，让球大胆选择让胜，但只给低信心。",
+        "match_openness": "中高",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "贝西克塔斯当前主场和状态优于马赛",
+          "近期5至10场攻防状态": "主队近10场正式赛8胜2负，最近三场均胜；注意页面摘要进19失5与逐场合计进21失4冲突，采用逐场记录并保留冲突。马赛本季联赛1胜3负，最近三连败。",
+          "主客场表现": "贝西克塔斯所见最近5个正式主场全胜，其中4场零封；马赛本季两个联赛客场全负且均未进球。",
+          "当前积分排名及争冠保级晋级形势": "欧联首轮均0分；主队土超5轮12分，马赛法甲4轮3分，精确排名未核实。",
+          "小组积分及出线条件": "欧联首轮均0分；主队土超5轮12分，马赛法甲4轮3分，精确排名未核实。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联首轮均0分；主队土超5轮12分，马赛法甲4轮3分，精确排名未核实。",
+          "轮换留力或赛程取舍": "俱乐部确认16日完成战术、对抗及定位球训练。资料库与外部名单对弗拉霍维奇停赛、特罗萨德、伊尔马兹说法冲突，不把停赛传闻作为确认。欧足联注册名单不是本场首发或可用性确认。 双方9月12日上轮、21日再战；马赛下轮主场巴黎圣日耳曼，构成压力，但未取得明确留力声明。",
+          "未来3至5天关键赛程": "双方9月12日上轮、21日再战；马赛下轮主场巴黎圣日耳曼，构成压力，但未取得明确留力声明。",
+          "伤停停赛及预计首发": "俱乐部确认16日完成战术、对抗及定位球训练。资料库与外部名单对弗拉霍维奇停赛、特罗萨德、伊尔马兹说法冲突，不把停赛传闻作为确认。欧足联注册名单不是本场首发或可用性确认。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：主队主场持续压迫和定位球训练可打击马赛当前客场低产；客队若过首道压迫仍有反击机会。",
+          "定位球防反击防高空球能力": "推断：主队主场持续压迫和定位球训练可打击马赛当前客场低产；客队若过首道压迫仍有反击机会。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "主队近10场正式赛8胜2负，最近三场均胜；注意页面摘要进19失5与逐场合计进21失4冲突，采用逐场记录并保留冲突。马赛本季联赛1胜3负，最近三连败。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "双方9月12日上轮、21日再战；马赛下轮主场巴黎圣日耳曼，构成压力，但未取得明确留力声明。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "没有有效直接交锋，不能引用旧名气作为克制。",
+          "领先后收缩崩盘或被逆转倾向": "马赛联赛层级更高，主队几场大胜包含弱对手，不能保证穿盘；阵容可用性冲突也压低信心。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "低",
+        "applied_review_rules": [
+          20
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "马赛联赛层级更高，主队几场大胜包含弱对手，不能保证穿盘；阵容可用性冲突也压低信心。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主-1独立偏净胜2+，净胜1和不胜均保留；没有把让平当兜底，也不因近期大胜自动给高置信。",
+        "clean_sheet_assessment": "主队近期主场零封有支持，但面对马赛更高层级攻击不能确认零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            20
+          ],
+          "effects": [
+            {
+              "id": 20,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041511,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        20
+      ]
+    },
+    {
+      "sequence": 9,
+      "match_number": "周四009",
+      "competition": "欧罗巴",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "利勒斯特罗姆",
+      "away_team": "托林斯",
+      "strength_type": "主队近期回升及主场占优，葡甲客队守平能力有约束",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "利勒斯特10正式赛3胜3平4负，最近3连胜中含低级别杯赛，不能等同3场高质量胜利；托林斯剔除3场热身后7正式赛1胜3平3负。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "无有效直接交锋；不因葡甲标签直接判断客队无抵抗。",
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 0,
+            "wins_current_home_team": 0,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": null,
+            "btts_rate": null,
+            "large_margin_3plus_rate": null,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "主队最近联赛主场获胜但此前两次联赛主场均负；客队最近两个正式客场1胜1平，防守有所回升。"
+        },
+        "injuries": {
+          "summary": "资料库仅列托林斯Hugo Pérez伤；俱乐部公告确认欧联首秀准备，完整伤停与首发未取得。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "欧联首轮0分；托林斯葡甲6轮6分，主队挪超当前完整积分未取得。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "双方9月12日上轮；主队9月20日客维京，客队未来列表至10月，3至5天内未找到赛事。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：利勒斯特借主场和近期反弹主动压迫；托林斯最近两场零封及多平局显示可降低机会量。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041523",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.lsk.no/nyheter/trening-og-pressekonferanse-dagen-for-europa-league-premieren",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://torreense.com/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "欧联首轮0分；托林斯葡甲6轮6分，主队挪超当前完整积分未取得。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.35,
+          "official_draw_odds": 4.32,
+          "official_loss_odds": 6.35
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -1,
+          "handicap_win_odds": 2.17,
+          "handicap_draw_odds": 3.43,
+          "handicap_loss_odds": 2.65
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让平",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "主队近期先后赢布兰、瓦勒伦加，取胜方向有具体反弹证据；托林斯两场连续零封，且主队欧联资格赛两回合均平，净胜1暂优于大胜，但让平仅低信心。",
+        "match_openness": "中",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "主队近期回升及主场占优，葡甲客队守平能力有约束",
+          "近期5至10场攻防状态": "利勒斯特10正式赛3胜3平4负，最近3连胜中含低级别杯赛，不能等同3场高质量胜利；托林斯剔除3场热身后7正式赛1胜3平3负。",
+          "主客场表现": "主队最近联赛主场获胜但此前两次联赛主场均负；客队最近两个正式客场1胜1平，防守有所回升。",
+          "当前积分排名及争冠保级晋级形势": "欧联首轮0分；托林斯葡甲6轮6分，主队挪超当前完整积分未取得。",
+          "小组积分及出线条件": "欧联首轮0分；托林斯葡甲6轮6分，主队挪超当前完整积分未取得。",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "欧联首轮0分；托林斯葡甲6轮6分，主队挪超当前完整积分未取得。",
+          "轮换留力或赛程取舍": "资料库仅列托林斯Hugo Pérez伤；俱乐部公告确认欧联首秀准备，完整伤停与首发未取得。 双方9月12日上轮；主队9月20日客维京，客队未来列表至10月，3至5天内未找到赛事。",
+          "未来3至5天关键赛程": "双方9月12日上轮；主队9月20日客维京，客队未来列表至10月，3至5天内未找到赛事。",
+          "伤停停赛及预计首发": "资料库仅列托林斯Hugo Pérez伤；俱乐部公告确认欧联首秀准备，完整伤停与首发未取得。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：利勒斯特借主场和近期反弹主动压迫；托林斯最近两场零封及多平局显示可降低机会量。",
+          "定位球防反击防高空球能力": "推断：利勒斯特借主场和近期反弹主动压迫；托林斯最近两场零封及多平局显示可降低机会量。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "利勒斯特10正式赛3胜3平4负，最近3连胜中含低级别杯赛，不能等同3场高质量胜利；托林斯剔除3场热身后7正式赛1胜3平3负。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "双方9月12日上轮；主队9月20日客维京，客队未来列表至10月，3至5天内未找到赛事。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "无有效直接交锋；不因葡甲标签直接判断客队无抵抗。",
+          "领先后收缩崩盘或被逆转倾向": "利勒斯特此前主场失利和资格赛两平并未证明控制力稳定，客队有把比赛拖入平局的能力。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "低",
+        "applied_review_rules": [
+          18
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "利勒斯特此前主场失利和资格赛两平并未证明控制力稳定，客队有把比赛拖入平局的能力。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主-1暂把净胜1列首位：主队对布兰一球胜、资格赛低事件与托林斯近期零封共同约束大净胜；同样保留主不胜风险；缺少完整机会量使排序可靠性有限，故评级低且不精选。",
+        "clean_sheet_assessment": "客队最近连续零封，主队最近零封强度不一；两边都不能保证零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让平",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让平",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            18
+          ],
+          "effects": [
+            {
+              "id": 18,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041523,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        18
+      ]
+    },
+    {
+      "sequence": 10,
+      "match_number": "周四010",
+      "competition": "西甲",
+      "match_type": "联赛",
+      "kickoff_time": "2026-09-18T03:30:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "马拉加",
+      "away_team": "比利亚雷亚尔",
+      "strength_type": "比利亚雷阵容层级较高，马拉加主场低事件与客队持续低迷相抵",
+      "pre_match_facts": {
+        "home_rank": 18,
+        "away_rank": 19,
+        "home_points": 3,
+        "away_points": 2,
+        "matches_played": {
+          "home": 5,
+          "away": 5
+        },
+        "recent_form": {
+          "summary": "马拉加本季5轮3平2负、进2失8；比利亚雷6正式赛2平4负，近4场全败。双方热身赛胜利全部剔除。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "近10跨2014至2018，含热身1场；经历升降级、换帅与重建，完全降权，不用于当前方向。",
+          "last_5": [
+            {
+              "date": "2018-04-02",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2017-11-06",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2017-08-12",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2017-02-12",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2016-09-11",
+              "home_goals": 0,
+              "away_goals": 2,
+              "same_home_away": true
+            }
+          ],
+          "last_10": [
+            {
+              "date": "2018-04-02",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2017-11-06",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2017-08-12",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2017-02-12",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2016-09-11",
+              "home_goals": 0,
+              "away_goals": 2,
+              "same_home_away": true
+            },
+            {
+              "date": "2016-02-14",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2015-09-24",
+              "home_goals": 0,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2015-05-18",
+              "home_goals": 2,
+              "away_goals": 1,
+              "same_home_away": false
+            },
+            {
+              "date": "2015-01-11",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2014-04-22",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": true
+            }
+          ],
+          "same_venue": [
+            {
+              "date": "2018-04-02",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2017-08-12",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2016-09-11",
+              "home_goals": 0,
+              "away_goals": 2,
+              "same_home_away": true
+            },
+            {
+              "date": "2015-09-24",
+              "home_goals": 0,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2015-01-11",
+              "home_goals": 1,
+              "away_goals": 1,
+              "same_home_away": true
+            },
+            {
+              "date": "2014-04-22",
+              "home_goals": 2,
+              "away_goals": 0,
+              "same_home_away": true
+            }
+          ],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 5,
+            "wins_current_home_team": 2,
+            "draws": 1,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 1.6,
+            "btts_rate": 0.2,
+            "large_margin_3plus_rate": 0.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 10,
+            "wins_current_home_team": 3,
+            "draws": 2,
+            "losses_current_home_team": 5,
+            "mean_total_goals": 1.7,
+            "btts_rate": 0.3,
+            "large_margin_3plus_rate": 0.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 6,
+            "wins_current_home_team": 3,
+            "draws": 1,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 1.5,
+            "btts_rate": 0.16666666666666666,
+            "large_margin_3plus_rate": 0.0,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "马拉加两个联赛主场皆平且总共只失1球；比利亚雷3次联赛客场2平1负，均失球，无法用名气认定稳定客胜。"
+        },
+        "injuries": {
+          "summary": "马拉加多名伤员为资料库线索，本地赛前报道确认体能与伤情限制轮换；完整官方名单未取得。客队暂无资料不等于全员健康。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "马拉加5轮3分第18，比利亚雷5轮2分第19，双方都有争首胜需求，不声称主动接受平局。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "马拉加9月13日上轮，客队9月15日上轮；下一场分别20日与21日，客队欧战后密集周期更重。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "推断：马拉加低位缩小空间并争取少量转换，客队创造能力较强但近期防线失误抵消进攻收益。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041512",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://villarrealcf.es/resultados-primer-equipo/",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.malagahoy.es/malaga_cf/posibles-onces-malaga-cf-villarreal_0_2007986886.html",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "马拉加5轮3分第18，比利亚雷5轮2分第19，双方都有争首胜需求，不声称主动接受平局。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 3.45,
+          "official_draw_odds": 3.6,
+          "official_loss_odds": 1.78
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": 1,
+          "handicap_win_odds": 1.8,
+          "handicap_draw_odds": 3.75,
+          "handicap_loss_odds": 3.25
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "平",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "平局有双向证据：马拉加主场两战只失1球但自身进球少，比利亚雷客场三战两平且本季仍未胜。主队防守足以抵消部分攻击差距、进攻又不足以支撑主胜，选平与受让胜。",
+        "match_openness": "中",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "比利亚雷阵容层级较高，马拉加主场低事件与客队持续低迷相抵",
+          "近期5至10场攻防状态": "马拉加本季5轮3平2负、进2失8；比利亚雷6正式赛2平4负，近4场全败。双方热身赛胜利全部剔除。",
+          "主客场表现": "马拉加两个联赛主场皆平且总共只失1球；比利亚雷3次联赛客场2平1负，均失球，无法用名气认定稳定客胜。",
+          "当前积分排名及争冠保级晋级形势": "马拉加5轮3分第18，比利亚雷5轮2分第19，双方都有争首胜需求，不声称主动接受平局。",
+          "小组积分及出线条件": "不适用，淘汰赛总比分另列",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "马拉加5轮3分第18，比利亚雷5轮2分第19，双方都有争首胜需求，不声称主动接受平局。",
+          "轮换留力或赛程取舍": "马拉加多名伤员为资料库线索，本地赛前报道确认体能与伤情限制轮换；完整官方名单未取得。客队暂无资料不等于全员健康。 马拉加9月13日上轮，客队9月15日上轮；下一场分别20日与21日，客队欧战后密集周期更重。",
+          "未来3至5天关键赛程": "马拉加9月13日上轮，客队9月15日上轮；下一场分别20日与21日，客队欧战后密集周期更重。",
+          "伤停停赛及预计首发": "马拉加多名伤员为资料库线索，本地赛前报道确认体能与伤情限制轮换；完整官方名单未取得。客队暂无资料不等于全员健康。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "推断：马拉加低位缩小空间并争取少量转换，客队创造能力较强但近期防线失误抵消进攻收益。",
+          "定位球防反击防高空球能力": "推断：马拉加低位缩小空间并争取少量转换，客队创造能力较强但近期防线失误抵消进攻收益。 完整定位球、制空量化指标未取得。",
+          "近期进球效率和防守稳定性": "马拉加本季5轮3平2负、进2失8；比利亚雷6正式赛2平4负，近4场全败。双方热身赛胜利全部剔除。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "马拉加9月13日上轮，客队9月15日上轮；下一场分别20日与21日，客队欧战后密集周期更重。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "近10跨2014至2018，含热身1场；经历升降级、换帅与重建，完全降权，不用于当前方向。",
+          "领先后收缩崩盘或被逆转倾向": "马拉加伤病限制选择，比利亚雷对马竞也能进球；若主队低位被早早破坏，客胜仍是强反向路径。",
+          "低级别或波动联赛异常发挥风险": "赛季初/跨联赛比赛样本及阵容不确定，提高风险；不跨联赛套用进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "平",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [
+          22,
+          155
+        ],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "平"
+        },
+        "draw_positive_evidence": "平局有双向证据：马拉加主场两战只失1球但自身进球少，比利亚雷客场三战两平且本季仍未胜。主队防守足以抵消部分攻击差距、进攻又不足以支撑主胜，选平与受让胜。",
+        "favorite_no_win_path": "马拉加伤病限制选择，比利亚雷对马竞也能进球；若主队低位被早早破坏，客胜仍是强反向路径。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主+1偏主队不败，不把客队层级直接映射为净胜2+；主平与让胜一致。",
+        "clean_sheet_assessment": "主队联赛主场低失球支持控制，但其进攻弱；客队本季正式赛场场失球，不支持客队稳定零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "after": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "probabilities": null
+          },
+          "applied_rule_ids": [
+            22,
+            155
+          ],
+          "effects": [
+            {
+              "id": 22,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            },
+            {
+              "id": 155,
+              "use": "匹配本场玩法与场景，检查受让/净胜区间或反向风险；复核后维持独立结论，无数值概率调整，不能声称独立增益。"
+            }
+          ],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T03:30:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "平",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041512,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        22,
+        155
+      ]
+    },
+    {
+      "sequence": 11,
+      "match_number": "周四011",
+      "competition": "解放者杯",
+      "match_type": "杯赛",
+      "kickoff_time": "2026-09-18T08:30:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "弗拉门戈",
+      "away_team": "德尔瓦耶独立",
+      "strength_type": "弗拉门戈当前实力、主场及防守稳定性占优",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "summary": "主队近10正式赛8胜1平1负、进21失6，最近五连胜；客队7胜1平2负但近7场均失球。",
+          "formal_matches_only": true
+        },
+        "h2h": {
+          "summary": "7次交锋主队4胜1平2负，近5次3胜2负；同主场3战全胜，但2020/2023显著降权。仅一周前首回合用于近期过程检查，不复制净胜数。",
+          "last_5": [
+            {
+              "date": "2026-09-11",
+              "home_goals": 0,
+              "away_goals": 2,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-03-01",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-02-22",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2020-10-01",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2020-09-18",
+              "home_goals": 5,
+              "away_goals": 0,
+              "same_home_away": false
+            }
+          ],
+          "last_10": [
+            {
+              "date": "2026-09-11",
+              "home_goals": 0,
+              "away_goals": 2,
+              "same_home_away": false
+            },
+            {
+              "date": "2023-03-01",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2023-02-22",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2020-10-01",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2020-09-18",
+              "home_goals": 5,
+              "away_goals": 0,
+              "same_home_away": false
+            },
+            {
+              "date": "2020-02-27",
+              "home_goals": 3,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2020-02-20",
+              "home_goals": 2,
+              "away_goals": 2,
+              "same_home_away": false
+            }
+          ],
+          "same_venue": [
+            {
+              "date": "2023-03-01",
+              "home_goals": 1,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2020-10-01",
+              "home_goals": 4,
+              "away_goals": 0,
+              "same_home_away": true
+            },
+            {
+              "date": "2020-02-27",
+              "home_goals": 3,
+              "away_goals": 0,
+              "same_home_away": true
+            }
+          ],
+          "weight": "低",
+          "raw_evidence": "research_page_evidence.txt",
+          "last_5_metrics": {
+            "sample_size": 5,
+            "wins_current_home_team": 3,
+            "draws": 0,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 2.6,
+            "btts_rate": 0.0,
+            "large_margin_3plus_rate": 0.4,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "last_10_metrics": {
+            "sample_size": 7,
+            "wins_current_home_team": 4,
+            "draws": 1,
+            "losses_current_home_team": 2,
+            "mean_total_goals": 2.857142857142857,
+            "btts_rate": 0.14285714285714285,
+            "large_margin_3plus_rate": 0.42857142857142855,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          },
+          "same_venue_metrics": {
+            "sample_size": 3,
+            "wins_current_home_team": 3,
+            "draws": 0,
+            "losses_current_home_team": 0,
+            "mean_total_goals": 2.6666666666666665,
+            "btts_rate": 0.0,
+            "large_margin_3plus_rate": 0.6666666666666666,
+            "note": "样本少于5/10时按实际数量；同主客仅在已获取近10场内筛选，非完整历史。中立赛名义主客不等于真实主场。部分交锋为友谊赛，权重按摘要降级。"
+          }
+        },
+        "home_away_form": {
+          "summary": "主队所见最近5个正式主场全胜；客队近期国内客场有胜利，但离开高原面对同对手的层级差需单独看。"
+        },
+        "injuries": {
+          "summary": "资料库列Evertton Araújo、Lorran伤；最终首发、是否轮换未确认，不把首回合阵容当本场名单。",
+          "confirmed": false
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": []
+        },
+        "motivation": {
+          "assessment": "解放者杯八强次回合，主队总比分领先2球；小组排名仅历史背景。俱乐部确认上轮夺回巴甲榜首，完整最新积分未取得。"
+        },
+        "future_schedule_3_to_5_days": {
+          "summary": "双方9月14日上轮；主队9月21日继续主场对布拉干蒂诺，客队9月22日回国内比赛。"
+        },
+        "travel_and_fatigue": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "weather": "待核实",
+        "tactical_matchup": "首回合俱乐部战报：上半场机会不足且对手击中门柱，后半场边路配合与定位球获益。推断：本场对手必须前压，主队反击空间增加。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "中",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041513",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          },
+          {
+            "url": "https://www.flamengo.com.br/noticias/futebol/na-altitude-de-quito-flamengo-vence-o-del-valle-e-abre-vantagem-na-libertadores",
+            "checked_at": "2026-09-17T09:02:01+08:00",
+            "source_type": "赛事事实；体彩详情注明含第三方数据，非官方奖金字段"
+          }
+        ],
+        "standings_note": "解放者杯八强次回合，主队总比分领先2球；小组排名仅历史背景。俱乐部确认上轮夺回巴甲榜首，完整最新积分未取得。"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见页面",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-17T09:02:01+08:00",
+        "source_note": "奖金页冻结前重读仍为10场，002缺席；赛程页11场。显示时间保留，不冒充实时出票奖金。",
+        "spf": {
+          "status": "固定奖金已公布；销售状态见赛程页",
+          "official_win_odds": 1.25,
+          "official_draw_odds": 4.77,
+          "official_loss_odds": 8.35
+        },
+        "handicap": {
+          "status": "让球与固定奖金已公布；销售状态见赛程页",
+          "official_handicap": -1,
+          "handicap_win_odds": 1.9,
+          "handicap_draw_odds": 3.5,
+          "handicap_loss_odds": 3.15
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "sale_status": "赛程页显示暂停销售"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "主队近况与主场明显占优，客队总比分落后必须主动，增加弗拉门戈转换机会，取主胜；客队近期连续失球使净胜2+有现实路径，选让胜，信心低于普通主胜。",
+        "match_openness": "中",
+        "direction_confidence": "中",
+        "risk_level": "中",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "弗拉门戈当前实力、主场及防守稳定性占优",
+          "近期5至10场攻防状态": "主队近10正式赛8胜1平1负、进21失6，最近五连胜；客队7胜1平2负但近7场均失球。",
+          "主客场表现": "主队所见最近5个正式主场全胜；客队近期国内客场有胜利，但离开高原面对同对手的层级差需单独看。",
+          "当前积分排名及争冠保级晋级形势": "解放者杯八强次回合，主队总比分领先2球；小组排名仅历史背景。俱乐部确认上轮夺回巴甲榜首，完整最新积分未取得。",
+          "小组积分及出线条件": "不适用，淘汰赛总比分另列",
+          "杯赛首回合或次回合总比分": "首回合弗拉门戈客场2球领先，本场八强次回合。",
+          "球队真实战意": "解放者杯八强次回合，主队总比分领先2球；小组排名仅历史背景。俱乐部确认上轮夺回巴甲榜首，完整最新积分未取得。",
+          "轮换留力或赛程取舍": "资料库列Evertton Araújo、Lorran伤；最终首发、是否轮换未确认，不把首回合阵容当本场名单。 双方9月14日上轮；主队9月21日继续主场对布拉干蒂诺，客队9月22日回国内比赛。",
+          "未来3至5天关键赛程": "双方9月14日上轮；主队9月21日继续主场对布拉干蒂诺，客队9月22日回国内比赛。",
+          "伤停停赛及预计首发": "资料库列Evertton Araújo、Lorran伤；最终首发、是否轮换未确认，不把首回合阵容当本场名单。",
+          "最终首发和替补阵容深度": "最终首发尚未确认；不以预计或注册名单替代，替补深度证据见伤停项。",
+          "战术风格及相互克制": "首回合俱乐部战报：上半场机会不足且对手击中门柱，后半场边路配合与定位球获益。推断：本场对手必须前压，主队反击空间增加。",
+          "定位球防反击防高空球能力": "首回合边路及角球配合进球为事实；本场反击空间是推断。",
+          "近期进球效率和防守稳定性": "主队近10正式赛8胜1平1负、进21失6，最近五连胜；客队7胜1平2负但近7场均失球。 完整xG、射正转换率未取得。",
+          "红黄牌犯规及纪律风险": "本场裁判尺度、完整犯规红黄牌率未可靠取得，不编造纪律加成。",
+          "赛程密度旅行体能天气": "双方9月14日上轮；主队9月21日继续主场对布拉干蒂诺，客队9月22日回国内比赛。 天气和场地状态未可靠取得；没有据此作调整。",
+          "近期交锋持续性压制": "7次交锋主队4胜1平2负，近5次3胜2负；同主场3战全胜，但2020/2023显著降权。仅一周前首回合用于近期过程检查，不复制净胜数。",
+          "领先后收缩崩盘或被逆转倾向": "主队已有两球优势，控晋级可能降低继续进攻强度；首回合上半场并非全程压制，客队早球可改变局势。",
+          "低级别或波动联赛异常发挥风险": "南美两回合赛，旅行与总比分改变节奏，避免复制首回合净胜数。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "analysis_result": "胜",
+        "handicap_confidence": "中低",
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": "证据约束的定性比较，非训练/校准模型",
+          "reason_unavailable": "本场完整同口径机会质量、阵容可用性与样本校准不足，未能可靠估计三项数值；不以赔率倒算填充。",
+          "checked_at": "2026-09-17T09:02:01+08:00",
+          "qualitative_first": "胜"
+        },
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": "主队已有两球优势，控晋级可能降低继续进攻强度；首回合上半场并非全程压制，客队早球可改变局势。",
+        "counter_evidence_effect": "反向证据已进入方向选择及置信度，见独立理由；无场次评为高或严格稳胆。",
+        "net_margin_assessment": "主-1比较主不胜、净胜1、净胜2+；对手追分和连续失球使2+暂优先，但领先后降速抬升1球与平局风险。",
+        "clean_sheet_assessment": "主队近10仅失6支持防守，但首回合对手中柱且上轮被扳平，不能保证本场零封。",
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "after": {
+            "result": "胜",
+            "handicap_result": "让胜",
+            "confidence": "中",
+            "probabilities": null
+          },
+          "applied_rule_ids": [],
+          "effects": [],
+          "changes_final_direction": false
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-18T08:30:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "match_id": 2041513,
+      "unavailable_fields": [
+        "最终首发",
+        "完整官方伤停逐人确认",
+        "完整xG及机会质量",
+        "数值三项概率",
+        "天气和场地状态",
+        "当前完整国内积分榜（如事实摘要未列）"
+      ],
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": []
+    }
+  ],
+  "sqlite_synced": false,
+  "independent_agent_work": true,
+  "relative_selections": [
+    {
+      "sequence": 4,
+      "match_number": "周四004",
+      "play": "result",
+      "option": "胜",
+      "official_handicap": -1,
+      "handicap_applies_to_selection": false,
+      "selected_at": "2026-09-17T09:02:01+08:00",
+      "reason": "主胜依据是本季5轮赢4场、两场主场零封，赫塔费客场攻击尚未兑现；净胜区间优先一球，因贝蒂斯4场联赛胜利全为一球且赫塔费近4场只出现低比分窄差。",
+      "risk": "密集赛程可能减弱终结效率，赫塔费已连续两轮拿到平局，闷平是主要反向路径。",
+      "confidence": "中",
+      "strict_stable": false,
+      "source_version": 1
+    },
+    {
+      "sequence": 11,
+      "match_number": "周四011",
+      "play": "result",
+      "option": "胜",
+      "official_handicap": -1,
+      "handicap_applies_to_selection": false,
+      "selected_at": "2026-09-17T09:02:01+08:00",
+      "reason": "主队近况与主场明显占优，客队总比分落后必须主动，增加弗拉门戈转换机会，取主胜；客队近期连续失球使净胜2+有现实路径，选让胜，信心低于普通主胜。",
+      "risk": "主队已有两球优势，控晋级可能降低继续进攻强度；首回合上半场并非全程压制，客队早球可改变局势。",
+      "confidence": "中",
+      "strict_stable": false,
+      "source_version": 1
+    }
+  ]
+}

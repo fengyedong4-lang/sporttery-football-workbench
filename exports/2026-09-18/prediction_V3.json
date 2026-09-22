@@ -1,0 +1,5387 @@
+{
+ "schema_version": 4,
+ "prediction_date": "2026-09-18",
+ "prediction_version": 3,
+ "state": "formal",
+ "generated_at": "2026-09-18T09:59:53+08:00",
+ "finalized_at": "2026-09-18T09:59:53+08:00",
+ "parent_version": 2,
+ "amendment": {
+  "version_type": "重新评估",
+  "reason_category": "用户重新评估",
+  "reason_detail": "用户要求每场按近三年历史战绩、伤病情况、阵容身价综合考量；并明确相对稳两场只取002–014，001不参与。",
+  "evidence_source": "用户2026-09-18对话指令；Transfermarkt阵容身价与交锋记录；公开伤停信息（exports/2026-09-18/facts_enrichment_V3.json）",
+  "changed_at": "2026-09-18T09:56:53+08:00",
+  "changes": [
+   {
+    "match_number": "周五007",
+    "field": "predicted_handicap_result",
+    "before": "让胜",
+    "after": "让平",
+    "basis": "近三年交锋海尔蒙特1胜2平不处下风（最近一次客场2:0取胜，另有两次0:0），且海尔蒙特当前阵容身价€5.83m略高于登博思€5.00m，主队上轮0:3失守；净胜2球以上缺少交锋与阵容支持，让球档由让胜改为让平。"
+   },
+   {
+    "match_number": "周五010",
+    "field": "predicted_handicap_result",
+    "before": "让胜",
+    "after": "让平",
+    "basis": "近三年交锋朗斯在摩纳哥主场打进4球（2025-11-08 1:4），并在朗斯主场4:0取胜，摩纳哥同时缺少Minamino、Teze、Coulibaly、Sobeir且Balogun、Fati存疑；交锋波动与前场缺员使净胜两球路径被压低，让球档由让胜改为让平。"
+   },
+   {
+    "match_number": "周五014",
+    "field": "predicted_handicap_result",
+    "before": "让平",
+    "after": "让胜",
+    "basis": "近三年交锋纽约城4胜1平不败，其中3:1、5:1、2:0三场净胜两球以上；红牛近3场仅入1球且被射门数联盟倒数；官方分割让胜29.3%高于让平23.6%，让球档由让平改为让胜。"
+   },
+   {
+    "match_number": "相对稳两场",
+    "field": "relative_picks",
+    "before": [
+     "周五006 让球胜平负 让胜",
+     "周五001 胜平负 胜"
+    ],
+    "after": [
+     "周五003 胜平负 胜",
+     "周五014 胜平负 胜"
+    ],
+    "basis": "按要求排除001，并在002–014范围内按交锋、身价、伤停与主场因素重选。"
+   }
+  ]
+ },
+ "freeze": {
+  "is_frozen": true,
+  "frozen_at": "2026-09-18T09:59:53+08:00",
+  "frozen_by": "主代理（Codex）",
+  "freeze_reason": "补充近三年交锋、阵容身价与伤病维度后重新评估让球档并重选相对稳两场（排除001）。"
+ },
+ "prediction_scope": [
+  "result",
+  "handicap_result"
+ ],
+ "applied_review_rule_ids": [
+  23,
+  24,
+  25,
+  42,
+  43,
+  50,
+  52,
+  53,
+  55,
+  56,
+  86,
+  87,
+  101,
+  132,
+  133,
+  143,
+  145,
+  146,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  156
+ ],
+ "rule_application_note": "已读取2026-09-18之前的复盘规则并按联赛与场景匹配，实际采用编号见各场applied_review_rules。独立判断先于规则落盘（independent_judgment_V1.json，SHA-256见rule_application_comparison.before）；规则实际改变了3场让球方向（003、007由让胜改让平，009由让平改让负）与1场置信度（013由中低降为低）。",
+ "rule_application_timeline": {
+  "independent_judgment_file": "independent_judgment_V3.json",
+  "independent_judgment_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+  "independent_judgment_saved_at": "2026-09-18T09:54:53+08:00",
+  "rules_read_at": "2026-09-18T09:55:53+08:00",
+  "rules_applied_at": "2026-09-18T09:56:53+08:00",
+  "comparison_saved_at": "2026-09-18T09:57:53+08:00",
+  "no_post_match_backfill": true
+ },
+ "snapshot_hash": "54f2b2c9c09dfb3e9d9f87b5d7022df529ef8b4c642e53309e7d97a00ca8ef7e",
+ "general_notes": "官方来源：中国体彩官方接口（webapi.sporttery.cn）与 sporttery.cn 竞彩计算器页面；让球均为主队让球数。周五008胜平负官方未开售，仅保存让球胜平负。固定奖金最终以实际出票时显示为准。 本版本为按用户要求重新评估后的V2，V1原样保留。 V3补充近三年交锋、身价阵容与伤病维度，并重选相对稳两场（不含001）。",
+ "relative_picks": {
+  "status": "已确认",
+  "selected_at": "2026-09-18T09:59:53+08:00",
+  "selection_basis": "在002–014范围内，按近三年交锋、阵容身价、伤停完整度、主客场与近期状态综合比较；001按要求不参与。",
+  "confidence_note": "当日无同时满足第八节全部条件的稳胆，以下两场仍为相对优先，保留原评级与风险。",
+  "items": [
+   {
+    "sequence": 3,
+    "match_number": "周五003",
+    "play": "result",
+    "selection": "胜",
+    "official_handicap": -1,
+    "source_prediction_version": 3,
+    "selected_at": "2026-09-18T09:59:53+08:00",
+    "reason": "阵容身价€215.10m对€32.80m（约6.6倍）；近两次交锋沃尔夫斯堡全胜且零封（3:0、客场1:0）；达姆施塔特5轮仅4球、排名第16，主队主场进攻产出稳定。",
+    "risk": "沃尔夫斯堡主场4:4被科特布斯逼平、防线不稳；达姆施塔特上轮2:1取胜，主队若久攻不下存在被反击风险。"
+   },
+   {
+    "sequence": 14,
+    "match_number": "周五014",
+    "play": "result",
+    "selection": "胜",
+    "official_handicap": -1,
+    "source_prediction_version": 3,
+    "selected_at": "2026-09-18T09:59:53+08:00",
+    "reason": "近三年交锋纽约城4胜1平不败（含3:1、5:1、2:0），对红牛压制明确；阵容身价€65.25m对€45.55m；红牛近3场仅入1球、被射门数联盟倒数，且纽约城主场作战。",
+    "risk": "德比强度大、纽约城赛季长期不稳（此前7轮不胜），红牛上轮1:0终结6轮不胜、近3场仅失2球。"
+   }
+  ]
+ },
+ "relative_picks_supplement_ref": {
+  "is_separate_supplement": true,
+  "supplement_id": "relative_selections_supplement_V3",
+  "supplement_path": "exports/2026-09-18/relative_selections_supplement_V3.json",
+  "created_at": "2026-09-18T09:59:53+08:00",
+  "referenced_prediction_version": 3
+ },
+ "matches": [
+  {
+   "sequence": 1,
+   "match_number": "周五001",
+   "competition": "亚运男足",
+   "match_type": "杯赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-18T18:30:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "沙特亚",
+   "away_team": "卡塔尔亚",
+   "strength_type": "沙特亚实力、体能与心理优势占优，卡塔尔亚小组出线形势被动",
+   "pre_match_facts": {
+    "home_rank": "D组（3队）首轮轮空",
+    "away_rank": "D组第3（0分，净胜球-3）",
+    "home_points": "0（未赛）",
+    "away_points": "0",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "最近一战为1月U23亚洲杯小组赛；本届亚运首秀",
+      "近9场各项赛事7场不败（6胜）"
+     ],
+     "away": [
+      "09-15 亚运小组赛 1:4 负韩国亚",
+      "近6场各项赛事不胜",
+      "近5场场均进球不足1个"
+     ],
+     "formal_matches_only": true,
+     "summary": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2024-12-16 1:1（U23）"
+      },
+      {
+       "result": "2023-03-28 0:0（U23）"
+      },
+      {
+       "result": "2022-11-15 1:3"
+      },
+      {
+       "result": "2022-02-01 2:2"
+      },
+      {
+       "result": "2022-01-30 1:2"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "公开来源对比分方向与总体战绩口径不一（有来源称沙特历史占优，也有来源显示近年互有胜负），本场按低权重处理。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "中东两队在名古屋中立场作战；卡塔尔已有一场强度适应，沙特本场首次登场。"
+    },
+    "injuries": {
+     "home": [
+      "Saad Al-Mousa（脚踝，恢复训练中，出战存疑）"
+     ],
+     "away": [],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "预计阵容：沙特4-2-3-1、卡塔尔4-3-3；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "取胜基本锁定小组出线；平局仍保留末轮对韩国的机会",
+     "away": "输球即基本出局，必须主动进攻"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "09-22 对韩国亚（小组末轮）"
+     ],
+     "away": [
+      "小组赛末轮轮空（3队组）"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "沙特首战体能占优；卡塔尔3天内第2场，恢复时间短。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "沙特以边路推进与定位球冲击为主；卡塔尔必须压出，防线在快速反击下多次失位。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.olympics.com/en/news/football-asian-games-2026-schedule-results-standings-complete-list",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。"
+     },
+     {
+      "url": "https://www.starnewskorea.com/en/sports/2026/09/17/2026091711074933846",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。"
+     },
+     {
+      "url": "https://www.fotmob.com/en-GB/matches/qatar-u23-vs-saudi-arabia-u23/5c9oi67t",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。"
+     }
+    ],
+    "squad_values": {
+     "home": "无法获取（U23无公开合计身价）",
+     "away": "无法获取（U23无公开合计身价）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.45",
+     "official_draw_odds": "3.85",
+     "official_loss_odds": "5.55"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "2.45",
+     "handicap_draw_odds": "3.40",
+     "handicap_loss_odds": "2.34"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "D组仅三队，韩国已4:1击败卡塔尔；沙特本场首秀，取胜基本锁定出线。卡塔尔近6场不胜、近5场场均不足1球，首轮防线在快速进攻下多次失位；沙特自2014年以来亚运小组赛从未出局，历史交锋8胜5平2负。反向证据：沙特自1月U23亚洲杯后无正式比赛，开场磨合与节奏存在不确定性；卡塔尔已有一场强度适应，若先进球会把比赛拖入低节奏。方向按实力、体能与心理落差取主胜；净胜区间单独评估，沙特净胜2球以上（对手落后后压出、边中结合与定位球）比恰好1球更受支持，故让球端取让胜。",
+    "match_openness": "中高",
+    "direction_confidence": "中",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 58,
+     "draw": 25,
+     "away": 17,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 33,
+      "d_plus_h_eq_0": 25,
+      "d_plus_h_lt_0": 42
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 42,
+     "home_win_by_one_probability": 25,
+     "home_win_by_two_plus_probability": 33,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "沙特亚实力、体能与心理优势占优，卡塔尔亚小组出线形势被动",
+     "近期5至10场攻防状态": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。",
+     "主客场表现": "中东两队在名古屋中立场作战；卡塔尔已有一场强度适应，沙特本场首次登场。",
+     "当前积分排名及争冠保级晋级形势": "主队：D组（3队）首轮轮空；客队：D组第3（0分，净胜球-3）",
+     "小组积分及出线条件": "D组3队，前两名出线；卡塔尔首轮负韩国，沙特首秀",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：取胜基本锁定小组出线；平局仍保留末轮对韩国的机会；客队：输球即基本出局，必须主动进攻",
+     "轮换留力或赛程取舍": "沙特首战体能占优；卡塔尔3天内第2场，恢复时间短。",
+     "未来3至5天关键赛程": "['09-22 对韩国亚（小组末轮）']['小组赛末轮轮空（3队组）']",
+     "伤停停赛及预计首发": "预计阵容：沙特4-2-3-1、卡塔尔4-3-3；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "沙特以边路推进与定位球冲击为主；卡塔尔必须压出，防线在快速反击下多次失位。",
+     "定位球防反击防高空球能力": "沙特以边路推进与定位球冲击为主；卡塔尔必须压出，防线在快速反击下多次失位。",
+     "近期进球效率和防守稳定性": "卡塔尔首轮被韩国4:1击溃且近6场不胜；沙特自2014年以来亚运小组赛未出局，历史交锋8胜5平2负。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "沙特首战体能占优；卡塔尔3天内第2场，恢复时间短。；天气无法获取",
+     "近期交锋持续性压制": "历史交锋沙特亚明显占优（多来源给出7~8胜、4~5平、2负），最近一次U23交手1:1。",
+     "领先后收缩崩盘或被逆转倾向": "沙特长时间无正式比赛、卡塔尔先取得进球后收缩反击；净胜2球不是必然。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "中低",
+    "applied_review_rules": [
+     23
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "沙特长时间无正式比赛、卡塔尔先取得进球后收缩反击；净胜2球不是必然。",
+    "counter_evidence_effect": "沙特长时间无正式比赛、卡塔尔先取得进球后收缩反击；净胜2球不是必然。",
+    "net_margin_assessment": "净胜2球以上33%，恰好1球25%；沙特不胜路径25%+17%。",
+    "clean_sheet_assessment": "卡塔尔近5场进球不足1个/场，沙特零封概率中等偏高，但不作为正式玩法。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 58,
+       "draw": 25,
+       "away": 17
+      },
+      "evidence_refs": [
+       "https://www.olympics.com/en/news/football-asian-games-2026-schedule-results-standings-complete-list",
+       "https://www.starnewskorea.com/en/sports/2026/09/17/2026091711074933846",
+       "https://www.fotmob.com/en-GB/matches/qatar-u23-vs-saudi-arabia-u23/5c9oi67t"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 58,
+       "draw": 25,
+       "away": 17
+      },
+      "evidence_refs": [
+       "规则23",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      23
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 2,
+   "match_number": "周五002",
+   "competition": "芬超",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T00:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "赫尔火花",
+   "away_team": "赫尔辛基",
+   "strength_type": "赫尔辛基整体实力与争冠动机占优，赫尔火花主场状态稳定",
+   "pre_match_facts": {
+    "home_rank": "第3（35分/21轮）",
+    "away_rank": "第4（34分/21轮）",
+    "home_points": "35",
+    "away_points": "34",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "近6场不败，近10场仅1负",
+      "连续6场取得进球",
+      "08-09 1:1 库奥皮奥"
+     ],
+     "away": [
+      "进入争冠组后保持不败",
+      "近6场进9球失7球",
+      "近6个客场2胜1平3负"
+     ],
+     "formal_matches_only": true,
+     "summary": "赫尔火花近况稳定（近10轮仅1负）；赫尔辛基争冠动力足，但客场稳定性一般，近6场失7球。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-08-23 HJK—Gnistan（争冠组）"
+      },
+      {
+       "result": "2025赛季交锋2:3、3:1等"
+      },
+      {
+       "result": "2024赛季0:3、2:2"
+      },
+      {
+       "result": "2023赛季2:3、2:4"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "HJK长期占优但比分起伏大，来源口径有限；同城德比削弱主客场差。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "赫尔火花主场进球连续性较好；赫尔辛基客场2胜1平3负，防守失球偏多。"
+    },
+    "injuries": {
+     "home": [
+      "无法核实（公开来源未提供完整伤停名单）"
+     ],
+     "away": [
+      "无法核实（公开来源未提供完整伤停名单）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "官方首发未公布，仅有预计阵容信息。"
+    },
+    "motivation": {
+     "home": "争冠组内争取更高排名，主场保持不败纪录",
+     "away": "落后榜首4分，必须抢分，动机强"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "争冠组后续轮次"
+     ],
+     "away": [
+      "争冠组后续轮次"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "同城德比，无旅行负担；两队本周均为联赛单赛。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "赫尔辛基控球与边路推进为主；赫尔火花依靠快速转移和定位球，主场压迫强度高。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://news.7msport.com/news/newsdata/20260917/268449.shtml",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "赫尔火花近况稳定（近10轮仅1负）；赫尔辛基争冠动力足，但客场稳定性一般，近6场失7球。"
+     },
+     {
+      "url": "https://veikkausliiga.nidos.fi/tilastot/2026/veikkausliiga/ottelut/4353566/seuranta/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "赫尔火花近况稳定（近10轮仅1负）；赫尔辛基争冠动力足，但客场稳定性一般，近6场失7球。"
+     }
+    ],
+    "squad_values": {
+     "home": "€2.95m（IF Gnistan）",
+     "away": "€5.63m（HJK赫尔辛基，约1.9倍）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "3.80",
+     "official_draw_odds": "3.80",
+     "official_loss_odds": "1.67"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": 1,
+     "handicap_win_odds": "1.92",
+     "handicap_draw_odds": "3.65",
+     "handicap_loss_odds": "2.99"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "负",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "赫尔火花本季排名第3、近6场不败且场场进球，主场稳定性是主要支撑；赫尔辛基排名第4、落后榜首4分，动机更足，但近6个客场仅2胜1平3负、近6场失7球，防线不稳。反向证据：赫尔辛基实力、阵容深度与历史交锋占优，争冠压力下可能踢得更直接；赫尔火花整体样本仍在低级别波动区间。方向取客胜（概率50%），净胜区间考虑赫尔辛基客场两球取胜证据不足、赫尔火花主场连续进球，取让平（净负1球）。 【V2复核】维持让平：赫尔辛基近6个客场2胜1平3负、近6场失7球，赫尔火花近6场不败且场场进球，客队净胜2球以上的市场分割29.6%未被本场证据支持。",
+    "match_openness": "中高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "负",
+      "confidence": "低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 24,
+     "draw": 26,
+     "away": 50,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": 1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 50,
+      "d_plus_h_eq_0": 12,
+      "d_plus_h_lt_0": 12
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 76,
+     "home_win_by_one_probability": 12,
+     "home_win_by_two_plus_probability": 12,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "赫尔辛基整体实力与争冠动机占优，赫尔火花主场状态稳定",
+     "近期5至10场攻防状态": "赫尔火花近况稳定（近10轮仅1负）；赫尔辛基争冠动力足，但客场稳定性一般，近6场失7球。",
+     "主客场表现": "赫尔火花主场进球连续性较好；赫尔辛基客场2胜1平3负，防守失球偏多。",
+     "当前积分排名及争冠保级晋级形势": "主队：第3（35分/21轮）；客队：第4（34分/21轮）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：争冠组内争取更高排名，主场保持不败纪录；客队：落后榜首4分，必须抢分，动机强",
+     "轮换留力或赛程取舍": "同城德比，无旅行负担；两队本周均为联赛单赛。",
+     "未来3至5天关键赛程": "['争冠组后续轮次']['争冠组后续轮次']",
+     "伤停停赛及预计首发": "官方首发未公布，仅有预计阵容信息。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "赫尔辛基控球与边路推进为主；赫尔火花依靠快速转移和定位球，主场压迫强度高。",
+     "定位球防反击防高空球能力": "赫尔辛基控球与边路推进为主；赫尔火花依靠快速转移和定位球，主场压迫强度高。",
+     "近期进球效率和防守稳定性": "赫尔火花近况稳定（近10轮仅1负）；赫尔辛基争冠动力足，但客场稳定性一般，近6场失7球。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "同城德比，无旅行负担；两队本周均为联赛单赛。；天气无法获取",
+     "近期交锋持续性压制": "赫尔辛基长期占据交锋优势，但两队同为赫尔辛基球队，主客差异被削弱。",
+     "领先后收缩崩盘或被逆转倾向": "赫尔火花主场不败、赫尔辛基客场起伏；若主队先进球，客胜路径收窄。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     24,
+     42
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "赫尔火花主场不败、赫尔辛基客场起伏；若主队先进球，客胜路径收窄。",
+    "counter_evidence_effect": "赫尔火花主场不败、赫尔辛基客场起伏；若主队先进球，客胜路径收窄。",
+    "net_margin_assessment": "客队净胜1球27%＞净胜2球以上23%；主队不败50%。",
+    "clean_sheet_assessment": "两队近6场均有失球，零封概率低。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 24,
+       "draw": 26,
+       "away": 50
+      },
+      "evidence_refs": [
+       "https://news.7msport.com/news/newsdata/20260917/268449.shtml",
+       "https://veikkausliiga.nidos.fi/tilastot/2026/veikkausliiga/ottelut/4353566/seuranta/"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 24,
+       "draw": 26,
+       "away": 50
+      },
+      "evidence_refs": [
+       "规则24",
+       "规则42",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      24,
+      42
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。",
+      "V2复核未改变：维持让平：赫尔辛基近6个客场2胜1平3负、近6场失7球，赫尔火花近6场不败且场场进球，客队净胜2球以上的市场分割29.6%未被本场证据支持。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 3,
+   "match_number": "周五003",
+   "competition": "德乙",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T00:30:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "沃夫斯堡",
+   "away_team": "达姆施塔",
+   "strength_type": "沃尔夫斯堡主场与进攻产出占优，达姆施塔特排名与进球均处下游",
+   "pre_match_facts": {
+    "home_rank": "第5（8分/5轮，10:7）",
+    "away_rank": "第16（4分/5轮，4:8）",
+    "home_points": "8",
+    "away_points": "4",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-05 4:4 科特布斯（主场）",
+      "上轮客场对汉堡，格拉茨尔缺阵后回归球队名单"
+     ],
+     "away": [
+      "09-11 2:1 比勒费尔德（主场）",
+      "新援李浩宰与斯米特取得进球"
+     ],
+     "formal_matches_only": true,
+     "summary": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2024-05-04 沃尔夫斯堡主场 3:0"
+      },
+      {
+       "result": "2023-12-16 达姆施塔特主场 0:1（沃尔夫斯堡客胜）"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "沃尔夫斯堡近两次交锋全胜且零封，压制关系仍有阵容连续性。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "沃尔夫斯堡主场进攻产出高、失球同样偏多；达姆施塔特客场进攻乏力。"
+    },
+    "injuries": {
+     "home": [
+      "Amoura（腿筋）",
+      "Eriksen（心脏问题）",
+      "Dárdai（十字韧带）"
+     ],
+     "away": [
+      "Marseiler、Nürnberger、Papela（长期）",
+      "Akiyama（大腿）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "预计阵容：沃尔夫斯堡格拉茨尔回归；达姆施塔特武科蒂奇解禁复出。官方首发未公布。"
+    },
+    "motivation": {
+     "home": "争取升级附加赛位置，主场必须拿分",
+     "away": "避免跌入降级区，科费尔特面对旧主"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "下轮主场"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "主队无长途；客队单赛周，体能充足。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "沃尔夫斯堡边路与禁区内冲击；达姆施塔特依赖快速转换与定位球，阵地战创造力有限。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "fact_sources": [
+     {
+      "url": "https://bulinews.com/2-bundesliga-preview-vfl-wolfsburg-darmstadt-98",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。"
+     },
+     {
+      "url": "https://datencenter.dfb.de/en/data-center/2-bundesliga/2026-2027/4/2419278",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。"
+     },
+     {
+      "url": "https://www.sv98.de/we-must-be-ready-to-seize-the-moments/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。"
+     }
+    ],
+    "squad_values": {
+     "home": "€215.10m（沃尔夫斯堡）",
+     "away": "€32.80m（达姆施塔特，约1/6.6）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.50",
+     "official_draw_odds": "4.13",
+     "official_loss_odds": "4.53"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "2.45",
+     "handicap_draw_odds": "3.61",
+     "handicap_loss_odds": "2.25"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "沃尔夫斯堡主场进攻产出稳定（5轮10球），达姆施塔特5轮仅4球且客场承压，排名与阵容质量差距明确。反向证据：沃尔夫斯堡主场4:4被科特布斯逼平，防线失球偏多；达姆施塔特上轮2:1击败比勒费尔德，具备落后追分能力，教练科费尔特熟悉旧主。方向取主胜；净胜区间按规则145把净胜1球与2球以上分开比较，主队防线证据不足支持穿盘，因此让球端最终取让平（净胜1球）。 【V2重新评估】让球档由让平改为让胜：官方让球奖金分割为让胜36.1%／让平24.5%／让负39.3%；净胜2球以上高于恰好净胜1球。V1用“主场4:4失球”压低进攻上限，属于用防守样本推断进攻幅度，证据不足；达姆施塔特5轮仅4球且客场承压。",
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 53,
+     "draw": 25,
+     "away": 22,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 25,
+      "d_plus_h_eq_0": 28,
+      "d_plus_h_lt_0": 47
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 47,
+     "home_win_by_one_probability": 28,
+     "home_win_by_two_plus_probability": 25,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "沃尔夫斯堡主场与进攻产出占优，达姆施塔特排名与进球均处下游",
+     "近期5至10场攻防状态": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。",
+     "主客场表现": "沃尔夫斯堡主场进攻产出高、失球同样偏多；达姆施塔特客场进攻乏力。",
+     "当前积分排名及争冠保级晋级形势": "主队：第5（8分/5轮，10:7）；客队：第16（4分/5轮，4:8）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：争取升级附加赛位置，主场必须拿分；客队：避免跌入降级区，科费尔特面对旧主",
+     "轮换留力或赛程取舍": "主队无长途；客队单赛周，体能充足。",
+     "未来3至5天关键赛程": "['下轮客场']['下轮主场']",
+     "伤停停赛及预计首发": "预计阵容：沃尔夫斯堡格拉茨尔回归；达姆施塔特武科蒂奇解禁复出。官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "沃尔夫斯堡边路与禁区内冲击；达姆施塔特依赖快速转换与定位球，阵地战创造力有限。",
+     "定位球防反击防高空球能力": "沃尔夫斯堡边路与禁区内冲击；达姆施塔特依赖快速转换与定位球，阵地战创造力有限。",
+     "近期进球效率和防守稳定性": "沃尔夫斯堡5轮10球但防线不稳（主场4:4）；达姆施塔特5轮仅4球，上轮2:1取胜止跌。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "主队无长途；客队单赛周，体能充足。；天气无法获取",
+     "近期交锋持续性压制": "两队近年不同级别，交锋样本有限，不做主要权重。",
+     "领先后收缩崩盘或被逆转倾向": "沃尔夫斯堡防线持续失球、达姆施塔特反击效率回升；净胜2球以上路径不牢。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "中低",
+    "applied_review_rules": [
+     43,
+     145
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "沃尔夫斯堡防线持续失球、达姆施塔特反击效率回升；净胜2球以上路径不牢。",
+    "counter_evidence_effect": "沃尔夫斯堡防线持续失球、达姆施塔特反击效率回升；净胜2球以上路径不牢。",
+    "net_margin_assessment": "主胜53%，其中净胜1球28%、净胜2球以上25%；让球端取净胜1球。",
+    "clean_sheet_assessment": "沃尔夫斯堡主场刚失4球，零封证据不足。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 53,
+       "draw": 25,
+       "away": 22
+      },
+      "evidence_refs": [
+       "https://bulinews.com/2-bundesliga-preview-vfl-wolfsburg-darmstadt-98",
+       "https://datencenter.dfb.de/en/data-center/2-bundesliga/2026-2027/4/2419278",
+       "https://www.sv98.de/we-must-be-ready-to-seize-the-moments/"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 53,
+       "draw": 25,
+       "away": 22
+      },
+      "evidence_refs": [
+       "规则43",
+       "规则145",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      43,
+      145
+     ],
+     "effects": [
+      "让球选项由让胜改为让平：规则145要求德乙主让1球且对手具备追平能力时先比较机会质量与领先后防守，沃尔夫斯堡主场4:4失球、达姆施塔特上轮2:1取胜，均不支持把净胜两球当作默认路径。",
+      "V2重新评估：让平→让胜。官方让球奖金分割为让胜36.1%／让平24.5%／让负39.3%；净胜2球以上高于恰好净胜1球。V1用“主场4:4失球”压低进攻上限，属于用防守样本推断进攻幅度，证据不足；达姆施塔特5轮仅4球且客场承压。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 4,
+   "match_number": "周五004",
+   "competition": "挪超",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T01:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "萨普斯堡",
+   "away_team": "奥斯KFUM",
+   "strength_type": "萨普斯堡主场占优，KFUM奥斯陆排名靠后且多人缺阵",
+   "pre_match_facts": {
+    "home_rank": "第9（24分/19轮，22:25）",
+    "away_rank": "第14（19分/19轮，净胜球-13）",
+    "home_points": "24",
+    "away_points": "19",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-06 2:2 瓦勒伦加",
+      "08-30 客场0:0 特罗姆瑟",
+      "近5轮无胜（3平2负）"
+     ],
+     "away": [
+      "09-13 2:1 阿勒松",
+      "19轮失球偏多，净胜球-13"
+     ],
+     "formal_matches_only": true,
+     "summary": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-04-26 KFUM主场 1:0"
+      },
+      {
+       "result": "2025-10-25 萨普斯堡主场 2:1"
+      },
+      {
+       "result": "2025-04-21 KFUM主场 1:3（萨普斯堡客胜）"
+      },
+      {
+       "result": "2025-02-23 友谊赛 1:1"
+      },
+      {
+       "result": "2024-11-03 KFUM主场 1:2（萨普斯堡客胜）"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近5次交锋萨普斯堡3胜1平1负，且两次客场取胜，心理与打法占优。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "萨普斯堡主场拿分能力中等；KFUM客场防守承压、多场失2球以上。"
+    },
+    "injuries": {
+     "home": [
+      "Rosted（脚踝）",
+      "Grønn（脚踝）"
+     ],
+     "away": [
+      "Eikrem（小腿，存疑）",
+      "Grødem",
+      "Rasch",
+      "Sørås",
+      "Meliga"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [
+      "Schneider（红牌停赛）"
+     ],
+     "confirmed": true,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "媒体报道的预计阵容已给出，官方首发未确认。"
+    },
+    "motivation": {
+     "home": "争取上半区排名",
+     "away": "距离降级区不远，必须抢分"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "联赛单赛"
+     ],
+     "away": [
+      "联赛单赛"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "客队奥斯陆至萨普斯堡短途；两队均无欧战。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "萨普斯堡主场控球与边路传中；KFUM依赖反击和定位球，中前场缺员影响出球。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "施耐德停赛"
+    },
+    "match_openness": "中",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "fact_sources": [
+     {
+      "url": "https://eliteserientabeller.com/kfum/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。"
+     },
+     {
+      "url": "https://starting11.com/fixtures/sarpsborg-08-ff-vs-kfum-oslo",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。"
+     },
+     {
+      "url": "https://www.rezilta.com/en/football/results/foot2951852.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。"
+     }
+    ],
+    "squad_values": {
+     "home": "€17.45m（萨普斯堡）",
+     "away": "€8.85m（KFUM奥斯陆，约1/2）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.43",
+     "official_draw_odds": "4.35",
+     "official_loss_odds": "5.00"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "2.30",
+     "handicap_draw_odds": "3.65",
+     "handicap_loss_odds": "2.38"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "萨普斯堡主场面对排名14、净胜球-13且中前场多人缺阵（含施耐德停赛）的KFUM，阵容完整度与主场优势明显。反向证据：萨普斯堡近5轮无胜、场均进球仅1.16，进攻端缺乏大胜证据；规则25/87要求挪超不因失球总量抬高进球基准，1:0类低事件路径必须保留。方向取主胜；净胜区间先比较不胜、净胜1球与净胜2球以上，主队进攻产出不足以支持穿盘，故让球端取让平（净胜1球）。 【V2重新评估】让球档由让平改为让胜：官方让球奖金分割为让胜38.5%／让平24.3%／让负37.2%；KFUM奥斯陆中前场多人缺阵并有施奈德停赛。V1依据的“近5轮无胜”主要削弱取胜本身，不足以证明恰好1球优于净胜2球以上路径。",
+    "match_openness": "中",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 52,
+     "draw": 26,
+     "away": 22,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 24,
+      "d_plus_h_eq_0": 28,
+      "d_plus_h_lt_0": 48
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 48,
+     "home_win_by_one_probability": 28,
+     "home_win_by_two_plus_probability": 24,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "萨普斯堡主场占优，KFUM奥斯陆排名靠后且多人缺阵",
+     "近期5至10场攻防状态": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。",
+     "主客场表现": "萨普斯堡主场拿分能力中等；KFUM客场防守承压、多场失2球以上。",
+     "当前积分排名及争冠保级晋级形势": "主队：第9（24分/19轮，22:25）；客队：第14（19分/19轮，净胜球-13）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：争取上半区排名；客队：距离降级区不远，必须抢分",
+     "轮换留力或赛程取舍": "客队奥斯陆至萨普斯堡短途；两队均无欧战。",
+     "未来3至5天关键赛程": "['联赛单赛']['联赛单赛']",
+     "伤停停赛及预计首发": "媒体报道的预计阵容已给出，官方首发未确认。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "萨普斯堡主场控球与边路传中；KFUM依赖反击和定位球，中前场缺员影响出球。",
+     "定位球防反击防高空球能力": "萨普斯堡主场控球与边路传中；KFUM依赖反击和定位球，中前场缺员影响出球。",
+     "近期进球效率和防守稳定性": "萨普斯堡近5轮不胜但平局多、19轮失25球；KFUM19轮5胜4平10负，客场失球多。",
+     "红黄牌犯规及纪律风险": "无法核实 / 施耐德停赛",
+     "赛程密度旅行体能天气": "客队奥斯陆至萨普斯堡短途；两队均无欧战。；天气无法获取",
+     "近期交锋持续性压制": "同联赛交锋样本不足，近期无稳定压制关系，权重低。",
+     "领先后收缩崩盘或被逆转倾向": "萨普斯堡长期不胜、锋线效率低；KFUM防守收缩后可能拿到平局。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     25,
+     86,
+     87
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "萨普斯堡长期不胜、锋线效率低；KFUM防守收缩后可能拿到平局。",
+    "counter_evidence_effect": "萨普斯堡长期不胜、锋线效率低；KFUM防守收缩后可能拿到平局。",
+    "net_margin_assessment": "主胜52%，其中净胜1球28%、净胜2球以上24%。",
+    "clean_sheet_assessment": "KFUM客场进球有限，主队零封概率中等，但主队自身攻击效率不高。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 52,
+       "draw": 26,
+       "away": 22
+      },
+      "evidence_refs": [
+       "https://eliteserientabeller.com/kfum/",
+       "https://starting11.com/fixtures/sarpsborg-08-ff-vs-kfum-oslo",
+       "https://www.rezilta.com/en/football/results/foot2951852.html"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 52,
+       "draw": 26,
+       "away": 22
+      },
+      "evidence_refs": [
+       "规则25",
+       "规则86",
+       "规则87",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      25,
+      86,
+      87
+     ],
+     "effects": [
+      "让球选项由让胜改为让平：规则25/87要求挪超不因双方失球总量抬高进球基准，萨普斯堡近5轮无胜且场均进球1.16，2:0类零封路径证据不足，保留1:0路径。",
+      "V2重新评估：让平→让胜。官方让球奖金分割为让胜38.5%／让平24.3%／让负37.2%；KFUM奥斯陆中前场多人缺阵并有施奈德停赛。V1依据的“近5轮无胜”主要削弱取胜本身，不足以证明恰好1球优于净胜2球以上路径。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 5,
+   "match_number": "周五005",
+   "competition": "法乙",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "兰斯",
+   "away_team": "蒙彼利埃",
+   "strength_type": "兰斯主场不败且攻防产出更高，蒙彼利埃客场进球能力有限",
+   "pre_match_facts": {
+    "home_rank": "第3（12分/6轮，唯一不败）",
+    "away_rank": "中下游（近5轮3球）",
+    "home_points": "12",
+    "away_points": "无法核实（多来源口径不一致）",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-05 2:2 甘冈（主场）",
+      "08-24 3:1 阿讷西（主场）",
+      "08-14 3:3 敦刻尔克（主场）",
+      "08-29 客场4:1 红星"
+     ],
+     "away": [
+      "09-05 客场1:3 圣埃蒂安",
+      "08-28 0:0 布洛涅",
+      "08-21 客场0:1 敦刻尔克（取胜）",
+      "08-14 客场0:1 南锡（取胜）",
+      "08-08 1:1 第戎"
+     ],
+     "formal_matches_only": true,
+     "summary": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-02-27 蒙彼利埃主场 0:0"
+      },
+      {
+       "result": "2025-11-24 兰斯主场 2:0"
+      },
+      {
+       "result": "2025-04-27 蒙彼利埃主场 0:0"
+      },
+      {
+       "result": "2024-10-06 兰斯主场 4:2"
+      },
+      {
+       "result": "2024-04-21 兰斯主场 1:2"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近5次兰斯2胜2平1负；最近一次主场交锋2:0零封，支持净胜两球路径。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "兰斯主场进攻强、失球也多；蒙彼利埃客场以小比分取胜或失败为主。"
+    },
+    "injuries": {
+     "home": [
+      "John Patrick（脚踝）",
+      "Youssef El Kachati（膝）",
+      "Okwaro",
+      "Okumu、Ibrahim（长期）",
+      "Martial Tia（小腿，存疑）"
+     ],
+     "away": [
+      "Guéguin（十字韧带）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [
+      "Tchato（黄牌停赛）"
+     ],
+     "confirmed": true,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "主帅乌萨伊确认上述伤停；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "国际比赛日前保持不败纪录，主帅明确表示要拿下比赛",
+     "away": "换血后需要积分摆脱下游"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "国际比赛日休整"
+     ],
+     "away": [
+      "国际比赛日休整"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "客队长途北上，主队主场作战。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "兰斯主打控球与边中结合、定位球得分；蒙彼利埃以低位防守与快速反击为主。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.lunion.fr/id828170/article/2026-09-16/infirmerie-objectifs-ce-quil-faut-savoir-avant-stade-de-reims-montpellier",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。"
+     },
+     {
+      "url": "https://www.footymetrics.com/teams/213-reims",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。"
+     },
+     {
+      "url": "https://www.footballcritic.com/montpellier-hsc/team-matches/573/season-2026-2027/80239",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。"
+     }
+    ],
+    "squad_values": {
+     "home": "€67.38m（兰斯）",
+     "away": "€55.75m（蒙彼利埃，约1/1.2）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.71",
+     "official_draw_odds": "3.50",
+     "official_loss_odds": "3.90"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "3.20",
+     "handicap_draw_odds": "3.50",
+     "handicap_loss_odds": "1.89"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "兰斯本季法乙不败、主场进攻产出高（6轮12球），蒙彼利埃近5轮仅3球、客场以低比分取胜或失利为主。反向证据：兰斯主场三场全部双方进球（2:2、3:3、3:1），防线失球7个；伤停集中在前场（John Patrick、El Kachati、Okwaro）削弱轮换与终结选择，蒙彼利埃反击与定位球具备进球路径。方向取主胜；依据规则53/55，法乙主场低赔且客队防守承压时应保留净胜两球路径，因此让球端取让胜，但降低置信度。",
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 48,
+     "draw": 28,
+     "away": 24,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 25,
+      "d_plus_h_eq_0": 23,
+      "d_plus_h_lt_0": 52
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 52,
+     "home_win_by_one_probability": 23,
+     "home_win_by_two_plus_probability": 25,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "兰斯主场不败且攻防产出更高，蒙彼利埃客场进球能力有限",
+     "近期5至10场攻防状态": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。",
+     "主客场表现": "兰斯主场进攻强、失球也多；蒙彼利埃客场以小比分取胜或失败为主。",
+     "当前积分排名及争冠保级晋级形势": "主队：第3（12分/6轮，唯一不败）；客队：中下游（近5轮3球）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：国际比赛日前保持不败纪录，主帅明确表示要拿下比赛；客队：换血后需要积分摆脱下游",
+     "轮换留力或赛程取舍": "客队长途北上，主队主场作战。",
+     "未来3至5天关键赛程": "['国际比赛日休整']['国际比赛日休整']",
+     "伤停停赛及预计首发": "主帅乌萨伊确认上述伤停；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "兰斯主打控球与边中结合、定位球得分；蒙彼利埃以低位防守与快速反击为主。",
+     "定位球防反击防高空球能力": "兰斯主打控球与边中结合、定位球得分；蒙彼利埃以低位防守与快速反击为主。",
+     "近期进球效率和防守稳定性": "兰斯是法乙唯一不败球队，主场三战全部双方进球（2:2、3:1、3:3），6轮12球但失7球；蒙彼利埃近5轮3球，客场两次0:1取胜、一次1:3失利。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "客队长途北上，主队主场作战。；天气无法获取",
+     "近期交锋持续性压制": "两队近年不同级别，近期交锋样本有限。",
+     "领先后收缩崩盘或被逆转倾向": "兰斯主场失球多、前场缺员，蒙彼利埃客场两次0:1取胜说明其低位防守有效。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     53,
+     55,
+     149
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "兰斯主场失球多、前场缺员，蒙彼利埃客场两次0:1取胜说明其低位防守有效。",
+    "counter_evidence_effect": "兰斯主场失球多、前场缺员，蒙彼利埃客场两次0:1取胜说明其低位防守有效。",
+    "net_margin_assessment": "主胜48%，其中净胜1球23%、净胜2球以上25%。",
+    "clean_sheet_assessment": "兰斯主场三战均失球，零封概率低。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 48,
+       "draw": 28,
+       "away": 24
+      },
+      "evidence_refs": [
+       "https://www.lunion.fr/id828170/article/2026-09-16/infirmerie-objectifs-ce-quil-faut-savoir-avant-stade-de-reims-montpellier",
+       "https://www.footymetrics.com/teams/213-reims",
+       "https://www.footballcritic.com/montpellier-hsc/team-matches/573/season-2026-2027/80239"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 48,
+       "draw": 28,
+       "away": 24
+      },
+      "evidence_refs": [
+       "规则53",
+       "规则55",
+       "规则149",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      53,
+      55,
+      149
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 6,
+   "match_number": "周五006",
+   "competition": "荷甲",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "格罗宁根",
+   "away_team": "兹沃勒",
+   "strength_type": "格罗宁根主场占优，兹沃勒防线连续大比分失守且多人缺阵",
+   "pre_match_facts": {
+    "home_rank": "第9~10（多来源口径不一：4轮6分或6轮8分）",
+    "away_rank": "第14~16（4轮3分或6轮）",
+    "home_points": "无法核实（来源口径不一致）",
+    "away_points": "无法核实（来源口径不一致）",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "主场对阿贾克斯、费耶诺德均有失球",
+      "近5轮发挥起伏"
+     ],
+     "away": [
+      "0:7 负费耶诺德（主场）",
+      "0:2 负阿贾克斯（主场）",
+      "1:3 负NEC（主场）",
+      "0:2 客场胜海伦芬",
+      "近5轮 L W L D L"
+     ],
+     "formal_matches_only": true,
+     "summary": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-03-13 兹沃勒主场 1:1"
+      },
+      {
+       "result": "2025-11-23 格罗宁根主场 2:2"
+      },
+      {
+       "result": "2025-05-18 兹沃勒主场 2:0"
+      },
+      {
+       "result": "2024-12-08 格罗宁根主场 0:0"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近4次交锋3平1负，且多为低比分；另有来源称最近一次为格罗宁根5:1（口径冲突，未采信为唯一依据）。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "格罗宁根主场进攻产出尚可；兹沃勒客场防守漏洞明显。"
+    },
+    "injuries": {
+     "home": [
+      "Jeng",
+      "Mercera",
+      "Brandis",
+      "Hernes"
+     ],
+     "away": [
+      "Metu（连续第6场缺阵）",
+      "Krastev（跟腱）",
+      "Namli",
+      "Thomas",
+      "Floranus"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "媒体报道的预计阵容已给出；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "主场抢分向中上游靠拢",
+     "away": "避免继续下滑、国际比赛日前止血"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "国际比赛日后连续面对升班马"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "两队均在荷兰境内，旅行影响小。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "格罗宁根依靠两翼推进与高位逼抢；兹沃勒后场出球质量不稳，易被持续压制。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-pec-zwolle-prediction-team-news-lineups_605264.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。"
+     },
+     {
+      "url": "https://statz.ai/team/pec-zwolle",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。"
+     },
+     {
+      "url": "https://eredivisie.com/competition/table/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。"
+     }
+    ],
+    "squad_values": {
+     "home": "€40.58m（格罗宁根）",
+     "away": "€18.28m（兹沃勒，约1/2.2）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.44",
+     "official_draw_odds": "4.30",
+     "official_loss_odds": "4.95"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "2.30",
+     "handicap_draw_odds": "3.75",
+     "handicap_loss_odds": "2.34"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "兹沃勒本季已出现0:7、1:3等大比分失守，本场Metu、Krastev、Namli、Thomas、Floranus等多人缺阵，客场防守风险评估偏负；格罗宁根主场具备持续压迫与进球能力。反向证据：格罗宁根后防同样缺4人，兹沃勒曾在客场0:2击败海伦芬；规则150要求把平局结论与进球尺度分开检验。本场方向仍取主胜，净胜区间比较后取让胜（净胜2球以上）。",
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 58,
+     "draw": 21,
+     "away": 21,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 34,
+      "d_plus_h_eq_0": 24,
+      "d_plus_h_lt_0": 42
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 42,
+     "home_win_by_one_probability": 24,
+     "home_win_by_two_plus_probability": 34,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "格罗宁根主场占优，兹沃勒防线连续大比分失守且多人缺阵",
+     "近期5至10场攻防状态": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。",
+     "主客场表现": "格罗宁根主场进攻产出尚可；兹沃勒客场防守漏洞明显。",
+     "当前积分排名及争冠保级晋级形势": "主队：第9~10（多来源口径不一：4轮6分或6轮8分）；客队：第14~16（4轮3分或6轮）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：主场抢分向中上游靠拢；客队：避免继续下滑、国际比赛日前止血",
+     "轮换留力或赛程取舍": "两队均在荷兰境内，旅行影响小。",
+     "未来3至5天关键赛程": "['下轮客场']['国际比赛日后连续面对升班马']",
+     "伤停停赛及预计首发": "媒体报道的预计阵容已给出；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "格罗宁根依靠两翼推进与高位逼抢；兹沃勒后场出球质量不稳，易被持续压制。",
+     "定位球防反击防高空球能力": "格罗宁根依靠两翼推进与高位逼抢；兹沃勒后场出球质量不稳，易被持续压制。",
+     "近期进球效率和防守稳定性": "兹沃勒本季已出现0:7、1:3、0:2等大比分失守，防线承压明显；格罗宁根主场具备进球能力但后防同样有缺员。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "两队均在荷兰境内，旅行影响小。；天气无法获取",
+     "近期交锋持续性压制": "荷甲常规对话，格罗宁根主场对兹沃勒总体占优，样本中等。",
+     "领先后收缩崩盘或被逆转倾向": "格罗宁根后防缺员、兹沃勒客胜样本存在；净胜2球以上并非稳定路径。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     50,
+     150
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "格罗宁根后防缺员、兹沃勒客胜样本存在；净胜2球以上并非稳定路径。",
+    "counter_evidence_effect": "格罗宁根后防缺员、兹沃勒客胜样本存在；净胜2球以上并非稳定路径。",
+    "net_margin_assessment": "主胜58%，其中净胜1球24%、净胜2球以上34%。",
+    "clean_sheet_assessment": "格罗宁根后防缺员，零封概率不高。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 58,
+       "draw": 21,
+       "away": 21
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/groningen/preview/groningen-vs-pec-zwolle-prediction-team-news-lineups_605264.html",
+       "https://statz.ai/team/pec-zwolle",
+       "https://eredivisie.com/competition/table/"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 58,
+       "draw": 21,
+       "away": 21
+      },
+      "evidence_refs": [
+       "规则50",
+       "规则150",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      50,
+      150
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 7,
+   "match_number": "周五007",
+   "competition": "荷乙",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "登博思",
+   "away_team": "海尔蒙特",
+   "strength_type": "两队排名接近，登博思主场定价占优但防守数据同样不稳",
+   "pre_match_facts": {
+    "home_rank": "第15（4分/5轮，10:13）",
+    "away_rank": "第14（5分/5轮，9:9）",
+    "home_points": "4",
+    "away_points": "5",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "上轮0:3负阿尔梅勒城",
+      "5轮1胜1平3负"
+     ],
+     "away": [
+      "09-04 4:2 取胜",
+      "5轮1胜2平2负"
+     ],
+     "formal_matches_only": true,
+     "summary": "登博思5轮失13球、上轮0:3告负；海尔蒙特5轮进9失9，比赛开放度高。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-02-06 海尔蒙特主场 2:0"
+      },
+      {
+       "result": "2024-12-06 0:0"
+      },
+      {
+       "result": "2024-02-02 0:0"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近期交锋海尔蒙特不处下风（1胜2平），且两次0:0显示低事件特征。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "登博思主场进攻尚可、防守漏洞明显；海尔蒙特客场进攻产出中等。"
+    },
+    "injuries": {
+     "home": [
+      "无法核实（公开来源未给出完整名单）"
+     ],
+     "away": [
+      "无法核实（公开来源未给出完整名单）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "公开来源无突出阵容说明，官方首发未公布。"
+    },
+    "motivation": {
+     "home": "主场止跌",
+     "away": "客场争取摆脱下游"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "联赛单赛"
+     ],
+     "away": [
+      "下轮对Jong PSV"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "荷兰境内短途。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "两队均倾向开放对攻，中场转换频繁，防守端个人失误偏多。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://livesoccer.planetsport.com/live/soccer/match-detail/netherlands-eerste-divisie-fc-den-bosch-vs-helmond-sport/2026-09-18/3290564/table",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "登博思5轮失13球、上轮0:3告负；海尔蒙特5轮进9失9，比赛开放度高。"
+     },
+     {
+      "url": "https://www.espn.com/soccer/match/_/gameId/401875929/helmond-sport-fc-den-bosch",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "登博思5轮失13球、上轮0:3告负；海尔蒙特5轮进9失9，比赛开放度高。"
+     }
+    ],
+    "squad_values": {
+     "home": "€5.00m（登博思）",
+     "away": "€5.83m（海尔蒙特，略高于主队）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.62",
+     "official_draw_odds": "4.25",
+     "official_loss_odds": "3.62"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "2.65",
+     "handicap_draw_odds": "3.90",
+     "handicap_loss_odds": "2.02"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "登博思主场，对手海尔蒙特同为中下游且防守数据一般（9:9），市场对主队定价明显占优。反向证据：登博思5轮失13球、上轮0:3告负，防线证据不支持大比分取胜；规则52要求荷乙主胜与穿盘分开、2:0零封须有明确防守证据，开放度较高时保留2:1等路径；规则151提示低置信场要独立检验两球与高球尾部。方向取主胜，让球端取让平（净胜1球）。 【V2重新评估】让球档由让平改为让胜：官方让球奖金分割为让胜33.4%／让平22.7%／让负43.9%；登博思5轮进10球、海尔蒙特防守一般。V1把“双方防守都不稳”解释为压低主队净胜幅度，方向错误，开放度更支持净胜2球路径。 【V3重新评估】让球档由让胜改为让平：近三年交锋海尔蒙特1胜2平不处下风（最近一次客场2:0取胜，另有两次0:0），且海尔蒙特当前阵容身价€5.83m略高于登博思€5.00m，主队上轮0:3失守；净胜2球以上缺少交锋与阵容支持，让球档由让胜改为让平。",
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 50,
+     "draw": 25,
+     "away": 25,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 24,
+      "d_plus_h_eq_0": 26,
+      "d_plus_h_lt_0": 50
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 50,
+     "home_win_by_one_probability": 26,
+     "home_win_by_two_plus_probability": 24,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "两队排名接近，登博思主场定价占优但防守数据同样不稳",
+     "近期5至10场攻防状态": "登博思5轮失13球、上轮0:3告负；海尔蒙特5轮进9失9，比赛开放度高。",
+     "主客场表现": "登博思主场进攻尚可、防守漏洞明显；海尔蒙特客场进攻产出中等。",
+     "当前积分排名及争冠保级晋级形势": "主队：第15（4分/5轮，10:13）；客队：第14（5分/5轮，9:9）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：主场止跌；客队：客场争取摆脱下游",
+     "轮换留力或赛程取舍": "荷兰境内短途。",
+     "未来3至5天关键赛程": "['联赛单赛']['下轮对Jong PSV']",
+     "伤停停赛及预计首发": "公开来源无突出阵容说明，官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "两队均倾向开放对攻，中场转换频繁，防守端个人失误偏多。",
+     "定位球防反击防高空球能力": "两队均倾向开放对攻，中场转换频繁，防守端个人失误偏多。",
+     "近期进球效率和防守稳定性": "登博思5轮失13球、上轮0:3告负；海尔蒙特5轮进9失9，比赛开放度高。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "荷兰境内短途。；天气无法获取",
+     "近期交锋持续性压制": "荷乙同级对话，交锋样本不足以形成稳定压制结论。",
+     "领先后收缩崩盘或被逆转倾向": "登博思防守数据差、两队都能进球，平局与4球以上区间同样存在。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     52,
+     151
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "登博思防守数据差、两队都能进球，平局与4球以上区间同样存在。",
+    "counter_evidence_effect": "登博思防守数据差、两队都能进球，平局与4球以上区间同样存在。",
+    "net_margin_assessment": "主胜50%，其中净胜1球26%、净胜2球以上24%。",
+    "clean_sheet_assessment": "登博思5轮失13球，零封证据不足。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 50,
+       "draw": 25,
+       "away": 25
+      },
+      "evidence_refs": [
+       "https://livesoccer.planetsport.com/live/soccer/match-detail/netherlands-eerste-divisie-fc-den-bosch-vs-helmond-sport/2026-09-18/3290564/table",
+       "https://www.espn.com/soccer/match/_/gameId/401875929/helmond-sport-fc-den-bosch"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 50,
+       "draw": 25,
+       "away": 25
+      },
+      "evidence_refs": [
+       "规则52",
+       "规则151",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      52,
+      151
+     ],
+     "effects": [
+      "让球选项由让胜改为让平：规则52要求荷乙强队主胜与穿盘分开、2:0零封须有防守证据，登博思5轮失13球且上轮0:3告负，开放度较高时保留2:1路径。",
+      "V2重新评估：让平→让胜。官方让球奖金分割为让胜33.4%／让平22.7%／让负43.9%；登博思5轮进10球、海尔蒙特防守一般。V1把“双方防守都不稳”解释为压低主队净胜幅度，方向错误，开放度更支持净胜2球路径。",
+      "V3补充近三年交锋与身价维度：让胜→让平。近三年交锋海尔蒙特1胜2平不处下风（最近一次客场2:0取胜，另有两次0:0），且海尔蒙特当前阵容身价€5.83m略高于登博思€5.00m，主队上轮0:3失守；净胜2球以上缺少交锋与阵容支持，让球档由让胜改为让平。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 8,
+   "match_number": "周五008",
+   "competition": "德甲",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:30:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "拜仁",
+   "away_team": "柏林联合",
+   "strength_type": "拜仁主场实力压倒性占优，柏林联合开局未胜且多人缺阵",
+   "pre_match_facts": {
+    "home_rank": "前3（3轮7分：5:1胜、0:0平、2:1胜）",
+    "away_rank": "下游（3轮1分：3:3、0:4、1:3）",
+    "home_points": "7（3轮）",
+    "away_points": "1（3轮）",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-13 客场2:1 埃尔弗斯贝格",
+      "09-10 欧冠5:0 博多闪耀",
+      "09-05前后 0:0 沙尔克"
+     ],
+     "away": [
+      "09-11 1:3 负沙尔克（主场）",
+      "0:4 负勒沃库森（客场）",
+      "3:3 平法兰克福（主场）"
+     ],
+     "formal_matches_only": true,
+     "summary": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-03-21 拜仁主场 4:0"
+      },
+      {
+       "result": "2025-11-08 柏林联合主场 2:2"
+      },
+      {
+       "result": "2025-03-15 柏林联合主场 1:1"
+      },
+      {
+       "result": "2024-11-02 拜仁主场 3:0"
+      },
+      {
+       "result": "2024-04-20 拜仁客胜 1:5"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近5次拜仁3胜2平，其中两次净胜3球以上（4:0、5:1），也有两场被逼平。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "拜仁主场进攻产出极高；柏林联合前3轮失10球、客场0:4。"
+    },
+    "injuries": {
+     "home": [
+      "Buchmann（脚踝手术，长期）"
+     ],
+     "away": [
+      "Juranovic",
+      "Markgraf",
+      "Friedrich",
+      "N'Soki",
+      "Ilic",
+      "Burke",
+      "Imeri（存疑）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "预计阵容：塔与于帕梅卡诺搭档中卫；柏林联合由乌多卡伊与奎尔费尔德临时组合中卫。官方首发未公布。"
+    },
+    "motivation": {
+     "home": "保持榜首位置",
+     "away": "开局未胜，急需积分止血"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下周联赛（欧冠下一轮10月14日）"
+     ],
+     "away": [
+      "下轮主场"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "柏林联合客场作战，无欧战负担；拜仁本周单赛。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "拜仁高位控球与两翼突破；柏林联合收缩加长传反击，中卫组合临时且默契不足。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": null,
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/bayern-munich/preview/bayern-vs-union-berlin-prediction-team-news-lineups_605268.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。"
+     },
+     {
+      "url": "https://www.bundesliga.com/en/bundesliga/news/elversberg-bayern-munich-match-report-highlights-matchday-3-39178",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。"
+     },
+     {
+      "url": "https://www.bundesliga.com/en/bundesliga/news/union-berlin-schalke-match-report-highlights-matchday-3-dzeko-gosens-39139",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。"
+     }
+    ],
+    "squad_values": {
+     "home": "未取得合计值（拜仁为德甲身价最高档，约10亿欧级）",
+     "away": "€115.78m（柏林联合）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "未开售",
+     "official_win_odds": null,
+     "official_draw_odds": null,
+     "official_loss_odds": null
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -3,
+     "handicap_win_odds": "1.92",
+     "handicap_draw_odds": "5.00",
+     "handicap_loss_odds": "2.45"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": null,
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "拜仁主场对3轮仅1分、本场缺少右后卫、左后卫与两名中卫（Juranovic、Markgraf、Friedrich、N'Soki）及两名前锋（Ilic、Burke）的柏林联合。反向证据：拜仁近两轮联赛0:0平沙尔克、2:1小胜埃尔弗斯贝格，终结效率与节奏控制有波动；柏林联合对法兰克福打进3球，并非完全没有进攻手段。胜平负官方未开售，本场只有让球胜平负可作正式选项；让球-3按规则152检验4至5球路径，考虑客队防线临时组合与客场0:4的历史，让球端取让胜（净胜4球以上），同时承认净胜3球与不穿盘同样存在，置信度低。",
+    "match_openness": "中高",
+    "direction_confidence": null,
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "未开售",
+      "selection": null,
+      "confidence": null,
+      "reason_unavailable": "官方未开售胜平负，不保存正式选项"
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 88,
+     "draw": 9,
+     "away": 3,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -3,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 42,
+      "d_plus_h_eq_0": 19,
+      "d_plus_h_lt_0": 39
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 12,
+     "home_win_by_one_probability": 19,
+     "home_win_by_two_plus_probability": 42,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "拜仁主场实力压倒性占优，柏林联合开局未胜且多人缺阵",
+     "近期5至10场攻防状态": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。",
+     "主客场表现": "拜仁主场进攻产出极高；柏林联合前3轮失10球、客场0:4。",
+     "当前积分排名及争冠保级晋级形势": "主队：前3（3轮7分：5:1胜、0:0平、2:1胜）；客队：下游（3轮1分：3:3、0:4、1:3）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：保持榜首位置；客队：开局未胜，急需积分止血",
+     "轮换留力或赛程取舍": "柏林联合客场作战，无欧战负担；拜仁本周单赛。",
+     "未来3至5天关键赛程": "['下周联赛（欧冠下一轮10月14日）']['下轮主场']",
+     "伤停停赛及预计首发": "预计阵容：塔与于帕梅卡诺搭档中卫；柏林联合由乌多卡伊与奎尔费尔德临时组合中卫。官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "拜仁高位控球与两翼突破；柏林联合收缩加长传反击，中卫组合临时且默契不足。",
+     "定位球防反击防高空球能力": "拜仁高位控球与两翼突破；柏林联合收缩加长传反击，中卫组合临时且默契不足。",
+     "近期进球效率和防守稳定性": "拜仁3轮7分、主场5:1大胜，但近两轮对沙尔克0:0、对埃尔弗斯贝格仅2:1；柏林联合3轮1分、失10球，本轮多人缺阵。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "柏林联合客场作战，无欧战负担；拜仁本周单赛。；天气无法获取",
+     "近期交锋持续性压制": "拜仁长期压制柏林联合，主场样本优势明显。",
+     "领先后收缩崩盘或被逆转倾向": "拜仁近期两次低分差比赛；若比赛早早进入控场节奏，净胜4球以上难以达成。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     152
+    ],
+    "unoffered_play_note": "官方未开售胜平负，仅保存让球胜平负正式选项。",
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "拜仁近期两次低分差比赛；若比赛早早进入控场节奏，净胜4球以上难以达成。",
+    "counter_evidence_effect": "拜仁近期两次低分差比赛；若比赛早早进入控场节奏，净胜4球以上难以达成。",
+    "net_margin_assessment": "净胜4球以上42%、恰好3球19%、净胜2球以内或更差39%（胜平负未开售，仅保留分析方向）。",
+    "clean_sheet_assessment": "柏林联合3轮打进4球，拜仁零封概率中等。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": null,
+      "handicap_result": "让胜",
+      "result_confidence": null,
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 88,
+       "draw": 9,
+       "away": 3
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/bayern-munich/preview/bayern-vs-union-berlin-prediction-team-news-lineups_605268.html",
+       "https://www.bundesliga.com/en/bundesliga/news/elversberg-bayern-munich-match-report-highlights-matchday-3-39178",
+       "https://www.bundesliga.com/en/bundesliga/news/union-berlin-schalke-match-report-highlights-matchday-3-dzeko-gosens-39139"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": null,
+      "handicap_result": "让胜",
+      "result_confidence": null,
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 88,
+       "draw": 9,
+       "away": 3
+      },
+      "evidence_refs": [
+       "规则152",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      152
+     ],
+     "effects": [
+      "维持让胜：规则152要求德甲开季不因上一场分差压缩强队进攻上限；柏林联合3轮失10球且本轮多人缺阵，客队崩盘路径真实存在，故不把净胜3球当作上限。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 9,
+   "match_number": "周五009",
+   "competition": "意甲",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:45:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "蒙扎",
+   "away_team": "萨索洛",
+   "strength_type": "萨索洛近期状态与多点得分占优，蒙扎4轮仅1分且防线失球多",
+   "pre_match_facts": {
+    "home_rank": "第18（1分/4轮，6:11）",
+    "away_rank": "第9（7分/4轮，8:7）",
+    "home_points": "1",
+    "away_points": "7",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "4轮1平3负",
+      "4轮进6失11",
+      "上轮客场失利"
+     ],
+     "away": [
+      "上轮2:1胜都灵",
+      "4轮2胜1平1负",
+      "意大利杯晋级"
+     ],
+     "formal_matches_only": true,
+     "summary": "蒙扎4轮1分、场均失2.75球；萨索洛7分、8球来自多点得分，但伤停名单较长。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2024-01-28 蒙扎主场 1:0"
+      },
+      {
+       "result": "2023-10-02 萨索洛主场 0:1（蒙扎客胜）"
+      },
+      {
+       "result": "2023-05-19 萨索洛主场 1:2（蒙扎客胜）"
+      },
+      {
+       "result": "2023-01-22 蒙扎主场 1:1"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "历史交锋蒙扎3胜1平占优，但样本集中在2023-24赛季、阵容已大幅更替，权重降低。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "蒙扎主场进攻尚可（6球）但防线漏洞明显；萨索洛客场表现中规中矩。"
+    },
+    "injuries": {
+     "home": [
+      "Pessina（队长）",
+      "Ziolkowski",
+      "Toure",
+      "Ciurria（存疑）",
+      "Ngonge（存疑）",
+      "Mangas（存疑）"
+     ],
+     "away": [
+      "Cande",
+      "Pieragnolo",
+      "Kone（长期）",
+      "Boloca",
+      "Volpato",
+      "Idzes（伤停6周）",
+      "Walukiewicz（存疑）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "媒体报道的预计阵容已给出；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "争取赛季首个主场胜利",
+     "away": "延续换帅后的上升势头"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "下轮主场"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "两队均在意大利境内，影响有限。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "蒙扎依赖边翼卫推进与中场远射；萨索洛以贝拉尔迪、劳里恩特为支点打转换进攻。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/monza/preview/monza-vs-sassuolo-prediction-team-news-lineups_605239.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "蒙扎4轮1分、场均失2.75球；萨索洛7分、8球来自多点得分，但伤停名单较长。"
+     },
+     {
+      "url": "https://exa.ai/library/sports/serie-a/standings",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "蒙扎4轮1分、场均失2.75球；萨索洛7分、8球来自多点得分，但伤停名单较长。"
+     }
+    ],
+    "squad_values": {
+     "home": "€84.73m（蒙扎）",
+     "away": "€198.95m（萨索洛，约2.3倍）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "2.67",
+     "official_draw_odds": "3.22",
+     "official_loss_odds": "2.25"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": 1,
+     "handicap_win_odds": "1.47",
+     "handicap_draw_odds": "3.95",
+     "handicap_loss_odds": "5.10"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "负",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "蒙扎4轮仅1分、失11球，主场防线承压；萨索洛7分、8球来自多点得分，近况与阵容深度占优。反向证据：萨索洛伤停名单长（含Idzes、Boloca、Volpato），后防轮换受限；蒙扎场均1.5球具备破门能力，主场氛围可能压低客队节奏。方向取客胜；净胜区间按规则153把0:1与1:3、1:4等开放路径分开评估，考虑到蒙扎的失球率与萨索洛的多点得分，让球端取让负（客队净胜2球以上），置信度低。 【V2重新评估】让球档由让负改为让平：官方让球奖金分割为让胜60.2%／让平22.4%／让负17.4%；在客胜方向下让平高于让负。V1依规则153外推为客队净胜2球以上，但蒙扎场均1.5球且萨索洛后防多人伤停，净胜2球以上证据不足。",
+    "match_openness": "高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "负",
+      "confidence": "低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 30,
+     "draw": 27,
+     "away": 43,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": 1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 57,
+      "d_plus_h_eq_0": 20,
+      "d_plus_h_lt_0": 23
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 70,
+     "home_win_by_one_probability": 20,
+     "home_win_by_two_plus_probability": 23,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "萨索洛近期状态与多点得分占优，蒙扎4轮仅1分且防线失球多",
+     "近期5至10场攻防状态": "蒙扎4轮1分、场均失2.75球；萨索洛7分、8球来自多点得分，但伤停名单较长。",
+     "主客场表现": "蒙扎主场进攻尚可（6球）但防线漏洞明显；萨索洛客场表现中规中矩。",
+     "当前积分排名及争冠保级晋级形势": "主队：第18（1分/4轮，6:11）；客队：第9（7分/4轮，8:7）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：争取赛季首个主场胜利；客队：延续换帅后的上升势头",
+     "轮换留力或赛程取舍": "两队均在意大利境内，影响有限。",
+     "未来3至5天关键赛程": "['下轮客场']['下轮主场']",
+     "伤停停赛及预计首发": "媒体报道的预计阵容已给出；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "蒙扎依赖边翼卫推进与中场远射；萨索洛以贝拉尔迪、劳里恩特为支点打转换进攻。",
+     "定位球防反击防高空球能力": "蒙扎依赖边翼卫推进与中场远射；萨索洛以贝拉尔迪、劳里恩特为支点打转换进攻。",
+     "近期进球效率和防守稳定性": "蒙扎4轮1分、场均失2.75球；萨索洛7分、8球来自多点得分，但伤停名单较长。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "两队均在意大利境内，影响有限。；天气无法获取",
+     "近期交锋持续性压制": "近年交锋样本有限，两队阵容变化较大，不做高权重。",
+     "领先后收缩崩盘或被逆转倾向": "萨索洛后防伤停多、蒙扎具备进球能力；客队净胜两球以上不是稳定路径。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     153
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "萨索洛后防伤停多、蒙扎具备进球能力；客队净胜两球以上不是稳定路径。",
+    "counter_evidence_effect": "萨索洛后防伤停多、蒙扎具备进球能力；客队净胜两球以上不是稳定路径。",
+    "net_margin_assessment": "客胜43%，其中净胜1球20%、净胜2球以上23%；主队不败57%。",
+    "clean_sheet_assessment": "两队防线均有明显漏洞，零封概率低。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 30,
+       "draw": 27,
+       "away": 43
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/monza/preview/monza-vs-sassuolo-prediction-team-news-lineups_605239.html",
+       "https://exa.ai/library/sports/serie-a/standings"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 30,
+       "draw": 27,
+       "away": 43
+      },
+      "evidence_refs": [
+       "规则153",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      153
+     ],
+     "effects": [
+      "让球选项由让平改为让负：规则153要求意甲客队多点得分成立时把0:1与1:3等开放路径分开评估，蒙扎4轮失11球、萨索洛8球多点得分，客队净胜两球以上不可按低事件默认排除。",
+      "V2重新评估：让负→让平。官方让球奖金分割为让胜60.2%／让平22.4%／让负17.4%；在客胜方向下让平高于让负。V1依规则153外推为客队净胜2球以上，但蒙扎场均1.5球且萨索洛后防多人伤停，净胜2球以上证据不足。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 10,
+   "match_number": "周五010",
+   "competition": "法甲",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T02:45:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "摩纳哥",
+   "away_team": "朗斯",
+   "strength_type": "摩纳哥主场与积分领先，但前场伤疑较多；朗斯具备转换进攻质量",
+   "pre_match_facts": {
+    "home_rank": "第1（9分/3轮，5:1）",
+    "away_rank": "第10（3分/3轮，6:5）",
+    "home_points": "9",
+    "away_points": "3",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "3战全胜、净胜球5:1",
+      "欧冠联赛阶段首轮取胜"
+     ],
+     "away": [
+      "3轮1胜2负（含0:1负洛里昂）",
+      "欧冠联赛阶段首轮取胜"
+     ],
+     "formal_matches_only": true,
+     "summary": "摩纳哥3轮9分排名第1；朗斯3轮3分但欧冠首轮取胜，转换进攻效率不低。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-02-21 朗斯主场 2:3（摩纳哥胜）"
+      },
+      {
+       "result": "2025-11-08 摩纳哥主场 1:4（朗斯胜）"
+      },
+      {
+       "result": "2025-05-17 朗斯主场 4:0"
+      },
+      {
+       "result": "2024-09-01 摩纳哥主场 1:1"
+      },
+      {
+       "result": "2024-02-25 朗斯主场 2:3（摩纳哥胜）"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "近年交锋高比分、客场球队多次大胜，其中包括朗斯在摩纳哥主场打进4球，压制关系不稳定。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "摩纳哥主场控球与推进强；朗斯3轮6球，其中含一场5:2大胜。"
+    },
+    "injuries": {
+     "home": [
+      "Minamino（十字韧带）",
+      "Sobeir（脚踝）",
+      "Coulibaly",
+      "Teze",
+      "Ansu Fati（小腿，存疑）",
+      "Balogun（伤疑）",
+      "Diop（大腿）"
+     ],
+     "away": [
+      "Baidoo（腿筋）",
+      "Nawrocki（十字韧带）",
+      "Chavez（大腿）",
+      "Abdulhamid（存疑）",
+      "Ganiou（骨盆，存疑）",
+      "Titraoui（存疑）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [
+      "Sangnan（停赛期满复出）"
+     ],
+     "confirmed": true,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "媒体报道的预计阵容已给出；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "取胜或平局即可暂时回到榜首",
+     "away": "客场抢分摆脱中游"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "欧冠下一轮10月14日"
+     ],
+     "away": [
+      "欧冠下一轮10月14日"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "两队均单赛周，无中周欧战；朗斯客场作战。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "摩纳哥中路渗透与边锋内切；朗斯三中卫体系加边翼卫前插，反击直接。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-lens-prediction-team-news-lineups_605206.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "摩纳哥3轮9分排名第1；朗斯3轮3分但欧冠首轮取胜，转换进攻效率不低。"
+     },
+     {
+      "url": "https://www.thestatszone.com/monaco-vs-lens-preview-team-news-prediction-223999",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "摩纳哥3轮9分排名第1；朗斯3轮3分但欧冠首轮取胜，转换进攻效率不低。"
+     }
+    ],
+    "squad_values": {
+     "home": "€395.25m（摩纳哥）",
+     "away": "€234.60m（朗斯，约1/1.7）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T19:54:26+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.94",
+     "official_draw_odds": "3.50",
+     "official_loss_odds": "3.05"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "3.65",
+     "handicap_draw_odds": "3.90",
+     "handicap_loss_odds": "1.67"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "摩纳哥3战全胜、主场对排名第10的朗斯，积分与主场因素占优。反向证据：米纳米诺、索贝伊尔、库利巴利、特泽缺阵，巴洛贡与法蒂有伤疑，前场深度受限；朗斯本季欧冠首轮取胜、转换进攻质量不低。方向取主胜；按规则146/156把净胜两球与零封分开评价，考虑主队终结端缺员与客队反击路径，让球端取让平（净胜1球）。 【V2重新评估】让球档由让平改为让胜：官方让球奖金分割为让胜24.3%／让平22.7%／让负53.0%；在胜平负取主胜时让胜高于让平，且朗斯后防缺Baidoo、Nawrocki、Chavez，客队防守承压。 【V3重新评估】让球档由让胜改为让平：近三年交锋朗斯在摩纳哥主场打进4球（2025-11-08 1:4），并在朗斯主场4:0取胜，摩纳哥同时缺少Minamino、Teze、Coulibaly、Sobeir且Balogun、Fati存疑；交锋波动与前场缺员使净胜两球路径被压低，让球档由让胜改为让平。",
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 46,
+     "draw": 27,
+     "away": 27,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 22,
+      "d_plus_h_eq_0": 24,
+      "d_plus_h_lt_0": 54
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 54,
+     "home_win_by_one_probability": 24,
+     "home_win_by_two_plus_probability": 22,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "摩纳哥主场与积分领先，但前场伤疑较多；朗斯具备转换进攻质量",
+     "近期5至10场攻防状态": "摩纳哥3轮9分排名第1；朗斯3轮3分但欧冠首轮取胜，转换进攻效率不低。",
+     "主客场表现": "摩纳哥主场控球与推进强；朗斯3轮6球，其中含一场5:2大胜。",
+     "当前积分排名及争冠保级晋级形势": "主队：第1（9分/3轮，5:1）；客队：第10（3分/3轮，6:5）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：取胜或平局即可暂时回到榜首；客队：客场抢分摆脱中游",
+     "轮换留力或赛程取舍": "两队均单赛周，无中周欧战；朗斯客场作战。",
+     "未来3至5天关键赛程": "['欧冠下一轮10月14日']['欧冠下一轮10月14日']",
+     "伤停停赛及预计首发": "媒体报道的预计阵容已给出；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "摩纳哥中路渗透与边锋内切；朗斯三中卫体系加边翼卫前插，反击直接。",
+     "定位球防反击防高空球能力": "摩纳哥中路渗透与边锋内切；朗斯三中卫体系加边翼卫前插，反击直接。",
+     "近期进球效率和防守稳定性": "摩纳哥3轮9分排名第1；朗斯3轮3分但欧冠首轮取胜，转换进攻效率不低。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "两队均单赛周，无中周欧战；朗斯客场作战。；天气无法获取",
+     "近期交锋持续性压制": "法甲常规对手，样本中等，主场因素对摩纳哥有利。",
+     "领先后收缩崩盘或被逆转倾向": "摩纳哥前场伤疑、朗斯反击效率高；若客队先得分，主胜路径收窄。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     146,
+     156
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "摩纳哥前场伤疑、朗斯反击效率高；若客队先得分，主胜路径收窄。",
+    "counter_evidence_effect": "摩纳哥前场伤疑、朗斯反击效率高；若客队先得分，主胜路径收窄。",
+    "net_margin_assessment": "主胜46%，其中净胜1球24%、净胜2球以上22%。",
+    "clean_sheet_assessment": "摩纳哥3轮失1球但面对朗斯反击，零封并非锁定。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 46,
+       "draw": 27,
+       "away": 27
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/as-monaco/preview/monaco-vs-lens-prediction-team-news-lineups_605206.html",
+       "https://www.thestatszone.com/monaco-vs-lens-preview-team-news-prediction-223999"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让平",
+      "result_confidence": "中低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 46,
+       "draw": 27,
+       "away": 27
+      },
+      "evidence_refs": [
+       "规则146",
+       "规则156",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      146,
+      156
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。",
+      "V2重新评估：让平→让胜。官方让球奖金分割为让胜24.3%／让平22.7%／让负53.0%；在胜平负取主胜时让胜高于让平，且朗斯后防缺Baidoo、Nawrocki、Chavez，客队防守承压。",
+      "V3补充近三年交锋与身价维度：让胜→让平。近三年交锋朗斯在摩纳哥主场打进4球（2025-11-08 1:4），并在朗斯主场4:0取胜，摩纳哥同时缺少Minamino、Teze、Coulibaly、Sobeir且Balogun、Fati存疑；交锋波动与前场缺员使净胜两球路径被压低，让球档由让胜改为让平。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 11,
+   "match_number": "周五011",
+   "competition": "英超",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T03:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "布伦特",
+   "away_team": "切尔西",
+   "strength_type": "切尔西阵容质量与进球产出占优，布伦特福德主场不败但伤停集中",
+   "pre_match_facts": {
+    "home_rank": "第7（6分/4轮，7:4，不败）",
+    "away_rank": "第6（7分/4轮，10:9）",
+    "home_points": "6",
+    "away_points": "7",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-12 客场2:2 伯恩茅斯（沙德两球）",
+      "4轮1胜3平不败"
+     ],
+     "away": [
+      "4轮2胜1平1负、进10失9",
+      "近两轮1平1负"
+     ],
+     "formal_matches_only": true,
+     "summary": "布伦特福德开局不败但3平；切尔西进球与失球都多（10:9），防线稳定性不足。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-01-17 切尔西主场 2:0"
+      },
+      {
+       "result": "2025-09-13 布伦特福德主场 2:2"
+      },
+      {
+       "result": "2025-04-06 布伦特福德主场 0:0"
+      },
+      {
+       "result": "2024-12-15 切尔西主场 2:1"
+      },
+      {
+       "result": "2024-03-02 布伦特福德主场 2:2"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "布伦特福德主场对切尔西连续多场平局（2:2、0:0、2:2），主场抗性明显但多为低分差。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "布伦特福德主场组织度好、定位球威胁大；切尔西客场进攻产出高但防守漏球。"
+    },
+    "injuries": {
+     "home": [
+      "Dasilva（大腿）",
+      "Milambo（膝）",
+      "Collins（小腿）",
+      "van den Berg（腹股沟）",
+      "Furo"
+     ],
+     "away": [
+      "Caicedo（小腿，可出战存疑）",
+      "Palestra",
+      "Emegha",
+      "Henderson（手腕）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "切尔西若昂·佩德罗、里斯·詹姆斯预计可用；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "主场德比抢分",
+     "away": "追赶前四、避免掉队"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "欧冠下一轮10月14日"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "同城德比，无长途；双方本周均无欧战。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "布伦特福德长传与二点争抢、定位球；切尔西依靠帕尔默与边路个人能力创造机会。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "高",
+    "direction_confidence": "中低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/chelsea/title-race/preview/brentford-vs-chelsea-prediction-team-news-lineups_605220.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "布伦特福德开局不败但3平；切尔西进球与失球都多（10:9），防线稳定性不足。"
+     },
+     {
+      "url": "https://standingstoday.com/premier-league/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "布伦特福德开局不败但3平；切尔西进球与失球都多（10:9），防线稳定性不足。"
+     }
+    ],
+    "squad_values": {
+     "home": "€584.80m（布伦特福德）",
+     "away": "约€1.30bn（切尔西，按位置合计）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "2.65",
+     "official_draw_odds": "3.58",
+     "official_loss_odds": "2.12"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": 1,
+     "handicap_win_odds": "1.54",
+     "handicap_draw_odds": "4.05",
+     "handicap_loss_odds": "4.28"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "负",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "切尔西阵容质量、进球产出（10球/4轮）占优，布伦特福德本轮多名中后场球员缺阵（Collins、van den Berg等）。反向证据：切尔西4轮失9球，防线稳定性不足；布伦特福德主场4轮不败、沙德与蒂亚戈的转换效率高，伦敦德比强度会压缩切尔西的控球空间。规则154要求对强队客场单独检验零封两球胜路径，本场综合防线与主场因素后，把一球客胜列为首选，让球端取让平。 【V2复核】维持让平：官方分割让平21.9%高于让负20.7%，布伦特福德主场4轮不败、切尔西4轮失9球。",
+    "match_openness": "高",
+    "direction_confidence": "中低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "负",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "中低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 32,
+     "draw": 28,
+     "away": 40,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": 1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 60,
+      "d_plus_h_eq_0": 22,
+      "d_plus_h_lt_0": 18
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 68,
+     "home_win_by_one_probability": 22,
+     "home_win_by_two_plus_probability": 18,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "切尔西阵容质量与进球产出占优，布伦特福德主场不败但伤停集中",
+     "近期5至10场攻防状态": "布伦特福德开局不败但3平；切尔西进球与失球都多（10:9），防线稳定性不足。",
+     "主客场表现": "布伦特福德主场组织度好、定位球威胁大；切尔西客场进攻产出高但防守漏球。",
+     "当前积分排名及争冠保级晋级形势": "主队：第7（6分/4轮，7:4，不败）；客队：第6（7分/4轮，10:9）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：主场德比抢分；客队：追赶前四、避免掉队",
+     "轮换留力或赛程取舍": "同城德比，无长途；双方本周均无欧战。",
+     "未来3至5天关键赛程": "['下轮客场']['欧冠下一轮10月14日']",
+     "伤停停赛及预计首发": "切尔西若昂·佩德罗、里斯·詹姆斯预计可用；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "布伦特福德长传与二点争抢、定位球；切尔西依靠帕尔默与边路个人能力创造机会。",
+     "定位球防反击防高空球能力": "布伦特福德长传与二点争抢、定位球；切尔西依靠帕尔默与边路个人能力创造机会。",
+     "近期进球效率和防守稳定性": "布伦特福德开局不败但3平；切尔西进球与失球都多（10:9），防线稳定性不足。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "同城德比，无长途；双方本周均无欧战。；天气无法获取",
+     "近期交锋持续性压制": "近年伦敦德比互有胜负，布伦特福德主场对强队抵抗力较强，样本中等。",
+     "领先后收缩崩盘或被逆转倾向": "切尔西防线漏洞多、布伦特福德主场不败；若主队定位球先得分，客胜会被打破。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "中低",
+    "applied_review_rules": [
+     154
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "切尔西防线漏洞多、布伦特福德主场不败；若主队定位球先得分，客胜会被打破。",
+    "counter_evidence_effect": "切尔西防线漏洞多、布伦特福德主场不败；若主队定位球先得分，客胜会被打破。",
+    "net_margin_assessment": "客胜40%，其中净胜1球22%、净胜2球以上18%；主队不败60%。",
+    "clean_sheet_assessment": "两队都有明显失球记录，零封概率低。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 32,
+       "draw": 28,
+       "away": 40
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/chelsea/title-race/preview/brentford-vs-chelsea-prediction-team-news-lineups_605220.html",
+       "https://standingstoday.com/premier-league/"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "负",
+      "handicap_result": "让平",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 32,
+       "draw": 28,
+       "away": 40
+      },
+      "evidence_refs": [
+       "规则154",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      154
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。",
+      "V2复核未改变：维持让平：官方分割让平21.9%高于让负20.7%，布伦特福德主场4轮不败、切尔西4轮失9球。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 12,
+   "match_number": "周五012",
+   "competition": "英冠",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T03:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "布城",
+   "away_team": "沃特福德",
+   "strength_type": "布里斯托尔城主场与阵容完整度占优，沃特福德伤停名单长",
+   "pre_match_facts": {
+    "home_rank": "第13（10分/7轮，10:12）",
+    "away_rank": "第17（8分/7轮，7:9）",
+    "home_points": "10",
+    "away_points": "8",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-15 0:1 负林肯城（主场）",
+      "此前客场大比分失利",
+      "6天内第3场比赛"
+     ],
+     "away": [
+      "上轮主场负斯托克城",
+      "7轮2胜2平3负"
+     ],
+     "formal_matches_only": true,
+     "summary": "布里斯托尔城近两场连败且赛程密集；沃特福德换帅后仅2胜、伤停集中在中后场。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-02-27 布里斯托尔城主场 1:2"
+      },
+      {
+       "result": "2026-01-10 布里斯托尔城主场 5:1（足总杯）"
+      },
+      {
+       "result": "2025-11-07 沃特福德主场 1:1"
+      },
+      {
+       "result": "2025-04-05 布里斯托尔城主场 2:1"
+      },
+      {
+       "result": "2024-11-26 沃特福德主场 1:0"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "互有胜负但布里斯托尔城在主场既有5:1大胜也有1:2失利，分差波动大。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "布里斯托尔城主场进攻尚可；沃特福德客场防守承压。"
+    },
+    "injuries": {
+     "home": [
+      "McNally（十字韧带，长期）"
+     ],
+     "away": [
+      "Zemura",
+      "Bola",
+      "Ngakia",
+      "Mlacic",
+      "Grieves",
+      "Bove",
+      "Baah",
+      "Boadu"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "沃特福德可能启用新援安东尼奥；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "阻止连败、巩固升级竞争者位置",
+     "away": "新任主帅需要积分"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "下轮主场"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "客队从赫特福德郡前往布里斯托尔，短途。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "布里斯托尔城边后卫助攻与中场压迫；沃特福德依赖马维迪迪与杜姆比亚的速度反击。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/watford/preview/bristol-city-vs-watford-prediction-team-news-lineups_605188.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "布里斯托尔城近两场连败且赛程密集；沃特福德换帅后仅2胜、伤停集中在中后场。"
+     },
+     {
+      "url": "https://www.skysports.com/football/news/11095/13585857/bristol-city-0-1-lincoln-city-freddie-draper-scores-imps-winner-in-narrow-victory",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "布里斯托尔城近两场连败且赛程密集；沃特福德换帅后仅2胜、伤停集中在中后场。"
+     }
+    ],
+    "squad_values": {
+     "home": "€59.80m（布里斯托尔城）",
+     "away": "未取得合计值（沃特福德单人最高约€4.5m）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.74",
+     "official_draw_odds": "3.46",
+     "official_loss_odds": "3.76"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "3.25",
+     "handicap_draw_odds": "3.55",
+     "handicap_loss_odds": "1.85"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "沃特福德7轮仅2胜、伤停名单长（8人），客场防守承压；布里斯托尔城阵容相对完整、主场组织度更高。反向证据：布里斯托尔城6天内第3场、近期两连败（含主场0:1负林肯城），体能与状态双降；沃特福德上轮取胜、可能迎来安东尼奥首秀。方向取主胜；净胜区间按规则101单独比较不胜、净胜1球与净胜2球以上，考虑主队体能压力，让球端取让平（净胜1球）。 【V2重新评估】让球档由让平改为让胜：官方让球奖金分割为让胜27.2%／让平24.9%／让负47.8%；沃特福德8名伤停集中在中后场。V1用赛程疲劳压低净胜幅度，疲劳影响的是取胜概率本身，不足以证明恰好1球占优。",
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 46,
+     "draw": 28,
+     "away": 26,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 21,
+      "d_plus_h_eq_0": 25,
+      "d_plus_h_lt_0": 54
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 54,
+     "home_win_by_one_probability": 25,
+     "home_win_by_two_plus_probability": 21,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "布里斯托尔城主场与阵容完整度占优，沃特福德伤停名单长",
+     "近期5至10场攻防状态": "布里斯托尔城近两场连败且赛程密集；沃特福德换帅后仅2胜、伤停集中在中后场。",
+     "主客场表现": "布里斯托尔城主场进攻尚可；沃特福德客场防守承压。",
+     "当前积分排名及争冠保级晋级形势": "主队：第13（10分/7轮，10:12）；客队：第17（8分/7轮，7:9）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：阻止连败、巩固升级竞争者位置；客队：新任主帅需要积分",
+     "轮换留力或赛程取舍": "客队从赫特福德郡前往布里斯托尔，短途。",
+     "未来3至5天关键赛程": "['下轮客场']['下轮主场']",
+     "伤停停赛及预计首发": "沃特福德可能启用新援安东尼奥；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "布里斯托尔城边后卫助攻与中场压迫；沃特福德依赖马维迪迪与杜姆比亚的速度反击。",
+     "定位球防反击防高空球能力": "布里斯托尔城边后卫助攻与中场压迫；沃特福德依赖马维迪迪与杜姆比亚的速度反击。",
+     "近期进球效率和防守稳定性": "布里斯托尔城近两场连败且赛程密集；沃特福德换帅后仅2胜、伤停集中在中后场。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "客队从赫特福德郡前往布里斯托尔，短途。；天气无法获取",
+     "近期交锋持续性压制": "英冠常规对手，样本中等，主场因素略有利。",
+     "领先后收缩崩盘或被逆转倾向": "主队赛程密集、状态下滑；客队换帅后可能反弹，平局与客胜路径存在。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "中低",
+    "applied_review_rules": [
+     56,
+     101
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "主队赛程密集、状态下滑；客队换帅后可能反弹，平局与客胜路径存在。",
+    "counter_evidence_effect": "主队赛程密集、状态下滑；客队换帅后可能反弹，平局与客胜路径存在。",
+    "net_margin_assessment": "主胜46%，其中净胜1球25%、净胜2球以上21%。",
+    "clean_sheet_assessment": "布里斯托尔城7轮失12球，零封概率不高。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 46,
+       "draw": 28,
+       "away": 26
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/watford/preview/bristol-city-vs-watford-prediction-team-news-lineups_605188.html",
+       "https://www.skysports.com/football/news/11095/13585857/bristol-city-0-1-lincoln-city-freddie-draper-scores-imps-winner-in-narrow-victory"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 46,
+       "draw": 28,
+       "away": 26
+      },
+      "evidence_refs": [
+       "规则56",
+       "规则101",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      56,
+      101
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。",
+      "V2重新评估：让平→让胜。官方让球奖金分割为让胜27.2%／让平24.9%／让负47.8%；沃特福德8名伤停集中在中后场。V1用赛程疲劳压低净胜幅度，疲劳影响的是取胜概率本身，不足以证明恰好1球占优。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 13,
+   "match_number": "周五013",
+   "competition": "西甲",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T03:00:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "西班牙人",
+   "away_team": "埃尔切",
+   "strength_type": "西班牙人主场与防线质量占优，埃尔切排名垫底且客场失球多",
+   "pre_match_facts": {
+    "home_rank": "第12（4分/4轮，6:5）",
+    "away_rank": "第19（1分/4轮，5:12）",
+    "home_points": "4",
+    "away_points": "1",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "上轮1:2负巴列卡诺（客场）",
+      "4轮1胜1平2负"
+     ],
+     "away": [
+      "上轮2:3负皇家马德里",
+      "此前2:2平皇家社会",
+      "4轮1平3负"
+     ],
+     "formal_matches_only": true,
+     "summary": "西班牙人4轮4分、失球不多但进攻效率一般；埃尔切1分垫底，但最近两轮打进4球，进攻端有产出。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-03-01 埃尔切主场 2:2"
+      },
+      {
+       "result": "2025-10-25 西班牙人主场 1:0"
+      },
+      {
+       "result": "2024-04-27 埃尔切主场 2:2（西乙）"
+      },
+      {
+       "result": "2023-11-18 西班牙人主场 2:0（西乙）"
+      },
+      {
+       "result": "2023-02-19 埃尔切主场 0:1（西班牙人客胜）"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "西班牙人近5次交锋2胜3平保持不败，主场两次交手分别1:0与2:0取胜。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "西班牙人主场组织度较好、失球少；埃尔切4轮失12球。"
+    },
+    "injuries": {
+     "home": [
+      "El Hilali（红牌停赛）",
+      "Javi Puado",
+      "Kike Garcia",
+      "Jofre Carreras",
+      "Andoni Gorosabel"
+     ],
+     "away": [
+      "Yago Santiago（膝）",
+      "Boayar（肌肉，存疑）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [
+      "El Hilali（执行停赛）"
+     ],
+     "away": [],
+     "confirmed": true,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "埃尔切主帅预计轮换；官方首发未公布。"
+    },
+    "motivation": {
+     "home": "主场止跌",
+     "away": "争取赛季首胜、逃离垫底"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "下轮客场"
+     ],
+     "away": [
+      "下轮主场"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "客队从阿利坎特前往巴塞罗那，中等距离。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "西班牙人依靠边路与中场插上；埃尔切以中场控球和边路传中为主，防守转换慢。",
+    "discipline_risk": {
+     "home": "上一轮红牌停赛",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "fact_sources": [
+     {
+      "url": "https://www.sportsmole.co.uk/football/espanyol/preview/espanyol-vs-elche-prediction-team-news-lineups_605215.html",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "西班牙人4轮4分、失球不多但进攻效率一般；埃尔切1分垫底，但最近两轮打进4球，进攻端有产出。"
+     },
+     {
+      "url": "https://www.transfermarkt.com/laliga/spieltagtabelle/wettbewerb/ES1/spieltag/4",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "西班牙人4轮4分、失球不多但进攻效率一般；埃尔切1分垫底，但最近两轮打进4球，进攻端有产出。"
+     }
+    ],
+    "squad_values": {
+     "home": "€113.00m（西班牙人）",
+     "away": "€66.40m（埃尔切，约1/1.7）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.65",
+     "official_draw_odds": "3.50",
+     "official_loss_odds": "4.20"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "3.05",
+     "handicap_draw_odds": "3.48",
+     "handicap_loss_odds": "1.95"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让平",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "西班牙人主场对垫底的埃尔切（4轮1分、失12球），对手防线质量与客场表现明显偏弱，主队方向占优。反向证据：西班牙人自身缺员严重——El Hilali停赛，Puado、Kike García、Carreras、Gorosabel伤缺，前场终结点缺失；埃尔切最近两轮2:2平皇家社会、2:3负皇马，进攻端具备进球能力。规则143要求在西甲主让1球、主要剧本为1:0时把0:0并列检验，因此下调胜平负置信度至低，让球端取让平（净胜1球）。 【V2复核】维持让平：西班牙人缺Puado、Kike García、Carreras且El Hilali停赛，规则143要求把0:0与1:0并列检验。",
+    "match_openness": "中高",
+    "direction_confidence": "低",
+    "risk_level": "高",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让平",
+      "confidence": "低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 45,
+     "draw": 29,
+     "away": 26,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_eq_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 20,
+      "d_plus_h_eq_0": 25,
+      "d_plus_h_lt_0": 55
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 55,
+     "home_win_by_one_probability": 25,
+     "home_win_by_two_plus_probability": 20,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "西班牙人主场与防线质量占优，埃尔切排名垫底且客场失球多",
+     "近期5至10场攻防状态": "西班牙人4轮4分、失球不多但进攻效率一般；埃尔切1分垫底，但最近两轮打进4球，进攻端有产出。",
+     "主客场表现": "西班牙人主场组织度较好、失球少；埃尔切4轮失12球。",
+     "当前积分排名及争冠保级晋级形势": "主队：第12（4分/4轮，6:5）；客队：第19（1分/4轮，5:12）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：主场止跌；客队：争取赛季首胜、逃离垫底",
+     "轮换留力或赛程取舍": "客队从阿利坎特前往巴塞罗那，中等距离。",
+     "未来3至5天关键赛程": "['下轮客场']['下轮主场']",
+     "伤停停赛及预计首发": "埃尔切主帅预计轮换；官方首发未公布。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "西班牙人依靠边路与中场插上；埃尔切以中场控球和边路传中为主，防守转换慢。",
+     "定位球防反击防高空球能力": "西班牙人依靠边路与中场插上；埃尔切以中场控球和边路传中为主，防守转换慢。",
+     "近期进球效率和防守稳定性": "西班牙人4轮4分、失球不多但进攻效率一般；埃尔切1分垫底，但最近两轮打进4球，进攻端有产出。",
+     "红黄牌犯规及纪律风险": "上一轮红牌停赛 / 无法核实",
+     "赛程密度旅行体能天气": "客队从阿利坎特前往巴塞罗那，中等距离。；天气无法获取",
+     "近期交锋持续性压制": "西甲常规对手，近年交锋样本有限，主场因素对西班牙人有利。",
+     "领先后收缩崩盘或被逆转倾向": "主队前场多人缺阵、进球能力下降；闷平或客队反击得分都会破坏该组合。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "低",
+    "applied_review_rules": [
+     143
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "主队前场多人缺阵、进球能力下降；闷平或客队反击得分都会破坏该组合。",
+    "counter_evidence_effect": "主队前场多人缺阵、进球能力下降；闷平或客队反击得分都会破坏该组合。",
+    "net_margin_assessment": "主胜45%，其中净胜1球25%、净胜2球以上20%；平局29%。",
+    "clean_sheet_assessment": "埃尔切最近两轮均有进球，主队零封并非锁定。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 45,
+       "draw": 29,
+       "away": 26
+      },
+      "evidence_refs": [
+       "https://www.sportsmole.co.uk/football/espanyol/preview/espanyol-vs-elche-prediction-team-news-lineups_605215.html",
+       "https://www.transfermarkt.com/laliga/spieltagtabelle/wettbewerb/ES1/spieltag/4"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让平",
+      "result_confidence": "低",
+      "handicap_confidence": "低",
+      "probabilities": {
+       "home": 45,
+       "draw": 29,
+       "away": 26
+      },
+      "evidence_refs": [
+       "规则143",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      143
+     ],
+     "effects": [
+      "结论方向不变但下调置信度：规则143要求西甲主让1球、主要剧本为1:0时把0:0并列检验；西班牙人前场多人伤缺，同时提高闷平权重，胜平负置信度由中低降为低。",
+      "V2复核未改变：维持让平：西班牙人缺Puado、Kike García、Carreras且El Hilali停赛，规则143要求把0:0与1:0并列检验。"
+     ],
+     "changes_final_direction": false,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  },
+  {
+   "sequence": 14,
+   "match_number": "周五014",
+   "competition": "美职",
+   "match_type": "联赛",
+   "match_status": "未开赛",
+   "match_status_checked_at": "2026-09-18T09:35:00+08:00",
+   "kickoff_time": "2026-09-19T07:30:00+08:00",
+   "kickoff_timezone": "Asia/Shanghai",
+   "local_kickoff_time": null,
+   "venue": null,
+   "home_team": "纽约城",
+   "away_team": "纽约红牛",
+   "strength_type": "纽约城主场、近期交锋与积分占优，红牛进攻产出有限",
+   "pre_match_facts": {
+    "home_rank": "东部第8（32分/25轮）",
+    "away_rank": "东部第10（30分/25轮）",
+    "home_points": "32",
+    "away_points": "30",
+    "matches_played": {
+     "home": null,
+     "away": null
+    },
+    "recent_form": {
+     "home": [
+      "09-13 2:0 胜皇家盐湖城（终结7轮不胜）",
+      "9月之前9场联赛连续失球"
+     ],
+     "away": [
+      "09-13 1:0 胜哥伦布（终结6轮不胜）",
+      "近3场仅2球"
+     ],
+     "formal_matches_only": true,
+     "summary": "两队上轮同时终结不胜走势，积分相差2分；纽约红牛近3场总共仅2球，进攻产出低。"
+    },
+    "h2h": {
+     "last_5": [
+      {
+       "result": "2026-05-16 红牛主场 1:1"
+      },
+      {
+       "result": "2026-04-29 红牛主场 1:3（公开杯）"
+      },
+      {
+       "result": "2025-09-27 红牛主场 2:3"
+      },
+      {
+       "result": "2025-05-17 纽约城主场 2:0"
+      },
+      {
+       "result": "2024-09-28 红牛主场 1:5"
+      }
+     ],
+     "last_10": [],
+     "same_venue": [],
+     "continuity_assessment": "纽约城近5次交锋4胜1平不败，其中三场净胜两球以上（3:1、5:1、2:0），对红牛压制明确。",
+     "weight": "低",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    },
+    "home_away_form": {
+     "summary": "纽约城主场稳定、9月两场零封；红牛被射门数排名靠后。"
+    },
+    "injuries": {
+     "home": [
+      "无法核实（公开来源未给出完整名单）"
+     ],
+     "away": [
+      "无法核实（公开来源未给出完整名单）"
+     ],
+     "confirmed": true,
+     "published_at": "2026-09-16T00:00:00+08:00",
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "媒体报道待官方确认"
+    },
+    "suspensions": {
+     "home": [],
+     "away": [],
+     "confirmed": false,
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "待核实"
+    },
+    "lineup_confirmed": false,
+    "lineups": {
+     "home": [],
+     "away": [],
+     "published_at": null,
+     "checked_at": "2026-09-18T09:35:00+08:00",
+     "confirmation_level": "未公布",
+     "note": "官方首发未公布；两队均无重大公开伤停通报。"
+    },
+    "motivation": {
+     "home": "保住季后赛席位",
+     "away": "取胜可升至季后赛区"
+    },
+    "future_schedule_3_to_5_days": {
+     "home": [
+      "常规赛剩余轮次"
+     ],
+     "away": [
+      "常规赛剩余轮次"
+     ]
+    },
+    "travel_and_fatigue": {
+     "summary": "同城德比（洋基球场），无旅行负担。"
+    },
+    "weather": "无法获取",
+    "tactical_matchup": "纽约城依靠费尔南德斯的组织与边路配合；红牛防守压缩后依靠霍尔与鲁瓦尔卡瓦反击。",
+    "discipline_risk": {
+     "home": "无法核实",
+     "away": "无法核实"
+    },
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "fact_sources": [
+     {
+      "url": "https://www.cbssports.com/soccer/news/nycfc-red-bulls-clash-in-high-stakes-hudson-river-derby/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "两队上轮同时终结不胜走势，积分相差2分；纽约红牛近3场总共仅2球，进攻产出低。"
+     },
+     {
+      "url": "https://hooligan-soccer.com/hudson-river-derby-nycfc-vs-red-bull-ny-preview/",
+      "source_type": "公开来源（联赛/俱乐部/赛事方或可靠媒体）",
+      "published_at": null,
+      "checked_at": "2026-09-18T09:35:00+08:00",
+      "confirmation_level": "已核对公开来源",
+      "note": "两队上轮同时终结不胜走势，积分相差2分；纽约红牛近3场总共仅2球，进攻产出低。"
+     }
+    ],
+    "squad_values": {
+     "home": "€65.25m（纽约城）",
+     "away": "€45.55m（纽约红牛，约1/1.4）",
+     "source": "Transfermarkt当前阵容合计（2026-09-18核对）",
+     "checked_at": "2026-09-18T09:53:53+08:00"
+    }
+   },
+   "official_data": {
+    "source_type": "中国体彩官方接口（webapi.sporttery.cn）",
+    "source_url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad,had&channel=c&matchBeginDate=2026-09-18&matchEndDate=2026-09-18",
+    "published_at": "2026-09-17T13:35:36+08:00",
+    "checked_at": "2026-09-18T09:11:05+08:00",
+    "source_note": "两条官方接口分别核验：hhad,had合并接口返回14场；仅had接口返回13场，周五008缺少胜平负，判定为胜平负未开售。固定奖金最终以实际出票时显示为准。",
+    "sale_status": "销售中",
+    "spf": {
+     "status": "销售中",
+     "official_win_odds": "1.72",
+     "official_draw_odds": "3.78",
+     "official_loss_odds": "3.53"
+    },
+    "handicap": {
+     "status": "销售中",
+     "official_handicap": -1,
+     "handicap_win_odds": "3.02",
+     "handicap_draw_odds": "3.75",
+     "handicap_loss_odds": "1.88"
+    },
+    "score": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    },
+    "total_goals": {
+     "status": "不在本次预测范围",
+     "bonuses": {}
+    }
+   },
+   "prediction": {
+    "predicted_result": "胜",
+    "predicted_handicap_result": "让胜",
+    "predicted_score": null,
+    "predicted_total_goals": null,
+    "prediction_reason": "纽约城东部第8、主场，且2024年以来7次交锋5胜1平1负、目前对红牛4场不败；红牛被射门数联盟倒数、近3场仅进1球。反向证据：红牛上轮1:0终结6轮不胜，近期防守收缩后更难被打开；德比强度大，纽约城9月前连续9场失球说明防线并不稳固。方向取主胜；净胜区间按规则132/133单独比较三段，考虑双方近期低比分走势，让球端取让平（净胜1球）。 【V2复核】维持让平：纽约红牛近3场仅失2球并两次零封，德比低比分路径使1球分差权重上升。 【V3重新评估】让球档由让平改为让胜：近三年交锋纽约城4胜1平不败，其中3:1、5:1、2:0三场净胜两球以上；红牛近3场仅入1球且被射门数联盟倒数；官方分割让胜29.3%高于让平23.6%，让球档由让平改为让胜。",
+    "match_openness": "中高",
+    "direction_confidence": "中低",
+    "risk_level": "中",
+    "play_status": {
+     "result": {
+      "status": "已确认",
+      "selection": "胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     },
+     "handicap_result": {
+      "status": "已确认",
+      "selection": "让胜",
+      "confidence": "中低",
+      "reason_unavailable": null
+     }
+    },
+    "three_way_probabilities": {
+     "home": 48,
+     "draw": 26,
+     "away": 26,
+     "method": "主观概率：依据官方固定奖金、积分排名、近期正式比赛、阵容与赛程信息的主观估计，非训练或校准模型输出。",
+     "reason_unavailable": null,
+     "evidence_checked_at": "2026-09-18T09:35:00+08:00",
+     "estimated_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_assessment": {
+     "status": "已确认",
+     "official_handicap": -1,
+     "expression": "d+h",
+     "d_definition": "主队90分钟进球数减客队进球数",
+     "h_definition": "中国体彩官方主队让球数",
+     "handicap_win_condition": "d+h>0",
+     "handicap_draw_condition": "d+h=0",
+     "handicap_loss_condition": "d+h<0",
+     "most_likely_region": "d_plus_h_gt_0",
+     "region_probabilities": {
+      "d_plus_h_gt_0": 22,
+      "d_plus_h_eq_0": 26,
+      "d_plus_h_lt_0": 52
+     },
+     "reason_unavailable": null,
+     "assessed_at": "2026-09-18T09:38:00+08:00"
+    },
+    "handicap_probability_ranges": {
+     "home_not_win_probability": 52,
+     "home_win_by_one_probability": 26,
+     "home_win_by_two_plus_probability": 22,
+     "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+    },
+    "analysis_dimensions": {
+     "双方真实实力及联赛水平": "纽约城主场、近期交锋与积分占优，红牛进攻产出有限",
+     "近期5至10场攻防状态": "两队上轮同时终结不胜走势，积分相差2分；纽约红牛近3场总共仅2球，进攻产出低。",
+     "主客场表现": "纽约城主场稳定、9月两场零封；红牛被射门数排名靠后。",
+     "当前积分排名及争冠保级晋级形势": "主队：东部第8（32分/25轮）；客队：东部第10（30分/25轮）",
+     "小组积分及出线条件": "不适用",
+     "杯赛首回合或次回合总比分": "不适用",
+     "球队真实战意": "主队：保住季后赛席位；客队：取胜可升至季后赛区",
+     "轮换留力或赛程取舍": "同城德比（洋基球场），无旅行负担。",
+     "未来3至5天关键赛程": "['常规赛剩余轮次']['常规赛剩余轮次']",
+     "伤停停赛及预计首发": "官方首发未公布；两队均无重大公开伤停通报。",
+     "最终首发和替补阵容深度": "首发未确认",
+     "战术风格及相互克制": "纽约城依靠费尔南德斯的组织与边路配合；红牛防守压缩后依靠霍尔与鲁瓦尔卡瓦反击。",
+     "定位球防反击防高空球能力": "纽约城依靠费尔南德斯的组织与边路配合；红牛防守压缩后依靠霍尔与鲁瓦尔卡瓦反击。",
+     "近期进球效率和防守稳定性": "两队上轮同时终结不胜走势，积分相差2分；纽约红牛近3场总共仅2球，进攻产出低。",
+     "红黄牌犯规及纪律风险": "无法核实 / 无法核实",
+     "赛程密度旅行体能天气": "同城德比（洋基球场），无旅行负担。；天气无法获取",
+     "近期交锋持续性压制": "2024年以来7次交锋纽约城5胜1平1负，本季首次交手1:1，近期压制明显。",
+     "领先后收缩崩盘或被逆转倾向": "德比开放度低、红牛近期防守改善；1:0类比分同样可能被抹平。",
+     "低级别或波动联赛异常发挥风险": "已纳入开放度与风险评级"
+    },
+    "prediction_plays": [
+     "result",
+     "handicap_result"
+    ],
+    "not_requested_plays": [
+     "score",
+     "total_goals"
+    ],
+    "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录。",
+    "analysis_result": null,
+    "handicap_confidence": "中低",
+    "applied_review_rules": [
+     132,
+     133
+    ],
+    "unoffered_play_note": null,
+    "draw_positive_evidence": null,
+    "favorite_no_win_path": "德比开放度低、红牛近期防守改善；1:0类比分同样可能被抹平。",
+    "counter_evidence_effect": "德比开放度低、红牛近期防守改善；1:0类比分同样可能被抹平。",
+    "net_margin_assessment": "主胜48%，其中净胜1球26%、净胜2球以上22%。",
+    "clean_sheet_assessment": "纽约城9月两场零封，零封概率中等。",
+    "strict_stable": false,
+    "upset_tag": false,
+    "rule_application_comparison": {
+     "before": {
+      "source_file": "independent_judgment_V3.json",
+      "source_sha256": "0b4fb5cb2eaea0123206d0b857a1056468d8187979106321e59b4ff71f777b47",
+      "saved_at": "2026-09-18T09:54:53+08:00",
+      "result": "胜",
+      "handicap_result": "让平",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 48,
+       "draw": 26,
+       "away": 26
+      },
+      "evidence_refs": [
+       "https://www.cbssports.com/soccer/news/nycfc-red-bulls-clash-in-high-stakes-hudson-river-derby/",
+       "https://hooligan-soccer.com/hudson-river-derby-nycfc-vs-red-bull-ny-preview/"
+      ]
+     },
+     "after": {
+      "saved_at": "2026-09-18T09:56:53+08:00",
+      "result": "胜",
+      "handicap_result": "让胜",
+      "result_confidence": "中低",
+      "handicap_confidence": "中低",
+      "probabilities": {
+       "home": 48,
+       "draw": 26,
+       "away": 26
+      },
+      "evidence_refs": [
+       "规则132",
+       "规则133",
+       "官方让球胜平负奖金三区间分割",
+       "Transfermarkt阵容身价",
+       "近三年交锋记录"
+      ]
+     },
+     "applied_rule_ids": [
+      132,
+      133
+     ],
+     "effects": [
+      "规则复核后未改变最终方向与选项。",
+      "V2复核未改变：维持让平：纽约红牛近3场仅失2球并两次零封，德比低比分路径使1球分差权重上升。",
+      "V3补充近三年交锋与身价维度：让平→让胜。近三年交锋纽约城4胜1平不败，其中3:1、5:1、2:0三场净胜两球以上；红牛近3场仅入1球且被射门数联盟倒数；官方分割让胜29.3%高于让平23.6%，让球档由让平改为让胜。"
+     ],
+     "changes_final_direction": true,
+     "created_pre_match": true,
+     "no_post_match_backfill": true
+    }
+   },
+   "metaphysics": {
+    "enabled": false,
+    "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+    "data_model_weight": 1.0,
+    "metaphysics_weight": 0.0,
+    "fixed_home_away_mapping": null,
+    "local_kickoff_time": null,
+    "beijing_time": null,
+    "venue": null,
+    "raw_charts": [],
+    "conclusions": [],
+    "pre_match_interpretation": null
+   },
+   "final_result": {
+    "match_completion_status": "未开赛",
+    "score_90": null,
+    "verified_90_minutes": false,
+    "fact_confirmation": {
+     "status": "未开赛"
+    },
+    "official_settlement": {
+     "status": "未结算"
+    },
+    "result_source": null,
+    "source_checked_at": null,
+    "unavailable_fields": [
+     "全部赛后过程字段（比赛未开始）"
+    ]
+   },
+   "hits": {
+    "hit_result": null,
+    "hit_handicap": null,
+    "hit_score": null,
+    "hit_total_goals": null
+   },
+   "review": {
+    "prediction_error_type": [],
+    "review_summary": null,
+    "next_round_adjustment": [],
+    "review_action": {
+     "action": "暂不调整"
+    },
+    "red_card_analysis": null,
+    "risk_identified_but_not_reflected": false,
+    "quality_note": null
+   }
+  }
+ ]
+}

@@ -1,0 +1,4011 @@
+{
+  "mode": "reconstructed_walk_forward_backtest",
+  "competition": "英超",
+  "model_type": "dixon_coles",
+  "denominator": 225,
+  "hits": 112,
+  "coverage": 0.5921052631578947,
+  "brier": 0.2063157206107957,
+  "log_loss": 1.0335975424571449,
+  "handicap_evaluation": "资料不足；未提供历史官方让球快照",
+  "predictions": [
+    {
+      "match_id": "32634f9fe63e0b22391f0f7f",
+      "date": "2024-12-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.40111386695191253,
+      "log_loss": 2.1242468972137583,
+      "probabilities": {
+        "home": 0.5825091148452426,
+        "draw": 0.2979679377093345,
+        "away": 0.11952294744542277
+      }
+    },
+    {
+      "match_id": "a3f747adf4ded0dd610d2998",
+      "date": "2024-12-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.35657301290344745,
+      "log_loss": 1.7821024159965397,
+      "probabilities": {
+        "home": 0.5425302529643236,
+        "draw": 0.2891857748633721,
+        "away": 0.1682839721723042
+      }
+    },
+    {
+      "match_id": "558d6f4ea56be2d01f60fb76",
+      "date": "2024-12-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.01139350654919011,
+      "log_loss": 0.16106007251899482,
+      "probabilities": {
+        "home": 0.8512409333840407,
+        "draw": 0.09659022664354693,
+        "away": 0.052168839972412236
+      }
+    },
+    {
+      "match_id": "9509b55aba415d3e873d0ef1",
+      "date": "2024-12-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.0606227371240588,
+      "log_loss": 0.41162959574352437,
+      "probabilities": {
+        "home": 0.09428618595875671,
+        "draw": 0.24314416481727605,
+        "away": 0.6625696492239673
+      }
+    },
+    {
+      "match_id": "6c232c17ad072b71e96bce16",
+      "date": "2024-12-16",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3555861231967274,
+      "log_loss": 1.4972890654856925,
+      "probabilities": {
+        "home": 0.6735084602322402,
+        "draw": 0.22373587205245593,
+        "away": 0.10275566771530394
+      }
+    },
+    {
+      "match_id": "42867b2417008fc0af5aeb13",
+      "date": "2024-12-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.20451964997389274,
+      "log_loss": 1.019222180898755,
+      "probabilities": {
+        "home": 0.36087552691407426,
+        "draw": 0.29908283499366306,
+        "away": 0.3400416380922626
+      }
+    },
+    {
+      "match_id": "aca529b9296dab888ba5ea85",
+      "date": "2024-12-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2663729932473475,
+      "log_loss": 1.2899091218250793,
+      "probabilities": {
+        "home": 0.43760073510120095,
+        "draw": 0.287103464565927,
+        "away": 0.275295800332872
+      }
+    },
+    {
+      "match_id": "74984c23ceec36d52f97e2db",
+      "date": "2024-12-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.16503245419133175,
+      "log_loss": 0.8461462580597926,
+      "probabilities": {
+        "home": 0.23002532557134564,
+        "draw": 0.34090941771037525,
+        "away": 0.42906525671827916
+      }
+    },
+    {
+      "match_id": "f1b455aee23fa63055a9025a",
+      "date": "2024-12-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2544184506471328,
+      "log_loss": 1.2387143286305637,
+      "probabilities": {
+        "home": 0.2977343343965459,
+        "draw": 0.2897565102142995,
+        "away": 0.41250915538915467
+      }
+    },
+    {
+      "match_id": "50426bc34ba686ba49566c2f",
+      "date": "2024-12-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.1474236657859369,
+      "log_loss": 0.7508927417591591,
+      "probabilities": {
+        "home": 0.1544648599673996,
+        "draw": 0.37359010045964886,
+        "away": 0.4719450395729514
+      }
+    },
+    {
+      "match_id": "95a9a4bfbef79bdda06e970e",
+      "date": "2024-12-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3053957634406573,
+      "log_loss": 1.3096038603778568,
+      "probabilities": {
+        "home": 0.12350253135411207,
+        "draw": 0.26992696397363763,
+        "away": 0.6065705046722502
+      }
+    },
+    {
+      "match_id": "7eae744ce953c9cc413389ef",
+      "date": "2024-12-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3949010675053006,
+      "log_loss": 1.5834230172320833,
+      "probabilities": {
+        "home": 0.7418295537211933,
+        "draw": 0.2052712472286128,
+        "away": 0.05289919905019398
+      }
+    },
+    {
+      "match_id": "ca02a640c0c0c447e2ff6551",
+      "date": "2024-12-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.30366395941731666,
+      "log_loss": 1.4005344680082472,
+      "probabilities": {
+        "home": 0.54891535655283,
+        "draw": 0.20461944247903768,
+        "away": 0.24646520096813235
+      }
+    },
+    {
+      "match_id": "9e6aebcd778567e4922f0242",
+      "date": "2024-12-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.27189829030966917,
+      "log_loss": 1.3362968265246593,
+      "probabilities": {
+        "home": 0.384977203100119,
+        "draw": 0.35220567075726994,
+        "away": 0.2628171261426112
+      }
+    },
+    {
+      "match_id": "5dae1f522452c2e51e68352d",
+      "date": "2024-12-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.21598286267332867,
+      "log_loss": 1.069498552169866,
+      "probabilities": {
+        "home": 0.34879262498934294,
+        "draw": 0.30802681358323086,
+        "away": 0.3431805614274262
+      }
+    },
+    {
+      "match_id": "90b067ec38eb1397c5e5fdd0",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3421735111599709,
+      "log_loss": 1.4062396177738652,
+      "probabilities": {
+        "home": 0.6704069429980521,
+        "draw": 0.24506308353266876,
+        "away": 0.08452997346927901
+      }
+    },
+    {
+      "match_id": "30d63a3fedcf7ca86e83f818",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2639059121436213,
+      "log_loss": 1.1362117381160033,
+      "probabilities": {
+        "home": 0.5633397725967186,
+        "draw": 0.3210328777768989,
+        "away": 0.11562734962638256
+      }
+    },
+    {
+      "match_id": "3bab6392afc40d4b7850c5c6",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.47845090592401124,
+      "log_loss": 2.5454728232273482,
+      "probabilities": {
+        "home": 0.744887890375917,
+        "draw": 0.1766761527546535,
+        "away": 0.07843595686942953
+      }
+    },
+    {
+      "match_id": "46874d42dd8527fc0ac50497",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.1125871413153533,
+      "log_loss": 0.6356109852033461,
+      "probabilities": {
+        "home": 0.5296118044685689,
+        "draw": 0.2893413146982882,
+        "away": 0.18104688083314285
+      }
+    },
+    {
+      "match_id": "acccdbf41cde922457615e44",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.20932928721187252,
+      "log_loss": 1.0410612806029635,
+      "probabilities": {
+        "home": 0.3530797663413164,
+        "draw": 0.33416475507892207,
+        "away": 0.3127554785797616
+      }
+    },
+    {
+      "match_id": "47011ac01a4006649cc3514c",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.1818356284573354,
+      "log_loss": 0.918772232901917,
+      "probabilities": {
+        "home": 0.25736248771925135,
+        "draw": 0.34362888214046516,
+        "away": 0.3990086301402834
+      }
+    },
+    {
+      "match_id": "d78536180c89d4710850a99e",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.23716502763350658,
+      "log_loss": 1.1540351078493154,
+      "probabilities": {
+        "home": 0.3153616801569076,
+        "draw": 0.2775092864293035,
+        "away": 0.40712903341378887
+      }
+    },
+    {
+      "match_id": "f35731e85fcc58068cf0862a",
+      "date": "2024-12-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.006307345525984936,
+      "log_loss": 0.11285860191566485,
+      "probabilities": {
+        "home": 0.8932769588373668,
+        "draw": 0.08367096882318624,
+        "away": 0.023052072339447113
+      }
+    },
+    {
+      "match_id": "a4af184a7f13d32a3366339c",
+      "date": "2024-12-27",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.34801347985474956,
+      "log_loss": 1.578944587704332,
+      "probabilities": {
+        "home": 0.6192155982958015,
+        "draw": 0.20619260161382674,
+        "away": 0.17459180009037184
+      }
+    },
+    {
+      "match_id": "c9ee807732ea19f68bff9c6b",
+      "date": "2024-12-27",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.02066085674517587,
+      "log_loss": 0.21067362577710452,
+      "probabilities": {
+        "home": 0.8100383993963888,
+        "draw": 0.15764839830786762,
+        "away": 0.032313202295743304
+      }
+    },
+    {
+      "match_id": "4aee4272bfa49a8880c999c8",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.1161828376881452,
+      "log_loss": 0.6575925072540824,
+      "probabilities": {
+        "home": 0.23087727766463106,
+        "draw": 0.2510255729617482,
+        "away": 0.5180971493736206
+      }
+    },
+    {
+      "match_id": "4b63a7405be273535527ca96",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.11030555061694591,
+      "log_loss": 0.5944637701411198,
+      "probabilities": {
+        "home": 0.5518584094976936,
+        "draw": 0.34587047534911675,
+        "away": 0.10227111515318925
+      }
+    },
+    {
+      "match_id": "b052cd2f90dac7b764cd9c24",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "平",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.21963069917498487,
+      "log_loss": 1.0689717954582307,
+      "probabilities": {
+        "home": 0.25043900039082445,
+        "draw": 0.4061996178977466,
+        "away": 0.3433613817114288
+      }
+    },
+    {
+      "match_id": "5ef8a6d30327d18da95f8066",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.22623558576476732,
+      "log_loss": 1.1021323736111341,
+      "probabilities": {
+        "home": 0.40354453452799766,
+        "draw": 0.33216203443093684,
+        "away": 0.26429343104106545
+      }
+    },
+    {
+      "match_id": "0e06e61fd7b22832a9960828",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.5266468689034554,
+      "log_loss": 2.408272633253653,
+      "probabilities": {
+        "home": 0.8659345773019526,
+        "draw": 0.0899705725978442,
+        "away": 0.04409485010020314
+      }
+    },
+    {
+      "match_id": "4eca2f6ead6c8f271097d6a8",
+      "date": "2024-12-29",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.07403893119628295,
+      "log_loss": 0.4767798465819876,
+      "probabilities": {
+        "home": 0.13302353323540833,
+        "draw": 0.2461972858553584,
+        "away": 0.6207791809092333
+      }
+    },
+    {
+      "match_id": "fecb9c51fdc8fc5b8ca2e309",
+      "date": "2024-12-30",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.24700612974908487,
+      "log_loss": 1.2061863392885224,
+      "probabilities": {
+        "home": 0.3984187948772299,
+        "draw": 0.2993366739297917,
+        "away": 0.30224453119297845
+      }
+    },
+    {
+      "match_id": "b68abd269441306d45f0943a",
+      "date": "2024-12-30",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.4475219356416884,
+      "log_loss": 2.3463909450112808,
+      "probabilities": {
+        "home": 0.0957139766190099,
+        "draw": 0.21134642865643427,
+        "away": 0.6929395947245557
+      }
+    },
+    {
+      "match_id": "76a13f1f00df5ae05b7f32e1",
+      "date": "2024-12-30",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2887394148094325,
+      "log_loss": 1.422819099536837,
+      "probabilities": {
+        "home": 0.4124465345415398,
+        "draw": 0.3465199048468553,
+        "away": 0.2410335606116049
+      }
+    },
+    {
+      "match_id": "c2536af7f491a2958f59e872",
+      "date": "2025-01-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.12797900398265988,
+      "log_loss": 0.7041683192078255,
+      "probabilities": {
+        "home": 0.23441681294696531,
+        "draw": 0.2710635012533454,
+        "away": 0.4945196857996894
+      }
+    },
+    {
+      "match_id": "70a706c2ed89d3f42a932e8b",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3749455920708084,
+      "log_loss": 1.8665590028409937,
+      "probabilities": {
+        "home": 0.5853444604350889,
+        "draw": 0.26000062517222283,
+        "away": 0.15465491439268844
+      }
+    },
+    {
+      "match_id": "ccb09fccd645d383c48855da",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.05567655707793561,
+      "log_loss": 0.4013980151496659,
+      "probabilities": {
+        "home": 0.6693835832032923,
+        "draw": 0.20447993704648285,
+        "away": 0.12613647975022485
+      }
+    },
+    {
+      "match_id": "7362b3259b5c232ddcd15e6a",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0812566220216109,
+      "log_loss": 0.490339709950487,
+      "probabilities": {
+        "home": 0.6124183142477942,
+        "draw": 0.28981303137712155,
+        "away": 0.09776865437508413
+      }
+    },
+    {
+      "match_id": "1d9a01c4741dbc4282d40684",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.27356976783741427,
+      "log_loss": 1.207604551697426,
+      "probabilities": {
+        "home": 0.1463090093854286,
+        "draw": 0.2989124518340088,
+        "away": 0.5547785387805626
+      }
+    },
+    {
+      "match_id": "dc901fd6da45d9bdd6270e29",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0374285200358154,
+      "log_loss": 0.3119809845214639,
+      "probabilities": {
+        "home": 0.7319954473396904,
+        "draw": 0.18167774034188264,
+        "away": 0.08632681231842738
+      }
+    },
+    {
+      "match_id": "da328064422f995cd6096c04",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.10000009727496835,
+      "log_loss": 0.5875295682085719,
+      "probabilities": {
+        "home": 0.17802353022470319,
+        "draw": 0.2662780643609999,
+        "away": 0.5556984054142969
+      }
+    },
+    {
+      "match_id": "68267861d77b0f1202aeac87",
+      "date": "2025-01-04",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.22263888116710895,
+      "log_loss": 1.0929064482286879,
+      "probabilities": {
+        "home": 0.28208408440187865,
+        "draw": 0.3352407165838905,
+        "away": 0.38267519901423086
+      }
+    },
+    {
+      "match_id": "a67d87b4084ced51a09e624e",
+      "date": "2025-01-05",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.33901537058255554,
+      "log_loss": 1.4083924277751465,
+      "probabilities": {
+        "home": 0.6614197325565708,
+        "draw": 0.2445360767517675,
+        "away": 0.09404419069166167
+      }
+    },
+    {
+      "match_id": "03e5d8fdee50f3c15f7f918b",
+      "date": "2025-01-05",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.35201383756102755,
+      "log_loss": 1.445404303909093,
+      "probabilities": {
+        "home": 0.6819219387508448,
+        "draw": 0.23565078276068369,
+        "away": 0.08242727848847184
+      }
+    },
+    {
+      "match_id": "a699218a28ed1a7a3e35ef89",
+      "date": "2025-01-06",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.16497556995873972,
+      "log_loss": 0.8542814510703028,
+      "probabilities": {
+        "home": 0.2887090422675566,
+        "draw": 0.2857020700525703,
+        "away": 0.4255888876798731
+      }
+    },
+    {
+      "match_id": "a6f9023d32ac79fafe2fb0e7",
+      "date": "2025-01-14",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.28497136520666594,
+      "log_loss": 1.4041038607727758,
+      "probabilities": {
+        "home": 0.401759687302483,
+        "draw": 0.24558703804962975,
+        "away": 0.352653274647887
+      }
+    },
+    {
+      "match_id": "ec2bd8fe7da396a67a764e8d",
+      "date": "2025-01-14",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3686909822234521,
+      "log_loss": 1.5598632201022467,
+      "probabilities": {
+        "home": 0.6867339032751976,
+        "draw": 0.2101648155568781,
+        "away": 0.10310128116792443
+      }
+    },
+    {
+      "match_id": "1a687ac5d891a475736fab62",
+      "date": "2025-01-14",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.22566345582076808,
+      "log_loss": 1.1120245264250663,
+      "probabilities": {
+        "home": 0.32889243517717953,
+        "draw": 0.308980091298958,
+        "away": 0.36212747352386254
+      }
+    },
+    {
+      "match_id": "afa16a85f467b16e5016be3c",
+      "date": "2025-01-14",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2133641034807834,
+      "log_loss": 1.0379117122710675,
+      "probabilities": {
+        "home": 0.2377756952140558,
+        "draw": 0.3541935682689355,
+        "away": 0.4080307365170087
+      }
+    },
+    {
+      "match_id": "395bf6cb431b9fc16b1cc2d2",
+      "date": "2025-01-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "平",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2305314946686345,
+      "log_loss": 1.1342105236592968,
+      "probabilities": {
+        "home": 0.3126171147625467,
+        "draw": 0.36570690854967697,
+        "away": 0.32167597668777614
+      }
+    },
+    {
+      "match_id": "8be4ac2d817ce470532419ef",
+      "date": "2025-01-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.27305701201960875,
+      "log_loss": 1.3403827254778748,
+      "probabilities": {
+        "home": 0.39777526132066454,
+        "draw": 0.34047926593267414,
+        "away": 0.2617454727466613
+      }
+    },
+    {
+      "match_id": "8dbbc26b44cf2aadc6ec7de0",
+      "date": "2025-01-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.03524629355300379,
+      "log_loss": 0.303762832413898,
+      "probabilities": {
+        "home": 0.7380358838845772,
+        "draw": 0.1684058704023223,
+        "away": 0.09355824571310042
+      }
+    },
+    {
+      "match_id": "936be7d25114a6dd99d5e4d1",
+      "date": "2025-01-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.09834670161103269,
+      "log_loss": 0.5758327539566376,
+      "probabilities": {
+        "home": 0.5622364691589363,
+        "draw": 0.28046399269206596,
+        "away": 0.15729953814899744
+      }
+    },
+    {
+      "match_id": "360b84c7758d39f76032ca92",
+      "date": "2025-01-16",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.14424771076127027,
+      "log_loss": 0.7646076707890154,
+      "probabilities": {
+        "home": 0.22122943104522944,
+        "draw": 0.31325403806917645,
+        "away": 0.4655165308855943
+      }
+    },
+    {
+      "match_id": "a56f89453b73b4547c8348b9",
+      "date": "2025-01-16",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.046841016554400865,
+      "log_loss": 0.34110422699453424,
+      "probabilities": {
+        "home": 0.7109848005355476,
+        "draw": 0.23176690118767793,
+        "away": 0.05724829827677416
+      }
+    },
+    {
+      "match_id": "ae245d332024a603cc286a71",
+      "date": "2025-01-18",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.28574119982555096,
+      "log_loss": 1.404073008389658,
+      "probabilities": {
+        "home": 0.4192287103044882,
+        "draw": 0.3351766745836108,
+        "away": 0.24559461511190106
+      }
+    },
+    {
+      "match_id": "cd2243de97987dc55d5c5876",
+      "date": "2025-01-18",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.10405801587494184,
+      "log_loss": 0.6086159815794232,
+      "probabilities": {
+        "home": 0.21360467687553047,
+        "draw": 0.24229192580197834,
+        "away": 0.5441033973224911
+      }
+    },
+    {
+      "match_id": "ffe72dde59c60d60fe1504b0",
+      "date": "2025-01-18",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.17074326376925927,
+      "log_loss": 0.8778309696765673,
+      "probabilities": {
+        "home": 0.2989127221731645,
+        "draw": 0.285403713013306,
+        "away": 0.4156835648135295
+      }
+    },
+    {
+      "match_id": "99c060fe4b0d9444bcb30f6b",
+      "date": "2025-01-18",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.299205691743711,
+      "log_loss": 1.481516795881983,
+      "probabilities": {
+        "home": 0.41799342586056754,
+        "draw": 0.3547139039367184,
+        "away": 0.2272926702027139
+      }
+    },
+    {
+      "match_id": "43dfb41153fb343373bef38c",
+      "date": "2025-01-18",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.37158718609245667,
+      "log_loss": 1.5238181384459653,
+      "probabilities": {
+        "home": 0.7050594260366146,
+        "draw": 0.21787840687177415,
+        "away": 0.07706216709161125
+      }
+    },
+    {
+      "match_id": "fecd52cb388be400ad5ca0ed",
+      "date": "2025-01-19",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.3298159849105838,
+      "log_loss": 1.6460588356657229,
+      "probabilities": {
+        "home": 0.19280830236653942,
+        "draw": 0.325781005633796,
+        "away": 0.4814106919996646
+      }
+    },
+    {
+      "match_id": "097d0aefeb1cbb3495ba943d",
+      "date": "2025-01-19",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.27465822899951825,
+      "log_loss": 1.3450069173147892,
+      "probabilities": {
+        "home": 0.41313843990594024,
+        "draw": 0.3263236544630251,
+        "away": 0.26053790563103457
+      }
+    },
+    {
+      "match_id": "0fa01c9cf8f81d9f69d7c5c3",
+      "date": "2025-01-19",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0464091043378984,
+      "log_loss": 0.33723105511638524,
+      "probabilities": {
+        "home": 0.7137439066676956,
+        "draw": 0.2334427369410065,
+        "away": 0.05281335639129808
+      }
+    },
+    {
+      "match_id": "9f8cd6e778267c725b7bd345",
+      "date": "2025-01-19",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.12376097116206125,
+      "log_loss": 0.6807384072590457,
+      "probabilities": {
+        "home": 0.19401539550438157,
+        "draw": 0.29974156371347427,
+        "away": 0.5062430407821441
+      }
+    },
+    {
+      "match_id": "a6e069914444f540819ba562",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.15097338375224192,
+      "log_loss": 0.7827040839708458,
+      "probabilities": {
+        "home": 0.4571681173967487,
+        "draw": 0.34530935136247193,
+        "away": 0.1975225312407793
+      }
+    },
+    {
+      "match_id": "aec0601cdefa8633158c899a",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.4272612991949954,
+      "log_loss": 2.3017166787237953,
+      "probabilities": {
+        "home": 0.6330118252449366,
+        "draw": 0.2669012956099536,
+        "away": 0.1000868791451098
+      }
+    },
+    {
+      "match_id": "8f80cd353dd4126d19e8b040",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.012358737725738235,
+      "log_loss": 0.15882481858239153,
+      "probabilities": {
+        "home": 0.8531458011698767,
+        "draw": 0.12204283558226699,
+        "away": 0.024811363247856127
+      }
+    },
+    {
+      "match_id": "d11f09a108f616e3877e0447",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.11704588297739632,
+      "log_loss": 0.6394331683802409,
+      "probabilities": {
+        "home": 0.1456979119120605,
+        "draw": 0.3267106933010531,
+        "away": 0.5275913947868862
+      }
+    },
+    {
+      "match_id": "f0b68ef5b172bbdf97e873d4",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.05910404304179359,
+      "log_loss": 0.41581079706147184,
+      "probabilities": {
+        "home": 0.12700876569823003,
+        "draw": 0.21318613856343627,
+        "away": 0.6598050957383338
+      }
+    },
+    {
+      "match_id": "392e970d88b0c7f4003314fd",
+      "date": "2025-01-25",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.23200261620432397,
+      "log_loss": 1.1307054293233634,
+      "probabilities": {
+        "home": 0.32280545964746,
+        "draw": 0.27488235674134515,
+        "away": 0.4023121836111949
+      }
+    },
+    {
+      "match_id": "ab9feb5d9b8b7e0e9955ed44",
+      "date": "2025-01-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2345920810033498,
+      "log_loss": 1.1536507653892567,
+      "probabilities": {
+        "home": 0.3638313743589676,
+        "draw": 0.3206857153047047,
+        "away": 0.3154829103363277
+      }
+    },
+    {
+      "match_id": "f2307d740ed04ba126c5e240",
+      "date": "2025-01-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.5423633329452641,
+      "log_loss": 3.047198812866938,
+      "probabilities": {
+        "home": 0.8410705824660213,
+        "draw": 0.11143764595514834,
+        "away": 0.04749177157883036
+      }
+    },
+    {
+      "match_id": "a76c4e4875089928dd23e7f2",
+      "date": "2025-01-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.31964101679507134,
+      "log_loss": 1.4113692403965148,
+      "probabilities": {
+        "home": 0.6030246107422721,
+        "draw": 0.24380922106545072,
+        "away": 0.15316616819227724
+      }
+    },
+    {
+      "match_id": "c78a385a3c7b3465c6d58819",
+      "date": "2025-01-26",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.30730949638601945,
+      "log_loss": 1.5193286634736523,
+      "probabilities": {
+        "home": 0.44825964075251745,
+        "draw": 0.3328815937198506,
+        "away": 0.21885876552763212
+      }
+    },
+    {
+      "match_id": "d64353b47cd282539addf585",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.16546220956135776,
+      "log_loss": 0.8502726731062865,
+      "probabilities": {
+        "home": 0.4272984032793981,
+        "draw": 0.3332866607396304,
+        "away": 0.23941493598097174
+      }
+    },
+    {
+      "match_id": "15ec9cd51532cb0020faf2d5",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.18414897665664556,
+      "log_loss": 0.9304604070028634,
+      "probabilities": {
+        "home": 0.26913016884846425,
+        "draw": 0.3364977342599283,
+        "away": 0.39437209689160746
+      }
+    },
+    {
+      "match_id": "e6afd991aee7d184ebda4aae",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.14567089777006467,
+      "log_loss": 0.769316836678599,
+      "probabilities": {
+        "home": 0.4633294899283426,
+        "draw": 0.3182844228934353,
+        "away": 0.21838608717822194
+      }
+    },
+    {
+      "match_id": "b217e1985fa5a22d132ce381",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.37594816973036044,
+      "log_loss": 1.966110013758423,
+      "probabilities": {
+        "home": 0.5260350444032587,
+        "draw": 0.3339645576301581,
+        "away": 0.14000039796658298
+      }
+    },
+    {
+      "match_id": "7e4282f3b1367e27a34629eb",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3168893350762804,
+      "log_loss": 1.5642888143558522,
+      "probabilities": {
+        "home": 0.47509443864299905,
+        "draw": 0.31566879490105604,
+        "away": 0.20923676645594497
+      }
+    },
+    {
+      "match_id": "34b145f152ce0afed14d53c1",
+      "date": "2025-02-01",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.20289317183371589,
+      "log_loss": 1.000333754729175,
+      "probabilities": {
+        "home": 0.36775668015535945,
+        "draw": 0.24873437525789419,
+        "away": 0.3835089445867466
+      }
+    },
+    {
+      "match_id": "2133fcced38f49ad7620c43b",
+      "date": "2025-02-02",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.17415519274784305,
+      "log_loss": 0.8837860782620623,
+      "probabilities": {
+        "home": 0.3481255643147167,
+        "draw": 0.2386589554876131,
+        "away": 0.4132154801976703
+      }
+    },
+    {
+      "match_id": "f70e59d2fdd0ca3e41d82d1d",
+      "date": "2025-02-02",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3722302611668081,
+      "log_loss": 1.957829733699766,
+      "probabilities": {
+        "home": 0.5011570191384378,
+        "draw": 0.357678527690868,
+        "away": 0.14116445317069412
+      }
+    },
+    {
+      "match_id": "f2380d1f2162e00b3883af5f",
+      "date": "2025-02-02",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.08247589612583213,
+      "log_loss": 0.5078899593615313,
+      "probabilities": {
+        "home": 0.6017639866121747,
+        "draw": 0.26818248685178436,
+        "away": 0.13005352653604094
+      }
+    },
+    {
+      "match_id": "13bd81035b4ff0d0d7b712a2",
+      "date": "2025-02-03",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.007306597203965219,
+      "log_loss": 0.12348242803392684,
+      "probabilities": {
+        "home": 0.8838371718644245,
+        "draw": 0.08705629673547734,
+        "away": 0.029106531400098397
+      }
+    },
+    {
+      "match_id": "a7fe133c3bc96de0c5a8fe2e",
+      "date": "2025-02-12",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2700265073367133,
+      "log_loss": 1.1669313410660573,
+      "probabilities": {
+        "home": 0.1222348980152157,
+        "draw": 0.3113208143596706,
+        "away": 0.5664442876251137
+      }
+    },
+    {
+      "match_id": "8b8ebb55fa3ef2eb1199ab25",
+      "date": "2025-02-14",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2611675369986008,
+      "log_loss": 1.2588099652441134,
+      "probabilities": {
+        "home": 0.28399178558261545,
+        "draw": 0.2728543381953661,
+        "away": 0.4431538762220184
+      }
+    },
+    {
+      "match_id": "5fc222c68ef53f5febde10dd",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.069260735334732,
+      "log_loss": 0.4560631431199012,
+      "probabilities": {
+        "home": 0.12566841902318585,
+        "draw": 0.2405577635978775,
+        "away": 0.6337738173789363
+      }
+    },
+    {
+      "match_id": "29d07577099bf740a5fdef04",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.32729085915115635,
+      "log_loss": 1.3851553723446193,
+      "probabilities": {
+        "home": 0.6382617042205354,
+        "draw": 0.250284909417331,
+        "away": 0.11145338636213376
+      }
+    },
+    {
+      "match_id": "3d02edb3a93ce002cd7aaecd",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.17208861846737344,
+      "log_loss": 0.8742581473695723,
+      "probabilities": {
+        "home": 0.4171713846017352,
+        "draw": 0.34943181803667067,
+        "away": 0.23339679736159405
+      }
+    },
+    {
+      "match_id": "da94bcfcbce01dc60d713fcf",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.11307066751768853,
+      "log_loss": 0.6388898265513652,
+      "probabilities": {
+        "home": 0.5278781351521917,
+        "draw": 0.2853733023325158,
+        "away": 0.18674856251529232
+      }
+    },
+    {
+      "match_id": "2399d79af50d1683db8ff560",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.10564735652720841,
+      "log_loss": 0.5925199590115222,
+      "probabilities": {
+        "home": 0.1309661308765765,
+        "draw": 0.31610170786015873,
+        "away": 0.5529321612632647
+      }
+    },
+    {
+      "match_id": "ad0b5afa648fbb260a387f33",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.20788366825146387,
+      "log_loss": 1.0183767334892004,
+      "probabilities": {
+        "home": 0.39529100021916724,
+        "draw": 0.24352824257745967,
+        "away": 0.361180757203373
+      }
+    },
+    {
+      "match_id": "5c2dcc265fc1e7d277a9ffb2",
+      "date": "2025-02-15",
+      "training_cutoff": "2024-12-14",
+      "pick": "平",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.33539954730205546,
+      "log_loss": 1.7090364522082682,
+      "probabilities": {
+        "home": 0.4006542054656426,
+        "draw": 0.41830564509508367,
+        "away": 0.18104014943927385
+      }
+    },
+    {
+      "match_id": "0efa54f59ffa4aa642ae206c",
+      "date": "2025-02-16",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0038894576665670397,
+      "log_loss": 0.08825820079724364,
+      "probabilities": {
+        "home": 0.9155244570580576,
+        "draw": 0.0641945126533187,
+        "away": 0.020281030288623762
+      }
+    },
+    {
+      "match_id": "6e342134b7870908ef83f511",
+      "date": "2025-02-16",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.08305435771970815,
+      "log_loss": 0.5129692545569271,
+      "probabilities": {
+        "home": 0.598715199086825,
+        "draw": 0.2623628832529601,
+        "away": 0.13892191766021514
+      }
+    },
+    {
+      "match_id": "0f8d6689118ffa856ed0a8b2",
+      "date": "2025-02-19",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2634539007065979,
+      "log_loss": 1.2196947574919408,
+      "probabilities": {
+        "home": 0.20150637123312606,
+        "draw": 0.29532029747575883,
+        "away": 0.5031733312911151
+      }
+    },
+    {
+      "match_id": "d833ec27ff0e4e78d043ba67",
+      "date": "2025-02-21",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.1713580535969715,
+      "log_loss": 0.8684791265436588,
+      "probabilities": {
+        "home": 0.35638366612003775,
+        "draw": 0.22402712756663837,
+        "away": 0.4195892063133241
+      }
+    },
+    {
+      "match_id": "576442c6f03b0c6bec26bff1",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "平",
+      "actual": "平",
+      "hit": true,
+      "brier": 0.18266152423152482,
+      "log_loss": 0.9247380954990151,
+      "probabilities": {
+        "home": 0.2707703397739412,
+        "draw": 0.3966352860394496,
+        "away": 0.332594374186609
+      }
+    },
+    {
+      "match_id": "1e88019e5108e4d09e520ddc",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.527560997647228,
+      "log_loss": 3.138713699380832,
+      "probabilities": {
+        "home": 0.8022760951321536,
+        "draw": 0.15438539645358815,
+        "away": 0.04333850841425835
+      }
+    },
+    {
+      "match_id": "10243de43d8944723516e167",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.4855228685102701,
+      "log_loss": 2.530024920691542,
+      "probabilities": {
+        "home": 0.7651484045956912,
+        "draw": 0.1551945602515483,
+        "away": 0.07965703515276049
+      }
+    },
+    {
+      "match_id": "1181498b954a6661dad6dd06",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.37711834107212333,
+      "log_loss": 1.9745777264887945,
+      "probabilities": {
+        "home": 0.5278225642850893,
+        "draw": 0.33335751587206763,
+        "away": 0.1388199198428432
+      }
+    },
+    {
+      "match_id": "842ee8cfb4766e1b443a514c",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.09784721704657896,
+      "log_loss": 0.5753845380550896,
+      "probabilities": {
+        "home": 0.1621111408285292,
+        "draw": 0.2754003302022395,
+        "away": 0.5624885289692313
+      }
+    },
+    {
+      "match_id": "34ad73ad2aff1e049e623087",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.09650147012986748,
+      "log_loss": 0.5617196138256525,
+      "probabilities": {
+        "home": 0.13599384463149491,
+        "draw": 0.2937785064540348,
+        "away": 0.5702276489144702
+      }
+    },
+    {
+      "match_id": "8a2acb5be7b32963aabd6904",
+      "date": "2025-02-22",
+      "training_cutoff": "2024-12-14",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.32409926894997376,
+      "log_loss": 1.5574196428749758,
+      "probabilities": {
+        "home": 0.21067899747991406,
+        "draw": 0.25726264952838174,
+        "away": 0.5320583529917041
+      }
+    },
+    {
+      "match_id": "e5e2303dff1d140c93108c4b",
+      "date": "2025-02-23",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.18419866516700112,
+      "log_loss": 0.9337730725255201,
+      "probabilities": {
+        "home": 0.3930678355266848,
+        "draw": 0.29866935978229014,
+        "away": 0.30826280469102496
+      }
+    },
+    {
+      "match_id": "85e553751249edf10d3c0e14",
+      "date": "2025-02-23",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.16981596459549356,
+      "log_loss": 0.8693150361414492,
+      "probabilities": {
+        "home": 0.3323462321334194,
+        "draw": 0.2484151536458809,
+        "away": 0.41923861422069963
+      }
+    },
+    {
+      "match_id": "e9c43837c51c84a7f07813a5",
+      "date": "2025-02-25",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2241242151024774,
+      "log_loss": 1.10129782132376,
+      "probabilities": {
+        "home": 0.3324393567204298,
+        "draw": 0.2895263578417138,
+        "away": 0.3780342854378562
+      }
+    },
+    {
+      "match_id": "63bc64a11ef125c40fbdda7d",
+      "date": "2025-02-25",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.15052347597258758,
+      "log_loss": 0.790443426007335,
+      "probabilities": {
+        "home": 0.4536435933092246,
+        "draw": 0.31683850121243645,
+        "away": 0.229517905478339
+      }
+    },
+    {
+      "match_id": "ded5cfa0b9145fd2d2b6e196",
+      "date": "2025-02-25",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.21944145266986137,
+      "log_loss": 1.0784070507065049,
+      "probabilities": {
+        "home": 0.3808992869102523,
+        "draw": 0.2789637979035955,
+        "away": 0.3401369151861522
+      }
+    },
+    {
+      "match_id": "a711167b8f0400f5a8dbf094",
+      "date": "2025-02-25",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.007048586566839414,
+      "log_loss": 0.11995847070922226,
+      "probabilities": {
+        "home": 0.8869572706587091,
+        "draw": 0.08796792024614293,
+        "away": 0.025074809095148247
+      }
+    },
+    {
+      "match_id": "5741930cfa1593bf5c928059",
+      "date": "2025-02-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.26914650647695626,
+      "log_loss": 1.252312456963815,
+      "probabilities": {
+        "home": 0.5026965762133383,
+        "draw": 0.28584303229346114,
+        "away": 0.21146039149320073
+      }
+    },
+    {
+      "match_id": "6e8e74af99538cdd2b7ccf54",
+      "date": "2025-02-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.07767856779901061,
+      "log_loss": 0.4872690279333109,
+      "probabilities": {
+        "home": 0.6143017463830179,
+        "draw": 0.26317333719242325,
+        "away": 0.12252491642455875
+      }
+    },
+    {
+      "match_id": "28a8f214d0e1c59153cbdd0f",
+      "date": "2025-02-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.22019202062907126,
+      "log_loss": 1.0857634258942321,
+      "probabilities": {
+        "home": 0.2958036168565389,
+        "draw": 0.3376439213644076,
+        "away": 0.36655246177905365
+      }
+    },
+    {
+      "match_id": "2002319ea80e72bfe1811b18",
+      "date": "2025-02-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2324500949594037,
+      "log_loss": 1.111834766462509,
+      "probabilities": {
+        "home": 0.4401598006047345,
+        "draw": 0.2308853476800088,
+        "away": 0.32895485171525685
+      }
+    },
+    {
+      "match_id": "6d4a985f684f59ee4ef9a9b2",
+      "date": "2025-02-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.05059079235787813,
+      "log_loss": 0.3783297545918954,
+      "probabilities": {
+        "home": 0.6850045800130025,
+        "draw": 0.19583310587287472,
+        "away": 0.11916231411412286
+      }
+    },
+    {
+      "match_id": "a17ae9870bda4a5182e8a0bb",
+      "date": "2025-02-27",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.07163971071813147,
+      "log_loss": 0.4678927728077543,
+      "probabilities": {
+        "home": 0.6263206786648888,
+        "draw": 0.23911192560887295,
+        "away": 0.13456739572623805
+      }
+    },
+    {
+      "match_id": "59ca9f5fe013f3925540ea4c",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.14609368569762515,
+      "log_loss": 0.7776641468620381,
+      "probabilities": {
+        "home": 0.4594780319791883,
+        "draw": 0.26607408639771096,
+        "away": 0.27444788162310063
+      }
+    },
+    {
+      "match_id": "e00e8716d12151198c68c551",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.13362286373260068,
+      "log_loss": 0.7271532759565048,
+      "probabilities": {
+        "home": 0.48328280650941935,
+        "draw": 0.27202615184173745,
+        "away": 0.24469104164884312
+      }
+    },
+    {
+      "match_id": "0fd52831911a0f28f074b09d",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.060188182389261796,
+      "log_loss": 0.4093853172916035,
+      "probabilities": {
+        "home": 0.6640583098702841,
+        "draw": 0.2430685095324377,
+        "away": 0.09287318059727796
+      }
+    },
+    {
+      "match_id": "917e96f52b5fbeb8fe4ef7e1",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0008675575768620146,
+      "log_loss": 0.039484383746480556,
+      "probabilities": {
+        "home": 0.9612849655431122,
+        "draw": 0.032669013971654726,
+        "away": 0.006046020485233196
+      }
+    },
+    {
+      "match_id": "a6aef6d9970521daf7251c3f",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.33340241381414176,
+      "log_loss": 1.5904180999255713,
+      "probabilities": {
+        "home": 0.5552453379316362,
+        "draw": 0.24091429379585416,
+        "away": 0.20384036827250954
+      }
+    },
+    {
+      "match_id": "13cb538261e67e07fcd59bbe",
+      "date": "2025-03-08",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.23812675861098842,
+      "log_loss": 1.1665348448774298,
+      "probabilities": {
+        "home": 0.3843827179971548,
+        "draw": 0.31144427635049154,
+        "away": 0.30417300565235356
+      }
+    },
+    {
+      "match_id": "fe7d1fea942c1bf273d0ea29",
+      "date": "2025-03-09",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.01177235390552135,
+      "log_loss": 0.16065333329159254,
+      "probabilities": {
+        "home": 0.8515872368864538,
+        "draw": 0.10795204301174888,
+        "away": 0.04046072010179727
+      }
+    },
+    {
+      "match_id": "c651e71be34090bcb36ffbeb",
+      "date": "2025-03-09",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.26822335941218495,
+      "log_loss": 1.3121037197150165,
+      "probabilities": {
+        "home": 0.408288349628177,
+        "draw": 0.2692530272568632,
+        "away": 0.3224586231149597
+      }
+    },
+    {
+      "match_id": "0b5c1a9a0a9d9f12b34ee42c",
+      "date": "2025-03-09",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.26446607925297977,
+      "log_loss": 1.1818352312828577,
+      "probabilities": {
+        "home": 0.1563362882698,
+        "draw": 0.3067153281998241,
+        "away": 0.5369483835303759
+      }
+    },
+    {
+      "match_id": "789ee455dcfc9f96a6925573",
+      "date": "2025-03-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.14450369687699408,
+      "log_loss": 0.7705339701922655,
+      "probabilities": {
+        "home": 0.25158220489156274,
+        "draw": 0.28565189597795637,
+        "away": 0.4627658991304808
+      }
+    },
+    {
+      "match_id": "85503f359a4e61c6ea9671c8",
+      "date": "2025-03-15",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.25563670393592214,
+      "log_loss": 1.1678597098918029,
+      "probabilities": {
+        "home": 0.5101563109093848,
+        "draw": 0.31103192793813583,
+        "away": 0.17881176115247965
+      }
+    },
+    {
+      "match_id": "63671a860205b68bf75f24c6",
+      "date": "2025-03-15",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.06757267160661233,
+      "log_loss": 0.4469555238042143,
+      "probabilities": {
+        "home": 0.11754053491388149,
+        "draw": 0.24288711169867921,
+        "away": 0.6395723533874393
+      }
+    },
+    {
+      "match_id": "d48cb1fc69db3db18383175e",
+      "date": "2025-03-15",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.35169022416103335,
+      "log_loss": 1.5882367993423978,
+      "probabilities": {
+        "home": 0.6273439666669322,
+        "draw": 0.20428549068308985,
+        "away": 0.16837054264997828
+      }
+    },
+    {
+      "match_id": "146144fe7f4e92c7bbc90f91",
+      "date": "2025-03-15",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.0852876081814098,
+      "log_loss": 0.5277987057695647,
+      "probabilities": {
+        "home": 0.1626674715883897,
+        "draw": 0.2474304388620396,
+        "away": 0.5899020895495707
+      }
+    },
+    {
+      "match_id": "b63da0497abc75a6d5255bd7",
+      "date": "2025-03-15",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.35574949777934384,
+      "log_loss": 1.7161029870279823,
+      "probabilities": {
+        "home": 0.5805155858994635,
+        "draw": 0.23971908160694916,
+        "away": 0.17976533249358745
+      }
+    },
+    {
+      "match_id": "978ce9e070219a8053b4b77e",
+      "date": "2025-03-16",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0703119236292693,
+      "log_loss": 0.4620555921093197,
+      "probabilities": {
+        "home": 0.6299873166446349,
+        "draw": 0.23778745630238265,
+        "away": 0.13222522705298223
+      }
+    },
+    {
+      "match_id": "1f20423c36431f41510fa86a",
+      "date": "2025-03-16",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.19457793284368316,
+      "log_loss": 0.9723267738743896,
+      "probabilities": {
+        "home": 0.3782020229531085,
+        "draw": 0.2673977693357062,
+        "away": 0.3544002077111853
+      }
+    },
+    {
+      "match_id": "1ad4ebb97e8dd5c4490cd08e",
+      "date": "2025-03-16",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.14102798754234855,
+      "log_loss": 0.7526968193780172,
+      "probabilities": {
+        "home": 0.22278607821017757,
+        "draw": 0.3061195401429133,
+        "away": 0.471094381646909
+      }
+    },
+    {
+      "match_id": "2bb4a44b350f4bcc7d2df4d5",
+      "date": "2025-04-01",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0560749059706715,
+      "log_loss": 0.39415564223523686,
+      "probabilities": {
+        "home": 0.6742491064353129,
+        "draw": 0.23015936360028136,
+        "away": 0.09559152996440576
+      }
+    },
+    {
+      "match_id": "2d9498be493352444d097244",
+      "date": "2025-04-01",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.11404303798993186,
+      "log_loss": 0.6483255281757392,
+      "probabilities": {
+        "home": 0.5229206599844097,
+        "draw": 0.25754057742334585,
+        "away": 0.21953876259224464
+      }
+    },
+    {
+      "match_id": "49befc4b1712bd3f2e68daab",
+      "date": "2025-04-01",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.07688988893644531,
+      "log_loss": 0.4855154085854857,
+      "probabilities": {
+        "home": 0.6153799429077171,
+        "draw": 0.258532322121755,
+        "away": 0.1260877349705281
+      }
+    },
+    {
+      "match_id": "1fe7e1406e9bf8a39bc95290",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.5345253403653117,
+      "log_loss": 3.1552221657977078,
+      "probabilities": {
+        "home": 0.8168696349668253,
+        "draw": 0.14050143578270366,
+        "away": 0.04262892925047103
+      }
+    },
+    {
+      "match_id": "36a369108f9fe84be98640a0",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3192846454078723,
+      "log_loss": 1.5310991725085303,
+      "probabilities": {
+        "home": 0.5270735165500413,
+        "draw": 0.25662869542744177,
+        "away": 0.21629778802251698
+      }
+    },
+    {
+      "match_id": "9dacd1958e61b5a472e8ff95",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.005428348567393046,
+      "log_loss": 0.10570773744211329,
+      "probabilities": {
+        "home": 0.8996875546411983,
+        "draw": 0.07456078845494032,
+        "away": 0.025751656903861636
+      }
+    },
+    {
+      "match_id": "63a4ce6d714fb67794655166",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.1146733391355823,
+      "log_loss": 0.6517125782870496,
+      "probabilities": {
+        "home": 0.5211524976224443,
+        "draw": 0.24565358292455725,
+        "away": 0.23319391945299808
+      }
+    },
+    {
+      "match_id": "c7cf090a2b20bf951bc4de26",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.29174945526461044,
+      "log_loss": 1.2555180366092957,
+      "probabilities": {
+        "home": 0.12488072096262913,
+        "draw": 0.28492820674379504,
+        "away": 0.5901910722935757
+      }
+    },
+    {
+      "match_id": "f34bd4be5fd63c742173de0a",
+      "date": "2025-04-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.04199275211719591,
+      "log_loss": 0.3307905998682622,
+      "probabilities": {
+        "home": 0.7183555770447605,
+        "draw": 0.19995293479005247,
+        "away": 0.08169148816518707
+      }
+    },
+    {
+      "match_id": "8bc9a1ba0e5948973da5c3af",
+      "date": "2025-04-03",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.12884529938508613,
+      "log_loss": 0.7075206258843106,
+      "probabilities": {
+        "home": 0.4928646797491536,
+        "draw": 0.23411838524992298,
+        "away": 0.2730169350009235
+      }
+    },
+    {
+      "match_id": "be3f1783fae09961c2b98899",
+      "date": "2025-04-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.22979598124933198,
+      "log_loss": 1.0688132125044378,
+      "probabilities": {
+        "home": 0.18211787079005842,
+        "draw": 0.34341583729130826,
+        "away": 0.4744662919186333
+      }
+    },
+    {
+      "match_id": "b3cc0e5b94efc023228be01f",
+      "date": "2025-04-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.17314211225441833,
+      "log_loss": 0.887166477391457,
+      "probabilities": {
+        "home": 0.41182100521706283,
+        "draw": 0.30981434886064346,
+        "away": 0.2783646459222939
+      }
+    },
+    {
+      "match_id": "e8217b931b5404754f2e4d65",
+      "date": "2025-04-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.14249043711943826,
+      "log_loss": 0.7628545999202339,
+      "probabilities": {
+        "home": 0.2551898922974017,
+        "draw": 0.278476777603505,
+        "away": 0.4663333300990933
+      }
+    },
+    {
+      "match_id": "5b8414917f491a636d0ff7b3",
+      "date": "2025-04-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.27256717782196266,
+      "log_loss": 1.2557840818493016,
+      "probabilities": {
+        "home": 0.1985967090503636,
+        "draw": 0.2848524130333725,
+        "away": 0.5165508779162641
+      }
+    },
+    {
+      "match_id": "cd7c5bd6bca5cf91780c55d0",
+      "date": "2025-04-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2566664660835684,
+      "log_loss": 1.250695956722636,
+      "probabilities": {
+        "home": 0.28630547128977857,
+        "draw": 0.3022598217316119,
+        "away": 0.4114347069786096
+      }
+    },
+    {
+      "match_id": "6d5e8bb0db0569189b668414",
+      "date": "2025-04-06",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.28412694377464237,
+      "log_loss": 1.3896718511183963,
+      "probabilities": {
+        "home": 0.43344359094962187,
+        "draw": 0.24915705182620987,
+        "away": 0.31739935722416823
+      }
+    },
+    {
+      "match_id": "b06ba37e919f159368f161df",
+      "date": "2025-04-06",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.3339815548147103,
+      "log_loss": 1.610283728229145,
+      "probabilities": {
+        "home": 0.19983090836126124,
+        "draw": 0.2559686174436609,
+        "away": 0.5442004741950778
+      }
+    },
+    {
+      "match_id": "e242ced4fa59a2d14c51750c",
+      "date": "2025-04-06",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0049463504110813005,
+      "log_loss": 0.09976189952550095,
+      "probabilities": {
+        "home": 0.9050528859050214,
+        "draw": 0.07313110487260863,
+        "away": 0.021816009222370186
+      }
+    },
+    {
+      "match_id": "3e12bd20e78476502e4a9dcc",
+      "date": "2025-04-06",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2710794732724498,
+      "log_loss": 1.2909140173907108,
+      "probabilities": {
+        "home": 0.2510388211123624,
+        "draw": 0.2750192957562602,
+        "away": 0.47394188313137714
+      }
+    },
+    {
+      "match_id": "9b444d9a389f815e2f35912f",
+      "date": "2025-04-07",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.06074474232382444,
+      "log_loss": 0.42212860340128694,
+      "probabilities": {
+        "home": 0.1254389198572652,
+        "draw": 0.21891136495479288,
+        "away": 0.6556497151879421
+      }
+    },
+    {
+      "match_id": "aa1fffb0f3d681e4fd180dec",
+      "date": "2025-04-12",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.08313779048832598,
+      "log_loss": 0.5184566432188237,
+      "probabilities": {
+        "home": 0.5954388137130114,
+        "draw": 0.24648885758621378,
+        "away": 0.15807232870077453
+      }
+    },
+    {
+      "match_id": "1833c77a72b5b4d3821cdd29",
+      "date": "2025-04-12",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.4610009296519481,
+      "log_loss": 1.9648558954923392,
+      "probabilities": {
+        "home": 0.8000855938198742,
+        "draw": 0.14017608516616803,
+        "away": 0.059738321013957894
+      }
+    },
+    {
+      "match_id": "2d7f78443ceb92ad3a620454",
+      "date": "2025-04-12",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.36972445554658284,
+      "log_loss": 1.8814602644538314,
+      "probabilities": {
+        "home": 0.5492195221586864,
+        "draw": 0.29841303138157826,
+        "away": 0.1523674464597352
+      }
+    },
+    {
+      "match_id": "56fcea014377fa5d008323f1",
+      "date": "2025-04-12",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.08057190806419078,
+      "log_loss": 0.503612107898497,
+      "probabilities": {
+        "home": 0.13909171458352138,
+        "draw": 0.25656452784944933,
+        "away": 0.6043437575670293
+      }
+    },
+    {
+      "match_id": "f443c430e145fc2d022cba63",
+      "date": "2025-04-12",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.36875813533366936,
+      "log_loss": 1.5672221153935926,
+      "probabilities": {
+        "home": 0.6845307657224613,
+        "draw": 0.20862391131550612,
+        "away": 0.1068453229620325
+      }
+    },
+    {
+      "match_id": "cc434e7160fb3befd8ea150d",
+      "date": "2025-04-13",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.470170310089097,
+      "log_loss": 1.9988426109895752,
+      "probabilities": {
+        "home": 0.8126812759376413,
+        "draw": 0.1354920094852772,
+        "away": 0.05182671457708153
+      }
+    },
+    {
+      "match_id": "7d10e0411ba92ba7fd2fa72b",
+      "date": "2025-04-13",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.012291957843788852,
+      "log_loss": 0.16401058095065832,
+      "probabilities": {
+        "home": 0.8487330414302625,
+        "draw": 0.111363959263163,
+        "away": 0.039902999306574094
+      }
+    },
+    {
+      "match_id": "41f747f596480155c3ff2238",
+      "date": "2025-04-13",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2506530961994923,
+      "log_loss": 1.191253965397202,
+      "probabilities": {
+        "home": 0.30384002021172896,
+        "draw": 0.23627388002023883,
+        "away": 0.4598860997680324
+      }
+    },
+    {
+      "match_id": "516f4732b00d1df26946bc8f",
+      "date": "2025-04-13",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.08832763941483794,
+      "log_loss": 0.5372648867826769,
+      "probabilities": {
+        "home": 0.5843443165345281,
+        "draw": 0.2618113922309711,
+        "away": 0.15384429123450066
+      }
+    },
+    {
+      "match_id": "0f9b848d85b6b89212b23ee6",
+      "date": "2025-04-14",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.08921698213140972,
+      "log_loss": 0.5414434728856797,
+      "probabilities": {
+        "home": 0.5819076778917001,
+        "draw": 0.26124367864533227,
+        "away": 0.1568486434629675
+      }
+    },
+    {
+      "match_id": "75a4dfa50ee6ca9dd0e75320",
+      "date": "2025-04-16",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.12542729339982872,
+      "log_loss": 0.6882923419748316,
+      "probabilities": {
+        "home": 0.502433321204056,
+        "draw": 0.2983967469983733,
+        "away": 0.19916993179757048
+      }
+    },
+    {
+      "match_id": "00c5af5f5fdb1a0d1381aa89",
+      "date": "2025-04-19",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.12330192733130142,
+      "log_loss": 0.6862449313010194,
+      "probabilities": {
+        "home": 0.5034630623405517,
+        "draw": 0.24185027969376016,
+        "away": 0.2546866579656881
+      }
+    },
+    {
+      "match_id": "9abfeb120973a5ce98e6d4d2",
+      "date": "2025-04-19",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.21810253980020292,
+      "log_loss": 1.075535109613345,
+      "probabilities": {
+        "home": 0.28998487058101247,
+        "draw": 0.34111517244639616,
+        "away": 0.3688999569725916
+      }
+    },
+    {
+      "match_id": "a85f4cf660c9167a49e70dd2",
+      "date": "2025-04-19",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.17341348280279908,
+      "log_loss": 0.888897275952796,
+      "probabilities": {
+        "home": 0.2893832013534845,
+        "draw": 0.2995079561499222,
+        "away": 0.4111088424965933
+      }
+    },
+    {
+      "match_id": "e0da5933243ac40f11800d58",
+      "date": "2025-04-19",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.363327514198269,
+      "log_loss": 1.514885575401586,
+      "probabilities": {
+        "home": 0.6875665333948667,
+        "draw": 0.21983333775006894,
+        "away": 0.09260012885506463
+      }
+    },
+    {
+      "match_id": "37b01e06a32a932ea0921d08",
+      "date": "2025-04-19",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2179321653766307,
+      "log_loss": 1.0748667839139985,
+      "probabilities": {
+        "home": 0.34134322468067513,
+        "draw": 0.29025554146940685,
+        "away": 0.36840123384991796
+      }
+    },
+    {
+      "match_id": "6dd8021007d5a157412716b3",
+      "date": "2025-04-20",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.21564088059813855,
+      "log_loss": 1.0632686145394474,
+      "probabilities": {
+        "home": 0.37219302776414986,
+        "draw": 0.28248174368012124,
+        "away": 0.3453252285557289
+      }
+    },
+    {
+      "match_id": "f556b8058afbd537189448e8",
+      "date": "2025-04-20",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.03846335626278802,
+      "log_loss": 0.30959549862151725,
+      "probabilities": {
+        "home": 0.06585467965134735,
+        "draw": 0.2004016238076392,
+        "away": 0.7337436965410135
+      }
+    },
+    {
+      "match_id": "5b2920762014f6370485c0cf",
+      "date": "2025-04-20",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2802494888444677,
+      "log_loss": 1.3558718218695733,
+      "probabilities": {
+        "home": 0.4556510367631541,
+        "draw": 0.28662645487656757,
+        "away": 0.25772250836027844
+      }
+    },
+    {
+      "match_id": "4153161c315695c7c65901cb",
+      "date": "2025-04-20",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.01311502852223164,
+      "log_loss": 0.17038860558930344,
+      "probabilities": {
+        "home": 0.042763557587149316,
+        "draw": 0.11389941498521862,
+        "away": 0.8433370274276323
+      }
+    },
+    {
+      "match_id": "f35c2a16a2e2d40f94d2a28c",
+      "date": "2025-04-21",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.24306265906457428,
+      "log_loss": 1.1758878430984288,
+      "probabilities": {
+        "home": 0.42326070373767627,
+        "draw": 0.26819437769444376,
+        "away": 0.3085449185678798
+      }
+    },
+    {
+      "match_id": "d924b45d241a20ea1e90695f",
+      "date": "2025-04-22",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.05430426876971073,
+      "log_loss": 0.39667954783881837,
+      "probabilities": {
+        "home": 0.6725495110487468,
+        "draw": 0.19595157096120377,
+        "away": 0.1314989179900494
+      }
+    },
+    {
+      "match_id": "4e03783c569a8065d0d21970",
+      "date": "2025-04-23",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3168911538380195,
+      "log_loss": 1.322551380967697,
+      "probabilities": {
+        "home": 0.6346721139476904,
+        "draw": 0.26645460676625454,
+        "away": 0.09887327928605497
+      }
+    },
+    {
+      "match_id": "8fa96abdb950522bf40353a8",
+      "date": "2025-04-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.1066455900255925,
+      "log_loss": 0.612906534339539,
+      "probabilities": {
+        "home": 0.5417738939914148,
+        "draw": 0.2790130717171688,
+        "away": 0.17921303429141644
+      }
+    },
+    {
+      "match_id": "0632af6bcc2fcc0902a71d98",
+      "date": "2025-04-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.07197393658474086,
+      "log_loss": 0.4723572534252843,
+      "probabilities": {
+        "home": 0.6235307146388229,
+        "draw": 0.22902756807022923,
+        "away": 0.14744171729094757
+      }
+    },
+    {
+      "match_id": "03309bab8ce88190605be59d",
+      "date": "2025-04-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.024138216883593605,
+      "log_loss": 0.238776295951442,
+      "probabilities": {
+        "home": 0.7875910499737376,
+        "draw": 0.15487842889964,
+        "away": 0.057530521126622325
+      }
+    },
+    {
+      "match_id": "2ccb77b48360ebff48cd66bd",
+      "date": "2025-04-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.07121295614590221,
+      "log_loss": 0.46232008861374724,
+      "probabilities": {
+        "home": 0.12149008771069188,
+        "draw": 0.2486892030532495,
+        "away": 0.6298207092360586
+      }
+    },
+    {
+      "match_id": "494bc0be1b8ebcaa2a1ea8d8",
+      "date": "2025-04-26",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.04048846904096987,
+      "log_loss": 0.32950505232485,
+      "probabilities": {
+        "home": 0.7192796511354526,
+        "draw": 0.18073055790184078,
+        "away": 0.09998979096270662
+      }
+    },
+    {
+      "match_id": "1b07c63915700a589d95fafa",
+      "date": "2025-04-27",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.32307461694674827,
+      "log_loss": 1.3785397390056293,
+      "probabilities": {
+        "home": 0.6288279057058846,
+        "draw": 0.25194619176671357,
+        "away": 0.11922590252740169
+      }
+    },
+    {
+      "match_id": "681fd73fb0f3762c219b73d7",
+      "date": "2025-04-27",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.04184479613599176,
+      "log_loss": 0.3392973829909361,
+      "probabilities": {
+        "home": 0.7122706004291475,
+        "draw": 0.16986544344662108,
+        "away": 0.11786395612423144
+      }
+    },
+    {
+      "match_id": "2d1380685b59d48806c7a261",
+      "date": "2025-05-01",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.34512926429198476,
+      "log_loss": 1.660786313619606,
+      "probabilities": {
+        "home": 0.565024531656575,
+        "draw": 0.24498593834654964,
+        "away": 0.18998952999687538
+      }
+    },
+    {
+      "match_id": "4414d6153970f5c7426803d7",
+      "date": "2025-05-02",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.03254714105877352,
+      "log_loss": 0.2920930669827778,
+      "probabilities": {
+        "home": 0.7466990397128345,
+        "draw": 0.15310193050760132,
+        "away": 0.1001990297795641
+      }
+    },
+    {
+      "match_id": "fc93826eeb395a4f39f19646",
+      "date": "2025-05-03",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.17392176912529234,
+      "log_loss": 0.8910302644827282,
+      "probabilities": {
+        "home": 0.4102328865850574,
+        "draw": 0.2985872897692817,
+        "away": 0.291179823645661
+      }
+    },
+    {
+      "match_id": "d256d35b74ab975546b3c957",
+      "date": "2025-05-03",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.32003878471902475,
+      "log_loss": 1.3411657196598512,
+      "probabilities": {
+        "home": 0.6358126505709313,
+        "draw": 0.2615406077788475,
+        "away": 0.10264674165022095
+      }
+    },
+    {
+      "match_id": "1b305e94f2bfeeafde09414c",
+      "date": "2025-05-03",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.11686103590499082,
+      "log_loss": 0.6536552328995687,
+      "probabilities": {
+        "home": 0.5201410610731401,
+        "draw": 0.29085198812145874,
+        "away": 0.18900695080540125
+      }
+    },
+    {
+      "match_id": "c4555336d08f6413eed82bab",
+      "date": "2025-05-03",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.35539037294662496,
+      "log_loss": 1.7823056530690653,
+      "probabilities": {
+        "home": 0.5351614521212067,
+        "draw": 0.296588773773071,
+        "away": 0.16824977410572212
+      }
+    },
+    {
+      "match_id": "a77b087e8cf30b3bb6dc9318",
+      "date": "2025-05-04",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.09335012080245281,
+      "log_loss": 0.5618838838694422,
+      "probabilities": {
+        "home": 0.5701339852868876,
+        "draw": 0.2528353588624841,
+        "away": 0.1770306558506283
+      }
+    },
+    {
+      "match_id": "598bcaf22a12ad21f89fd71c",
+      "date": "2025-05-04",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.26571628257215046,
+      "log_loss": 1.2985336816675155,
+      "probabilities": {
+        "home": 0.40939474242399826,
+        "draw": 0.2729317045254451,
+        "away": 0.3176735530505567
+      }
+    },
+    {
+      "match_id": "762439e6bbdd3170d2dce708",
+      "date": "2025-05-04",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.28938139814001074,
+      "log_loss": 1.3727649120711363,
+      "probabilities": {
+        "home": 0.24672949989381315,
+        "draw": 0.25340534654907526,
+        "away": 0.4998651535571116
+      }
+    },
+    {
+      "match_id": "7608704a1be4f552e85adb53",
+      "date": "2025-05-04",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.27157433446980234,
+      "log_loss": 1.2941805803097977,
+      "probabilities": {
+        "home": 0.2741223936138773,
+        "draw": 0.25254053728698683,
+        "away": 0.47333706909913575
+      }
+    },
+    {
+      "match_id": "79638c40ac30bc6346c34f42",
+      "date": "2025-05-05",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.21668795494183393,
+      "log_loss": 1.0715505353598036,
+      "probabilities": {
+        "home": 0.30083938268820654,
+        "draw": 0.3424770826943721,
+        "away": 0.35668353461742125
+      }
+    },
+    {
+      "match_id": "74bd6d5ef094e290d0a53680",
+      "date": "2025-05-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2952812077489702,
+      "log_loss": 1.4535524070498682,
+      "probabilities": {
+        "home": 0.4336705549108781,
+        "draw": 0.3325909678003949,
+        "away": 0.23373847728872715
+      }
+    },
+    {
+      "match_id": "a853c8a7289e73be4ec3a0e8",
+      "date": "2025-05-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.08303903478229883,
+      "log_loss": 0.519714258442232,
+      "probabilities": {
+        "home": 0.1658895790831348,
+        "draw": 0.23941996944607918,
+        "away": 0.5946904514707859
+      }
+    },
+    {
+      "match_id": "ddeb17fe72fb1fbd7c0a3441",
+      "date": "2025-05-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.46589519364377957,
+      "log_loss": 1.9850890911936567,
+      "probabilities": {
+        "home": 0.05615877796541539,
+        "draw": 0.1373683752592526,
+        "away": 0.8064728467753322
+      }
+    },
+    {
+      "match_id": "ad16da0af523a288c0626f82",
+      "date": "2025-05-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.19792645318922106,
+      "log_loss": 0.9836091511677308,
+      "probabilities": {
+        "home": 0.367280678541529,
+        "draw": 0.2587603356398725,
+        "away": 0.37395898581859854
+      }
+    },
+    {
+      "match_id": "3225d1e2fe4b71362925ff5f",
+      "date": "2025-05-10",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3981227157747044,
+      "log_loss": 1.996974595304967,
+      "probabilities": {
+        "home": 0.6244343596313401,
+        "draw": 0.2398202931387528,
+        "away": 0.1357453472299069
+      }
+    },
+    {
+      "match_id": "51cc6384ee17395f5b0ee728",
+      "date": "2025-05-11",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.1444746365491836,
+      "log_loss": 0.7711052981198948,
+      "probabilities": {
+        "home": 0.4625015835609761,
+        "draw": 0.2629574841297805,
+        "away": 0.2745409323092435
+      }
+    },
+    {
+      "match_id": "b965b6b58522ffb155f75458",
+      "date": "2025-05-11",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3157635208766248,
+      "log_loss": 1.5524552052650056,
+      "probabilities": {
+        "home": 0.48140097005903737,
+        "draw": 0.3068715292613877,
+        "away": 0.2117275006795749
+      }
+    },
+    {
+      "match_id": "e08b8dcf29f01f0bd60453ec",
+      "date": "2025-05-11",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.49775532409462214,
+      "log_loss": 2.1342892288835253,
+      "probabilities": {
+        "home": 0.8453412039336423,
+        "draw": 0.11832866509155447,
+        "away": 0.036330130974803296
+      }
+    },
+    {
+      "match_id": "0a35c9dee9c2e163f8f5849a",
+      "date": "2025-05-11",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3388868497353003,
+      "log_loss": 1.6445582400348886,
+      "probabilities": {
+        "home": 0.5449147151451084,
+        "draw": 0.26198743800196983,
+        "away": 0.19309784685292208
+      }
+    },
+    {
+      "match_id": "c23d12d968cd9d04676cea93",
+      "date": "2025-05-11",
+      "training_cutoff": "2025-02-22",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.2504642657861017,
+      "log_loss": 1.2018862429661603,
+      "probabilities": {
+        "home": 0.443782688991494,
+        "draw": 0.30062662192313305,
+        "away": 0.2555906890853728
+      }
+    },
+    {
+      "match_id": "9653fb6fc6a053d2a1f7407f",
+      "date": "2025-05-16",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.0872556562169054,
+      "log_loss": 0.5402448490105773,
+      "probabilities": {
+        "home": 0.5826055845077359,
+        "draw": 0.2235265962116594,
+        "away": 0.19386781928060465
+      }
+    },
+    {
+      "match_id": "b86316a7f582e2b4512e2d28",
+      "date": "2025-05-16",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.06968491717876442,
+      "log_loss": 0.4586680232117616,
+      "probabilities": {
+        "home": 0.6321250609180336,
+        "draw": 0.23896834873372608,
+        "away": 0.12890659034824026
+      }
+    },
+    {
+      "match_id": "fcbe9e417b9997d4b4d195f9",
+      "date": "2025-05-18",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.040895737398750485,
+      "log_loss": 0.3176583202336857,
+      "probabilities": {
+        "home": 0.7278514380421649,
+        "draw": 0.21219902246509612,
+        "away": 0.05994953949273897
+      }
+    },
+    {
+      "match_id": "89f7f71a334979fb8af3683d",
+      "date": "2025-05-18",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.17153354952760622,
+      "log_loss": 0.881021579856401,
+      "probabilities": {
+        "home": 0.284505562860858,
+        "draw": 0.30113504295960675,
+        "away": 0.4143593941795354
+      }
+    },
+    {
+      "match_id": "a710c6d8472b8fb3a6ab7bda",
+      "date": "2025-05-18",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.33684048031599273,
+      "log_loss": 1.6100849695958686,
+      "probabilities": {
+        "home": 0.5585117246261104,
+        "draw": 0.2416176449469751,
+        "away": 0.1998706304269145
+      }
+    },
+    {
+      "match_id": "f8b4530b314ad193fb4cc1e6",
+      "date": "2025-05-18",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.1991563266324102,
+      "log_loss": 0.9969521158142011,
+      "probabilities": {
+        "home": 0.36900240556585495,
+        "draw": 0.3047276871370063,
+        "away": 0.3262699072971388
+      }
+    },
+    {
+      "match_id": "195681bea30f587c9610260c",
+      "date": "2025-05-18",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.10471997951709283,
+      "log_loss": 0.6093178506462946,
+      "probabilities": {
+        "home": 0.5437216419655406,
+        "draw": 0.2587580337912502,
+        "away": 0.19752032424320903
+      }
+    },
+    {
+      "match_id": "0a7d352dbc9aad8dd532c4a5",
+      "date": "2025-05-19",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.30928854996934224,
+      "log_loss": 1.4483513385802198,
+      "probabilities": {
+        "home": 0.23495733404419902,
+        "draw": 0.22451780642091537,
+        "away": 0.5405248595348856
+      }
+    },
+    {
+      "match_id": "e982fd64fe875be9e5ec13d5",
+      "date": "2025-05-20",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.12126504837382017,
+      "log_loss": 0.6769030657458363,
+      "probabilities": {
+        "home": 0.5081883838751496,
+        "draw": 0.26800950106217886,
+        "away": 0.22380211506267159
+      }
+    },
+    {
+      "match_id": "d041e91e680180d4acf0304c",
+      "date": "2025-05-20",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.12023891428256422,
+      "log_loss": 0.6712788440951447,
+      "probabilities": {
+        "home": 0.5110546005499974,
+        "draw": 0.27699451842190664,
+        "away": 0.21195088102809592
+      }
+    },
+    {
+      "match_id": "2f47c59007d742b8ed7aabae",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "胜",
+      "hit": true,
+      "brier": 0.024450083198870442,
+      "log_loss": 0.23891252490991866,
+      "probabilities": {
+        "home": 0.7874837645731493,
+        "draw": 0.159199236499348,
+        "away": 0.053316998927502815
+      }
+    },
+    {
+      "match_id": "02b9a61542adbea377728b24",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.17463305811790253,
+      "log_loss": 0.893791392877439,
+      "probabilities": {
+        "home": 0.3043387179346458,
+        "draw": 0.2865595388172611,
+        "away": 0.40910174324809323
+      }
+    },
+    {
+      "match_id": "1ce43ae9de6278f62b00da64",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.18129215751591618,
+      "log_loss": 0.9216073641250246,
+      "probabilities": {
+        "home": 0.30615497546636883,
+        "draw": 0.2959660341238451,
+        "away": 0.397878990409786
+      }
+    },
+    {
+      "match_id": "57ebaf63464becbbed892b76",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.3957183676433447,
+      "log_loss": 1.6922812858982716,
+      "probabilities": {
+        "home": 0.7150445848320778,
+        "draw": 0.18409906198432346,
+        "away": 0.10085635318359859
+      }
+    },
+    {
+      "match_id": "fef2e154960e25ab2812c122",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "胜",
+      "hit": false,
+      "brier": 0.2557805991129179,
+      "log_loss": 1.2457528043027888,
+      "probabilities": {
+        "home": 0.2877242265458283,
+        "draw": 0.29985009424884956,
+        "away": 0.41242567920532214
+      }
+    },
+    {
+      "match_id": "bf12ea2ea5d54e8b19cb44e6",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.3689033412207709,
+      "log_loss": 1.8347158256344367,
+      "probabilities": {
+        "home": 0.5742000967035693,
+        "draw": 0.266141037017302,
+        "away": 0.1596588662791286
+      }
+    },
+    {
+      "match_id": "66b9531a3deb94b89a533663",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.24785717123926732,
+      "log_loss": 1.2085727657604672,
+      "probabilities": {
+        "home": 0.403967625351349,
+        "draw": 0.29740919399331667,
+        "away": 0.2986231806553344
+      }
+    },
+    {
+      "match_id": "bda86e2db9a82b2b32d3bc86",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "负",
+      "hit": true,
+      "brier": 0.023278837489019284,
+      "log_loss": 0.23010909271468716,
+      "probabilities": {
+        "home": 0.04595041797710125,
+        "draw": 0.15960265261938422,
+        "away": 0.7944469294035146
+      }
+    },
+    {
+      "match_id": "3a6d971dfccf7d63cefedb2f",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "胜",
+      "actual": "负",
+      "hit": false,
+      "brier": 0.2616907524110135,
+      "log_loss": 1.2316990474070475,
+      "probabilities": {
+        "home": 0.48205435370576366,
+        "draw": 0.22614926590885367,
+        "away": 0.2917963803853826
+      }
+    },
+    {
+      "match_id": "b8ee7b964aba81cabc1e4ecd",
+      "date": "2025-05-25",
+      "training_cutoff": "2025-05-11",
+      "pick": "负",
+      "actual": "平",
+      "hit": false,
+      "brier": 0.276051989664806,
+      "log_loss": 1.353360037196286,
+      "probabilities": {
+        "home": 0.3312238585597937,
+        "draw": 0.25837066548152854,
+        "away": 0.4104054759586778
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "match_id": "721fb9ff2938d7513dd972a6",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "20e49fa73c34226cb0505c42",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "11df6469befe0cd57013a45f",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "4193aee4f631840fd5371cdc",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "428c2bda229dd111d385982a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9a052b72fa11b436fb644609",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a7079055eaf95c974423bec5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c72fd309e89df12891c7321b",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c5cf7b4d52fbe2463b5b9327",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "794f32f753b9a0c1aa636ade",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e741ca44c2833e3097dce417",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ca4ad8a2cbb3c19f748842b3",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "15e1313186dfd5933fa66513",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "28e82f0c89c090fe22f4374e",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "2dd368b62ca5a6bc6fb371be",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ab57401ff540b7b5908daab7",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9f29e22162cd9be4460f11b3",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e3f439e4a69bd9a502721df4",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f8f2008200e629bdd3deb376",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6dcd831f31b7ca5a2b4b8875",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "92e424e9aad5b945b56ca33a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "7751bd1e72d51c0a17e86765",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ad867ab41724f795d76a1edd",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5cf7467798465c81d12254a1",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9e8552b8052ca1c8cdde6b76",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f33aff22ecb7914c2e4f0289",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "dcd8341e31112f9cd51e4110",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "d9d36795873c6a92a69348d5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "15a684f2e916bb064118bba5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "596a2bdbbafd5c79c3fee636",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "7663600206abe459dbb7fe4d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "0f8453056b83fd8ab36e648c",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "65d633f8160350a631b3d8de",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ffefcf130fc789151aa9ba61",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e5f906098615dce6af25385e",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "760d83a891cf98f1c95d3a73",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "d9d9de1fc4450e5d688f59ff",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "92d74918ecc1dac3d85a407d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "4cb21ebdb462546ce81a3959",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6c7c42a37f1c8410255850d2",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "0132bd8931ab5699608a13f8",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9bad828b557fb1ddbb5c1413",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9212f27f66e04a758173503c",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "efc3d6308105445d1988e608",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "63414afc8f8a9b2eef4905f3",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5f11b8663442878b9483fc7d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5b320e540b430820721c7a6b",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3de108eb8e1c0010327ab525",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "18c49240e2185d9d1f439d0a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3c35522c051626fc148d0f23",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f1de46e31b6aa8e74c5fb663",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5f44d995d1567b0e8fff6743",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "0b41900619984c8ab1ebf713",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ae80fcd85190995636bec58c",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6676844d3cfa526d7ff61c62",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a009a8866c592be7b2a2f8b9",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e7e773036679d4d945d232cf",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e725586f4a1e637a442cfbb3",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "90401f3747a8624c017131a3",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "7094134cb71fc0f097f7c5b0",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "724fbb661794e26e961c7e41",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e62bc750d52ac63c81beb51f",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "47cb1182ffc675a54c72f38f",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "de5ef8607ebbf0d63943a72c",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ac30479dbd4f9180fc57a658",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9057a61d431f62706c595f97",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "2973f04bef3dec1cf09d76ef",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "88059dcb835a58ea595671fb",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6a6ab9fedd1adc5d22942f52",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f7b9d16c957899335e57bafe",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "b104b5eca8d13ef31fa24eb6",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "129d52fcd1eb531f5eaa1981",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "14c37a5d87bbab5416118c04",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "ba34bae645b81d28479469be",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c34e08f174ddecdd4d6ba430",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3d25e503156a75ebb97a8282",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5cf0e6b02a6571de6d155799",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3bc74d019a57be2c0aa4c0d1",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a55b0dd9a53545777e550fa0",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "8af0fa85907c5ccd071aaa77",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c61ca489428324fe3753930d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a62c5f6bc1aa8a84dbbe179a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "0fb0d9f989a1bd0d021dc376",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "deba1df768370f37299b5b51",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e35d332ca5cdcdcfd49d79b7",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5e4ff29255c850b0c9057b1a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a5ad0c3aceda052d8f32b843",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "eb6d432f8ed05418cada296a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "90b0c90bfc0b0a4e9334d12a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3b870225f1998670aba8da12",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3d16aec11673634458d786e5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "8b24aee214647039d18691eb",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "8ae86bb445c737954d1a8b78",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6c42dccdcabbb4e6156d96f5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "26bbfb599426cc36ebbed35e",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9c934927c403308c424b604a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "462eeead76d892244149edcb",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "33c6da1b1ed9dc44c3457496",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "df6c9d54b6c996e948a7f43a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "bcb489b52486eb5004f4c80d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "1ea0e4d15184211a539495ae",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "7ca596770ea958aba1b4deb7",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c0e265f5c3594f55305190eb",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "cb0e1f6a590924a9441b93e8",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "1e57bf2c667ce7e4af005bd1",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "1367fd9b1c106d0eb4e37555",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "97f8ce84d91b83f1b5025df4",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "09ac6d932db2760ea2864348",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "b590ace76319d2f6675c9190",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "07cfc5c7f82ac8f3caea002d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "eeb4d9efc3c6a6c2dcebad44",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "0aa700e35d557618c168ae82",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "519cd1d4c977574fce6a7102",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "58e0e03a7ae990d9bd48c594",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "7c5941ed8418dfec2d4bcb18",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "90720c2714504a921ca9a89f",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3545ae093b49895ecafbc528",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6f86decdaa425e7aebc6ffe2",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "92d69d604435ab6a2edf6615",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "a3944ebcdb4402545e9ce51a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c8aa52c7bfbca430b3aa9405",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "d029daf414beb498cef7ec0d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f6ae7acef4301d6a1e1051c8",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "b1fa83b07ff89d5fd21d02d4",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3870308e557ae3df793c7ead",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "1e3da78c51d9bcc868df2ac6",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "3e57c25f35c17bd562c146c7",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "2ea32614c768e00c43622114",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c22ab6eaa051b408183e8153",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "459bcb7f4598f59d4e3a7b75",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "533543c455581ada528c69d0",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f9c92f62431d4a60279c1e4b",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "471919a97f846907cd40f232",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5fa4fff419869aea4ebc324a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "291145ba40d03fbcdc9f81ec",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5a0c53a41ca39cd28809f21a",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f639edaf3c756fb8a76cf3c5",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c000d68c86fac04574ebf0cc",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "1737c76a7925b334c858c199",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "5c412bce0f93a656f9e42ffc",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "9b54b92039e7bed47d566ed7",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "6c89659c966507b1de33658d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e5138bb16cbeb7b72883466b",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "8db366a06dd9fc9a5f07791b",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "44f2b15b14667e0a86635a36",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "179fd881eb5173c5a4e089dc",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "b9f6d3d76445ad361dc0d77e",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "f1f917dd18ddb8e6def03cd8",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "d79ea6ef65cea81f0eb37b7d",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "aff6f12103140bb00c357cd2",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "c9f32f58dd5de82c31b14f85",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "41587647be58c3b023e90dbc",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "03e66590cd5c219526ce9753",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "cf7c0676b4bd5b84edf0b042",
+      "reason": "训练窗口不足"
+    },
+    {
+      "match_id": "e22eebdb0ac94f9ad0fbed85",
+      "reason": "比分矩阵出现负值或非有限值"
+    }
+  ],
+  "no_future_leakage": true
+}

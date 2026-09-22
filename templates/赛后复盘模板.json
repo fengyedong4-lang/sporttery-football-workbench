@@ -1,0 +1,97 @@
+{
+  "schema_version": 4,
+  "prediction_date": "YYYY-MM-DD",
+  "reviewed_at": null,
+  "version_selection_policy": "同日同编号仅使用开赛前合法finalized_at的最高formal版本；任一同版本存在不同正式记录时报冲突；新版本缺少的玩法不从旧版本补齐。",
+  "results": [
+    {
+      "match_number": "按正式预测中的比赛编号填写",
+      "reviewed_prediction_version": null,
+      "match_completion_status": "待核实",
+      "score_90": null,
+      "verified_90_minutes": false,
+      "extra_time_score": null,
+      "penalty_shootout_score": null,
+      "fact_confirmation": {
+        "status": "待核实",
+        "source_url": null,
+        "source_type": null,
+        "source_checked_at": null,
+        "confirmed_at": null,
+        "note": null
+      },
+      "official_settlement": {
+        "status": "待核实",
+        "source_url": null,
+        "source_checked_at": null,
+        "confirmed_at": null,
+        "note": "赛果事实确认与体彩官方结算确认分别记录；前者不得冒充后者。"
+      },
+      "source": {
+        "url": null,
+        "note": "说明核对来源及90分钟口径",
+        "checked_at": null
+      },
+      "statistics_eligibility": {
+        "result": {"included": false, "reason": "待核实"},
+        "handicap_result": {"included": false, "reason": "待核实"},
+        "score": {"included": false, "reason": "新两项记录不在预测范围；历史记录按冻结玩法判断"},
+        "total_goals": {"included": false, "reason": "新两项记录不在预测范围；历史记录按冻结玩法判断"}
+      },
+      "process": {
+        "goal_timeline": [],
+        "first_leader": null,
+        "equalized_or_reversed": null,
+        "red_cards": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries": [],
+        "substitutions": null,
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": null,
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null
+      },
+      "unavailable_fields": [],
+      "review": {
+        "error_categories": [],
+        "summary": null,
+        "next_round_adjustments": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "quality_note": null
+      }
+    }
+  ],
+  "evaluation_policy": {
+    "new_prediction_plays": ["result", "handicap_result"],
+    "effective_version": "同日同编号选择开赛前合法finalized_at的最高formal版本；任一同版本出现内容冲突时停止统计并报错。",
+    "no_cross_version_play_fill": "有效新版本缺少某玩法时，不从旧版本补齐。",
+    "historical_records": "按该场冻结时实际预测的玩法核对；历史四项记录保留比分、总进球命中统计，禁止按新规则删减。",
+    "not_requested_plays": "新两项记录的比分和总进球预测及命中兼容字段为null，不计0分、不算漏填、不进入命中分母。",
+    "actual_scores": "核实并保存90分钟实际比分以判断赛果；外部赛果事实确认与体彩官方结算确认分别保存。",
+    "postponed_or_unfinished": "延期、中止、取消、待补赛、未完成或90分钟未确认均不进入当前命中分母。",
+    "unoffered_play": "未开售或无正式唯一选项的玩法不进入分母。",
+    "combined_metrics": "跨日期分别统计两项共同口径和历史比分、总进球；不混合两项与四项的合计命中率。"
+  }
+}

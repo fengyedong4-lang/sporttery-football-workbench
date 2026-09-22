@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "effective_date": "2026-09-17",
+  "authority": "json",
+  "authoritative_files": [
+    "data/prediction_history.json",
+    "data/review_rules.json"
+  ],
+  "sqlite_status": "not_implemented",
+  "historical_metadata_note": "历史authoritative_database=football_predictions.sqlite3不代表当前主库，本文件为当前存储声明。",
+  "frozen_exports": "exports下冻结赛前文件为原始证据，历史JSON只允许按授权更新赛后字段。",
+  "derived_index": "data/review_rule_index.json",
+  "migration_policy": "SQLite迁移须另行授权并验证一致性，不静默双写。"
+}

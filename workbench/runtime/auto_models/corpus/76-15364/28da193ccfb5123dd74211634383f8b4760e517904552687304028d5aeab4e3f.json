@@ -1,0 +1,291 @@
+{
+  "content_sha256": "28da193ccfb5123dd74211634383f8b4760e517904552687304028d5aeab4e3f",
+  "content": {
+    "schema_version": 1,
+    "scope": {
+      "competition_id": "76",
+      "season_id": "15364",
+      "competition": "亚运男足",
+      "season_name": "2026",
+      "phase_id": "48665",
+      "phase_name": "Group Stage",
+      "source_id": "head:cb2971fb4a63768a3f04",
+      "team_identity_domain": "sporttery",
+      "competition_identity_domain": "vendor"
+    },
+    "collected_at": "2026-09-22T15:50:32.346587+00:00",
+    "fixture_id": "2041646",
+    "rows": [
+      {
+        "match_id": "2608885",
+        "match_date": "2026-09-20",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "2076",
+        "away_team_id": "2060",
+        "home_team": "吉尔吉亚",
+        "away_team": "日本亚",
+        "home_goals_90": 0,
+        "away_goals_90": 7,
+        "competition": "亚运男足",
+        "competition_id": "76",
+        "season_id": "15364",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:aed445c74603ae120aea",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2608887",
+        "match_date": "2026-09-16",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "2060",
+        "away_team_id": "2085",
+        "home_team": "日本亚",
+        "away_team": "中国港亚",
+        "home_goals_90": 2,
+        "away_goals_90": 0,
+        "competition": "亚运男足",
+        "competition_id": "76",
+        "season_id": "15364",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:aed445c74603ae120aea",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2608886",
+        "match_date": "2026-09-20",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "2064",
+        "home_team": "中国港亚",
+        "away_team": "泰国亚",
+        "home_goals_90": 1,
+        "away_goals_90": 5,
+        "competition": "亚运男足",
+        "competition_id": "76",
+        "season_id": "15364",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:aed445c74603ae120aea",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2608888",
+        "match_date": "2026-09-16",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "2064",
+        "away_team_id": "2076",
+        "home_team": "泰国亚",
+        "away_team": "吉尔吉亚",
+        "home_goals_90": 3,
+        "away_goals_90": 2,
+        "competition": "亚运男足",
+        "competition_id": "76",
+        "season_id": "15364",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:aed445c74603ae120aea",
+        "is_friendly": false
+      }
+    ],
+    "prior_rows": [],
+    "sources": [
+      {
+        "source_id": "head:cb2971fb4a63768a3f04",
+        "kind": "head",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041646&source=web",
+        "fetched_at": "2026-09-22T15:42:31.324960+00:00",
+        "source_updated_at": null,
+        "sha256": "cb2971fb4a63768a3f0488695e14a95f96fc66f96d04283839a754e533b55c18",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "recent:aed445c74603ae120aea",
+        "kind": "recent",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041646&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+        "fetched_at": "2026-09-22T15:42:31.582394+00:00",
+        "source_updated_at": null,
+        "sha256": "aed445c74603ae120aeaeb2c32d87b4e82760308b6f3ad09c89f4c2f06cfc2a4",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "h2h:8cef66bdc8aab1f3ef14",
+        "kind": "h2h",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041646&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+        "fetched_at": "2026-09-22T15:42:31.743465+00:00",
+        "source_updated_at": null,
+        "sha256": "8cef66bdc8aab1f3ef14f6fb49ffe77067871206ace0ad53154dba606e458fb0",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "future:e8385931971a539171fa",
+        "kind": "future",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041646&termLimits=4",
+        "fetched_at": "2026-09-22T15:42:31.891478+00:00",
+        "source_updated_at": null,
+        "sha256": "e8385931971a539171fa529e80ee28c568e6da3848b18dc34dacc656b10af30f",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "injuries:919081f6a0dcde57f96a",
+        "kind": "injuries",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041646",
+        "fetched_at": "2026-09-22T15:42:32.034966+00:00",
+        "source_updated_at": null,
+        "sha256": "919081f6a0dcde57f96a79a350ef8c7af840d485787a142d8e7ecf9b2e654b85",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "url": "https://www.jfa.jp/eng/national_team/u21_2026/asiangames_2026_men/groupA/match_page/m20.html",
+        "title": "Fixtures/Results | 20th Asian Games Aichi-Nagoya 2026 | U-21 2026",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:27.662603+00:00",
+        "source_level": "official",
+        "source_level_claimed": "official",
+        "source_level_verified": true,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:340ee958dcb5c22eb297",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.jfa.jp/eng/national_team/u21_2026/asiangames_2026_men/groupA/match_page/m20.html",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "c7c3143ab881c2228459df069c5974f6bc690f4ec6aeaa5eecaf7074d28ebfe1",
+        "content_bytes": 49257,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-340ee958dcb5c22eb297.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-340ee958dcb5c22eb297.receipt.json",
+        "fixture_ids": [
+          "2041646"
+        ],
+        "fixture_team_mapping": {
+          "2041646": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://fathailand.org/news-detail/A5ek4",
+        "title": "\"ธวัชชัย ดำรงอ่องตระกูล\" ให้สัมภาษณ์ ก่อนการแข่งขันฟุตบอลชาย ในมหกรรมเอเชียน เกมส์ 2026",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:33.739279+00:00",
+        "source_level": "other",
+        "source_level_claimed": "official",
+        "source_level_verified": false,
+        "team_mapping": [
+          "away"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:32ade52f5b3db94b0b40",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://fathailand.org/news-detail/A5ek4",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "b94c4829537ee268a4e089ca79f99003f611f65606c6b83f56aab3ba1b8b3534",
+        "content_bytes": 9536,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-32ade52f5b3db94b0b40.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-32ade52f5b3db94b0b40.receipt.json",
+        "fixture_ids": [
+          "2041646"
+        ],
+        "fixture_team_mapping": {
+          "2041646": [
+            "away"
+          ]
+        }
+      },
+      {
+        "url": "https://jfa.jp/national_team/u21_2026/asiangames_2026_men/preview_03.html",
+        "title": "プレビュー＆ピックアッププレーヤー③｜大会の見どころ｜第20回アジア競技大会（2026／愛知・名古屋）｜U-21｜日本代表｜JFA｜日本サッカー協会",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:34.908555+00:00",
+        "source_level": "official",
+        "source_level_claimed": "official",
+        "source_level_verified": true,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:f05cbef46a3bf04362d1",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://jfa.jp/national_team/u21_2026/asiangames_2026_men/preview_03.html",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "c8265d020c2a36b4f35b775a4f9b18aeeb1e326e76ba9beb5de5bef2aeb106f9",
+        "content_bytes": 71713,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-f05cbef46a3bf04362d1.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-f05cbef46a3bf04362d1.receipt.json",
+        "fixture_ids": [
+          "2041646"
+        ],
+        "fixture_team_mapping": {
+          "2041646": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://en.thairath.co.th/sport/thaifootball/changsuek/2956750",
+        "title": "Announced! 23-man Squad for Thailand U23 National Team to Compete in 2026 Asian Games",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:48.947199+00:00",
+        "source_level": "other",
+        "source_level_claimed": "major_media",
+        "source_level_verified": false,
+        "team_mapping": [
+          "away"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:c8c0d7a5f130c6b19a7d",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://en.thairath.co.th/sport/thaifootball/changsuek/2956750",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "a0126f4fa96248c001780398dab64f7973265d771feb42fd0e9c01eac02f0cf1",
+        "content_bytes": 20333,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-c8c0d7a5f130c6b19a7d.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-c8c0d7a5f130c6b19a7d.receipt.json",
+        "fixture_ids": [
+          "2041646"
+        ],
+        "fixture_team_mapping": {
+          "2041646": [
+            "away"
+          ]
+        }
+      }
+    ]
+  }
+}

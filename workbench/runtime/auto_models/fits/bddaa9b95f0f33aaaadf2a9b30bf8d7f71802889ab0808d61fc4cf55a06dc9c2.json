@@ -1,0 +1,331 @@
+{
+  "content": {
+    "fit_key": "bddaa9b95f0f33aaaadf2a9b30bf8d7f71802889ab0808d61fc4cf55a06dc9c2",
+    "model": {
+      "schema_version": 1,
+      "model_type": "competition_2025_cross_season_regularized_poisson_map",
+      "competition_id": "ext:j1",
+      "season_id": "2026/27",
+      "cutoff": "2026-09-22T15:08:09.853739+00:00",
+      "training_match_count": 660,
+      "valid_rows_sha256": "b8251a2d2c234320456a3fb3ab9497e9a2ec37363c0718f4d7ce9af2fcd1305d",
+      "excluded_rows": {},
+      "teams": [
+        "ext:j1:FC東京",
+        "ext:j1:京都",
+        "ext:j1:千葉",
+        "ext:j1:名古屋",
+        "ext:j1:岡山",
+        "ext:j1:川崎Ｆ",
+        "ext:j1:広島",
+        "ext:j1:新潟",
+        "ext:j1:東京Ｖ",
+        "ext:j1:柏",
+        "ext:j1:横浜FC",
+        "ext:j1:横浜FM",
+        "ext:j1:水戸",
+        "ext:j1:浦和",
+        "ext:j1:清水",
+        "ext:j1:湘南",
+        "ext:j1:町田",
+        "ext:j1:神戸",
+        "ext:j1:福岡",
+        "ext:j1:長崎",
+        "ext:j1:鹿島",
+        "ext:j1:Ｃ大阪",
+        "ext:j1:Ｇ大阪"
+      ],
+      "team_match_counts": {
+        "ext:j1:FC東京": 66,
+        "ext:j1:京都": 66,
+        "ext:j1:千葉": 28,
+        "ext:j1:名古屋": 66,
+        "ext:j1:岡山": 66,
+        "ext:j1:川崎Ｆ": 66,
+        "ext:j1:広島": 66,
+        "ext:j1:新潟": 38,
+        "ext:j1:東京Ｖ": 66,
+        "ext:j1:柏": 66,
+        "ext:j1:横浜FC": 38,
+        "ext:j1:横浜FM": 66,
+        "ext:j1:水戸": 28,
+        "ext:j1:浦和": 66,
+        "ext:j1:清水": 66,
+        "ext:j1:湘南": 38,
+        "ext:j1:町田": 66,
+        "ext:j1:神戸": 66,
+        "ext:j1:福岡": 66,
+        "ext:j1:長崎": 28,
+        "ext:j1:鹿島": 66,
+        "ext:j1:Ｃ大阪": 66,
+        "ext:j1:Ｇ大阪": 66
+      },
+      "baseline_rate": 1.2731060606060607,
+      "prior_center_source": "same_competition_verified_90_minute_results_since_2025",
+      "attack": {
+        "ext:j1:FC東京": 0.03342696145373975,
+        "ext:j1:京都": 0.15193022139492054,
+        "ext:j1:千葉": -0.15437405998320794,
+        "ext:j1:名古屋": 0.06900517226258367,
+        "ext:j1:岡山": -0.12299501874310821,
+        "ext:j1:川崎Ｆ": 0.281883952662059,
+        "ext:j1:広島": 0.14451008437019472,
+        "ext:j1:新潟": -0.21573851685252382,
+        "ext:j1:東京Ｖ": -0.47914687328228467,
+        "ext:j1:柏": 0.2196263296528327,
+        "ext:j1:横浜FC": -0.48124928555507135,
+        "ext:j1:横浜FM": 0.11394962635913032,
+        "ext:j1:水戸": -0.12604848584831535,
+        "ext:j1:浦和": 0.06912155388916696,
+        "ext:j1:清水": -0.19278084089129155,
+        "ext:j1:湘南": -0.2195213163669832,
+        "ext:j1:町田": 0.16800394515311246,
+        "ext:j1:神戸": 0.09090395993935256,
+        "ext:j1:福岡": -0.23226771416555,
+        "ext:j1:長崎": -0.0730867250779182,
+        "ext:j1:鹿島": 0.24089083008562234,
+        "ext:j1:Ｃ大阪": 0.19990787930011011,
+        "ext:j1:Ｇ大阪": 0.12458796152688177
+      },
+      "defense": {
+        "ext:j1:FC東京": 0.12067262830762089,
+        "ext:j1:京都": -0.012159954694012423,
+        "ext:j1:千葉": -0.32783688227251134,
+        "ext:j1:名古屋": -0.15892733808130316,
+        "ext:j1:岡山": 0.08879514912618776,
+        "ext:j1:川崎Ｆ": -0.14218164452678694,
+        "ext:j1:広島": 0.40434670947700196,
+        "ext:j1:新潟": -0.2761560693647629,
+        "ext:j1:東京Ｖ": 0.07955300883979399,
+        "ext:j1:柏": 0.1531778582089365,
+        "ext:j1:横浜FC": 0.10544612745988588,
+        "ext:j1:横浜FM": 0.0064297173300966294,
+        "ext:j1:水戸": -0.19395284406753807,
+        "ext:j1:浦和": 0.09561900855402278,
+        "ext:j1:清水": 0.04320521828488196,
+        "ext:j1:湘南": -0.21718229882429788,
+        "ext:j1:町田": 0.20273789825361724,
+        "ext:j1:神戸": 0.3247609168749221,
+        "ext:j1:福岡": 0.0842968986362586,
+        "ext:j1:長崎": -0.13013482581446767,
+        "ext:j1:鹿島": 0.31738890250994434,
+        "ext:j1:Ｃ大阪": -0.07415324060210496,
+        "ext:j1:Ｇ大阪": -0.10428759002204423
+      },
+      "fit_status": "regularized_poisson_map",
+      "optimizer": {
+        "used": true,
+        "method": "L-BFGS-B",
+        "converged": true,
+        "regularization_strength": 4.0,
+        "regularization_tuning": "fixed_engineering_hyperparameter_not_tuned",
+        "objective": 1852.9848227868545,
+        "iterations": 19,
+        "analytic_gradient": true
+      },
+      "venue_modelled": false,
+      "home_advantage_modelled": false,
+      "cross_competition_transfer": false,
+      "odds_used": false,
+      "probability_calibrated": false,
+      "generation_isolation": false
+    },
+    "evaluation": {
+      "competition_id": "ext:j1",
+      "season_id": "2026/27",
+      "min_train": 8,
+      "valid_match_count": 660,
+      "valid_rows_sha256": "b8251a2d2c234320456a3fb3ab9497e9a2ec37363c0718f4d7ce9af2fcd1305d",
+      "excluded_rows": {},
+      "denominator": 116,
+      "no_future_leakage": true,
+      "same_day_training_excluded": true,
+      "probability_calibrated": false,
+      "folds": [
+        {
+          "test_date": "2026-05-17",
+          "test_matches": 6,
+          "training_matches": 544,
+          "latest_training_date": "2026-05-16",
+          "training_rows_sha256": "7b5edb37c5a7b37ee51f790926d746e692b24156b531203c2dca1ca0cf290c14"
+        },
+        {
+          "test_date": "2026-05-22",
+          "test_matches": 1,
+          "training_matches": 550,
+          "latest_training_date": "2026-05-17",
+          "training_rows_sha256": "a8661e7850c89f43832134460e2f015b5fb66855220e6d25859c9780c5af034a"
+        },
+        {
+          "test_date": "2026-05-23",
+          "test_matches": 5,
+          "training_matches": 551,
+          "latest_training_date": "2026-05-22",
+          "training_rows_sha256": "ba8758a6c94b0bd6e37d20fc5ded2ea502dc06f5780212944afec97e7574c853"
+        },
+        {
+          "test_date": "2026-05-24",
+          "test_matches": 4,
+          "training_matches": 556,
+          "latest_training_date": "2026-05-23",
+          "training_rows_sha256": "242930bb157ac77ae8795e0d5e5c7dabf251a9111eb972d5a3a0a8f1213e8511"
+        },
+        {
+          "test_date": "2026-05-30",
+          "test_matches": 8,
+          "training_matches": 560,
+          "latest_training_date": "2026-05-24",
+          "training_rows_sha256": "6f36c8e939ab71dcd1e6e5479627b3e12c9b95024b4aa4fec46823bcbb9d301e"
+        },
+        {
+          "test_date": "2026-05-31",
+          "test_matches": 2,
+          "training_matches": 568,
+          "latest_training_date": "2026-05-30",
+          "training_rows_sha256": "41c0e390213734ee7a6e7810057a7b9549da3c54e274056f9ca8888b4a904307"
+        },
+        {
+          "test_date": "2026-06-06",
+          "test_matches": 10,
+          "training_matches": 570,
+          "latest_training_date": "2026-05-31",
+          "training_rows_sha256": "1a0afc24356399f1377e0002a0ee7c8613f2aad30f604fffdc4ce7f6c07c655a"
+        },
+        {
+          "test_date": "2026-08-07",
+          "test_matches": 2,
+          "training_matches": 580,
+          "latest_training_date": "2026-06-06",
+          "training_rows_sha256": "89019d1e3f99b354a13e369ade52c463a9246b6b82bb96955dbea9d339e928bb"
+        },
+        {
+          "test_date": "2026-08-08",
+          "test_matches": 6,
+          "training_matches": 582,
+          "latest_training_date": "2026-08-07",
+          "training_rows_sha256": "c6106d7f90c1b0a7dafbc9a557b6e84580f26f8ae661397923c39d3af39c56a9"
+        },
+        {
+          "test_date": "2026-08-09",
+          "test_matches": 2,
+          "training_matches": 588,
+          "latest_training_date": "2026-08-08",
+          "training_rows_sha256": "ddd53e66c4f85b617f43e5bdfdcaf21ebe19eb007bdaacb8d5ededc29bfd24a2"
+        },
+        {
+          "test_date": "2026-08-14",
+          "test_matches": 1,
+          "training_matches": 590,
+          "latest_training_date": "2026-08-09",
+          "training_rows_sha256": "ccf059f6aa272edaf535228969007c9b6f7bd708a58e5b57b37d3e609d98df98"
+        },
+        {
+          "test_date": "2026-08-15",
+          "test_matches": 9,
+          "training_matches": 591,
+          "latest_training_date": "2026-08-14",
+          "training_rows_sha256": "e8a9e78671bcb8c1fbcddee5c8e0ec3c2c2f66bf56d60523d97fcb44305eb821"
+        },
+        {
+          "test_date": "2026-08-21",
+          "test_matches": 2,
+          "training_matches": 600,
+          "latest_training_date": "2026-08-15",
+          "training_rows_sha256": "fbf1053d231af014bbba4913a30e39c5c31fe33a7f30d85be89a1fd4139690a5"
+        },
+        {
+          "test_date": "2026-08-22",
+          "test_matches": 7,
+          "training_matches": 602,
+          "latest_training_date": "2026-08-21",
+          "training_rows_sha256": "5454486138de2c3d5e11e6a845e60d188ea0e6d2ff867b3bb3c9460b8c4f55cb"
+        },
+        {
+          "test_date": "2026-08-23",
+          "test_matches": 1,
+          "training_matches": 609,
+          "latest_training_date": "2026-08-22",
+          "training_rows_sha256": "07705cb4f7dfad010bd1254f2eeade56075b6715a34da4f8cef8d63890a75766"
+        },
+        {
+          "test_date": "2026-08-29",
+          "test_matches": 10,
+          "training_matches": 610,
+          "latest_training_date": "2026-08-23",
+          "training_rows_sha256": "6ae67666178706e4a097698871009fb458a5f4d6e8eb5979e3bb39289fcc7761"
+        },
+        {
+          "test_date": "2026-09-02",
+          "test_matches": 10,
+          "training_matches": 620,
+          "latest_training_date": "2026-08-29",
+          "training_rows_sha256": "5ba97a2da5fb5e7640fcdedc44a76fa88bd052e9e3c191e4164e78c89dfad932"
+        },
+        {
+          "test_date": "2026-09-05",
+          "test_matches": 1,
+          "training_matches": 630,
+          "latest_training_date": "2026-09-02",
+          "training_rows_sha256": "f9ca7622325a70f694722e60806e2eb92c20f78a7fef30397f2c6c5da6cdb4a9"
+        },
+        {
+          "test_date": "2026-09-06",
+          "test_matches": 9,
+          "training_matches": 631,
+          "latest_training_date": "2026-09-05",
+          "training_rows_sha256": "dd9f0735527654bc4eecdbb5aad44f336638e82b42c7af100eaa4d1b88086c49"
+        },
+        {
+          "test_date": "2026-09-11",
+          "test_matches": 2,
+          "training_matches": 640,
+          "latest_training_date": "2026-09-06",
+          "training_rows_sha256": "57427d58075713d57a71e758d42b5a44d2d937541d62cc8b1c10d0263933e96f"
+        },
+        {
+          "test_date": "2026-09-12",
+          "test_matches": 6,
+          "training_matches": 642,
+          "latest_training_date": "2026-09-11",
+          "training_rows_sha256": "42dbc7260840f65ba1b0edff48079781e92dff9baf98cce9560129870b5c3293"
+        },
+        {
+          "test_date": "2026-09-13",
+          "test_matches": 2,
+          "training_matches": 648,
+          "latest_training_date": "2026-09-12",
+          "training_rows_sha256": "27ae5f21dedee32658fabaecd42a029d94b563fc0e3bd07a5838d06c44c65c7d"
+        },
+        {
+          "test_date": "2026-09-19",
+          "test_matches": 8,
+          "training_matches": 650,
+          "latest_training_date": "2026-09-13",
+          "training_rows_sha256": "eb887ef9204053c70670fbb522a6333875220c625af47feb67a16c569ab6a7df"
+        },
+        {
+          "test_date": "2026-09-20",
+          "test_matches": 2,
+          "training_matches": 658,
+          "latest_training_date": "2026-09-19",
+          "training_rows_sha256": "0f2e0d6dd5f0e634255434d4172aba8ce5e2dbddabedda141c3dec84214906c1"
+        }
+      ],
+      "source_availability_replayed": false,
+      "evaluation_type": "retrospective_time_split_by_match_date_not_point_in_time_source_archive",
+      "evaluation_window": "last_24_distinct_dates",
+      "status": "ok",
+      "brier": 0.586553602310525,
+      "log_loss": 0.9870787290164362,
+      "accuracy": 0.5862068965517241,
+      "baseline": {
+        "description": "same-prefix competition-season goal-rate only",
+        "brier": 0.6502732460097647,
+        "log_loss": 1.0727872786069201,
+        "accuracy": 0.4051724137931034,
+        "denominator": 116
+      }
+    }
+  },
+  "sha256": "fe95eb5ffec193a6d99504479f0b6170d27f9954a56cb75a07441b868c427b41"
+}

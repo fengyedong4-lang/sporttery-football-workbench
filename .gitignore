@@ -1,0 +1,18 @@
+# Local environments and generated application state
+**/.venv/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/.pytest_cache/
+**/*.pyc
+**/*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+workbench/runtime/
+# Local downloaded evidence and repeated archival backups
+data/reviews/
+exports/
+项目规则/

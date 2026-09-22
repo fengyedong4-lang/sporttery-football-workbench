@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "policy": "只允许显式一对一映射；未知队名拒绝预测，不使用模糊匹配",
+  "competitions": {
+    "英超": {
+      "阿森纳":"Arsenal","维拉":"Aston Villa","阿斯顿维拉":"Aston Villa","伯恩茅斯":"Bournemouth","布伦特":"Brentford","布赖顿":"Brighton","布莱顿":"Brighton","伯恩利":"Burnley","切尔西":"Chelsea","水晶宫":"Crystal Palace","埃弗顿":"Everton","富勒姆":"Fulham","利兹联":"Leeds","利物浦":"Liverpool","曼城":"Man City","曼联":"Man United","纽卡斯尔":"Newcastle","纽卡斯尔联":"Newcastle","诺丁汉":"Nott'm Forest","诺丁汉森林":"Nott'm Forest","桑德兰":"Sunderland","热刺":"Tottenham","托特纳姆热刺":"Tottenham","西汉姆":"West Ham","西汉姆联":"West Ham","狼队":"Wolves","伍尔弗汉普顿":"Wolves"
+    },
+    "英甲": {
+      "温布尔登":"AFC Wimbledon","巴恩斯利":"Barnsley","布莱克浦":"Blackpool","博尔顿":"Bolton","布拉德福德":"Bradford","伯顿":"Burton","加的夫城":"Cardiff","唐卡斯特":"Doncaster","埃克塞特":"Exeter","哈德斯菲尔德":"Huddersfield","莱顿东方":"Leyton Orient","林肯城":"Lincoln","卢顿":"Luton","曼斯菲尔德":"Mansfield","北安普敦":"Northampton","彼得堡联":"Peterboro","普利茅斯":"Plymouth","维尔港":"Port Vale","雷丁":"Reading","罗瑟汉姆":"Rotherham","斯蒂文尼奇":"Stevenage","斯托克港":"Stockport","维冈":"Wigan","威科姆":"Wycombe"
+    },
+    "德甲": {
+      "奥格斯堡":"Augsburg","拜仁":"Bayern Munich","拜仁慕尼黑":"Bayern Munich","多特蒙德":"Dortmund","法兰克福":"Ein Frankfurt","科隆":"FC Koln","弗赖堡":"Freiburg","汉堡":"Hamburg","海登海姆":"Heidenheim","霍芬海姆":"Hoffenheim","勒沃库森":"Leverkusen","门兴":"M'gladbach","门兴格拉德巴赫":"M'gladbach","美因茨":"Mainz","莱红牛":"RB Leipzig","莱比锡红牛":"RB Leipzig","圣保利":"St Pauli","斯图加特":"Stuttgart","柏林联合":"Union Berlin","不来梅":"Werder Bremen","云达不来梅":"Werder Bremen","沃夫斯堡":"Wolfsburg","沃尔夫斯堡":"Wolfsburg"
+    },
+    "德乙": {
+      "比勒费尔德":"Bielefeld","波鸿":"Bochum","不伦瑞克":"Braunschweig","达姆施塔":"Darmstadt","德累斯顿":"Dresden","埃沃斯堡":"Elversberg","埃尔弗斯堡":"Elversberg","杜塞尔多夫":"Fortuna Dusseldorf","菲尔特":"Greuther Furth","汉诺威":"Hannover","汉诺威96":"Hannover","柏林赫塔":"Hertha","基尔":"Holstein Kiel","荷尔斯泰因基尔":"Holstein Kiel","凯泽斯劳滕":"Kaiserslautern","卡斯鲁厄":"Karlsruhe","马格德堡":"Magdeburg","纽伦堡":"Nurnberg","帕德博恩":"Paderborn","普鲁士明斯特":"Preußen Münster","明斯特":"Preußen Münster","沙尔克04":"Schalke 04"
+    },
+    "意甲": {
+      "亚特兰大":"Atalanta","博洛尼亚":"Bologna","卡利亚里":"Cagliari","科莫":"Como","克雷莫纳":"Cremonese","佛罗伦萨":"Fiorentina","热那亚":"Genoa","国际米兰":"Inter","国米":"Inter","尤文图斯":"Juventus","拉齐奥":"Lazio","莱切":"Lecce","AC米兰":"Milan","那不勒斯":"Napoli","帕尔马":"Parma","比萨":"Pisa","罗马":"Roma","萨索洛":"Sassuolo","都灵":"Torino","乌迪内斯":"Udinese","维罗纳":"Verona"
+    },
+    "欧冠": {
+      "阿贾克斯":"Ajax","阿森纳":"Arsenal","亚特兰大":"Atalanta","毕尔巴鄂":"Athletic Club","马竞":"Atleti","马德里竞技":"Atleti","多特蒙德":"B. Dortmund","巴萨":"Barcelona","巴塞罗那":"Barcelona","拜仁":"Bayern München","拜仁慕尼黑":"Bayern München","本菲卡":"Benfica","博德闪耀":"Bodø/Glimt","切尔西":"Chelsea","布鲁日":"Club Brugge","哥本哈根":"Copenhagen","法兰克福":"Frankfurt","加拉塔萨":"Galatasaray","国际米兰":"Inter","尤文图斯":"Juventus","阿拉木图":"Kairat Almaty","勒沃库森":"Leverkusen","利物浦":"Liverpool","曼城":"Man City","马赛":"Marseille","摩纳哥":"Monaco","那不勒斯":"Napoli","纽卡斯尔":"Newcastle","奥林匹亚":"Olympiacos","埃因霍温":"PSV","帕福斯":"Pafos","巴黎圣曼":"Paris","巴黎圣日耳曼":"Paris","卡拉巴赫":"Qarabag","皇马":"Real Madrid","皇家马德里":"Real Madrid","斯拉维亚":"Slavia Praha","里斯本":"Sporting CP","葡萄牙体育":"Sporting CP","热刺":"Tottenham","圣吉联合":"Union SG","比利亚雷":"Villarreal"
+    },
+    "日职": {
+      "东京FC":"FC東京","FC东京":"FC東京","京都":"京都","名古屋鲸":"名古屋","名古屋鲸八":"名古屋","冈山绿雉":"岡山","川崎前锋":"川崎Ｆ","广岛三箭":"広島","新潟天鹅":"新潟","东京绿茵":"東京Ｖ","柏太阳神":"柏","横滨FC":"横浜FC","横滨水手":"横浜FM","浦和红钻":"浦和","清水鼓动":"清水","湘南海洋":"湘南","町田泽维":"町田","町田泽维亚":"町田","神户胜利":"神戸","神户胜利船":"神戸","福冈黄蜂":"福岡","鹿岛鹿角":"鹿島","大阪樱花":"Ｃ大阪","大阪钢巴":"Ｇ大阪","千叶市原":"千葉","水户蜀葵":"水戸","长崎航海":"長崎"
+    },
+    "世界杯": {
+      "阿尔及利亚":"Algeria","阿根廷":"Argentina","澳大利亚":"Australia","奥地利":"Austria","比利时":"Belgium","波黑":"Bosnia & Herzegovina","巴西":"Brazil","加拿大":"Canada","佛得角":"Cape Verde","哥伦比亚":"Colombia","克罗地亚":"Croatia","库拉索":"Curaçao","捷克":"Czech Republic","民主刚果":"DR Congo","厄瓜多尔":"Ecuador","埃及":"Egypt","英格兰":"England","法国":"France","德国":"Germany","加纳":"Ghana","海地":"Haiti","伊朗":"Iran","伊拉克":"Iraq","科特迪瓦":"Ivory Coast","日本":"Japan","约旦":"Jordan","墨西哥":"Mexico","摩洛哥":"Morocco","荷兰":"Netherlands","新西兰":"New Zealand","挪威":"Norway","巴拿马":"Panama","巴拉圭":"Paraguay","葡萄牙":"Portugal","卡塔尔":"Qatar","沙特":"Saudi Arabia","沙特阿拉伯":"Saudi Arabia","苏格兰":"Scotland","塞内加尔":"Senegal","南非":"South Africa","韩国":"South Korea","西班牙":"Spain","瑞典":"Sweden","瑞士":"Switzerland","突尼斯":"Tunisia","土耳其":"Turkey","美国":"USA","乌拉圭":"Uruguay","乌兹别克斯坦":"Uzbekistan"
+    }
+  }
+}

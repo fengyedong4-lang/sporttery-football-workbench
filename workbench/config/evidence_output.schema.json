@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["matches"],
+  "properties": {
+    "matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["match_id", "analysis_result", "analysis_handicap_result", "summary", "support_fact_ids", "counter_fact_ids", "counterevidence_effect", "missing", "confidence", "handicap_reason", "lesson_assessments"],
+        "properties": {
+          "match_id": {"type": "string"},
+          "analysis_result": {"enum": ["胜", "平", "负", null]},
+          "analysis_handicap_result": {"enum": ["让胜", "让平", "让负", null]},
+          "summary": {"type": "string"},
+          "support_fact_ids": {"type": "array", "items": {"type": "string"}},
+          "counter_fact_ids": {"type": "array", "items": {"type": "string"}},
+          "counterevidence_effect": {"type": "string"},
+          "missing": {"type": "array", "items": {"type": "string"}},
+          "confidence": {"enum": ["低", "中低"]},
+          "handicap_reason": {"type": "string"},
+          "lesson_assessments": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["lesson_id", "used", "reason"], "properties": {"lesson_id": {"type": "string"}, "used": {"type": "boolean"}, "reason": {"type": "string"}}}}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "policy": "只有显式登记的研究模型可被auto路由；新增或较新的模型不会自动接管",
+  "competitions": {
+    "英超": {"model": "epl-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2含整体进球基准；上一赛季同样本回测Poisson优于Dixon-Coles；当前赛季模型仍未校准"},
+    "英甲": {"model": "league-one-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2研究基准，待独立回测"},
+    "德甲": {"model": "bundesliga-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2研究基准，待独立回测"},
+    "德乙": {"model": "bundesliga2-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2研究基准，待独立回测"},
+    "意甲": {"model": "serie-a-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2研究基准，待独立回测"},
+    "欧冠": {"model": "ucl-2025-2026-poisson-v2", "status": "active_research", "selection_basis": "schema v2仅正赛模型；资格赛已归档但不自动路由"},
+    "日职": {"model": "j1-2025-2026-combined-poisson-v2", "status": "active_research", "selection_basis": "schema v2合并2025常规赛与2026特殊分区/排名赛，待独立回测"},
+    "世界杯": {"model": "world-cup-2026-poisson-v2", "status": "active_research", "neutral": true, "selection_basis": "schema v2中立场短赛制研究模型，未校准"}
+  }
+}

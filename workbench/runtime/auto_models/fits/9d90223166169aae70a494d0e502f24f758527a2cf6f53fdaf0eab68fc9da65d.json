@@ -1,0 +1,334 @@
+{
+  "content": {
+    "fit_key": "9d90223166169aae70a494d0e502f24f758527a2cf6f53fdaf0eab68fc9da65d",
+    "model": {
+      "schema_version": 1,
+      "model_type": "competition_season_regularized_poisson_map",
+      "competition_id": "fd:I1",
+      "season_id": "2627",
+      "cutoff": "2026-09-22T15:02:40.933398+00:00",
+      "training_match_count": 632,
+      "valid_rows_sha256": "b6056cc4d42997f52c1fb3f6421a3e19222b9e32469903d8f7ae7945533ba6c1",
+      "excluded_rows": {},
+      "teams": [
+        "fd:I1:Atalanta",
+        "fd:I1:Bologna",
+        "fd:I1:Cagliari",
+        "fd:I1:Como",
+        "fd:I1:Cremonese",
+        "fd:I1:Empoli",
+        "fd:I1:Fiorentina",
+        "fd:I1:Frosinone",
+        "fd:I1:Genoa",
+        "fd:I1:Inter",
+        "fd:I1:Juventus",
+        "fd:I1:Lazio",
+        "fd:I1:Lecce",
+        "fd:I1:Milan",
+        "fd:I1:Monza",
+        "fd:I1:Napoli",
+        "fd:I1:Parma",
+        "fd:I1:Pisa",
+        "fd:I1:Roma",
+        "fd:I1:Sassuolo",
+        "fd:I1:Torino",
+        "fd:I1:Udinese",
+        "fd:I1:Venezia",
+        "fd:I1:Verona"
+      ],
+      "team_match_counts": {
+        "fd:I1:Atalanta": 63,
+        "fd:I1:Bologna": 64,
+        "fd:I1:Cagliari": 63,
+        "fd:I1:Como": 63,
+        "fd:I1:Cremonese": 38,
+        "fd:I1:Empoli": 20,
+        "fd:I1:Fiorentina": 64,
+        "fd:I1:Frosinone": 5,
+        "fd:I1:Genoa": 63,
+        "fd:I1:Inter": 64,
+        "fd:I1:Juventus": 63,
+        "fd:I1:Lazio": 63,
+        "fd:I1:Lecce": 63,
+        "fd:I1:Milan": 64,
+        "fd:I1:Monza": 25,
+        "fd:I1:Napoli": 63,
+        "fd:I1:Parma": 63,
+        "fd:I1:Pisa": 38,
+        "fd:I1:Roma": 63,
+        "fd:I1:Sassuolo": 43,
+        "fd:I1:Torino": 63,
+        "fd:I1:Udinese": 63,
+        "fd:I1:Venezia": 25,
+        "fd:I1:Verona": 58
+      },
+      "baseline_rate": 1.228243670886076,
+      "prior_center_source": "same_competition_and_season_verified_90_minute_goals",
+      "attack": {
+        "fd:I1:Atalanta": 0.1961155038748025,
+        "fd:I1:Bologna": 0.11099968799867424,
+        "fd:I1:Cagliari": -0.07684076296782587,
+        "fd:I1:Como": 0.31056331408800336,
+        "fd:I1:Cremonese": -0.2786909118012307,
+        "fd:I1:Empoli": -0.3204205988878416,
+        "fd:I1:Fiorentina": 0.02395834061970371,
+        "fd:I1:Frosinone": 0.298131260248464,
+        "fd:I1:Genoa": -0.11187610951408747,
+        "fd:I1:Inter": 0.574269327150875,
+        "fd:I1:Juventus": 0.2562648267760408,
+        "fd:I1:Lazio": 0.031205563045783993,
+        "fd:I1:Lecce": -0.3878420680102102,
+        "fd:I1:Milan": 0.24628402367742916,
+        "fd:I1:Monza": -0.32223871257894443,
+        "fd:I1:Napoli": 0.2477691890209817,
+        "fd:I1:Parma": -0.3575755558200123,
+        "fd:I1:Pisa": -0.44039164339707043,
+        "fd:I1:Roma": 0.3179556345075535,
+        "fd:I1:Sassuolo": 0.08135182978858163,
+        "fd:I1:Torino": -0.05594936163159128,
+        "fd:I1:Udinese": -0.0437087999129807,
+        "fd:I1:Venezia": -0.3821735131172499,
+        "fd:I1:Verona": -0.5969033453416831
+      },
+      "defense": {
+        "fd:I1:Atalanta": 0.2789043247529898,
+        "fd:I1:Bologna": 0.05931434048402117,
+        "fd:I1:Cagliari": 0.006827616989560067,
+        "fd:I1:Como": 0.31064008490985817,
+        "fd:I1:Cremonese": -0.1324315489380041,
+        "fd:I1:Empoli": -0.3717745841722183,
+        "fd:I1:Fiorentina": -0.050768034241802755,
+        "fd:I1:Frosinone": 0.2531809278742382,
+        "fd:I1:Genoa": -0.02182064878819306,
+        "fd:I1:Inter": 0.21414690233584524,
+        "fd:I1:Juventus": 0.3033670973629287,
+        "fd:I1:Lazio": 0.17323183474039633,
+        "fd:I1:Lecce": -0.06504979948069059,
+        "fd:I1:Milan": 0.20242869402227381,
+        "fd:I1:Monza": -0.5257693594865789,
+        "fd:I1:Napoli": 0.32486043368754386,
+        "fd:I1:Parma": 0.0543088996868845,
+        "fd:I1:Pisa": -0.33665306078270796,
+        "fd:I1:Roma": 0.5257541699765634,
+        "fd:I1:Sassuolo": -0.06292790846337966,
+        "fd:I1:Torino": -0.12023481838459328,
+        "fd:I1:Udinese": -0.07003223191066554,
+        "fd:I1:Venezia": -0.15910954940462593,
+        "fd:I1:Verona": -0.11063371216700237
+      },
+      "fit_status": "regularized_poisson_map",
+      "optimizer": {
+        "used": true,
+        "method": "L-BFGS-B",
+        "converged": true,
+        "regularization_strength": 4.0,
+        "regularization_tuning": "fixed_engineering_hyperparameter_not_tuned",
+        "objective": 1692.6688411086793,
+        "iterations": 25,
+        "analytic_gradient": true
+      },
+      "venue_modelled": false,
+      "home_advantage_modelled": false,
+      "cross_competition_transfer": false,
+      "odds_used": false,
+      "probability_calibrated": false
+    },
+    "evaluation": {
+      "competition_id": "fd:I1",
+      "season_id": "2627",
+      "min_train": 8,
+      "valid_match_count": 632,
+      "valid_rows_sha256": "b6056cc4d42997f52c1fb3f6421a3e19222b9e32469903d8f7ae7945533ba6c1",
+      "excluded_rows": {},
+      "denominator": 76,
+      "no_future_leakage": true,
+      "same_day_training_excluded": true,
+      "probability_calibrated": false,
+      "folds": [
+        {
+          "test_date": "2026-05-10",
+          "test_matches": 5,
+          "training_matches": 556,
+          "latest_training_date": "2026-05-09",
+          "training_rows_sha256": "852bdf2a5096d639ffffd6253bdb1554b0e4395e133323d56207666d58ffdea1"
+        },
+        {
+          "test_date": "2026-05-11",
+          "test_matches": 1,
+          "training_matches": 561,
+          "latest_training_date": "2026-05-10",
+          "training_rows_sha256": "2f186dc8b2e99cffe4ef3fd4dd0d7ba9eb768719220d89b6626c238a4f95d376"
+        },
+        {
+          "test_date": "2026-05-17",
+          "test_matches": 10,
+          "training_matches": 562,
+          "latest_training_date": "2026-05-11",
+          "training_rows_sha256": "49a6d679daf1cdb6e08d86b842471f5fbef8921997218936de981a87f014a569"
+        },
+        {
+          "test_date": "2026-05-22",
+          "test_matches": 1,
+          "training_matches": 572,
+          "latest_training_date": "2026-05-17",
+          "training_rows_sha256": "248b943df3a02e7f7077c03844669cb412654e229ba69fb0379478abfb72d090"
+        },
+        {
+          "test_date": "2026-05-23",
+          "test_matches": 2,
+          "training_matches": 573,
+          "latest_training_date": "2026-05-22",
+          "training_rows_sha256": "c36e8da5e762f7877d4d25131ffc30d62f625d712b4bf6b56334b556856e9fe5"
+        },
+        {
+          "test_date": "2026-05-24",
+          "test_matches": 7,
+          "training_matches": 575,
+          "latest_training_date": "2026-05-23",
+          "training_rows_sha256": "97a6a95f33a70a858a07fda3ce22c7805f2af86873c1259026b6dd7efcf507a1"
+        },
+        {
+          "test_date": "2026-08-22",
+          "test_matches": 4,
+          "training_matches": 582,
+          "latest_training_date": "2026-05-24",
+          "training_rows_sha256": "844101da3f347cccb9ebaf6873e0f3ac7452c46dd18afa3ad173d20e6cca7def"
+        },
+        {
+          "test_date": "2026-08-23",
+          "test_matches": 4,
+          "training_matches": 586,
+          "latest_training_date": "2026-08-22",
+          "training_rows_sha256": "d2de2d1fafbb9fa6b97df1711d3c9599fd25790c5112c2a7b295957efe174332"
+        },
+        {
+          "test_date": "2026-08-24",
+          "test_matches": 2,
+          "training_matches": 590,
+          "latest_training_date": "2026-08-23",
+          "training_rows_sha256": "390492500ecf25e72ed7ddd145ae87b4b3e44949f951b3a912b1ad399f6fd080"
+        },
+        {
+          "test_date": "2026-08-28",
+          "test_matches": 1,
+          "training_matches": 592,
+          "latest_training_date": "2026-08-24",
+          "training_rows_sha256": "86b39d43bc66c79d55acf9af85b81baa9c4facbb3791430c8ad2bf34d4a151e7"
+        },
+        {
+          "test_date": "2026-08-29",
+          "test_matches": 4,
+          "training_matches": 593,
+          "latest_training_date": "2026-08-28",
+          "training_rows_sha256": "18e0cf17ab5a1f7691f9fd4294bf13ddb9f49212738e53aeaa15aab5cf69305c"
+        },
+        {
+          "test_date": "2026-08-30",
+          "test_matches": 3,
+          "training_matches": 597,
+          "latest_training_date": "2026-08-29",
+          "training_rows_sha256": "9558ce9fb6e23d8b6d741b370850766eb9dd8b8dd1b7bfa107713583f26a7750"
+        },
+        {
+          "test_date": "2026-08-31",
+          "test_matches": 2,
+          "training_matches": 600,
+          "latest_training_date": "2026-08-30",
+          "training_rows_sha256": "05dc1aa47be2b542044a6e1f5b37bb4c5cd92b0be880ab9f58ee12eaf0b31c4e"
+        },
+        {
+          "test_date": "2026-09-04",
+          "test_matches": 1,
+          "training_matches": 602,
+          "latest_training_date": "2026-08-31",
+          "training_rows_sha256": "d2253f7750d0d2580fe5eb26eb9e023d0840b79543c82ca06f5dc6d3c678f3e5"
+        },
+        {
+          "test_date": "2026-09-05",
+          "test_matches": 3,
+          "training_matches": 603,
+          "latest_training_date": "2026-09-04",
+          "training_rows_sha256": "c6635bbbb6918984d1c2919f096fd7c60dfb5134cc8ae56967a72f55c0e74457"
+        },
+        {
+          "test_date": "2026-09-06",
+          "test_matches": 4,
+          "training_matches": 606,
+          "latest_training_date": "2026-09-05",
+          "training_rows_sha256": "551a247e307ee6de2fb97b8cbf20a0a9454d1f85c238c0a7d3768a509f0ca94b"
+        },
+        {
+          "test_date": "2026-09-07",
+          "test_matches": 2,
+          "training_matches": 610,
+          "latest_training_date": "2026-09-06",
+          "training_rows_sha256": "89e5e4c35e25f2faf3e9e9fa17e2c7d50654c6b20c157d3076f3e33537274ff1"
+        },
+        {
+          "test_date": "2026-09-11",
+          "test_matches": 1,
+          "training_matches": 612,
+          "latest_training_date": "2026-09-07",
+          "training_rows_sha256": "3428da7df97a797d6b6ed12bfb100ae10ce76868a0e3a76319127c4bbb49fe74"
+        },
+        {
+          "test_date": "2026-09-12",
+          "test_matches": 3,
+          "training_matches": 613,
+          "latest_training_date": "2026-09-11",
+          "training_rows_sha256": "974ffdcfd803ec1b825dd94f2a9b91bcbac7751ccd2541b3fdf8787267cffcc6"
+        },
+        {
+          "test_date": "2026-09-13",
+          "test_matches": 3,
+          "training_matches": 616,
+          "latest_training_date": "2026-09-12",
+          "training_rows_sha256": "618e32d250ccc8ace38360d5e621a6173434837185ca5020ce3b6ed278517ee1"
+        },
+        {
+          "test_date": "2026-09-14",
+          "test_matches": 3,
+          "training_matches": 619,
+          "latest_training_date": "2026-09-13",
+          "training_rows_sha256": "cceeec2e63f709d9c3c23c4a2697c488d34668569696a2dbfe5f76d12ec41955"
+        },
+        {
+          "test_date": "2026-09-18",
+          "test_matches": 1,
+          "training_matches": 622,
+          "latest_training_date": "2026-09-14",
+          "training_rows_sha256": "ee41b512cf6e6c17c2ad18606aecc5a5a9b393f81071a2ad418fc6b1a2e3d7e6"
+        },
+        {
+          "test_date": "2026-09-19",
+          "test_matches": 4,
+          "training_matches": 623,
+          "latest_training_date": "2026-09-18",
+          "training_rows_sha256": "3271ce47382454ebaa35b37bd2e544a07e30739d68f2a6547d66ed3b8ac758c6"
+        },
+        {
+          "test_date": "2026-09-20",
+          "test_matches": 5,
+          "training_matches": 627,
+          "latest_training_date": "2026-09-19",
+          "training_rows_sha256": "bbaf6001b18864ee1628b446f1575244add81be66e870864718133b5896db940"
+        }
+      ],
+      "source_availability_replayed": false,
+      "evaluation_type": "retrospective_time_split_by_match_date_not_point_in_time_source_archive",
+      "evaluation_window": "last_24_distinct_dates",
+      "status": "ok",
+      "brier": 0.5595032373590182,
+      "log_loss": 0.9463508290372122,
+      "accuracy": 0.5921052631578947,
+      "baseline": {
+        "description": "same-prefix competition-season goal-rate only",
+        "brier": 0.6457767392943736,
+        "log_loss": 1.0657906144326186,
+        "accuracy": 0.40789473684210525,
+        "denominator": 76
+      }
+    }
+  },
+  "sha256": "c9d43e4ecba98f20f8951df12ea28e7be40642c8a7d410490a919e7775c2fbe8"
+}

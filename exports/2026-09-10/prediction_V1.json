@@ -1,0 +1,2929 @@
+{
+  "prediction_date": "2026-09-10",
+  "prediction_version": 1,
+  "state": "formal",
+  "generated_at": "2026-09-10T12:09:43+08:00",
+  "finalized_at": "2026-09-10T12:10:15+08:00",
+  "parent_version": null,
+  "amendment": {
+    "reason_category": null,
+    "reason_detail": null,
+    "changed_at": null,
+    "changes": []
+  },
+  "applied_review_rule_ids": [
+    23
+  ],
+  "rule_application_note": "逐条读取现有153条复盘规则及269条历史记录。规则23仅用于006葡超首发未确认的强弱对阵，独立方向与净胜判断已先保存，规则复核未改任何选项或评级；此规则仍为provisional，不声称增益。其余欧冠联赛阶段及解放者杯首回合没有联赛、赛制、强弱和触发条件全部匹配的可用规则；未套用规则26的国内联赛主让2球场景或规则40的弱进攻条件。",
+  "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+  "general_notes": "按2026-09-10中国体彩官方快照原顺序共7场，只出胜平负与让球胜平负。周四003/周四005胜平负未开售，仍保存独立方向判断并保留官方空值；不得视作当时可购买选项。全部最终首发尚未公布；固定奖金以出票时为准；术数关闭。 官方提示：周四006：比赛将在葡萄牙-特茹河畔阿尔韦卡举行。",
+  "matches": [
+    {
+      "sequence": 1,
+      "match_number": "周四001",
+      "competition": "欧冠",
+      "match_type": "联赛阶段",
+      "kickoff_time": "2026-09-11T00:45:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "费内巴切",
+      "away_team": "罗马",
+      "strength_type": "意甲罗马整体阵容及开季攻防占优，费内巴切有土超上游及欧冠资格赛竞争力，非单方面弱旅",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": 1,
+        "home_points": 6,
+        "away_points": 9,
+        "matches_played": {
+          "home": 4,
+          "away": 3
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-05",
+              "venue": "主",
+              "opponent": "贝西克塔斯",
+              "score_90": "1:2",
+              "competition": "土超"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "客",
+              "opponent": "萨姆松体育",
+              "score_90": "2:0",
+              "competition": "土超"
+            },
+            {
+              "date": "2026-08-26",
+              "venue": "客",
+              "opponent": "里昂",
+              "score_90": "2:1",
+              "competition": "欧冠资格赛"
+            },
+            {
+              "date": "2026-08-22",
+              "venue": "主",
+              "opponent": "科尼亚体育",
+              "score_90": "4:2",
+              "competition": "土超"
+            },
+            {
+              "date": "2026-08-18",
+              "venue": "主",
+              "opponent": "里昂",
+              "score_90": "1:1",
+              "competition": "欧冠资格赛"
+            },
+            {
+              "date": "2026-08-15",
+              "venue": "客",
+              "opponent": "根克勒比利吉",
+              "score_90": "1:2",
+              "competition": "土超"
+            },
+            {
+              "date": "2026-08-11",
+              "venue": "客",
+              "opponent": "格拉茨风暴",
+              "score_90": "1:0",
+              "competition": "欧冠资格赛"
+            },
+            {
+              "date": "2026-08-05",
+              "venue": "主",
+              "opponent": "格拉茨风暴",
+              "score_90": "2:0",
+              "competition": "欧冠资格赛"
+            },
+            {
+              "date": "2026-07-29",
+              "venue": "客",
+              "opponent": "扎布热矿工",
+              "score_90": "1:1",
+              "competition": "欧冠资格赛"
+            },
+            {
+              "date": "2026-07-21",
+              "venue": "主",
+              "opponent": "扎布热矿工",
+              "score_90": "1:0",
+              "competition": "欧冠资格赛"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-05",
+              "venue": "主",
+              "opponent": "亚特兰大",
+              "score_90": "2:1",
+              "competition": "意甲"
+            },
+            {
+              "date": "2026-08-31",
+              "venue": "客",
+              "opponent": "莱切",
+              "score_90": "4:0",
+              "competition": "意甲"
+            },
+            {
+              "date": "2026-08-24",
+              "venue": "主",
+              "opponent": "佛罗伦萨",
+              "score_90": "4:0",
+              "competition": "意甲"
+            }
+          ],
+          "formal_matches_only": true,
+          "sample_note": "罗马本季3场全胜进10失1；费内巴切近10正式赛6胜2平2负、进16失9；其中土超4场2胜2负、进8失6、按赛果得6分。8/15根克勒比利吉2:1费内巴切，初筛主客转录错误已依Goal逐场裁决；排名仍待官方确认。欧冠资格赛与国内联赛强度分开。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "双方近5/10及同主客正式交锋完整序列未能可靠取得；不使用未经确认的首次交锋说法。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "罗马本季2个主场全胜、唯一联赛客场胜莱切；费内巴切国内两个主场1胜1负、进5失4，两个客场1胜1负、进3失2；本届资格赛三个主场2胜1平，不能视作薄弱主场。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA9/9队报：费内巴切Oosterwolde腿后肌缺阵，Asensio大腿伤存疑；罗马Pellegrini髋/大腿伤缺，亦未入罗马官方本场名单。Dybala/Soule/Malen和主力门将Svilar在名单内，但未确认首发。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA明确费内巴切Guendouzi停赛；罗马该队报未列停赛，不能等同全队伤停完整排除。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无两回合总比分"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "罗马9/13客战都灵；费内巴切9/14客战加济安泰普（公共赛历）；双方约3天后续联赛，罗马连续客场并赴伊斯坦布尔。未确认大轮换。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "罗马9/13客战都灵；费内巴切9/14客战加济安泰普（公共赛历）；双方约3天后续联赛，罗马连续客场并赴伊斯坦布尔。未确认大轮换。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "罗马前三场多点得分，亚特兰大一战先失球后补时逆转，后程调整有事实支持；费内巴切中场停赛可能减弱抗压，但主场推进与反击仍是客队风险。战术影响属定性推断。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高，主队反击与客队后程调整并存",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2188cf675017-df8325ec95c3-1000--starting-and-possible-line-ups-and-team-news/",
+            "note": "本场伤停与预计阵容，预计不等于最终",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/news/75911/the-giallorossi-squad-for-fenerbahce-roma",
+            "note": "本场名单",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/men/standings",
+            "note": "当前意甲积分",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/men/results",
+            "note": "当前三场联赛",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/news/75896/gasperinis-comments-after-romas-last-gasp-triumph-against-atalanta",
+            "note": "逆转过程和终结反证",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/news/75547/dates-and-kick-off-times-for-the-first-five-serie-a-matchdays",
+            "note": "未来联赛赛程",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.goal.com/en-gb/team/fenerbahce/fixtures-results/8lroq0cbhdxj8124qtxwrhvmm",
+            "note": "逐场核查近10正式赛及未来赛程；8/15为费内巴切客负，进失球由脚本重算",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T12:08:15+08:00"
+          }
+        ],
+        "standings_note": "罗马意甲3场9分、第1、进10失1；费内巴切按已核验4场联赛2胜2负得6分，精确实时排名尚未获官方确认，不采用初筛的3场6分。欧冠首轮均0分。",
+        "venue": "具体球场未单独核实"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "奖金可见",
+          "official_win_odds": 3.25,
+          "official_draw_odds": 3.45,
+          "official_loss_odds": 1.88
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": 1,
+          "handicap_win_odds": 1.69,
+          "handicap_draw_odds": 3.65,
+          "handicap_loss_odds": 3.8
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041377"
+      },
+      "prediction": {
+        "predicted_result": "负",
+        "predicted_handicap_result": "让平",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "罗马开季三场全胜、进10失1，已公布远征名单保留主要进攻骨架；费内巴切中场Guendouzi停赛、Oosterwolde伤缺，使中路保护与后场接应削弱。费内巴切资格赛主场2胜1平及主场环境是实质反证，故仅中等信心选择罗马取胜。",
+        "match_openness": "中高，主队反击与客队后程调整并存",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队+1：主队不败为让胜，客队恰好赢1球为让平，客队赢2球以上为让负。费内巴切三场资格赛主场有持续抵抗，罗马刚对较强对手仅在末段一球逆转，客队一球优势为本场首选净胜档；两场四球大胜及主队后场减员支持2球以上尾部，但对手与场地不同不能照搬。让平是低信心的窄区间选择，不由唯一比分推导。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "意甲罗马整体阵容及开季攻防占优，费内巴切有土超上游及欧冠资格赛竞争力，非单方面弱旅",
+          "近期5至10场攻防状态": "罗马本季3场全胜进10失1；费内巴切近10正式赛6胜2平2负、进16失9；其中土超4场2胜2负、进8失6、按赛果得6分。8/15根克勒比利吉2:1费内巴切，初筛主客转录错误已依Goal逐场裁决；排名仍待官方确认。欧冠资格赛与国内联赛强度分开。",
+          "主客场表现": "罗马本季2个主场全胜、唯一联赛客场胜莱切；费内巴切国内两个主场1胜1负、进5失4，两个客场1胜1负、进3失2；本届资格赛三个主场2胜1平，不能视作薄弱主场。",
+          "当前积分排名及争冠保级晋级形势": "罗马意甲3场9分、第1、进10失1；费内巴切按已核验4场联赛2胜2负得6分，精确实时排名尚未获官方确认，不采用初筛的3场6分。欧冠首轮均0分。",
+          "小组积分及出线条件": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无两回合总比分",
+          "杯赛首回合或次回合总比分": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无两回合总比分",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "罗马9/13客战都灵；费内巴切9/14客战加济安泰普（公共赛历）；双方约3天后续联赛，罗马连续客场并赴伊斯坦布尔。未确认大轮换。",
+          "未来3至5天关键赛程": "罗马9/13客战都灵；费内巴切9/14客战加济安泰普（公共赛历）；双方约3天后续联赛，罗马连续客场并赴伊斯坦布尔。未确认大轮换。",
+          "伤停停赛及预计首发": "UEFA9/9队报：费内巴切Oosterwolde腿后肌缺阵，Asensio大腿伤存疑；罗马Pellegrini髋/大腿伤缺，亦未入罗马官方本场名单。Dybala/Soule/Malen和主力门将Svilar在名单内，但未确认首发。 UEFA明确费内巴切Guendouzi停赛；罗马该队报未列停赛，不能等同全队伤停完整排除。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "罗马前三场多点得分，亚特兰大一战先失球后补时逆转，后程调整有事实支持；费内巴切中场停赛可能减弱抗压，但主场推进与反击仍是客队风险。战术影响属定性推断。",
+          "定位球防反击防高空球能力": "罗马前三场多点得分，亚特兰大一战先失球后补时逆转，后程调整有事实支持；费内巴切中场停赛可能减弱抗压，但主场推进与反击仍是客队风险。战术影响属定性推断。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "罗马三轮仅丢1球支持防守，但费内巴切近10场均进球且欧战主场能创造威胁，不能自动附带客队零封。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "UEFA明确费内巴切Guendouzi停赛；罗马该队报未列停赛，不能等同全队伤停完整排除。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "罗马9/13客战都灵；费内巴切9/14客战加济安泰普（公共赛历）；双方约3天后续联赛，罗马连续客场并赴伊斯坦布尔。未确认大轮换。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "双方近5/10及同主客正式交锋完整序列未能可靠取得；不使用未经确认的首次交锋说法。",
+          "领先后收缩崩盘或被逆转倾向": "罗马刚在先落后后逆转，证明能追分，不能由3连胜推定领先后一定稳控；费内巴切领先后控制的完整过程未获取。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "负",
+        "handicap_result": "让平",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队+1：主队不败为让胜，客队恰好赢1球为让平，客队赢2球以上为让负。费内巴切三场资格赛主场有持续抵抗，罗马刚对较强对手仅在末段一球逆转，客队一球优势为本场首选净胜档；两场四球大胜及主队后场减员支持2球以上尾部，但对手与场地不同不能照搬。让平是低信心的窄区间选择，不由唯一比分推导。",
+        "clean_sheet_assessment": "罗马三轮仅丢1球支持防守，但费内巴切近10场均进球且欧战主场能创造威胁，不能自动附带客队零封。",
+        "strong_side_not_win_path": "费内巴切资格赛主场不败；若其中场替代方案能推进、Asensio可出场并形成反击，罗马短周转客场可能被拖平或失利。该反证把客胜从高信心降为中，并压低大净胜判断。",
+        "counter_evidence": "费内巴切资格赛主场不败；若其中场替代方案能推进、Asensio可出场并形成反击，罗马短周转客场可能被拖平或失利。该反证把客胜从高信心降为中，并压低大净胜判断。",
+        "draw_positive_evidence": "主队欧战主场已有平局及持续得分可支持追平路径；但罗马当前攻防与人员完整性优势仍使客胜先于平，未因客场风险自动改选平。",
+        "lineup_change_triggers": "核实费内巴切中场替代人员和Asensio状态、罗马前场及中卫实际首发；仅实质变化且未开球才另建版本。",
+        "handicap_confidence": "低",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "负",
+          "平",
+          "胜"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": "负",
+        "cold_tag": false,
+        "cold_basis": "与最低奖金方向一致；只作独立判断后的标签。",
+        "independent_pre_rule_assessment": {
+          "result": "负",
+          "handicap_result": "让平",
+          "confidence": "中",
+          "handicap_confidence": "低",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T00:45:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "负",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041377,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "交锋5/10完整序列",
+        "未发布最终首发",
+        "完整犯规/定位球/xG序列",
+        "开球天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 2,
+      "match_number": "周四002",
+      "competition": "欧冠",
+      "match_type": "联赛阶段",
+      "kickoff_time": "2026-09-11T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "科莫",
+      "away_team": "莱红牛",
+      "strength_type": "科莫意甲上季第4且本季多点进攻延续，莱比锡德甲层级与欧战经验提供反向竞争力",
+      "pre_match_facts": {
+        "home_rank": 4,
+        "away_rank": 8,
+        "home_points": 7,
+        "away_points": 3,
+        "matches_played": {
+          "home": 3,
+          "away": 2
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-04",
+              "venue": "客",
+              "opponent": "热那亚",
+              "score_90": "4:1",
+              "competition": "意甲"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "客",
+              "opponent": "那不勒斯",
+              "score_90": "2:1",
+              "competition": "意甲"
+            },
+            {
+              "date": "2026-08-22",
+              "venue": "客",
+              "opponent": "乌迪内斯",
+              "score_90": "1:1",
+              "competition": "意甲"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-05",
+              "venue": "客",
+              "opponent": "不来梅",
+              "score_90": "1:3",
+              "competition": "德甲"
+            },
+            {
+              "date": "2026-08-29",
+              "venue": "主",
+              "opponent": "门兴",
+              "score_90": "3:0",
+              "competition": "德甲"
+            }
+          ],
+          "formal_matches_only": true,
+          "sample_note": "科莫本季3场2胜1平且场场失球；莱比锡2轮1胜1负。新赛季同口径不足5场，不混入友谊赛或把符号form填成精确走势。 德甲官方上轮xG不来梅1.02、莱比锡1.65，客队判罚点球被VAR撤销，不能将1:3等同机会被全面压制。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "莱比锡官方确认首次正式交锋；无近5/10同主客正式样本。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "科莫三场联赛均客场，本季正式主场暂无样本；莱比锡唯一联赛客场败不来梅。科莫回到Sinigaglia带来环境帮助，但无法用不存在的本季主场连胜支撑。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA队报科莫未列确定伤缺或疑问，不等于保证全员；莱比锡Baumgartner与Reitz缺阵。Gruda、Lukeba、Romulo在UEFA早版为伤疑，9/9俱乐部称参加最后合练，故更新为恢复训练/出场待定。Ouedraogo恢复合练可能入选，未确认最终首发。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "可读官方队报未列本场停赛；最终名单未公布。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "2026/27欧冠联赛阶段第1轮；两队阶段0赛0分，科莫队史欧冠正赛首秀"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "科莫9/14主战帕尔马（公共赛历），莱比锡9/13主战汉堡（德甲赛程），均约3天短周转；科莫此前6天休整，莱比锡约5天且赴意大利。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "科莫9/14主战帕尔马（公共赛历），莱比锡9/13主战汉堡（德甲赛程），均约3天短周转；科莫此前6天休整，莱比锡约5天且赴意大利。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "科莫对热那亚通过远射、边路传递和反击多点得分，落后后上半场反超，Kean替补首秀助攻增强进攻选项；莱比锡回归训练球员提高防线/持球上限，科莫中后场不能因上场大胜忽略被反击。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高，双方有主动进攻与失球路径",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2188cf675017-df8325ec95c3-1000--starting-and-possible-line-ups-and-team-news/",
+            "note": "伤停早版与预计阵容",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.comofootball.com/match-report-genoa-como-1-4/",
+            "note": "正式战报",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://comofootball.com/en/napoli-como-1-2-match-report/",
+            "note": "正式战报",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://comofootball.com/en/udinese-v-como-1-1-match-report/",
+            "note": "正式战报",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.asroma.com/en/men/standings",
+            "note": "当前意甲积分",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://rbleipzig.com/en/news/rb-leipzig-squad-update-2026-27-season-team-news-injuries-suspensions",
+            "note": "9/9最后训练人员更新",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://rbleipzig.com/en/news/rb-leipzig-champions-league-fixtures-league-phase-2026-27",
+            "note": "首次交锋、开球与场地",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/rb-leipzig",
+            "note": "联赛赛果与日程",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.bundesliga.com/en/bundesliga/news/werder-bremen-rb-leipzig-match-report-highlights-matchday-2-fullkrug-39043",
+            "note": "最近客场官方战报与xG、VAR；反证单看比分判断全面劣势",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T12:08:15+08:00"
+          }
+        ],
+        "standings_note": "科莫意甲3场7分第4，进7失3；莱比锡德甲2场3分第8，进4失3。",
+        "venue": "意大利科莫，Stadio Giuseppe Sinigaglia（莱比锡官方欧冠赛程）"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "奖金可见",
+          "official_win_odds": 1.62,
+          "official_draw_odds": 3.91,
+          "official_loss_odds": 3.9
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": -1,
+          "handicap_win_odds": 2.79,
+          "handicap_draw_odds": 3.7,
+          "handicap_loss_odds": 2.0
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041378"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让平",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "科莫三轮客场取得2胜1平、进7球，最近落后仍反超体现推进和后程得分能力；本场阵容消息相对完整，莱比锡Baumgartner、Reitz缺阵。回到主场后仍略取科莫胜，但其本季没有主场样本，且莱比锡上轮xG占优，优势应明显打折。",
+        "match_openness": "中高，双方有主动进攻与失球路径",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队-1：净胜2球以上让胜，恰好赢1球让平，不胜让负。科莫赢那不勒斯一球与莱比锡最近仍能创造1.65 xG、数名球员恢复训练共同压缩实力差，选择主队一球优势这一首选获胜区间。科莫上轮三球大胜支持2球以上反向路径，但并不代表能持续压制莱比锡；不胜路径同样显著，故窄区间仅低信心。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "科莫意甲上季第4且本季多点进攻延续，莱比锡德甲层级与欧战经验提供反向竞争力",
+          "近期5至10场攻防状态": "科莫本季3场2胜1平且场场失球；莱比锡2轮1胜1负。新赛季同口径不足5场，不混入友谊赛或把符号form填成精确走势。 德甲官方上轮xG不来梅1.02、莱比锡1.65，客队判罚点球被VAR撤销，不能将1:3等同机会被全面压制。",
+          "主客场表现": "科莫三场联赛均客场，本季正式主场暂无样本；莱比锡唯一联赛客场败不来梅。科莫回到Sinigaglia带来环境帮助，但无法用不存在的本季主场连胜支撑。",
+          "当前积分排名及争冠保级晋级形势": "科莫意甲3场7分第4，进7失3；莱比锡德甲2场3分第8，进4失3。",
+          "小组积分及出线条件": "2026/27欧冠联赛阶段第1轮；两队阶段0赛0分，科莫队史欧冠正赛首秀",
+          "杯赛首回合或次回合总比分": "2026/27欧冠联赛阶段第1轮；两队阶段0赛0分，科莫队史欧冠正赛首秀",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "科莫9/14主战帕尔马（公共赛历），莱比锡9/13主战汉堡（德甲赛程），均约3天短周转；科莫此前6天休整，莱比锡约5天且赴意大利。",
+          "未来3至5天关键赛程": "科莫9/14主战帕尔马（公共赛历），莱比锡9/13主战汉堡（德甲赛程），均约3天短周转；科莫此前6天休整，莱比锡约5天且赴意大利。",
+          "伤停停赛及预计首发": "UEFA队报科莫未列确定伤缺或疑问，不等于保证全员；莱比锡Baumgartner与Reitz缺阵。Gruda、Lukeba、Romulo在UEFA早版为伤疑，9/9俱乐部称参加最后合练，故更新为恢复训练/出场待定。Ouedraogo恢复合练可能入选，未确认最终首发。 可读官方队报未列本场停赛；最终名单未公布。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "科莫对热那亚通过远射、边路传递和反击多点得分，落后后上半场反超，Kean替补首秀助攻增强进攻选项；莱比锡回归训练球员提高防线/持球上限，科莫中后场不能因上场大胜忽略被反击。",
+          "定位球防反击防高空球能力": "科莫对热那亚通过远射、边路传递和反击多点得分，落后后上半场反超，Kean替补首秀助攻增强进攻选项；莱比锡回归训练球员提高防线/持球上限，科莫中后场不能因上场大胜忽略被反击。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "科莫三轮进7失3但无完整xG序列；莱比锡上一场xG1.65对1.02、实际1:3，终结结果和机会量方向不同。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "可读官方队报未列本场停赛；最终名单未公布。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "科莫9/14主战帕尔马（公共赛历），莱比锡9/13主战汉堡（德甲赛程），均约3天短周转；科莫此前6天休整，莱比锡约5天且赴意大利。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "莱比锡官方确认首次正式交锋；无近5/10同主客正式样本。",
+          "领先后收缩崩盘或被逆转倾向": "科莫先失球仍能持续追分，前3轮均丢球；莱比锡客场刚失3球，但只有一场样本不能认定持续崩盘。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "胜",
+        "handicap_result": "让平",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队-1：净胜2球以上让胜，恰好赢1球让平，不胜让负。科莫赢那不勒斯一球与莱比锡最近仍能创造1.65 xG、数名球员恢复训练共同压缩实力差，选择主队一球优势这一首选获胜区间。科莫上轮三球大胜支持2球以上反向路径，但并不代表能持续压制莱比锡；不胜路径同样显著，故窄区间仅低信心。",
+        "clean_sheet_assessment": "科莫前三轮每场失球，莱比锡上轮比分失利但创造机会更多；科莫胜不绑定零封。",
+        "strong_side_not_win_path": "莱比锡上轮不来梅1.02、己方1.65 xG，点球判罚被VAR撤销，不能用1:3认定被全面压制；Gruda、Lukeba、Romulo恢复训练但能否首发未定。客队可利用科莫连续失球抢分，该反证使主胜仅中低。",
+        "counter_evidence": "莱比锡上轮不来梅1.02、己方1.65 xG，点球判罚被VAR撤销，不能用1:3认定被全面压制；Gruda、Lukeba、Romulo恢复训练但能否首发未定。客队可利用科莫连续失球抢分，该反证使主胜仅中低。",
+        "draw_positive_evidence": "莱比锡创造机会能力和科莫持续失球支持追平；但科莫当前连续转换机会、进攻人员状态及主场回归仍使主胜略先，没有将信息不足直接当成平局依据。",
+        "lineup_change_triggers": "莱比锡三名恢复训练球员的入选及首发、科莫新援和进攻主力实际安排。",
+        "handicap_confidence": "低",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": "胜",
+        "cold_tag": false,
+        "cold_basis": "与最低奖金方向一致；只作独立判断后的标签。",
+        "independent_pre_rule_assessment": {
+          "result": "胜",
+          "handicap_result": "让平",
+          "confidence": "中低",
+          "handicap_confidence": "低",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041378,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "完整近5-10场同口径样本不足",
+        "科莫本季主场0场",
+        "最终首发",
+        "完整xG/纪律/定位球统计",
+        "天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 3,
+      "match_number": "周四003",
+      "competition": "欧冠",
+      "match_type": "联赛阶段",
+      "kickoff_time": "2026-09-11T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "拜仁",
+      "away_team": "博德闪耀",
+      "strength_type": "拜仁德甲冠军级阵容、主场压迫与替补资源明显占优；博德有成熟欧战进攻体系与持续进球能力",
+      "pre_match_facts": {
+        "home_rank": 6,
+        "away_rank": 1,
+        "home_points": 4,
+        "away_points": null,
+        "matches_played": {
+          "home": 2,
+          "away": null
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": null,
+              "venue": "客",
+              "opponent": "沙尔克",
+              "score_90": "0:0",
+              "competition": "德甲",
+              "date_note": "赛程数据库为9/5，官方文章9/6为发布日期，未用文章日期替代已核实比赛日期；不据此精算休息小时。"
+            },
+            {
+              "date": "2026-09-02",
+              "venue": "客",
+              "opponent": "奥斯纳布吕克",
+              "score_90": "4:1",
+              "competition": "德国杯"
+            },
+            {
+              "date": "2026-08-28",
+              "venue": "主",
+              "opponent": "斯图加特",
+              "score_90": "5:1",
+              "competition": "德甲"
+            },
+            {
+              "date": "2026-08-22",
+              "venue": "客",
+              "opponent": "多特蒙德",
+              "score_90": "2:1",
+              "competition": "德国超级杯"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-04",
+              "venue": "客",
+              "opponent": "腓特烈斯塔",
+              "score_90": "2:1",
+              "competition": "挪超"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "主",
+              "opponent": "罗森博格",
+              "score_90": "4:2",
+              "competition": "挪超"
+            }
+          ],
+          "formal_matches_only": true,
+          "sample_note": "拜仁本季4场正式赛3胜1平、11进3失（逐场求和）；博德最近两场联赛全胜，资格赛对奈梅亨两回合取胜。对圣吉罗斯含加时的赛果不作为90分钟连胜样本，拒用‘近6场全胜’初筛误述。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "本次未取得近5/10及同主客正式交锋记录，不能用‘从未交手’代替缺失。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "拜仁本季已确认正式主场仅5:1斯图加特；博德上个联赛客场一球胜，资格赛客场有进攻表现但对手层级较本场低。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA：拜仁未列确定伤缺，Gnabry肌肉伤存疑；Musiala近期逐步增加出场负荷。博德Aleesami、Evjen、Mikkelsen、Riisnaes缺阵，Hauge与Gundersen存疑。重要进攻点及中卫能否出场影响反击与净胜幅度。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA本场队报未列停赛，最终出场名单未公布。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无淘汰赛总比分"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "拜仁9/13客战艾禾斯堡；博德9/14主战桑德菲尤尔（公共赛历）。拜仁上轮轮休Kane与Olise，不能把对沙尔克未进球原样外推到本场主力阵容。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "拜仁9/13客战艾禾斯堡；博德9/14主战桑德菲尤尔（公共赛历）。拜仁上轮轮休Kane与Olise，不能把对沙尔克未进球原样外推到本场主力阵容。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "德甲官方上轮记录拜仁1.70 xG对沙尔克0.10，Karius关键扑救，拜仁创造能力与终结结果背离；上轮Kane、Olise替补有官方战报明确记载，若本场首发可提高攻击上限；本场首发仍未公布，此句为条件推断。博德持球/反击可制造得分，伤缺也可能让其压迫后防线被打穿，净胜2、3、4+须分别比较。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "高，强队控球下仍有客队转换进攻",
+        "direction_confidence": "中高",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2188cf675017-df8325ec95c3-1000--starting-and-possible-line-ups-and-team-news/",
+            "note": "双方伤停和预计阵容",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.bundesliga.com/en/bundesliga/news/schalke-bayern-munich-match-report-highlights-matchday-2-39052",
+            "note": "官方9/6战报、轮休与xG",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/results/_/id/132/bayern-munich",
+            "note": "公开正式赛列表；对子代理汇总进行算术修正",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/fixtures/_/id/132/bayern-munich",
+            "note": "未来赛程",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/fixtures/_/id/2980/bodoglimt",
+            "note": "未来赛程",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://bulinews.com/bayern-make-late-decision-attacker-for-bodo/glimt-clash",
+            "note": "教练表态转录；训练状态不等于首发",
+            "source_type": "报道",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/results/_/id/2980/bodoglimt",
+            "note": "博德正式赛列表；加时赛果不进入90分钟连胜统计",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T12:08:15+08:00"
+          }
+        ],
+        "standings_note": "拜仁德甲2轮4分（公开表第6）；博德挪超公开表第1但积分/场数未可靠核齐。赛季进度不同不能裸比排名。",
+        "venue": "具体球场未单独核实"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "未开售",
+          "official_win_odds": null,
+          "official_draw_odds": null,
+          "official_loss_odds": null
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": -3,
+          "handicap_win_odds": 2.2,
+          "handicap_draw_odds": 5.0,
+          "handicap_loss_odds": 2.11
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041371"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "拜仁本季正式赛总体攻防和主场进攻能力占优；上轮0:0仍有1.70对0.10的xG优势，且Kane和Olise曾替补，不能判为进攻崩塌。博德中前场多人被列缺阵使抗压下降，主胜方向较强；但其欧战资格赛攻击能力和拜仁终结波动限制深让球信心。",
+        "match_openness": "高，强队控球下仍有客队转换进攻",
+        "direction_confidence": "中高",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队-3：不胜或净胜1至2球为让负，恰好净胜3球让平，净胜4球以上让胜。拜仁进攻强却刚出现创造机会未兑现，博德近期连续进球且欧战有反击能力，使≤2球的合并区间先于孤立3球和4+。博德伤缺、拜仁本季唯一联赛主场曾赢4球，是让胜反证；不能因为主胜较强就忽略该尾部或假定正好3球。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "拜仁德甲冠军级阵容、主场压迫与替补资源明显占优；博德有成熟欧战进攻体系与持续进球能力",
+          "近期5至10场攻防状态": "拜仁本季4场正式赛3胜1平、11进3失（逐场求和）；博德最近两场联赛全胜，资格赛对奈梅亨两回合取胜。对圣吉罗斯含加时的赛果不作为90分钟连胜样本，拒用‘近6场全胜’初筛误述。",
+          "主客场表现": "拜仁本季已确认正式主场仅5:1斯图加特；博德上个联赛客场一球胜，资格赛客场有进攻表现但对手层级较本场低。",
+          "当前积分排名及争冠保级晋级形势": "拜仁德甲2轮4分（公开表第6）；博德挪超公开表第1但积分/场数未可靠核齐。赛季进度不同不能裸比排名。",
+          "小组积分及出线条件": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无淘汰赛总比分",
+          "杯赛首回合或次回合总比分": "2026/27欧冠联赛阶段第1轮；双方本届阶段0赛0分，无淘汰赛总比分",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "拜仁9/13客战艾禾斯堡；博德9/14主战桑德菲尤尔（公共赛历）。拜仁上轮轮休Kane与Olise，不能把对沙尔克未进球原样外推到本场主力阵容。",
+          "未来3至5天关键赛程": "拜仁9/13客战艾禾斯堡；博德9/14主战桑德菲尤尔（公共赛历）。拜仁上轮轮休Kane与Olise，不能把对沙尔克未进球原样外推到本场主力阵容。",
+          "伤停停赛及预计首发": "UEFA：拜仁未列确定伤缺，Gnabry肌肉伤存疑；Musiala近期逐步增加出场负荷。博德Aleesami、Evjen、Mikkelsen、Riisnaes缺阵，Hauge与Gundersen存疑。重要进攻点及中卫能否出场影响反击与净胜幅度。 UEFA本场队报未列停赛，最终出场名单未公布。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "德甲官方上轮记录拜仁1.70 xG对沙尔克0.10，Karius关键扑救，拜仁创造能力与终结结果背离；上轮Kane、Olise替补有官方战报明确记载，若本场首发可提高攻击上限；本场首发仍未公布，此句为条件推断。博德持球/反击可制造得分，伤缺也可能让其压迫后防线被打穿，净胜2、3、4+须分别比较。",
+          "定位球防反击防高空球能力": "德甲官方上轮记录拜仁1.70 xG对沙尔克0.10，Karius关键扑救，拜仁创造能力与终结结果背离；上轮Kane、Olise替补有官方战报明确记载，若本场首发可提高攻击上限；本场首发仍未公布，此句为条件推断。博德持球/反击可制造得分，伤缺也可能让其压迫后防线被打穿，净胜2、3、4+须分别比较。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "博德最近正式联赛连续得分，仍有攻破拜仁的路径；其伤缺压低机会但不等于失去进球能力。双方零封概率未可靠估计。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "UEFA本场队报未列停赛，最终出场名单未公布。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "拜仁9/13客战艾禾斯堡；博德9/14主战桑德菲尤尔（公共赛历）。拜仁上轮轮休Kane与Olise，不能把对沙尔克未进球原样外推到本场主力阵容。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "本次未取得近5/10及同主客正式交锋记录，不能用‘从未交手’代替缺失。",
+          "领先后收缩崩盘或被逆转倾向": "博德最近正式赛有连续得分，但缺少完整领先后控制样本；拜仁上轮长时间无法破低位表明终结不确定，早破局才有大幅扩大路径。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "胜",
+        "handicap_result": "让负",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队-3：不胜或净胜1至2球为让负，恰好净胜3球让平，净胜4球以上让胜。拜仁进攻强却刚出现创造机会未兑现，博德近期连续进球且欧战有反击能力，使≤2球的合并区间先于孤立3球和4+。博德伤缺、拜仁本季唯一联赛主场曾赢4球，是让胜反证；不能因为主胜较强就忽略该尾部或假定正好3球。",
+        "clean_sheet_assessment": "博德最近正式联赛连续得分，仍有攻破拜仁的路径；其伤缺压低机会但不等于失去进球能力。双方零封概率未可靠估计。",
+        "strong_side_not_win_path": "拜仁上轮受密集防守及门将发挥阻挡，若本场再迟迟不进且博德反击奏效，可能无法取胜。该路径不足改变主胜排序，但使其不列稳胆；更直接影响让球净胜幅度。",
+        "counter_evidence": "拜仁上轮受密集防守及门将发挥阻挡，若本场再迟迟不进且博德反击奏效，可能无法取胜。该路径不足改变主胜排序，但使其不列稳胆；更直接影响让球净胜幅度。",
+        "draw_positive_evidence": "拜仁上轮0:0只证明终结受限的风险，不等同博德能复制沙尔克防守。无足够正面证据把平排在主胜前。",
+        "lineup_change_triggers": "Kane、Olise实际首发和Musiala负荷；博德Hauge、Gundersen待定人员状态及中后场配置。",
+        "handicap_confidence": "中低",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": null,
+        "cold_tag": null,
+        "cold_basis": "胜平负未开售，无官方奖金基准，不判断冷门标签。",
+        "independent_pre_rule_assessment": {
+          "result": "胜",
+          "handicap_result": "让负",
+          "confidence": "中高",
+          "handicap_confidence": "中低",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041371,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "博德资格赛完整90分钟序列",
+        "交锋完整序列",
+        "完整纪律/定位球数据",
+        "博德当前积分场数",
+        "最终首发与天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 4,
+      "match_number": "周四004",
+      "competition": "欧冠",
+      "match_type": "联赛阶段",
+      "kickoff_time": "2026-09-11T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "斯拉维亚",
+      "away_team": "朗斯",
+      "strength_type": "斯拉维亚国内争先、主场体系成熟；朗斯为上季法甲亚军，联赛层级和快速转换形成反证，整体接近",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": 11,
+        "home_points": null,
+        "away_points": 3,
+        "matches_played": {
+          "home": null,
+          "away": 3
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-05",
+              "venue": "主",
+              "opponent": "兹布罗约夫卡布尔诺",
+              "score_90": "4:0",
+              "competition": "捷甲"
+            }
+          ],
+          "away": [],
+          "formal_matches_only": true,
+          "sample_note": "斯拉维亚最新正式赛主场4:0；朗斯法甲先5:2胜欧塞尔后连续两轮一球小负，含0:1洛里昂；正式5-10逐场数据未完整核齐，不扩写连胜。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "确认1995/96联盟杯两回合斯拉维亚主0:0、客1:0；距今约31年，阵容战术无连续性，权重极低；不存在近10可用样本。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "斯拉维亚最近主场4:0，教练表示本场满场且要争胜；朗斯上轮洛里昂是主场失利，初筛把它写为客场的归类已排除。完整近5主/客样本未取得。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "俱乐部确认N'Guessan右小腿伤缺；UEFA另列Holeš、Moses、Ouanda、Provod、Suleiman缺阵，Zima头部伤存疑。9/9教练称Zima恢复合练、赛日再决定。朗斯Baidoo与Titraoui缺阵，Abdulhamid、Celik、Gradit、Todibo、Udol待定；不可把预计后卫名单当健康确认。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "当前官方队报所列主要为伤病，未取得本场其他停赛确认；不预设红牌。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "2026/27欧冠联赛阶段第1轮；双方阶段0赛0分，无首回合总比分"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "俱乐部稿件和发布会对于斯拉维亚随后对手出现比尔森/特普利采不一致；朗斯赛历初筛显示9/12勒芒但未独立复核日期，具体未来对手暂标待核实，不据此判定确认轮换。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "俱乐部稿件和发布会对于斯拉维亚随后对手出现比尔森/特普利采不一致；朗斯赛历初筛显示9/12勒芒但未独立复核日期，具体未来对手暂标待核实，不据此判定确认轮换。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "Trpisovsky赛前发布会指出朗斯进攻球员/中卫速度快、近两败仍创造机会而终结不足，防守也可被利用。主队主场压迫支持争胜，双方中后场减员使转换失分风险升高；伤病反证实质压低主胜信心。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高，双方防线及中场可用人员不齐",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2188cf675017-df8325ec95c3-1000--starting-and-possible-line-ups-and-team-news/",
+            "note": "双方伤停表",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.slavia.cz/eng/match/6835",
+            "note": "最近官方战报",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.slavia.cz/eng/article/five-years-at-lens-an-interesting-match-we-can-win",
+            "note": "N'Guessan伤情、确认朗斯主场败洛里昂",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.slavia.cz/cze/article/nase-dna-zustava-stejna-mame-neco-pripravene",
+            "note": "主帅发布会、Zima赛日决定、朗斯战术反证",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.rclens.fr/fr/modalites-deplacement-slavia-prague-ligue-des-champions-20260904",
+            "note": "历史两次交锋与比赛安排",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/results/_/id/175/lens",
+            "note": "朗斯赛果；对洛里昂主客场以俱乐部采访交叉纠正",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T12:08:15+08:00"
+          },
+          {
+            "url": "https://www.espn.com/soccer/standings/_/league/fra.1",
+            "note": "朗斯当前积分排名的公共数据库来源",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T12:08:15+08:00"
+          }
+        ],
+        "standings_note": "斯拉维亚9/5击败当时前二竞争对手，精确实时积分未可靠取得；朗斯本季法甲3场1胜2负、3分，公开表第11。",
+        "venue": "具体球场未单独核实"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "奖金可见",
+          "official_win_odds": 2.48,
+          "official_draw_odds": 3.28,
+          "official_loss_odds": 2.38
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": 1,
+          "handicap_win_odds": 1.43,
+          "handicap_draw_odds": 4.2,
+          "handicap_loss_odds": 5.2
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041372"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "斯拉维亚最近主场4:0且教练明确争取开门胜；朗斯联赛连续两次一球失利，后场多名球员待定。主队主场推进与对手防守缺口支持主胜略先。但斯拉维亚自己也有多名伤缺，朗斯在失利中仍有创造机会的反证，主胜只给中低信心。",
+        "match_openness": "中高，双方防线及中场可用人员不齐",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队+1：主队不败让胜，客胜1球让平，客胜2球以上让负。主队近期主场表现与朗斯当前终结问题，使主队不败合并区间优先；两队伤缺使单选主胜把握有限。让胜覆盖主胜和平局，不能错误覆盖主队一球小负。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "斯拉维亚国内争先、主场体系成熟；朗斯为上季法甲亚军，联赛层级和快速转换形成反证，整体接近",
+          "近期5至10场攻防状态": "斯拉维亚最新正式赛主场4:0；朗斯法甲先5:2胜欧塞尔后连续两轮一球小负，含0:1洛里昂；正式5-10逐场数据未完整核齐，不扩写连胜。",
+          "主客场表现": "斯拉维亚最近主场4:0，教练表示本场满场且要争胜；朗斯上轮洛里昂是主场失利，初筛把它写为客场的归类已排除。完整近5主/客样本未取得。",
+          "当前积分排名及争冠保级晋级形势": "斯拉维亚9/5击败当时前二竞争对手，精确实时积分未可靠取得；朗斯本季法甲3场1胜2负、3分，公开表第11。",
+          "小组积分及出线条件": "2026/27欧冠联赛阶段第1轮；双方阶段0赛0分，无首回合总比分",
+          "杯赛首回合或次回合总比分": "2026/27欧冠联赛阶段第1轮；双方阶段0赛0分，无首回合总比分",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "俱乐部稿件和发布会对于斯拉维亚随后对手出现比尔森/特普利采不一致；朗斯赛历初筛显示9/12勒芒但未独立复核日期，具体未来对手暂标待核实，不据此判定确认轮换。",
+          "未来3至5天关键赛程": "俱乐部稿件和发布会对于斯拉维亚随后对手出现比尔森/特普利采不一致；朗斯赛历初筛显示9/12勒芒但未独立复核日期，具体未来对手暂标待核实，不据此判定确认轮换。",
+          "伤停停赛及预计首发": "俱乐部确认N'Guessan右小腿伤缺；UEFA另列Holeš、Moses、Ouanda、Provod、Suleiman缺阵，Zima头部伤存疑。9/9教练称Zima恢复合练、赛日再决定。朗斯Baidoo与Titraoui缺阵，Abdulhamid、Celik、Gradit、Todibo、Udol待定；不可把预计后卫名单当健康确认。 当前官方队报所列主要为伤病，未取得本场其他停赛确认；不预设红牌。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "Trpisovsky赛前发布会指出朗斯进攻球员/中卫速度快、近两败仍创造机会而终结不足，防守也可被利用。主队主场压迫支持争胜，双方中后场减员使转换失分风险升高；伤病反证实质压低主胜信心。",
+          "定位球防反击防高空球能力": "Trpisovsky赛前发布会指出朗斯进攻球员/中卫速度快、近两败仍创造机会而终结不足，防守也可被利用。主队主场压迫支持争胜，双方中后场减员使转换失分风险升高；伤病反证实质压低主胜信心。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "双方中后场人员缺口及朗斯速度型进攻均削弱零封判断；让胜基于主队不败路径，非主队必然零封。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "当前官方队报所列主要为伤病，未取得本场其他停赛确认；不预设红牌。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "俱乐部稿件和发布会对于斯拉维亚随后对手出现比尔森/特普利采不一致；朗斯赛历初筛显示9/12勒芒但未独立复核日期，具体未来对手暂标待核实，不据此判定确认轮换。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "确认1995/96联盟杯两回合斯拉维亚主0:0、客1:0；距今约31年，阵容战术无连续性，权重极低；不存在近10可用样本。",
+          "领先后收缩崩盘或被逆转倾向": "主队刚大胜但完整领先后控制样本不足；Trpisovsky发布会观察朗斯近两败仍创造不少机会、终结不足，属于对手主帅观察而非独立技术统计。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "胜",
+        "handicap_result": "让胜",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队+1：主队不败让胜，客胜1球让平，客胜2球以上让负。主队近期主场表现与朗斯当前终结问题，使主队不败合并区间优先；两队伤缺使单选主胜把握有限。让胜覆盖主胜和平局，不能错误覆盖主队一球小负。",
+        "clean_sheet_assessment": "双方中后场人员缺口及朗斯速度型进攻均削弱零封判断；让胜基于主队不败路径，非主队必然零封。",
+        "strong_side_not_win_path": "主队Provod、Holes等缺阵且Zima待定，可能损害中场保护和出球；朗斯近两败仍制造机会的观察来自主帅发布会。若客队效率回升、主队轮换失误，朗斯完全可赢，故精选也只中等信心。",
+        "counter_evidence": "主队Provod、Holes等缺阵且Zima待定，可能损害中场保护和出球；朗斯近两败仍制造机会的观察来自主帅发布会。若客队效率回升、主队轮换失误，朗斯完全可赢，故精选也只中等信心。",
+        "draw_positive_evidence": "双方阵容缺口和朗斯仍能造机会支持扳平这一实际路径；主队环境与最新正式表现略好，使主胜仍居首，让球选项将平局容纳其中。",
+        "lineup_change_triggers": "两队中卫和边后卫实际名单，特别Zima与朗斯多名后卫是否出场；未来国内赛程冲突未据此推断必轮换。",
+        "handicap_confidence": "中",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": "负",
+        "cold_tag": true,
+        "cold_basis": "斯拉维亚最近主场4:0且教练明确争取开门胜；朗斯联赛连续两次一球失利，后场多名球员待定。主队主场推进与对手防守缺口支持主胜略先。但斯拉维亚自己也有多名伤缺，朗斯在失利中仍有创造机会的反证，主胜只给中低信心。",
+        "independent_pre_rule_assessment": {
+          "result": "胜",
+          "handicap_result": "让胜",
+          "confidence": "中低",
+          "handicap_confidence": "中",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041372,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "两队完整近5-10与同主客序列",
+        "斯拉维亚实时积分",
+        "未来国内赛程冲突",
+        "最终首发",
+        "完整纪律/xG/定位球统计与天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 5,
+      "match_number": "周四005",
+      "competition": "欧冠",
+      "match_type": "联赛阶段",
+      "kickoff_time": "2026-09-11T03:00:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "曼联",
+      "away_team": "萨巴赫",
+      "strength_type": "曼联英超阵容质量与主场进攻显著高于阿塞拜疆萨巴赫；曼联防守和人员并非稳定状态",
+      "pre_match_facts": {
+        "home_rank": 11,
+        "away_rank": null,
+        "home_points": 4,
+        "away_points": null,
+        "matches_played": {
+          "home": 3,
+          "away": null
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-06",
+              "venue": "客",
+              "opponent": "埃弗顿",
+              "score_90": "2:2",
+              "competition": "英超"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "主",
+              "opponent": "伊普斯维奇",
+              "score_90": "5:2",
+              "competition": "英超"
+            },
+            {
+              "date": "2026-08-22",
+              "venue": "客",
+              "opponent": "赫尔城",
+              "score_90": "0:2",
+              "competition": "英超"
+            }
+          ],
+          "away": [],
+          "formal_matches_only": true,
+          "sample_note": "曼联3场7进6失、仅1胜；萨巴赫连过新圣徒、KuPS、AGF、贝尔谢巴工人四轮资格赛，末轮主场含加时，不能把加时胜当90分钟胜。资格赛总体层级较本场低。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "未取得双方以往正式交锋，无有效近5/10及同主客样本。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "曼联唯一已确认联赛主场5:2，客场一平一负；萨巴赫资格赛客战AGF、贝尔谢巴均一球负，表现不能简单外推到老特拉福德。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA本场队报曼联Baleba、De Ligt、Diallo、Heaton、Ugarte缺阵，Rashford存疑。俱乐部有关De Ligt回归训练的表述不等于确认本场出战；Luke Shaw获额外恢复、赛日评估。萨巴赫UEFA未列缺阵或存疑，但不等于最终全员首发。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "UEFA未列本场确定停赛，最终名单未公布。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "2026/27欧冠联赛阶段第1轮；萨巴赫首次进入此阶段；双方0赛0分，无本场淘汰赛总比分"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "曼联9/13主场对曼城，约3天后德比，对负荷和换人有影响但无大轮换确认；萨巴赫后续3-5天国内赛历未核实，长途赴曼彻斯特。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "曼联9/13主场对曼城，约3天后德比，对负荷和换人有影响但无大轮换确认；萨巴赫后续3-5天国内赛历未核实，长途赴曼彻斯特。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "曼联本季主场多点进攻支持建立优势，但前三轮场场失2球，中后场缺员与萨巴赫整体压迫/传递推进形成实际不胜和被追分路径。强弱差支持主胜，不能自动支持净胜3+。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "高，曼联进攻上限与中后场失稳并存",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.uefa.com/uefachampionsleague/news/02a9-2188cf675017-df8325ec95c3-1000--starting-and-possible-line-ups-and-team-news/",
+            "note": "当前伤停、预计阵容",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.manutd.com/en/news/everything-carrick-and-mbeumo-said-ahead-of-sabah",
+            "note": "发布会；正文抓取受限，采访由子代理提取",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.bbc.com/sport/football/articles/cp30e705pnlo",
+            "note": "发布会转录与阵容状态",
+            "source_type": "可靠媒体",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/results/_/id/360/manchester-united",
+            "note": "正式近况",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.espn.com/soccer/team/results/_/id/21922/sabah-fk",
+            "note": "资格赛路径，含加时场不计90分钟胜率",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          }
+        ],
+        "standings_note": "曼联英超3场1胜1平1负、4分，公开表第11；萨巴赫国内实时积分未取得，不用欧冠排序代替。",
+        "venue": "具体球场未单独核实"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "未开售",
+          "official_win_odds": null,
+          "official_draw_odds": null,
+          "official_loss_odds": null
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": -2,
+          "handicap_win_odds": 1.58,
+          "handicap_draw_odds": 4.6,
+          "handicap_loss_odds": 3.58
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041373"
+      },
+      "prediction": {
+        "predicted_result": "胜",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "曼联阵容深度和对抗级别明显占优，本季唯一联赛主场攻入5球，支持主胜。萨巴赫资格赛对更强对手两次客场失利，也降低其此役客胜支撑。不过曼联三轮各丢2球，UEFA列多名中后场缺阵且周末有曼城德比，主胜信心降为中。",
+        "match_openness": "高，曼联进攻上限与中后场失稳并存",
+        "direction_confidence": "中",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队-2：不胜或仅赢1球让负，正好赢2球让平，赢3球以上让胜。曼联连续失球、两名中场及中卫伤情、周末德比限制持续扩大优势，≤1球的合并区间优先。主队唯一联赛主场曾赢3球、萨巴赫客场资格赛防线承压，是3+的强反证；正好2球也独立保留，不能假定赢球自动穿-2。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "曼联英超阵容质量与主场进攻显著高于阿塞拜疆萨巴赫；曼联防守和人员并非稳定状态",
+          "近期5至10场攻防状态": "曼联3场7进6失、仅1胜；萨巴赫连过新圣徒、KuPS、AGF、贝尔谢巴工人四轮资格赛，末轮主场含加时，不能把加时胜当90分钟胜。资格赛总体层级较本场低。",
+          "主客场表现": "曼联唯一已确认联赛主场5:2，客场一平一负；萨巴赫资格赛客战AGF、贝尔谢巴均一球负，表现不能简单外推到老特拉福德。",
+          "当前积分排名及争冠保级晋级形势": "曼联英超3场1胜1平1负、4分，公开表第11；萨巴赫国内实时积分未取得，不用欧冠排序代替。",
+          "小组积分及出线条件": "2026/27欧冠联赛阶段第1轮；萨巴赫首次进入此阶段；双方0赛0分，无本场淘汰赛总比分",
+          "杯赛首回合或次回合总比分": "2026/27欧冠联赛阶段第1轮；萨巴赫首次进入此阶段；双方0赛0分，无本场淘汰赛总比分",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "曼联9/13主场对曼城，约3天后德比，对负荷和换人有影响但无大轮换确认；萨巴赫后续3-5天国内赛历未核实，长途赴曼彻斯特。",
+          "未来3至5天关键赛程": "曼联9/13主场对曼城，约3天后德比，对负荷和换人有影响但无大轮换确认；萨巴赫后续3-5天国内赛历未核实，长途赴曼彻斯特。",
+          "伤停停赛及预计首发": "UEFA本场队报曼联Baleba、De Ligt、Diallo、Heaton、Ugarte缺阵，Rashford存疑。俱乐部有关De Ligt回归训练的表述不等于确认本场出战；Luke Shaw获额外恢复、赛日评估。萨巴赫UEFA未列缺阵或存疑，但不等于最终全员首发。 UEFA未列本场确定停赛，最终名单未公布。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "曼联本季主场多点进攻支持建立优势，但前三轮场场失2球，中后场缺员与萨巴赫整体压迫/传递推进形成实际不胜和被追分路径。强弱差支持主胜，不能自动支持净胜3+。",
+          "定位球防反击防高空球能力": "曼联本季主场多点进攻支持建立优势，但前三轮场场失2球，中后场缺员与萨巴赫整体压迫/传递推进形成实际不胜和被追分路径。强弱差支持主胜，不能自动支持净胜3+。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "曼联三轮均失2球，萨巴赫资格赛客场失利时仍能进球；没有支持曼联零封的近期稳定序列。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "UEFA未列本场确定停赛，最终名单未公布。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "曼联9/13主场对曼城，约3天后德比，对负荷和换人有影响但无大轮换确认；萨巴赫后续3-5天国内赛历未核实，长途赴曼彻斯特。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "未取得双方以往正式交锋，无有效近5/10及同主客样本。",
+          "领先后收缩崩盘或被逆转倾向": "曼联上轮被埃弗顿逼平，赛季防守失分稳定性差；萨巴赫曾资格赛首回合失利后次回合翻盘，具备追分而非天然深守。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "胜",
+        "handicap_result": "让负",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队-2：不胜或仅赢1球让负，正好赢2球让平，赢3球以上让胜。曼联连续失球、两名中场及中卫伤情、周末德比限制持续扩大优势，≤1球的合并区间优先。主队唯一联赛主场曾赢3球、萨巴赫客场资格赛防线承压，是3+的强反证；正好2球也独立保留，不能假定赢球自动穿-2。",
+        "clean_sheet_assessment": "曼联三轮均失2球，萨巴赫资格赛客场失利时仍能进球；没有支持曼联零封的近期稳定序列。",
+        "strong_side_not_win_path": "若曼联中场保护继续失效，萨巴赫抓转换或定位球可保留平局；曼联0:2赫尔与2:2埃弗顿提供本季不胜现实样本。对手级别差令主胜仍先，但不足把让胜或稳胆作为默认。",
+        "counter_evidence": "若曼联中场保护继续失效，萨巴赫抓转换或定位球可保留平局；曼联0:2赫尔与2:2埃弗顿提供本季不胜现实样本。对手级别差令主胜仍先，但不足把让胜或稳胆作为默认。",
+        "draw_positive_evidence": "主队防守连续失球与客队资格赛抢进球能力支持拖平路径，但双方人员深度和进攻能力差距仍令主胜优先。",
+        "lineup_change_triggers": "曼联后腰、中卫与边路主力的实际名单；德比前轮换必须有名单证据，不能提前断言大轮换。",
+        "handicap_confidence": "中低",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "胜",
+          "平",
+          "负"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": null,
+        "cold_tag": null,
+        "cold_basis": "胜平负未开售，无官方奖金基准，不判断冷门标签。",
+        "independent_pre_rule_assessment": {
+          "result": "胜",
+          "handicap_result": "让负",
+          "confidence": "中",
+          "handicap_confidence": "中低",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T03:00:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "胜",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041373,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "萨巴赫完整90分钟近况及国内排名",
+        "双方交锋样本",
+        "最终首发",
+        "精确纪律/定位球/xG序列",
+        "天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 6,
+      "match_number": "周四006",
+      "competition": "葡超",
+      "match_type": "联赛",
+      "kickoff_time": "2026-09-11T03:15:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "阿马多拉",
+      "away_team": "布拉加",
+      "strength_type": "布拉加葡超前列阵容深度较强；阿马多拉开季攻击持续，弱势主要在防线与失去常规主场",
+      "pre_match_facts": {
+        "home_rank": 9,
+        "away_rank": 6,
+        "home_points": 6,
+        "away_points": 7,
+        "matches_played": {
+          "home": 4,
+          "away": 3
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-05",
+              "venue": "主",
+              "opponent": "法马利康",
+              "score_90": "2:2",
+              "competition": "葡超"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "客",
+              "opponent": "国民",
+              "score_90": "3:2",
+              "competition": "葡超"
+            },
+            {
+              "date": "2026-08-15",
+              "venue": "客",
+              "opponent": "阿尔韦卡",
+              "score_90": "2:2",
+              "competition": "葡超"
+            },
+            {
+              "date": "2026-08-08",
+              "venue": "主",
+              "opponent": "里斯本竞技",
+              "score_90": "2:2",
+              "competition": "葡超"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-05",
+              "venue": "客",
+              "opponent": "阿尔韦卡",
+              "score_90": "2:1",
+              "competition": "葡超"
+            },
+            {
+              "date": "2026-08-31",
+              "venue": "主",
+              "opponent": "吉马良斯",
+              "score_90": "1:0",
+              "competition": "葡超"
+            },
+            {
+              "date": "2026-08-27",
+              "venue": "客",
+              "opponent": "奥地利维也纳",
+              "score_90": "0:0",
+              "competition": "欧协联资格赛"
+            },
+            {
+              "date": "2026-08-20",
+              "venue": "主",
+              "opponent": "奥地利维也纳",
+              "score_90": "2:0",
+              "competition": "欧协联资格赛"
+            }
+          ],
+          "formal_matches_only": true,
+          "sample_note": "阿马多拉4场全不败但3平且每场失2球；布拉加最近两个联赛均赢1球，欧协联两回合2:0晋级。已获取4场结构和本季联赛总计，未用热身凑数。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "近6正式交锋布拉加3胜3平，最近两次2:2与3:3；主队同主客近3次为平、负、负。2021友谊赛剔除，2009以前交锋年代过远且俱乐部连续性有别，不并入当前近况。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "官方明确移至阿尔韦卡，常规主场统计应降权。阿马多拉本季两个原主场均平；布拉加刚在本场同球场2:1胜阿尔韦卡，但对手不同不能直接复制。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "媒体赛前资料：布拉加Niakate长期跟腱伤，Gorby存疑，Ricardo Horta恢复中；Wind及Arrey-Mbi上轮已入替补名单但不等于确定首发。阿马多拉Vanga上场伤退待测试、Hoog Jansson未出场仍存疑。完整本场俱乐部医疗公告未获得，以上按媒体报道而非全部官宣。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "未获取本场确认停赛，不写无人停赛。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "葡超第3轮补赛；联赛开季非首轮，无淘汰总比分"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "双方9/5踢上轮，休约5天；9/14布拉加主战埃斯托里尔、阿马多拉客战里奥阿维（VSports赛历）；布拉加欧战下一场在10月，不存在本场后3-5天欧战压力。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "双方9/5踢上轮，休约5天；9/14布拉加主战埃斯托里尔、阿马多拉客战里奥阿维（VSports赛历）；布拉加欧战下一场在10月，不存在本场后3-5天欧战压力。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "Vicens赛前明确提醒对手攻击状态强且错误会付出代价；阿马多拉Antonetti前4轮连续进球，布拉加上场半场三换后逆转。换场利于缩小阿马多拉环境优势，布拉加阵容调整支持客胜但防线不足以稳定压到两球胜。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中高，双方有稳定得分且主队守领先不稳",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+            "note": "官方改场提示",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://vsports.pt/vsports/equipa/estrela-amadora/v21/jogos",
+            "note": "本季赛果与9/14日程",
+            "source_type": "赛事转播数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://vsports.pt/vsports/equipa/braga/v4/jogos",
+            "note": "9/14后续赛历",
+            "source_type": "赛事转播数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.sportsmole.co.uk/football/braga/preview/estrela-amadora-vs-braga-prediction-team-news-lineups_604740.html",
+            "note": "仅提取事实和待核伤停；其旧场地和预测意见均不采用",
+            "source_type": "媒体",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://bragatv.pt/carlos-vicens-anteve-dificuldades-com-estrela-da-amadora/",
+            "note": "教练发布会与改场",
+            "source_type": "当地媒体",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.zerozero.pt/jogo/2026-09-10-est-amadora-sc-braga/12277959",
+            "note": "交锋资料，部分正文受限",
+            "source_type": "公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://fbref.com/en/players/e68fbbc6/matchlogs/2026/summary",
+            "note": "近期4场比赛日期与赛果",
+            "source_type": "公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          }
+        ],
+        "standings_note": "阿马多拉4场1胜3平、6分第9、进9失8；布拉加3场2胜1平、7分第6。场次不齐，排名差不应放大。",
+        "venue": "葡萄牙特茹河畔阿尔韦卡，Estádio do FC Alverca；体彩官方改场提示及教练赛前报道交叉核验"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "奖金可见",
+          "official_win_odds": 5.25,
+          "official_draw_odds": 3.8,
+          "official_loss_odds": 1.48
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": 1,
+          "handicap_win_odds": 2.25,
+          "handicap_draw_odds": 3.25,
+          "handicap_loss_odds": 2.65
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": "比赛将在葡萄牙-特茹河畔阿尔韦卡举行",
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041374"
+      },
+      "prediction": {
+        "predicted_result": "平",
+        "predicted_handicap_result": "让胜",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "阿马多拉开季4轮不败，其中3平，场场至少进2球；最近两次对布拉加也均战平。布拉加实力较强，但本季两场胜利都只赢一球、上轮还需逆转，加上主队持续进攻能抵消部分客队优势，平局在本场窄幅居首。此判断依据实际追平/被追平和得分能力，而非拿不准或照搬公开预测。",
+        "match_openness": "中高，双方有稳定得分且主队守领先不稳",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队+1：不败让胜，客胜1球让平，客胜2球以上让负。独立方向平先于客胜，主队不败的合并区间优先；客队连续两场一球胜支持让平反证，主队4轮失8球则保留客队2+尾部。改至Alverca削弱惯常主场支持，但不能推为中立无球迷或取消全部主队适应性，阿马多拉8月也在此比赛。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "布拉加葡超前列阵容深度较强；阿马多拉开季攻击持续，弱势主要在防线与失去常规主场",
+          "近期5至10场攻防状态": "阿马多拉4场全不败但3平且每场失2球；布拉加最近两个联赛均赢1球，欧协联两回合2:0晋级。已获取4场结构和本季联赛总计，未用热身凑数。",
+          "主客场表现": "官方明确移至阿尔韦卡，常规主场统计应降权。阿马多拉本季两个原主场均平；布拉加刚在本场同球场2:1胜阿尔韦卡，但对手不同不能直接复制。",
+          "当前积分排名及争冠保级晋级形势": "阿马多拉4场1胜3平、6分第9、进9失8；布拉加3场2胜1平、7分第6。场次不齐，排名差不应放大。",
+          "小组积分及出线条件": "葡超第3轮补赛；联赛开季非首轮，无淘汰总比分",
+          "杯赛首回合或次回合总比分": "葡超第3轮补赛；联赛开季非首轮，无淘汰总比分",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "双方9/5踢上轮，休约5天；9/14布拉加主战埃斯托里尔、阿马多拉客战里奥阿维（VSports赛历）；布拉加欧战下一场在10月，不存在本场后3-5天欧战压力。",
+          "未来3至5天关键赛程": "双方9/5踢上轮，休约5天；9/14布拉加主战埃斯托里尔、阿马多拉客战里奥阿维（VSports赛历）；布拉加欧战下一场在10月，不存在本场后3-5天欧战压力。",
+          "伤停停赛及预计首发": "媒体赛前资料：布拉加Niakate长期跟腱伤，Gorby存疑，Ricardo Horta恢复中；Wind及Arrey-Mbi上轮已入替补名单但不等于确定首发。阿马多拉Vanga上场伤退待测试、Hoog Jansson未出场仍存疑。完整本场俱乐部医疗公告未获得，以上按媒体报道而非全部官宣。 未获取本场确认停赛，不写无人停赛。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "Vicens赛前明确提醒对手攻击状态强且错误会付出代价；阿马多拉Antonetti前4轮连续进球，布拉加上场半场三换后逆转。换场利于缩小阿马多拉环境优势，布拉加阵容调整支持客胜但防线不足以稳定压到两球胜。",
+          "定位球防反击防高空球能力": "Vicens赛前明确提醒对手攻击状态强且错误会付出代价；阿马多拉Antonetti前4轮连续进球，布拉加上场半场三换后逆转。换场利于缩小阿马多拉环境优势，布拉加阵容调整支持客胜但防线不足以稳定压到两球胜。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "阿马多拉四轮均至少失2球，得分也连续；布拉加并非无失球。平局选择不依赖双方零封或低比分预设。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "未获取本场确认停赛，不写无人停赛。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "双方9/5踢上轮，休约5天；9/14布拉加主战埃斯托里尔、阿马多拉客战里奥阿维（VSports赛历）；布拉加欧战下一场在10月，不存在本场后3-5天欧战压力。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "近6正式交锋布拉加3胜3平，最近两次2:2与3:3；主队同主客近3次为平、负、负。2021友谊赛剔除，2009以前交锋年代过远且俱乐部连续性有别，不并入当前近况。",
+          "领先后收缩崩盘或被逆转倾向": "阿马多拉对法马利康反超后又被点球追平；布拉加上轮先落后再逆转。双方均有主动追分路径，不能按葡超标签判低波动。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "平",
+        "handicap_result": "让胜",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队+1：不败让胜，客胜1球让平，客胜2球以上让负。独立方向平先于客胜，主队不败的合并区间优先；客队连续两场一球胜支持让平反证，主队4轮失8球则保留客队2+尾部。改至Alverca削弱惯常主场支持，但不能推为中立无球迷或取消全部主队适应性，阿马多拉8月也在此比赛。",
+        "clean_sheet_assessment": "阿马多拉四轮均至少失2球，得分也连续；布拉加并非无失球。平局选择不依赖双方零封或低比分预设。",
+        "strong_side_not_win_path": "布拉加已在同一Alverca场地获胜，有更好的替补调整和整体实力；阿马多拉难保住领先，若客队终结改善，可能兑现客胜。该反证实质压低平局与让胜评级至中低，不列今日精选。",
+        "counter_evidence": "布拉加已在同一Alverca场地获胜，有更好的替补调整和整体实力；阿马多拉难保住领先，若客队终结改善，可能兑现客胜。该反证实质压低平局与让胜评级至中低，不列今日精选。",
+        "draw_positive_evidence": "四轮三平、场场至少两球的主队进攻抵抗，配合最近两次直接交锋均战平的结果和客队最近两场仅一球胜，使双方当前优势相互抵消的路径具体存在。主队难控领先使主胜排后，布拉加尚未展现持续大幅压制使客胜略后于平；样本仍少，冷门仅中低。",
+        "lineup_change_triggers": "官方Alverca场地提示已采用；核实Horta、Gorby和阿马多拉Vanga最终名单。",
+        "handicap_confidence": "中低",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "平",
+          "负",
+          "胜"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": "负",
+        "cold_tag": true,
+        "cold_basis": "阿马多拉开季4轮不败，其中3平，场场至少进2球；最近两次对布拉加也均战平。布拉加实力较强，但本季两场胜利都只赢一球、上轮还需逆转，加上主队持续进攻能抵消部分客队优势，平局在本场窄幅居首。此判断依据实际追平/被追平和得分能力，而非拿不准或照搬公开预测。",
+        "independent_pre_rule_assessment": {
+          "result": "平",
+          "handicap_result": "让胜",
+          "confidence": "中低",
+          "handicap_confidence": "中低",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T03:15:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "平",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041374,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [
+        {
+          "rule_id": 23,
+          "source_rule_status": "provisional",
+          "scope_match": "比赛类型联赛；葡超客队整体较强、首发未确认；规则competition/handicap为空无赛事与让球额外限制。本场官方主队+1，分别核对主队不败、客胜一球、客胜两球以上；独立判断本就平/让胜，规则仅复核，无选项或置信改变。",
+          "before": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "handicap_confidence": "中低",
+            "probabilities": {
+              "win": null,
+              "draw": null,
+              "loss": null
+            }
+          },
+          "after": {
+            "result": "平",
+            "handicap_result": "让胜",
+            "confidence": "中低",
+            "handicap_confidence": "中低",
+            "probabilities": {
+              "win": null,
+              "draw": null,
+              "loss": null
+            }
+          },
+          "changed_fields": [],
+          "application_note": "主队+1：不败让胜，客胜1球让平，客胜2球以上让负。独立方向平先于客胜，主队不败的合并区间优先；客队连续两场一球胜支持让平反证，主队4轮失8球则保留客队2+尾部。改至Alverca削弱惯常主场支持，但不能推为中立无球迷或取消全部主队适应性，阿马多拉8月也在此比赛。",
+          "effect": "未改变；只作为同场景复核，不声称独立增益。"
+        }
+      ],
+      "unavailable_fields": [
+        "本场俱乐部完整伤停确认",
+        "最终首发",
+        "同口径xG与纪律序列",
+        "开球天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    },
+    {
+      "sequence": 7,
+      "match_number": "周四007",
+      "competition": "解放者杯",
+      "match_type": "两回合淘汰赛首回合",
+      "kickoff_time": "2026-09-11T08:30:00+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "德尔瓦耶",
+      "away_team": "弗拉门戈",
+      "strength_type": "弗拉门戈卫冕冠军及巴甲前列阵容占优，德尔瓦耶本届进攻和基多高原环境抵消部分实力差",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {
+          "home": null,
+          "away": null
+        },
+        "recent_form": {
+          "home": [
+            {
+              "date": "2026-09-05",
+              "venue": "主",
+              "opponent": "马卡拉",
+              "score_90": "3:1",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-09-02",
+              "venue": "客",
+              "opponent": "巴塞罗那SC",
+              "score_90": "1:2",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-08-29",
+              "venue": "主",
+              "opponent": "天主大学",
+              "score_90": "2:2",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-08-25",
+              "venue": "主",
+              "opponent": "托利马",
+              "score_90": "3:1",
+              "competition": "解放者杯"
+            },
+            {
+              "date": "2026-08-21",
+              "venue": "客",
+              "opponent": "北方雄狮",
+              "score_90": "3:2",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-08-18",
+              "venue": "客",
+              "opponent": "托利马",
+              "score_90": "1:0",
+              "competition": "解放者杯"
+            },
+            {
+              "date": "2026-08-14",
+              "venue": "主",
+              "opponent": "德尔芬",
+              "score_90": "3:2",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-08-07",
+              "venue": "客",
+              "opponent": "基多大学",
+              "score_90": "2:0",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-08-02",
+              "venue": "主",
+              "opponent": "库恩卡",
+              "score_90": "1:0",
+              "competition": "厄瓜甲"
+            },
+            {
+              "date": "2026-07-29",
+              "venue": "主",
+              "opponent": "曼塔",
+              "score_90": "1:0",
+              "competition": "厄瓜杯"
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-09-06",
+              "venue": "客",
+              "opponent": "雷莫",
+              "score_90": "1:0",
+              "competition": "巴甲"
+            },
+            {
+              "date": "2026-09-02",
+              "venue": "主",
+              "opponent": "米拉索尔",
+              "score_90": "2:0",
+              "competition": "巴甲"
+            },
+            {
+              "date": "2026-08-30",
+              "venue": "主",
+              "opponent": "博塔弗戈",
+              "score_90": "3:0",
+              "competition": "巴甲"
+            },
+            {
+              "date": "2026-08-23",
+              "venue": "客",
+              "opponent": "克鲁塞罗",
+              "score_90": "1:2",
+              "competition": "巴甲"
+            },
+            {
+              "date": "2026-08-20",
+              "venue": "主",
+              "opponent": "克鲁塞罗",
+              "score_90": "2:1",
+              "competition": "解放者杯"
+            }
+          ],
+          "formal_matches_only": true,
+          "sample_note": "德尔瓦耶近10正式8胜1平1负、20进10失，近5为3胜1平1负且场场丢球；弗拉门戈近5为4胜1负、9进3失，最近3场均零封。弗拉门戈本届6胜2平含对麦德林中断后判定3:0，不能全当正常比赛攻防样本。"
+        },
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "assessment": "6次CONMEBOL交锋德尔瓦耶2胜1平3负；其名义主场2胜1平，各队主场从未输。最近5次为德尔瓦耶2胜3负。2020及2023旧样本降权，不把5:0复刻到当前，两队已换帅和人员。2023加时/点球晋级不混入90分钟结算。",
+          "weight": "低",
+          "missing_note": "未取得逐场结构时保留来源中的定性或汇总口径，空数组不表示无交锋。"
+        },
+        "home_away_form": {
+          "assessment": "CONMEBOL统计德尔瓦耶解放者杯主场五连胜；本届已完成四个主场，五连胜应按跨赛季口径理解；本场在基多Atahualpa而非普通队页常列Banco Guayaquil。弗拉门戈本届正常完成的客场为胜库斯科、平拉普大学、平克鲁塞罗，另有判定胜场应剔除技术统计。"
+        },
+        "injuries": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "多家赛前报道及FotMob列弗拉门戈Alex Sandro、Evertton Araujo伤缺；俱乐部9/7确认Plata恢复合练随队。Cebolinha离队由俱乐部9/9消息确认，旧报道称目的地Krasnodar已过时，不采其目的地。德尔瓦耶Villar伤情仅数据库记录；完整本场官方伤停名单未获。",
+          "note": "确认、存疑、冲突和无法核实按说明分层；空数组不代表全员健康。"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "full_list_confirmed": false,
+          "current_assessment": "双方本场完整停赛确认未获取；德尔瓦耶Sornoza小组首轮红牌是历史事件，不自动算本场停赛。"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "status": "最终首发尚未公布"
+        },
+        "motivation": {
+          "home": "争取本场胜利；没有公开保平条件或留力确认。",
+          "away": "争取本场积分或晋级优势；不编造接受平局表态。",
+          "stage": "解放者杯1/4决赛首回合；总比分尚未开始，9/17回里约踢次回合"
+        },
+        "future_schedule_3_to_5_days": {
+          "assessment": "弗拉门戈9/6巴甲客场后9/7直接赴基多备战，提前适应高原但无法等同无体能影响；9/13主战科林蒂安，9/17次回合。德尔瓦耶9/13客战Libertad，随后赴里约。"
+        },
+        "travel_and_fatigue": {
+          "assessment": "弗拉门戈9/6巴甲客场后9/7直接赴基多备战，提前适应高原但无法等同无体能影响；9/13主战科林蒂安，9/17次回合。德尔瓦耶9/13客战Libertad，随后赴里约。",
+          "precision_note": "具体航班、里程及体能负荷未获取。"
+        },
+        "weather": "对应开球时段可靠天气未取得，不作为方向依据。",
+        "tactical_matchup": "CONMEBOL称两队本届累计xG分别16.1与15.2，均有持续创造；德尔瓦耶Gonzalez7球中6个头球，传中/高空防守是实质对位。弗拉门戈有Arrascaeta、Pedro等多点及替补进攻，能够在落后后追回。累计xG不直接转成本场概率。",
+        "discipline_risk": {
+          "home": "待核实",
+          "away": "待核实"
+        },
+        "match_openness": "中等偏高；首回合可控但定位球与高原增加变化",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "fact_sources": [
+          {
+            "url": "https://gol.conmebol.com/libertadores/en/news/independiente-del-valle-v-flamengo-first-leg-conmebol-libertadores-quarter-finals-kick-time",
+            "note": "赛制、场地、交锋、两队攻防特征",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://gol.conmebol.com/libertadores/en/news/flamengo-2026-conmebol-libertadores-results-squad-and-schedule",
+            "note": "8场赛程含判定胜说明",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://gol.conmebol.com/libertadores/en/news/independiente-del-valle-2026-conmebol-libertadores-results-squad-and-schedule",
+            "note": "已完成小组及淘汰赛",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.flamengo.com.br/noticias/futebol/flamengo-se-despede-de-belem-rumo-a-quito",
+            "note": "雷莫赛果、赴基多、Plata合练",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.goal.com/es-cl/equipo/independiente-del-valle/partidos-resultados/ddkiejug4w4ri9ch2fnnen6yw",
+            "note": "近10与后续赛程",
+            "source_type": "可靠公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.betexplorer.com/football/team/flamengo-rj/WjxY29qB/results/",
+            "note": "近期赛果",
+            "source_type": "公共数据库",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.lance.com.br/flamengo/escalacao-flamengo-finaliza-preparacao-para-enfrentar-o-del-valle-pela-libertadores.html",
+            "note": "备战与伤情报道；正文读取失败但搜索片段可见",
+            "source_type": "可靠媒体",
+            "checked_at": "2026-09-10T03:58:18Z"
+          },
+          {
+            "url": "https://www.flamengo.com.br/noticias",
+            "note": "9/9Cebolinha离队消息与9/13赛程",
+            "source_type": "赛事或俱乐部官方",
+            "checked_at": "2026-09-10T03:58:18Z"
+          }
+        ],
+        "standings_note": "两队均从各自小组第1晋级；德尔瓦耶13分、弗拉门戈16分是已结束小组的积分。弗拉门戈9/6胜后俱乐部确认暂居巴甲首位；当前完整国内场数积分未独立核齐，留空。",
+        "venue": "厄瓜多尔基多，Estadio Olímpico Atahualpa；CONMEBOL本场预告"
+      },
+      "official_data": {
+        "source_type": "中国体彩官方可见网页DOM",
+        "source_url": "https://www.sporttery.cn/jc/jsq/zqspf/",
+        "checked_at": "2026-09-10T11:48:41+08:00",
+        "source_note": "周四7场；003/005胜平负未开售，7场让球奖金可见。006官方注明在阿尔韦卡举行。只读未选投注选项。",
+        "spf": {
+          "status": "奖金可见",
+          "official_win_odds": 2.59,
+          "official_draw_odds": 2.78,
+          "official_loss_odds": 2.61
+        },
+        "handicap": {
+          "status": "奖金可见",
+          "official_handicap": -1,
+          "handicap_win_odds": 6.3,
+          "handicap_draw_odds": 4.08,
+          "handicap_loss_odds": 1.38
+        },
+        "score": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "total_goals": {
+          "status": "不在本次预测范围",
+          "bonuses": {}
+        },
+        "displayed_bonus_updated_at": "2026-09-10 11:36:45",
+        "capture_note": "普通网页抓取超时，Jina返回567；改从浏览器可见DOM读取。页面导出能力不可用，保留逐行转录和结构化快照。",
+        "official_notice": null,
+        "detail_url": "https://www.sporttery.cn/jc/zqdz/index.html?showType=2&mid=2041375"
+      },
+      "prediction": {
+        "predicted_result": "平",
+        "predicted_handicap_result": "让负",
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": "德尔瓦耶有近期主场连胜和基多高原条件，但其近5场正式赛每场失球；弗拉门戈近三场正式赛连续零封，本届正常进行的两个有竞争力客场对拉普拉塔大学生、克鲁塞罗均战平。强度、主场与客队防守优势相互抵消，首回合平局窄幅居首；非单因两回合或信息缺失选平。",
+        "match_openness": "中等偏高；首回合可控但定位球与高原增加变化",
+        "direction_confidence": "中低",
+        "risk_level": "高",
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+          "qualitative_assessment": "主队-1：不胜让负，主胜1球让平，主胜2球以上让胜。客队近期防守恢复和正常比赛的解放者杯客场不败路径，使德尔瓦耶不胜区间优先。主队Gonzalez头球和主场连续赢球是主胜1球及2+反证；官方累计xG16.1与15.2显示双方并非弱攻，不能引用弱攻击首回合规则硬压幅度。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "弗拉门戈卫冕冠军及巴甲前列阵容占优，德尔瓦耶本届进攻和基多高原环境抵消部分实力差",
+          "近期5至10场攻防状态": "德尔瓦耶近10正式8胜1平1负、20进10失，近5为3胜1平1负且场场丢球；弗拉门戈近5为4胜1负、9进3失，最近3场均零封。弗拉门戈本届6胜2平含对麦德林中断后判定3:0，不能全当正常比赛攻防样本。",
+          "主客场表现": "CONMEBOL统计德尔瓦耶解放者杯主场五连胜；本届已完成四个主场，五连胜应按跨赛季口径理解；本场在基多Atahualpa而非普通队页常列Banco Guayaquil。弗拉门戈本届正常完成的客场为胜库斯科、平拉普大学、平克鲁塞罗，另有判定胜场应剔除技术统计。",
+          "当前积分排名及争冠保级晋级形势": "两队均从各自小组第1晋级；德尔瓦耶13分、弗拉门戈16分是已结束小组的积分。弗拉门戈9/6胜后俱乐部确认暂居巴甲首位；当前完整国内场数积分未独立核齐，留空。",
+          "小组积分及出线条件": "解放者杯1/4决赛首回合；总比分尚未开始，9/17回里约踢次回合",
+          "杯赛首回合或次回合总比分": "解放者杯1/4决赛首回合；总比分尚未开始，9/17回里约踢次回合",
+          "球队真实战意": "争取本场积分或晋级优势；不编造接受平局条件。",
+          "轮换留力或赛程取舍": "弗拉门戈9/6巴甲客场后9/7直接赴基多备战，提前适应高原但无法等同无体能影响；9/13主战科林蒂安，9/17次回合。德尔瓦耶9/13客战Libertad，随后赴里约。",
+          "未来3至5天关键赛程": "弗拉门戈9/6巴甲客场后9/7直接赴基多备战，提前适应高原但无法等同无体能影响；9/13主战科林蒂安，9/17次回合。德尔瓦耶9/13客战Libertad，随后赴里约。",
+          "伤停停赛及预计首发": "多家赛前报道及FotMob列弗拉门戈Alex Sandro、Evertton Araujo伤缺；俱乐部9/7确认Plata恢复合练随队。Cebolinha离队由俱乐部9/9消息确认，旧报道称目的地Krasnodar已过时，不采其目的地。德尔瓦耶Villar伤情仅数据库记录；完整本场官方伤停名单未获。 双方本场完整停赛确认未获取；德尔瓦耶Sornoza小组首轮红牌是历史事件，不自动算本场停赛。",
+          "最终首发和替补阵容深度": "最终首发尚未公布；预计首发或名单不等于确认首发。",
+          "战术风格及相互克制": "CONMEBOL称两队本届累计xG分别16.1与15.2，均有持续创造；德尔瓦耶Gonzalez7球中6个头球，传中/高空防守是实质对位。弗拉门戈有Arrascaeta、Pedro等多点及替补进攻，能够在落后后追回。累计xG不直接转成本场概率。",
+          "定位球防反击防高空球能力": "CONMEBOL称两队本届累计xG分别16.1与15.2，均有持续创造；德尔瓦耶Gonzalez7球中6个头球，传中/高空防守是实质对位。弗拉门戈有Arrascaeta、Pedro等多点及替补进攻，能够在落后后追回。累计xG不直接转成本场概率。 完整定位球和高空球量化序列未取得。",
+          "近期进球效率和防守稳定性": "弗拉门戈近三场零封对防守有支持，但高原和Gonzalez头球可破坏零封；德尔瓦耶最近5场每场失球，主队零封依据较弱。平局不是无进球判断。 不把进球总数当射门转化率，完整同口径xG序列未取得。",
+          "红黄牌犯规及纪律风险": "双方本场完整停赛确认未获取；德尔瓦耶Sornoza小组首轮红牌是历史事件，不自动算本场停赛。 完整犯规和牌数未取得，不预设本场红牌。",
+          "赛程密度旅行体能天气": "弗拉门戈9/6巴甲客场后9/7直接赴基多备战，提前适应高原但无法等同无体能影响；9/13主战科林蒂安，9/17次回合。德尔瓦耶9/13客战Libertad，随后赴里约。 对应开球时段可靠天气未取得，不作为方向依据。",
+          "近期交锋持续性压制": "6次CONMEBOL交锋德尔瓦耶2胜1平3负；其名义主场2胜1平，各队主场从未输。最近5次为德尔瓦耶2胜3负。2020及2023旧样本降权，不把5:0复刻到当前，两队已换帅和人员。2023加时/点球晋级不混入90分钟结算。",
+          "领先后收缩崩盘或被逆转倾向": "弗拉门戈上轮淘汰赛客场先落后后追平，国内克鲁塞罗客战则被逆转；德尔瓦耶近5场全失球，领先后不能假设封死卫冕冠军。首回合平局可保留次回合争夺空间，但未获得教练明确保平指令。",
+          "低级别或波动联赛异常发挥风险": "开季小样本、跨联赛强度、轮换或赛事波动须独立处理；不沿用其他赛事进球基准。"
+        },
+        "prediction_plays": [
+          "result",
+          "handicap_result"
+        ],
+        "not_requested_plays": [
+          "score",
+          "total_goals"
+        ],
+        "prediction_scope_note": "每场胜平负、让球胜平负各一个最终结果；具体比分、总进球不在本次预测范围，兼容字段留null，不展示、不要求补齐、不计命中分母。",
+        "result": "平",
+        "handicap_result": "让负",
+        "score": null,
+        "total_goals": null,
+        "margin_assessment": "主队-1：不胜让负，主胜1球让平，主胜2球以上让胜。客队近期防守恢复和正常比赛的解放者杯客场不败路径，使德尔瓦耶不胜区间优先。主队Gonzalez头球和主场连续赢球是主胜1球及2+反证；官方累计xG16.1与15.2显示双方并非弱攻，不能引用弱攻击首回合规则硬压幅度。",
+        "clean_sheet_assessment": "弗拉门戈近三场零封对防守有支持，但高原和Gonzalez头球可破坏零封；德尔瓦耶最近5场每场失球，主队零封依据较弱。平局不是无进球判断。",
+        "strong_side_not_win_path": "德尔瓦耶主场有强进攻和Gonzalez头球威胁，若弗拉门戈在高原下半场体能下降或边后卫替代人员失位，主队可取胜；提前抵达仅部分缓解高原影响。该反证使平仅中低、让负中，严格稳胆为0。",
+        "counter_evidence": "德尔瓦耶主场有强进攻和Gonzalez头球威胁，若弗拉门戈在高原下半场体能下降或边后卫替代人员失位，主队可取胜；提前抵达仅部分缓解高原影响。该反证使平仅中低、让负中，严格稳胆为0。",
+        "draw_positive_evidence": "弗拉门戈正常进行的本届客场已有两次平局；近期防守稳健对抗德尔瓦耶主场进攻、高原优势和本方近5场持续失球，使两方均难持续独占优势。淘汰赛首回合尚有次战提高控风险的动机，但这只是战术推断，不假称教练同意保平。",
+        "lineup_change_triggers": "确认双方门将/中卫/边后卫及Pulgar实际名单；Atahualpa为本场场地，不能误用常规球场；若有大规模轮换或关键阵容变化，未开球前另建版。",
+        "handicap_confidence": "中",
+        "result_probabilities": {
+          "win": null,
+          "draw": null,
+          "loss": null
+        },
+        "probability_missing_reason": "尚无可靠同口径的最终首发、对手强度及净胜分布模型；现有样本不足以稳妥估计三项概率，保留定性排序而不填任意百分比。",
+        "probability_method": "逐场证据与反证的定性比较，非经训练或校准模型；置信等级不等于数字概率。",
+        "probability_sources_time": {
+          "official_snapshot": "2026-09-10T11:48:41+08:00",
+          "assessment": "2026-09-10T12:09:43+08:00"
+        },
+        "both_teams_score_probability": null,
+        "stable_tag": false,
+        "stable_basis": "最终首发、过程低波动与反向风险条件未同时满足。",
+        "candidate_result_order": [
+          "平",
+          "胜",
+          "负"
+        ],
+        "two_play_consistency": true,
+        "official_lowest_spf_baseline": "胜",
+        "cold_tag": true,
+        "cold_basis": "德尔瓦耶有近期主场连胜和基多高原条件，但其近5场正式赛每场失球；弗拉门戈近三场正式赛连续零封，本届正常进行的两个有竞争力客场对拉普拉塔大学生、克鲁塞罗均战平。强度、主场与客队防守优势相互抵消，首回合平局窄幅居首；非单因两回合或信息缺失选平。",
+        "independent_pre_rule_assessment": {
+          "result": "平",
+          "handicap_result": "让负",
+          "confidence": "中低",
+          "handicap_confidence": "中",
+          "probabilities": {
+            "win": null,
+            "draw": null,
+            "loss": null
+          }
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": "2026-09-11T08:30:00+08:00",
+        "venue": null,
+        "raw_charts": {
+          "qimen": null,
+          "daliuren": null,
+          "liuyao": null,
+          "meihua": null
+        },
+        "conclusions": {
+          "data_model": "平",
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "verified_90_minutes": false,
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {
+        "hit_result": null,
+        "hit_handicap": null,
+        "hit_score": null,
+        "hit_total_goals": null
+      },
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      },
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "state": "formal",
+      "generated_at": "2026-09-10T12:09:43+08:00",
+      "finalized_at": "2026-09-10T12:10:15+08:00",
+      "match_id": 2041375,
+      "snapshot_hash": "e7ce2d4826705b5334f0516c47d4026bab932ef9a867679e38d1abd430039042",
+      "source_prediction_file": "exports/2026-09-10/prediction_V1.json",
+      "prediction_plays": [
+        "result",
+        "handicap_result"
+      ],
+      "applied_review_rules": [],
+      "unavailable_fields": [
+        "完整本场官方伤停/停赛确认",
+        "最终首发",
+        "当前国内完整积分表",
+        "同口径技术统计及天气",
+        "最终首发尚未公布"
+      ],
+      "research_independent_assessment": {}
+    }
+  ],
+  "prediction_plays": [
+    "result",
+    "handicap_result"
+  ],
+  "snapshot_hash_method": "SHA256 of sorted compact UTF-8 JSON official snapshot",
+  "rules_read_count": 153,
+  "history_read_count": 269,
+  "protected_files_checked": 136,
+  "sqlite_synced": false,
+  "relative_selection_note": "这是当日比较后的两项相对优先选择，信心有限；严格稳胆数为0，均不赋予稳胆标签。",
+  "relative_selections": [
+    {
+      "sequence": 4,
+      "play": "handicap_result",
+      "basis": "官方主队+1，选既有让胜。主队最近主场状态、朗斯防线待定人员与近期终结不足，使主队不败在当日可售选项中相对优先。",
+      "main_risk": "两队伤缺较多；朗斯造机会能力仍在，若终结改善，主队输球即不兑现。中等信心，非稳胆。",
+      "match_number": "周四004",
+      "option": "让胜",
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "selected_at": "2026-09-10T12:09:43+08:00",
+      "official_handicap": 1,
+      "confidence": "中",
+      "risk_level": "高",
+      "stable_tag": false
+    },
+    {
+      "sequence": 7,
+      "play": "handicap_result",
+      "basis": "官方主队-1，选既有让负，即德尔瓦耶不胜。弗拉门戈近期防守回稳、本届正常客场已有战平强敌表现，支撑客队带走结果。",
+      "main_risk": "德尔瓦耶高原主场及头球进攻可直接造成本方取胜；主队哪怕只赢1球，让负也不兑现。中等信心，非稳胆。",
+      "match_number": "周四007",
+      "option": "让负",
+      "prediction_date": "2026-09-10",
+      "prediction_version": 1,
+      "selected_at": "2026-09-10T12:09:43+08:00",
+      "official_handicap": -1,
+      "confidence": "中",
+      "risk_level": "高",
+      "stable_tag": false
+    }
+  ],
+  "source_files": [
+    "official_snapshot_V1.json",
+    "normalized_facts.json",
+    "assessment_input.json",
+    "data_structure_template.json",
+    "templates/赛前预测模板.json",
+    "football_rules.md",
+    "data/review_rules.json",
+    "baseline_backup/prediction_history.json",
+    "baseline_backup/review_rules.json",
+    "baseline_backup/protected_hashes.json"
+  ],
+  "source_hashes": {
+    "official_snapshot_V1.json": "2ac77c3119f946d55084a8fb8ea1d92edd1f30742f5fae31eb77aecc5c14bde5",
+    "normalized_facts.json": "2a2e619bbe2f5b4e8fd4184e7d4c0651cfa278289ad6b7b8716527f7eb8a8b14",
+    "assessment_input.json": "b3411c105625c8cbd1f2f414ec92d2bb02a9dc45b238647412dbacd6bad14bb6",
+    "data_structure_template.json": "e6e06a6ce459fd322814db2ffbc3973d0e2974b36a67764deb1cf516a609ad82",
+    "templates/赛前预测模板.json": "a38015151842b3c9dba09670453da71bd7ba79a600ead9dc708644a843e6f2bd",
+    "football_rules.md": "49ee22f0d2a43f6320f1c7103b915f6fb522d6be66459c475a0687652010d338",
+    "data/review_rules.json": "79e0f349874dcf1860d25dca75042428693e18524efb5adcc102b36ae37976ad",
+    "baseline_backup/prediction_history.json": "a92406bc2cf1dc05cf1f644e3229b8b09a16dc594fe94c62e329a9de59c472b0",
+    "baseline_backup/review_rules.json": "79e0f349874dcf1860d25dca75042428693e18524efb5adcc102b36ae37976ad",
+    "baseline_backup/protected_hashes.json": "f04ac51a2603a03b7c99f2078b60a9579573fa2477b7f9794eb09e808f5d955b"
+  },
+  "content_hash": "006a2223cbe4f35d198044e66e9424dbf7878e6f34127896fd79fa9571653733"
+}

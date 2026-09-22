@@ -1,0 +1,38 @@
+name: Validate workbench
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  local-contracts:
+    runs-on: ubuntu-latest
+    env:
+      SPORTTERY_DYNAMIC_RESEARCH: '0'
+      SPORTTERY_EVIDENCE_LLM: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: workbench/backend/requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: workbench/frontend/package-lock.json
+      - run: python -m pip install -r workbench/backend/requirements.txt
+      - run: python -m pytest
+        working-directory: workbench/backend
+      - run: python -m unittest test_open_source_release.py
+        working-directory: scripts
+      - run: npm ci
+        working-directory: workbench/frontend
+      - run: node --experimental-strip-types --test tests/*.test.ts
+        working-directory: workbench/frontend
+      - run: npm run build
+        working-directory: workbench/frontend

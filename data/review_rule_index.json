@@ -1,0 +1,4424 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-18T03:21:54.315135+00:00",
+  "source_file": "data/review_rules.json",
+  "source_sha256": "db8245342c552cf0f7faae11990e11870bebcef617b98b3220bd0b8f80cdc8d8",
+  "source_rule_count": 153,
+  "principle_count": 82,
+  "policy": {
+    "merge": "exact_text_only",
+    "original_ids_preserved": true,
+    "application": "核对原规则和本场条件；每场共同原则只计一次影响，保留全部引用ID。",
+    "statistics": "按同联赛及触发场景中的独立比赛核验，不合并多版本或跨联赛计数。"
+  },
+  "principles": [
+    {
+      "principle_id": "P-39f62b48c989a9cd",
+      "source_text": "欧冠资格赛首回合若客队官方固定奖金明显走强，且赛前已确认其欧战经验和替补深度占优，不再机械以谨慎为由保留平局；应把客胜与75分钟后替补进球概率真正反映到胜平负和总进球结果。",
+      "original_rule_ids": [
+        1
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6d3827c352843394",
+      "source_text": "欧冠资格赛首回合中，主让1球的让胜固定奖金只有小幅下降时，不据此把净胜1球升级为净胜2球；若强队缺少正式赛样本且对手具备高水平联赛进攻能力，应提高0:0、1:0和1:1权重。",
+      "original_rule_ids": [
+        2
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3b0156716c87c70d",
+      "source_text": "欧冠资格赛中若双方来自高节奏、开放型联赛且近期均有防线波动，不因一名主力前锋缺阵就统一下调总进球；应单独评估体系型进攻、定位球和后排得分能力，并提高4球及以上权重。",
+      "original_rule_ids": [
+        3
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-b14e8af6aaf91898",
+      "source_text": "欧冠资格赛客场强队若存在已确认的中卫停赛、两名以上主力伤缺或多人晚归，实质性阵容风险应高于小幅官方固定奖金走强；若赛前分析已把大胜降为一球小胜，应继续检验是否需要把胜负方向降为平或主胜。",
+      "original_rule_ids": [
+        4
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6f2c4ed0822ac7c7",
+      "source_text": "巴西杯淘汰赛次回合在总比分持平且30分钟前出现红牌时，必须把红牌前和红牌后分开复盘：若强队获得人数优势，应提高0:1、0:2等窄胜比分，不能机械同步提高总进球。",
+      "original_rule_ids": [
+        5
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-340ad3142365de43",
+      "source_text": "当赛前已确认客队纸面实力、替补进攻深度占优且官方客胜固定奖金为最低方向时，不能只因主场和环境因素默认保留平局；应单独检验一球客胜是否才是最高概率。",
+      "original_rule_ids": [
+        6
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a2836ca03a87d731",
+      "source_text": "单场红牌规则只应用于同类淘汰赛和相近时间节点，不据此统一修改其他联赛的进球基准。",
+      "original_rule_ids": [
+        7
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-e52b3a3ece6ed953",
+      "source_text": "欧冠资格赛主场强队若官方已确认主场售罄、核心球员回归或新援补强，且客队并无已确认的阵容压倒性优势，不因客胜方向奖金走强就直接改选客胜；必须重新比较主胜与平局，并将主队一球胜纳入让球区间。",
+      "original_rule_ids": [
+        8
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6c2086a1d7ab6f9a",
+      "source_text": "若让球区间评估显示主队净胜1球与净胜2球以上合计概率高于主队不胜，胜平负不得单独选择客胜；输出前增加胜平负方向与让球区间概率一致性检查。",
+      "original_rule_ids": [
+        9
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-68185c233c942e96",
+      "source_text": "欧冠资格赛主场强队若核心攻击手首发确认、客队关键攻击线存在已确认缺阵，且主队早段取得领先，可保留2:0和零封路径；但该规则目前只有单场支持，仅作观察，不向所有强队统一升权。",
+      "original_rule_ids": [
+        10
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-69993cc054e02d8b",
+      "source_text": "仅针对巴西杯两回合次回合：落后两球且主场必须追分的球队，不能按纸面实力把进球上限封顶1球；若前30分钟形成持续压迫，应上调主队2球及以上及总进球4球以上场景。",
+      "original_rule_ids": [
+        11
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-f8bb2dec6189c017",
+      "source_text": "杯赛次回合的比分模型要把首回合总比分、淘汰压力和对手门将/后防失误风险单独加权，不能用普通联赛低比分基准直接套用。",
+      "original_rule_ids": [
+        12
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-9489004146dc4d81",
+      "source_text": "仅针对欧战资格赛首回合：主场/人工草球队不能因联赛层级较低就直接判客胜；无明确阵容差异时，1:1、1:0、0:1低比分场景上调。",
+      "original_rule_ids": [
+        13
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-5232392b90afeb45",
+      "source_text": "让球+1必须单独计算主队不败和客队净胜2球以上概率；不能把客队一球小胜当成唯一主路径。",
+      "original_rule_ids": [
+        14
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-319064def369b38b",
+      "source_text": "欧战资格赛首回合，主场受让1且主场稳定的球队，遇到客队大幅轮换或磨合不足时，主队1球小胜应与平局同等进入主场场景。",
+      "original_rule_ids": [
+        15
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a8c7158330e76bcf",
+      "source_text": "让+1不能反推胜平负：即使判断客队不易净胜2球，也要单独比较客胜、平局和主胜的90分钟概率。",
+      "original_rule_ids": [
+        16
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-e8b090e2a8200ba0",
+      "source_text": "欧战首回合接近对阵中，主胜低奖金不能直接等同于控制力；若客队有速度和反击威胁，0:1、1:1应保留在高权重低比分场景。",
+      "original_rule_ids": [
+        17
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a508d8a3edb626c9",
+      "source_text": "主让1球只有在主队净胜1球概率明确最高时才选让平；若客队反击和主队进球转化风险同时存在，应提高让负权重。",
+      "original_rule_ids": [
+        18
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-bb51a7fb3feeb365",
+      "source_text": "强弱悬殊的欧战主场且对手防线连续失球时，不能把3:0自动当上限；前场主力齐整时，4:0、5:0、4:1应进入高权重比分带。",
+      "original_rule_ids": [
+        19
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-2d7c0373b2509e37",
+      "source_text": "大比分调整只适用于强弱悬殊、机会量和阵容证据同时支持的比赛，按赛事和球队分层，不对所有联赛统一抬高总进球基准。",
+      "original_rule_ids": [
+        20
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-52b1b2a884cf3828",
+      "source_text": "没有确认大轮换、核心缺阵或比赛强度下降证据时，赛程疲劳只先降低置信度和净胜幅度，不直接把实力、主场与官方方向一致的胜改为平或负。",
+      "original_rule_ids": [
+        21
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-74029b87687f88aa",
+      "source_text": "当独立结论与官方最低固定奖金方向相反，至少需要两项可核实强证据，例如确认轮换、核心伤停、明确战术克制或持续同主客低迷；旧交锋或笼统疲劳单独不足以推翻。",
+      "original_rule_ids": [
+        22
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-964ce67628f87c15",
+      "source_text": "胜负方向与净胜区间分开建模；强队方向清晰时仍须单独比较1球、2球和3球以上概率，不由强队名气或开放联赛标签自动放大比分。",
+      "original_rule_ids": [
+        23
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-40fd2eea8c07c200",
+      "source_text": "芬超赛程密集且弱势方进攻低迷时，提高0:0和0:1权重；该低事件修正不得外推至瑞超或挪超。",
+      "original_rule_ids": [
+        24
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-efca37b4c1793a84",
+      "source_text": "挪超禁止只凭近期双方失球总量统一抬高进球基准；若交锋平局率高且有效进攻证据不足，1:1、1:0、0:1仍保留高权重。",
+      "original_rule_ids": [
+        25
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6e9502cdd2078973",
+      "source_text": "官方主让2球必须单独评估正好净胜2球；新赛季或首发未确认时，让平和让负不得因强队名气被压低，只有3球以上概率明确最高才选让胜。",
+      "original_rule_ids": [
+        26
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-cbfaefb9a18857b7",
+      "source_text": "仅在射正、控球、角球与比分显著背离时标记门将或终结异常；该信号只提高相关球队波动等级，不据此统一反买强队或改动联赛进球基准。",
+      "original_rule_ids": [
+        27
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-50a83339d79b2e5b",
+      "source_text": "瑞超强势方对持续具备破门能力的对手时，若近阶段已有4:4或两球领先后失守等样本，即使排名、主场和机会量占优，也必须单独提高平局与让负权重；在防守稳定性重新验证前，此类比赛的方向置信度上限先设为中。",
+      "original_rule_ids": [
+        28
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-e148d2ca4466aa62",
+      "source_text": "同一对手7至10天内立即再战且交换主客时，上一场三球以上大胜的比分与净胜幅度必须显著降权；优先复核败方阵型收缩、主场反弹和强方终结回落，若客胜依据主要来自上一场极端比分，不得给中高置信度。",
+      "original_rule_ids": [
+        29
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-330fbb3bf9df914c",
+      "source_text": "葡超新赛季首轮若最终阵型呈4-2-3-1对3-4-3且双方攻击手齐整，不能机械沿用上赛季低进球基准；胜负方向与总进球必须分开，3至4球分支至少与1至2球分支同级复核。",
+      "original_rule_ids": [
+        30
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3267e3c9715f00bd",
+      "source_text": "沙职揭幕轮的升班马主场对上季中游队，若升班马缺少顶级联赛正式样本且双方最终首发未确认，旧同主客平局和主场环境只能降低客胜置信度，不能替代实力层级判断；应在客队不败内部单独比较客胜与平局，客队反击及定位球路径明确时不得机械落到1:1。",
+      "original_rule_ids": [
+        31
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-03b5ee6e2b233356",
+      "source_text": "欧战次回合主让1球、总比分持平且主队必须主动时，胜平负主胜与净胜两球必须分开；若客队具备转换或早段得分路径、主队零封证据不足，即使主队射门压制预期较强，也应优先比较2:1与1:0，不能仅因晋级需要第二球就选择让胜和2:0。",
+      "original_rule_ids": [
+        32
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-7ae4814868506669",
+      "source_text": "欧战次回合一方仅落后一球但必须主动、双方具备速度与转换能力且领先方没有持续压低节奏的可靠证据时，平局不能默认对应1:1；胜平负与进球尺度分开，双方进球成立后应把2:2、3:3和4球以上纳入核心区间，尤其要给连续追分与反转路径独立权重。",
+      "original_rule_ids": [
+        33
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-85716e77b5de8215",
+      "source_text": "欧战次回合主队首回合落后三球以上且必须持续追分、领先方又具备反击得分能力时，单场主队小胜与高总进球可以同时成立；若双方防线稳定性不足，预测主胜一球时应优先比较3:2与2:1，并把4至5球区间上调，不能因领先方控晋级就压低整场尺度。",
+      "original_rule_ids": [
+        34
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-d4de8360512d169a",
+      "source_text": "沙职揭幕战若客队纸面实力、前场转换点、阵容深度和官方胜负方向一致，即使主队主场具备先入球路径，也可保留客胜；但3球以上总进球与两球净胜仍须由双方进球概率和客队后程持续进攻能力共同支持，本场只作为沙职相同阵容结构的正样本，不外推到其他联赛。",
+      "original_rule_ids": [
+        35
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-b501adaeee6aa2e2",
+      "source_text": "欧战次回合主队必须净胜两球才能直接晋级时，晋级任务只能提高主动进攻权重，不能替代能力证据；若首回合已被对手破门、客队反击路径仍完整，选择2:0和主让1球让胜前必须同时确认主队高质量射门能力与防转换稳定性，否则提高1:1、2:1及让负权重。",
+      "original_rule_ids": [
+        36
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-e09c49063d3e815b",
+      "source_text": "欧战次回合主队首回合领先一球、客队必须追分时，领先方控球下降不等于进攻下降；若主队反击速度和前场终结点完整，应把主队2球以上与4至5球路径纳入核心，不能只因主队可接受平局就固定为1:1。赛后89分钟后的红牌若未改变比分，只记纪律风险，不回填为赛果错因。",
+      "original_rule_ids": [
+        37
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-ce01e0fdaa240504",
+      "source_text": "欧战次回合客队首回合领先四球以上、客场作战且晋级目标已高度确定时，即使没有确认大轮换，也应把健康晋级和降低比赛强度作为独立战意变量；若客队没有必须扩大比分的需求，平局权重至少与一球客胜同级，1:1和0:0优先于机械保留1:2。",
+      "original_rule_ids": [
+        38
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-52f30b782fe73758",
+      "source_text": "解放者杯首回合低事件不等于主队零封；当客队拥有成熟杯赛经验、4-3-3转换与定位球得分点时，即使主队主场更可能先领先，也必须单独评估领先后的控场和客队后程扳平能力，1:1应与1:0同级比较，不能用首回合谨慎标签压掉双方进球。",
+      "original_rule_ids": [
+        39
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-ea6b9038f66a1420",
+      "source_text": "解放者杯首回合若客队次回合拥有主场、双方近期有效射正与终结证据都弱，0:0可以作为独立高权重路径；射门总量必须与射正和xG分开判断。红牌若发生在80分钟后、红牌前后比分和方向均未变化，只记录临场风险，不改变原始低事件规则。",
+      "original_rule_ids": [
+        40
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-9b2c70070832865c",
+      "source_text": "日职客队纸面占优且转换证据充分时，0:1要与0:2、1:2、1:3分开比较；主受让1球不能把让平作为默认路径。",
+      "original_rule_ids": [
+        41
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-eadb93f2f87e8068",
+      "source_text": "芬超低事件基准不能压过明确的客队转换或定位球证据；主场支持与实力判断冲突时，必须先独立评估客胜，不用1:0模板替代方向判断。",
+      "original_rule_ids": [
+        42
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-9d5f4dea6801a246",
+      "source_text": "德乙强弱接近且落后方仍有明确追分能力时，1:1与2:2要同级比较，不能把小比分平局固定为唯一核心比分。",
+      "original_rule_ids": [
+        43
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-e8771b0199afd9ff",
+      "source_text": "德乙排名与奖金冲突时，受让方真实防守和客队先手能力要单独验证；平局不能成为冲突场的自动保护。",
+      "original_rule_ids": [
+        44
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3a6e58f327a9ac33",
+      "source_text": "领先方在下半场早段出现红牌时，只调整后程比分区间，不回填胜负方向；沙职主胜且对手有追分能力时，2:1必须与1:0并列评估。",
+      "original_rule_ids": [
+        45
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3b51589422e94fe6",
+      "source_text": "瑞超主胜且防守稳定证据充分时，2:0、3:0与2:1要分开评估；主让1球的净胜两球以上路径不能一概降权。",
+      "original_rule_ids": [
+        46
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-bc1c944e5c958a62",
+      "source_text": "挪超实力接近且主场与反击路径同时成立时，客胜不能压过主胜；补时绝杀按实际赛果核对，不事后改写为可预测的固定规律。",
+      "original_rule_ids": [
+        47
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-7460c13db05623b2",
+      "source_text": "沙职强弱场不能把低比分平局当作默认；红牌和点球只能作为临场突发事件单独记录，不能被误当作赛前可稳定预测的常态。",
+      "original_rule_ids": [
+        48
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-2de456a8be11fe28",
+      "source_text": "强队让3球时必须先拆分主胜与穿盘；4:2仍是主胜但让负，不能把主胜方向直接绑定让平和3:0。",
+      "original_rule_ids": [
+        49
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-ac2a98c1f485a119",
+      "source_text": "荷甲开局场次不能只看主场和排名；当客队前场效率有明确证据时，要下调平局权重并提高客胜与4球路径。",
+      "original_rule_ids": [
+        50
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6215eb212452fa21",
+      "source_text": "荷乙排名与主场定价冲突时，不能同时把主胜和让平当成一条确定链；双方都有落后追分能力时，应提高平局和4球区间。",
+      "original_rule_ids": [
+        51
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-f39c9110906c6412",
+      "source_text": "荷乙强队主胜与穿盘必须分开；2:0零封只在防守证据充分时使用，开放度较高时要保留2:1、3:2和让平。",
+      "original_rule_ids": [
+        52
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-f83ab194dac7e43d",
+      "source_text": "法乙主场低赔且客队防守承压证据明确时，不能因联赛低事件就自动选平；主让1球的净胜两球路径需要保留。",
+      "original_rule_ids": [
+        53
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-4e7ab8df055171a3",
+      "source_text": "法乙双方转换和追分路径有证据时，3球以上不能被1:0模板压掉；红牌后要单独判断是否真正改变胜负，不能笼统归因。",
+      "original_rule_ids": [
+        54
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-acc17060004d793b",
+      "source_text": "法乙强队主场若连续进攻和定位球证据充分，3:1与2:0要独立比较；主胜准确不等于零封。",
+      "original_rule_ids": [
+        55
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a860bfdd88a67a04",
+      "source_text": "英冠排名与奖金强烈冲突的开局场应降低方向置信度，单独提高平局和双方进球；93分钟点球只记录为临场节点，不能替代赛前实力复核。",
+      "original_rule_ids": [
+        56
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-60466ccbd01306ee",
+      "source_text": "葡超强队让2球时，主胜不能自动等同让平；领先3:0后仍要保留对手后程追回路径，比分3:1、3:2与让负应进入核心比较。",
+      "original_rule_ids": [
+        57
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-7c100a90dc87db12",
+      "source_text": "下一轮先分别判断胜平负、净胜球区间和总进球，不从一个比分模板机械推导四项玩法。",
+      "original_rule_ids": [
+        58,
+        60,
+        64,
+        66,
+        69,
+        72,
+        75,
+        78,
+        80,
+        83,
+        86,
+        88,
+        90,
+        93,
+        97,
+        100,
+        103,
+        106,
+        108,
+        111,
+        115,
+        118,
+        122,
+        124,
+        128,
+        131
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_text": "按本联赛自身进球基准重估比分和总进球，禁止用上一轮整体偏大或偏小跨联赛统一修正。",
+      "original_rule_ids": [
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        82,
+        84,
+        87,
+        89,
+        92,
+        95,
+        99,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_text": "让球玩法单独比较主队不胜、净胜1球、净胜2球以上三段概率，不能因主胜方向自动选让平。",
+      "original_rule_ids": [
+        61,
+        67,
+        70,
+        73,
+        76,
+        79,
+        81,
+        91,
+        94,
+        98,
+        101,
+        104,
+        107,
+        109,
+        112,
+        116,
+        123,
+        125,
+        132
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3b913e156aeb18db",
+      "source_text": "低级别、开季或强弱反差场降低排名和名气权重，先核对阵容、战意、赛程与异常发挥风险。",
+      "original_rule_ids": [
+        63,
+        96,
+        114,
+        119,
+        127
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-64b04e5bfa643174",
+      "source_text": "保留本场有效链条：方向、让球净胜区间和总进球分别判断，平局不能因强队名气被自动排除。",
+      "original_rule_ids": [
+        110
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-3250b5cea8cfb0d9",
+      "source_text": "沙职开季受让1球的中位客优盘，若客队连续客场平局且主队主场具备进球路径，平局必须与客胜并列比较，不能只因排名或xG预期偏客队就默认客胜。",
+      "original_rule_ids": [
+        138
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-94eb8d5058fbe24b",
+      "source_text": "沙职主让1球且对手近期防线连续失球时，除2:0主路径外必须保留3:0或3球以上的有效尾部概率；不能为追求保守比分而固定压到2球。",
+      "original_rule_ids": [
+        139
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-d023eb90f2f21808",
+      "source_text": "短间隔同对手再战时，上一场大胜不得机械复制，但也不能只因主客互换便假设败方必进球；须把上一场的机会质量、实际首发和对位变化放在主客因素之前比较。",
+      "original_rule_ids": [
+        140
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-cc4762ed6b6f851b",
+      "source_text": "面对沙职升班或发展型主队，不能把上一场大胜直接外推为对上游防线必有进球；应另设零封路径，并先比较其面对同档防守的机会质量。",
+      "original_rule_ids": [
+        141
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-d97790345837819a",
+      "source_text": "已确认强队赛程压力但未确认大轮换时，维持方向、只下调净胜和置信度；赛后单场全中不据此扩大为跨联赛通用高分规则。",
+      "original_rule_ids": [
+        142
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-135da4f1f12fdce7",
+      "source_text": "西甲主让1球但主要剧本只是1:0时，必须把0:0与1:0并列做终结效率和门将状态敏感性检验；不能仅凭射门预期或历史主场优势排除闷平。",
+      "original_rule_ids": [
+        143
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-6d9b461fd069cd69",
+      "source_text": "两回合淘汰赛首回合0:0的次回合，不能把首回合和旧德比低比分直接当作总进球上限；一旦任一方早早领先，应上调落后一方必须压上后的反击、定位球和3球以上尾部概率。",
+      "original_rule_ids": [
+        144
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-ad7bd06492e13f42",
+      "source_text": "德乙主让1球且对手具备追平能力时，先比较双方机会质量和领先后防守，再决定净胜两球；高总进球不能自动支持穿盘。",
+      "original_rule_ids": [
+        145
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-8d25ab20faf9e729",
+      "source_text": "法甲主让1球且主胜方向成立时，净胜两球与零封分开评价；须以客队机会质量比较2:0与3:1。",
+      "original_rule_ids": [
+        146
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-f4670b4bd85df1cb",
+      "source_text": "挪超强队客场、主受让2球且主队有追平路径时，单独保留一球客胜评估；不得因本场全中上调为稳胆。",
+      "original_rule_ids": [
+        147
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-320126c631629e75",
+      "source_text": "沙职强队客场面对进攻受限主队、主受让1球时，单独比较0:2与1:2；晚段点球只作为结算敏感性案例，不能预设会有点球。",
+      "original_rule_ids": [
+        148
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a8c916834c0ba27f",
+      "source_text": "法乙主受让1球、平局低置信场应复核75分钟后机会、替补和定位球防守；存在客队持续追分证据时重新比较平局与一球客胜。",
+      "original_rule_ids": [
+        149
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-c0a60888294e93d3",
+      "source_text": "荷甲双方有反击与定位球追平路径时，平局结论与进球尺度分开比较，1:1不得替代2:2路径审查。",
+      "original_rule_ids": [
+        150
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-250e9beb536f5930",
+      "source_text": "荷乙主让1球、低置信且双方持续追分能力成立时，独立检验主胜两球及5球以上尾部；不把开放等同平局，不将8球变为全联赛新基准。",
+      "original_rule_ids": [
+        151
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-68c8bc59db7a887b",
+      "source_text": "德甲开季主让1球、两队均有大量机会时，主胜方向之外要检验4至5球路径；不因上一场失利机械压低主队进攻上限。",
+      "original_rule_ids": [
+        152
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-90df2cbf476f1370",
+      "source_text": "意甲客队转换进攻和多点得分证据成立时，必须把0:1与1:3、1:4等开放路径分开评估；不能默认客胜就是低事件。",
+      "original_rule_ids": [
+        153
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-ebe0f8bed8a3d7ce",
+      "source_text": "英超强队客场、主受让1球时，单独检验零封两球胜；强队早早两球领先后保留控场路径，不自动上调总进球。",
+      "original_rule_ids": [
+        154
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-cd0e40eaddbe5247",
+      "source_text": "西甲强队客场面对有效低位防守时，检验低终结效率、门将状态和定位球失分路径；单场高xG未进球只作个案，不机械推翻长期实力判断。",
+      "original_rule_ids": [
+        155
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-69cced113549dd55",
+      "source_text": "法甲强队有欧战赛程时，使用142前必须独立核验当前防守、对手转换与最终首发；没有大轮换不等于原主胜必然成立。",
+      "original_rule_ids": [
+        156
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    },
+    {
+      "principle_id": "P-a710e98e38238ebf",
+      "source_text": "葡超主让2球的强队须独立检验先失球后仅一球逆转路径；连续零封和主胜优势不能自动推出2:0与让平。",
+      "original_rule_ids": [
+        157
+      ],
+      "cross_scope_pooling_allowed": false,
+      "note": "共同文本索引，不代表跨场景通用规律；原文中的旧玩法不恢复。"
+    }
+  ],
+  "rule_entries": [
+    {
+      "original_rule_id": 1,
+      "principle_id": "P-39f62b48c989a9cd",
+      "source_pointer": "rules[id=1]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 2,
+      "principle_id": "P-6d3827c352843394",
+      "source_pointer": "rules[id=2]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 3,
+      "principle_id": "P-3b0156716c87c70d",
+      "source_pointer": "rules[id=3]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 4,
+      "principle_id": "P-b14e8af6aaf91898",
+      "source_pointer": "rules[id=4]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主弱客强",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 5,
+      "principle_id": "P-6f2c4ed0822ac7c7",
+      "source_pointer": "rules[id=5]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 6,
+      "principle_id": "P-340ad3142365de43",
+      "source_pointer": "rules[id=6]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 7,
+      "principle_id": "P-a2836ca03a87d731",
+      "source_pointer": "rules[id=7]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 8,
+      "principle_id": "P-e52b3a3ece6ed953",
+      "source_pointer": "rules[id=8]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 9,
+      "principle_id": "P-6c2086a1d7ab6f9a",
+      "source_pointer": "rules[id=9]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 10,
+      "principle_id": "P-68185c233c942e96",
+      "source_pointer": "rules[id=10]",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 11,
+      "principle_id": "P-69993cc054e02d8b",
+      "source_pointer": "rules[id=11]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": "实力接近",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 12,
+      "principle_id": "P-f8bb2dec6189c017",
+      "source_pointer": "rules[id=12]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": "实力接近",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 13,
+      "principle_id": "P-9489004146dc4d81",
+      "source_pointer": "rules[id=13]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "主弱客强",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 14,
+      "principle_id": "P-5232392b90afeb45",
+      "source_pointer": "rules[id=14]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "主弱客强",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 15,
+      "principle_id": "P-319064def369b38b",
+      "source_pointer": "rules[id=15]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "实力接近",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 16,
+      "principle_id": "P-a8c7158330e76bcf",
+      "source_pointer": "rules[id=16]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "实力接近",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 17,
+      "principle_id": "P-e8b090e2a8200ba0",
+      "source_pointer": "rules[id=17]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 18,
+      "principle_id": "P-a508d8a3edb626c9",
+      "source_pointer": "rules[id=18]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 19,
+      "principle_id": "P-bb51a7fb3feeb365",
+      "source_pointer": "rules[id=19]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 20,
+      "principle_id": "P-2d7c0373b2509e37",
+      "source_pointer": "rules[id=20]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 21,
+      "principle_id": "P-52b1b2a884cf3828",
+      "source_pointer": "rules[id=21]",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "强势方有欧战赛程",
+        "handicap": null,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 3,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 22,
+      "principle_id": "P-74029b87687f88aa",
+      "source_pointer": "rules[id=22]",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "反官方最低固定奖金方向",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 4,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 23,
+      "principle_id": "P-964ce67628f87c15",
+      "source_pointer": "rules[id=23]",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "新赛季首轮或首发未确认的强弱对阵",
+        "handicap": null,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 7,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 24,
+      "principle_id": "P-40fd2eea8c07c200",
+      "source_pointer": "rules[id=24]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "赛程密集且弱势方进攻低迷",
+        "handicap": null,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 25,
+      "principle_id": "P-efca37b4c1793a84",
+      "source_pointer": "rules[id=25]",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 2,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 26,
+      "principle_id": "P-6e9502cdd2078973",
+      "source_pointer": "rules[id=26]",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "主强客弱",
+        "handicap": -2,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 2,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 27,
+      "principle_id": "P-cbfaefb9a18857b7",
+      "source_pointer": "rules[id=27]",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "技术统计与比分显著背离",
+        "handicap": null,
+        "confidence": null
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 28,
+      "principle_id": "P-50a83339d79b2e5b",
+      "source_pointer": "rules[id=28]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 29,
+      "principle_id": "P-e148d2ca4466aa62",
+      "source_pointer": "rules[id=29]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": "主弱客强，近期同对手再战",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 30,
+      "principle_id": "P-330fbb3bf9df914c",
+      "source_pointer": "rules[id=30]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 31,
+      "principle_id": "P-3267e3c9715f00bd",
+      "source_pointer": "rules[id=31]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "升班马主场对上季中游队，纸面差距有限",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 32,
+      "principle_id": "P-03b5ee6e2b233356",
+      "source_pointer": "rules[id=32]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 33,
+      "principle_id": "P-7ae4814868506669",
+      "source_pointer": "rules[id=33]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 34,
+      "principle_id": "P-85716e77b5de8215",
+      "source_pointer": "rules[id=34]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 35,
+      "principle_id": "P-d4de8360512d169a",
+      "source_pointer": "rules[id=35]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 36,
+      "principle_id": "P-b501adaeee6aa2e2",
+      "source_pointer": "rules[id=36]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 37,
+      "principle_id": "P-e09c49063d3e815b",
+      "source_pointer": "rules[id=37]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 38,
+      "principle_id": "P-ce01e0fdaa240504",
+      "source_pointer": "rules[id=38]",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 39,
+      "principle_id": "P-52f30b782fe73758",
+      "source_pointer": "rules[id=39]",
+      "scope": {
+        "competition": "解放者杯",
+        "match_type": "杯赛",
+        "strength_type": "巴甲主队对厄瓜多尔传统强队，主场和本赛季直接交锋支持米拉索尔",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 40,
+      "principle_id": "P-ea6b9038f66a1420",
+      "source_pointer": "rules[id=40]",
+      "scope": {
+        "competition": "解放者杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 41,
+      "principle_id": "P-9b2c70070832865c",
+      "source_pointer": "rules[id=41]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 2,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 42,
+      "principle_id": "P-eadb93f2f87e8068",
+      "source_pointer": "rules[id=42]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "赛程密集且弱势方进攻低迷",
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 43,
+      "principle_id": "P-9d5f4dea6801a246",
+      "source_pointer": "rules[id=43]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 2,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 44,
+      "principle_id": "P-e8771b0199afd9ff",
+      "source_pointer": "rules[id=44]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": "官方排名显示不伦瑞克第1、波鸿第15，但胜平负奖金接近，说明排名与当前比赛定价存在明显背离",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 45,
+      "principle_id": "P-3a6e58f327a9ac33",
+      "source_pointer": "rules[id=45]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 2,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 46,
+      "principle_id": "P-3b51589422e94fe6",
+      "source_pointer": "rules[id=46]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 47,
+      "principle_id": "P-bc1c944e5c958a62",
+      "source_pointer": "rules[id=47]",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": "维京官方排名第2且胜平负方向略占优，罗森博格主场可抵消部分实力差",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 48,
+      "principle_id": "P-7460c13db05623b2",
+      "source_pointer": "rules[id=48]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "达曼协定官方排名高于利雅得且主场受支持，但主让1球奖金明显防范一球不胜",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 49,
+      "principle_id": "P-2de456a8be11fe28",
+      "source_pointer": "rules[id=49]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -3,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 50,
+      "principle_id": "P-ac2a98c1f485a119",
+      "source_pointer": "rules[id=50]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "特尔斯达排名更高且主场受支持，但荷甲让球奖金强烈防范主队不穿",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 51,
+      "principle_id": "P-6215eb212452fa21",
+      "source_pointer": "rules[id=51]",
+      "scope": {
+        "competition": "荷乙",
+        "match_type": "联赛",
+        "strength_type": "官方排名多德勒支更高，但奖金与主场明显支持瓦尔韦克，属于排名与市场冲突场",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 52,
+      "principle_id": "P-f39c9110906c6412",
+      "source_pointer": "rules[id=52]",
+      "scope": {
+        "competition": "荷乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 53,
+      "principle_id": "P-f83ab194dac7e43d",
+      "source_pointer": "rules[id=53]",
+      "scope": {
+        "competition": "法乙",
+        "match_type": "联赛",
+        "strength_type": "罗德兹官方排名略高，但阿纳西主场奖金占优，实力接近且法乙低事件特征明显",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 54,
+      "principle_id": "P-4e7ab8df055171a3",
+      "source_pointer": "rules[id=54]",
+      "scope": {
+        "competition": "法乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 55,
+      "principle_id": "P-acc17060004d793b",
+      "source_pointer": "rules[id=55]",
+      "scope": {
+        "competition": "法乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 56,
+      "principle_id": "P-a860bfdd88a67a04",
+      "source_pointer": "rules[id=56]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "官方排名显示伍尔弗第22、布莱克本第2，但胜平负奖金强烈支持主队，属于必须以当前官方定价和主场因素复核的冲突场",
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 57,
+      "principle_id": "P-60466ccbd01306ee",
+      "source_pointer": "rules[id=57]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 58,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=58]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 59,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=59]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 60,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=60]",
+      "scope": {
+        "competition": "日乙",
+        "match_type": "联赛",
+        "strength_type": "日乙两队官方奖金接近，秋田的主场优势不足以覆盖富山的客场不败路径；低比分平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 61,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=61]",
+      "scope": {
+        "competition": "日乙",
+        "match_type": "联赛",
+        "strength_type": "日乙两队官方奖金接近，秋田的主场优势不足以覆盖富山的客场不败路径；低比分平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 62,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=62]",
+      "scope": {
+        "competition": "日乙",
+        "match_type": "联赛",
+        "strength_type": "日乙两队官方奖金接近，秋田的主场优势不足以覆盖富山的客场不败路径；低比分平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 63,
+      "principle_id": "P-3b913e156aeb18db",
+      "source_pointer": "rules[id=63]",
+      "scope": {
+        "competition": "日乙",
+        "match_type": "联赛",
+        "strength_type": "日乙两队官方奖金接近，秋田的主场优势不足以覆盖富山的客场不败路径；低比分平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 64,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=64]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 65,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=65]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 66,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=66]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": "神户主场方向占优，但东京FC具备守住一球差的能力；以低事件的一球胜处理。",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 67,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=67]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": "神户主场方向占优，但东京FC具备守住一球差的能力；以低事件的一球胜处理。",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 68,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=68]",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": "神户主场方向占优，但东京FC具备守住一球差的能力；以低事件的一球胜处理。",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 69,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=69]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 70,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=70]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 71,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=71]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 72,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=72]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": "浦项整体方向略强，但光州主场和受让一球提供缓冲；比赛更像僵持而非客队轻松穿盘。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 73,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=73]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": "浦项整体方向略强，但光州主场和受让一球提供缓冲；比赛更像僵持而非客队轻松穿盘。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 74,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=74]",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": "浦项整体方向略强，但光州主场和受让一球提供缓冲；比赛更像僵持而非客队轻松穿盘。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 75,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=75]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": "德乙排名、主场和奖金并不完全同向，先按均衡对阵处理；1:1比机械追主让一球更稳妥。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 76,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=76]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": "德乙排名、主场和奖金并不完全同向，先按均衡对阵处理；1:1比机械追主让一球更稳妥。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 77,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=77]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": "德乙排名、主场和奖金并不完全同向，先按均衡对阵处理；1:1比机械追主让一球更稳妥。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 78,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=78]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "英冠双方胜平负接近，博尔顿主让一球但让负奖金明显受防；选择低比分平局。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 79,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=79]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "英冠双方胜平负接近，博尔顿主让一球但让负奖金明显受防；选择低比分平局。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 80,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=80]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 81,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=81]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 82,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=82]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 83,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=83]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "诺维奇主场和主胜方向略占优，西布朗具备反击进球条件；主队一球胜而非两球以上。",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 84,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=84]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "诺维奇主场和主胜方向略占优，西布朗具备反击进球条件；主队一球胜而非两球以上。",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 86,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=86]",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 87,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=87]",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 88,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=88]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 89,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=89]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 90,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=90]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "阿尔维卡主胜方向明确但葡超低事件特征较强；一球小胜比模板化2:1更匹配。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 91,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=91]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "阿尔维卡主胜方向明确但葡超低事件特征较强；一球小胜比模板化2:1更匹配。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 92,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=92]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "阿尔维卡主胜方向明确但葡超低事件特征较强；一球小胜比模板化2:1更匹配。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 93,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=93]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "塞伊奈约基客胜奖金强，玛丽港受让一球仍有被打穿风险；以客队零封取胜处理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 94,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=94]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "塞伊奈约基客胜奖金强，玛丽港受让一球仍有被打穿风险；以客队零封取胜处理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 95,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=95]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "塞伊奈约基客胜奖金强，玛丽港受让一球仍有被打穿风险；以客队零封取胜处理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 96,
+      "principle_id": "P-3b913e156aeb18db",
+      "source_pointer": "rules[id=96]",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "塞伊奈约基客胜奖金强，玛丽港受让一球仍有被打穿风险；以客队零封取胜处理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 97,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=97]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "布赖代合作主场与主胜方向占优，赛哈特海湾具备反击进球条件；沙职强弱差不直接等于大胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 98,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=98]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "布赖代合作主场与主胜方向占优，赛哈特海湾具备反击进球条件；沙职强弱差不直接等于大胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 99,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=99]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "布赖代合作主场与主胜方向占优，赛哈特海湾具备反击进球条件；沙职强弱差不直接等于大胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 100,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=100]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "谢菲联主场略占优但英冠两队奖金接近，伯明翰守住平局的路径不能忽略；让球按主队不穿处理。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 101,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=101]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "谢菲联主场略占优但英冠两队奖金接近，伯明翰守住平局的路径不能忽略；让球按主队不穿处理。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 102,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=102]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "谢菲联主场略占优但英冠两队奖金接近，伯明翰守住平局的路径不能忽略；让球按主队不穿处理。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 103,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=103]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "乌德勒支与AZ实力接近且荷甲开放度高，双方进球和4球区间优先于单边胜负。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 104,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=104]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "乌德勒支与AZ实力接近且荷甲开放度高，双方进球和4球区间优先于单边胜负。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 105,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=105]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "乌德勒支与AZ实力接近且荷甲开放度高，双方进球和4球区间优先于单边胜负。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 106,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=106]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "葡超均衡盘，维塞乌主场可抵消圣克拉拉的客胜方向；低比分平局为主路径。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 107,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=107]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "葡超均衡盘，维塞乌主场可抵消圣克拉拉的客胜方向；低比分平局为主路径。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 108,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=108]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "阿拉维斯主场略占优但胜平负奖金接近，赫塔费的防守型客场路径明显；不把主让一球当作主胜。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 109,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=109]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "阿拉维斯主场略占优但胜平负奖金接近，赫塔费的防守型客场路径明显；不把主让一球当作主胜。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 110,
+      "principle_id": "P-64b04e5bfa643174",
+      "source_pointer": "rules[id=110]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 111,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=111]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 112,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=112]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 113,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=113]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 114,
+      "principle_id": "P-3b913e156aeb18db",
+      "source_pointer": "rules[id=114]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 115,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=115]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "PSV实力和客胜方向明显占优，荷甲开放度支持双方进球；客队净胜两球以上更合理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 116,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=116]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "PSV实力和客胜方向明显占优，荷甲开放度支持双方进球；客队净胜两球以上更合理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 117,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=117]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "PSV实力和客胜方向明显占优，荷甲开放度支持双方进球；客队净胜两球以上更合理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 118,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=118]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 119,
+      "principle_id": "P-3b913e156aeb18db",
+      "source_pointer": "rules[id=119]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 122,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=122]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "塞维利亚主场方向略占优，但西甲低事件和巴列卡诺防守路径压低大胜概率；平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 123,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=123]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "塞维利亚主场方向略占优，但西甲低事件和巴列卡诺防守路径压低大胜概率；平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 124,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=124]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "波尔图客胜方向极强，里奥阿维受让一球仍难抵消实力差；客队零封两球胜。",
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 125,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=125]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "波尔图客胜方向极强，里奥阿维受让一球仍难抵消实力差；客队零封两球胜。",
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 126,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=126]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "波尔图客胜方向极强，里奥阿维受让一球仍难抵消实力差；客队零封两球胜。",
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 127,
+      "principle_id": "P-3b913e156aeb18db",
+      "source_pointer": "rules[id=127]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "波尔图客胜方向极强，里奥阿维受让一球仍难抵消实力差；客队零封两球胜。",
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 128,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=128]",
+      "scope": {
+        "competition": "巴甲",
+        "match_type": "联赛",
+        "strength_type": "弗鲁米嫩塞与帕尔梅拉斯官方胜平负接近，巴甲均衡盘不宜强行拆出一方；低比分平局。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 129,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=129]",
+      "scope": {
+        "competition": "巴甲",
+        "match_type": "联赛",
+        "strength_type": "弗鲁米嫩塞与帕尔梅拉斯官方胜平负接近，巴甲均衡盘不宜强行拆出一方；低比分平局。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 131,
+      "principle_id": "P-7c100a90dc87db12",
+      "source_pointer": "rules[id=131]",
+      "scope": {
+        "competition": "美职",
+        "match_type": "联赛",
+        "strength_type": "皇家盐湖城主胜方向和主场条件占优，但MLS开放度使明尼苏达具备进球路径；主队一球胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 132,
+      "principle_id": "P-b61fc2e483d0cde9",
+      "source_pointer": "rules[id=132]",
+      "scope": {
+        "competition": "美职",
+        "match_type": "联赛",
+        "strength_type": "皇家盐湖城主胜方向和主场条件占优，但MLS开放度使明尼苏达具备进球路径；主队一球胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 133,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=133]",
+      "scope": {
+        "competition": "美职",
+        "match_type": "联赛",
+        "strength_type": "皇家盐湖城主胜方向和主场条件占优，但MLS开放度使明尼苏达具备进球路径；主队一球胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 134,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=134]",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "英冠双方胜平负接近，博尔顿主让一球但让负奖金明显受防；选择低比分平局。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 135,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=135]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "葡超均衡盘，维塞乌主场可抵消圣克拉拉的客胜方向；低比分平局为主路径。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 136,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=136]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "阿拉维斯主场略占优但胜平负奖金接近，赫塔费的防守型客场路径明显；不把主让一球当作主胜。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 137,
+      "principle_id": "P-2a9cb7b3cbcd1f72",
+      "source_pointer": "rules[id=137]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "塞维利亚主场方向略占优，但西甲低事件和巴列卡诺防守路径压低大胜概率；平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 138,
+      "principle_id": "P-3250b5cea8cfb0d9",
+      "source_pointer": "rules[id=138]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 139,
+      "principle_id": "P-94eb8d5058fbe24b",
+      "source_pointer": "rules[id=139]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 140,
+      "principle_id": "P-d023eb90f2f21808",
+      "source_pointer": "rules[id=140]",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 141,
+      "principle_id": "P-cc4762ed6b6f851b",
+      "source_pointer": "rules[id=141]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 142,
+      "principle_id": "P-d97790345837819a",
+      "source_pointer": "rules[id=142]",
+      "scope": {
+        "competition": "法甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 143,
+      "principle_id": "P-135da4f1f12fdce7",
+      "source_pointer": "rules[id=143]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 1,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 144,
+      "principle_id": "P-6d9b461fd069cd69",
+      "source_pointer": "rules[id=144]",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": "实力接近、杯赛德比",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "trigger_conditions": null,
+      "exclusion_conditions": null,
+      "condition_status": "legacy_requires_evidence_review",
+      "reported_sample_count": null,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 145,
+      "principle_id": "P-ad7bd06492e13f42",
+      "source_pointer": "rules[id=145]",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "德乙主让1球且对手具备追平能力时，先比较双方机会质量和领先后防守，再决定净胜两球；高总进球不能自动支持穿盘。"
+        ]
+      },
+      "trigger_conditions": [
+        "德乙主让1球且对手具备追平能力时，先比较双方机会质量和领先后防守，再决定净胜两球；高总进球不能自动支持穿盘。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 146,
+      "principle_id": "P-8d25ab20faf9e729",
+      "source_pointer": "rules[id=146]",
+      "scope": {
+        "competition": "法甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高",
+        "risk_level": null,
+        "trigger_conditions": [
+          "法甲主让1球且主胜方向成立时，净胜两球与零封分开评价；须以客队机会质量比较2:0与3:1。"
+        ]
+      },
+      "trigger_conditions": [
+        "法甲主让1球且主胜方向成立时，净胜两球与零封分开评价；须以客队机会质量比较2:0与3:1。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 147,
+      "principle_id": "P-f4670b4bd85df1cb",
+      "source_pointer": "rules[id=147]",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 2,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "挪超强队客场、主受让2球且主队有追平路径时，单独保留一球客胜评估；不得因本场全中上调为稳胆。"
+        ]
+      },
+      "trigger_conditions": [
+        "挪超强队客场、主受让2球且主队有追平路径时，单独保留一球客胜评估；不得因本场全中上调为稳胆。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 148,
+      "principle_id": "P-320126c631629e75",
+      "source_pointer": "rules[id=148]",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中高",
+        "risk_level": null,
+        "trigger_conditions": [
+          "沙职强队客场面对进攻受限主队、主受让1球时，单独比较0:2与1:2；晚段点球只作为结算敏感性案例，不能预设会有点球。"
+        ]
+      },
+      "trigger_conditions": [
+        "沙职强队客场面对进攻受限主队、主受让1球时，单独比较0:2与1:2；晚段点球只作为结算敏感性案例，不能预设会有点球。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 149,
+      "principle_id": "P-a8c916834c0ba27f",
+      "source_pointer": "rules[id=149]",
+      "scope": {
+        "competition": "法乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "低",
+        "risk_level": null,
+        "trigger_conditions": [
+          "法乙主受让1球、平局低置信场应复核75分钟后机会、替补和定位球防守；存在客队持续追分证据时重新比较平局与一球客胜。"
+        ]
+      },
+      "trigger_conditions": [
+        "法乙主受让1球、平局低置信场应复核75分钟后机会、替补和定位球防守；存在客队持续追分证据时重新比较平局与一球客胜。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 150,
+      "principle_id": "P-c0a60888294e93d3",
+      "source_pointer": "rules[id=150]",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中低",
+        "risk_level": null,
+        "trigger_conditions": [
+          "荷甲双方有反击与定位球追平路径时，平局结论与进球尺度分开比较，1:1不得替代2:2路径审查。"
+        ]
+      },
+      "trigger_conditions": [
+        "荷甲双方有反击与定位球追平路径时，平局结论与进球尺度分开比较，1:1不得替代2:2路径审查。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 151,
+      "principle_id": "P-250e9beb536f5930",
+      "source_pointer": "rules[id=151]",
+      "scope": {
+        "competition": "荷乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "低",
+        "risk_level": null,
+        "trigger_conditions": [
+          "荷乙主让1球、低置信且双方持续追分能力成立时，独立检验主胜两球及5球以上尾部；不把开放等同平局，不将8球变为全联赛新基准。"
+        ]
+      },
+      "trigger_conditions": [
+        "荷乙主让1球、低置信且双方持续追分能力成立时，独立检验主胜两球及5球以上尾部；不把开放等同平局，不将8球变为全联赛新基准。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 152,
+      "principle_id": "P-68c8bc59db7a887b",
+      "source_pointer": "rules[id=152]",
+      "scope": {
+        "competition": "德甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "德甲开季主让1球、两队均有大量机会时，主胜方向之外要检验4至5球路径；不因上一场失利机械压低主队进攻上限。"
+        ]
+      },
+      "trigger_conditions": [
+        "德甲开季主让1球、两队均有大量机会时，主胜方向之外要检验4至5球路径；不因上一场失利机械压低主队进攻上限。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 153,
+      "principle_id": "P-90df2cbf476f1370",
+      "source_pointer": "rules[id=153]",
+      "scope": {
+        "competition": "意甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "意甲客队转换进攻和多点得分证据成立时，必须把0:1与1:3、1:4等开放路径分开评估；不能默认客胜就是低事件。"
+        ]
+      },
+      "trigger_conditions": [
+        "意甲客队转换进攻和多点得分证据成立时，必须把0:1与1:3、1:4等开放路径分开评估；不能默认客胜就是低事件。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 154,
+      "principle_id": "P-ebe0f8bed8a3d7ce",
+      "source_pointer": "rules[id=154]",
+      "scope": {
+        "competition": "英超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "英超强队客场、主受让1球时，单独检验零封两球胜；强队早早两球领先后保留控场路径，不自动上调总进球。"
+        ]
+      },
+      "trigger_conditions": [
+        "英超强队客场、主受让1球时，单独检验零封两球胜；强队早早两球领先后保留控场路径，不自动上调总进球。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 155,
+      "principle_id": "P-cd0e40eaddbe5247",
+      "source_pointer": "rules[id=155]",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中高",
+        "risk_level": null,
+        "trigger_conditions": [
+          "西甲强队客场面对有效低位防守时，检验低终结效率、门将状态和定位球失分路径；单场高xG未进球只作个案，不机械推翻长期实力判断。"
+        ]
+      },
+      "trigger_conditions": [
+        "西甲强队客场面对有效低位防守时，检验低终结效率、门将状态和定位球失分路径；单场高xG未进球只作个案，不机械推翻长期实力判断。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 156,
+      "principle_id": "P-69cced113549dd55",
+      "source_pointer": "rules[id=156]",
+      "scope": {
+        "competition": "法甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "法甲强队有欧战赛程时，使用142前必须独立核验当前防守、对手转换与最终首发；没有大轮换不等于原主胜必然成立。"
+        ]
+      },
+      "trigger_conditions": [
+        "法甲强队有欧战赛程时，使用142前必须独立核验当前防守、对手转换与最终首发；没有大轮换不等于原主胜必然成立。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    },
+    {
+      "original_rule_id": 157,
+      "principle_id": "P-a710e98e38238ebf",
+      "source_pointer": "rules[id=157]",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "高",
+        "risk_level": null,
+        "trigger_conditions": [
+          "葡超主让2球的强队须独立检验先失球后仅一球逆转路径；连续零封和主胜优势不能自动推出2:0与让平。"
+        ]
+      },
+      "trigger_conditions": [
+        "葡超主让2球的强队须独立检验先失球后仅一球逆转路径；连续零封和主胜优势不能自动推出2:0与让平。"
+      ],
+      "exclusion_conditions": null,
+      "condition_status": "recorded_requires_match_check",
+      "reported_sample_count": 1,
+      "evidence_match_count": null,
+      "applied_match_count": null,
+      "paired_settled_match_count": null,
+      "count_status": "not_reconstructed_from_legacy",
+      "source_status": "provisional",
+      "application_log_count": 0,
+      "note": "null是未核实，不是0或通配；日志条数不是独立比赛样本数。"
+    }
+  ]
+}

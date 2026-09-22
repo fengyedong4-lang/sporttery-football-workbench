@@ -1,0 +1,1756 @@
+{
+  "schema_version": 1,
+  "mode": "A",
+  "run_id": "e6acb1d3140e47e99be2653e3641a013",
+  "created_at": "2026-09-22T03:43:38.842630+00:00",
+  "official_fetch_performed": false,
+  "llm_calls": 0,
+  "llm_usage": {
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null
+  },
+  "matches": [
+    {
+      "sequence": 1,
+      "match_id": "qa-1",
+      "match_number": "QA01",
+      "competition": "英超",
+      "home_team": "阿森纳",
+      "away_team": "切尔西",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "epl-2025-2026-poisson-v1",
+      "model_training_matches": 380,
+      "training_cutoff": "2026-05-24",
+      "resolved_teams": {
+        "home": "Arsenal",
+        "away": "Chelsea"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让胜",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.7373138516737222,
+          "平": 0.17701234496818527,
+          "负": 0.0856738033580926
+        },
+        "handicap_result": {
+          "让胜": 0.4877498803225796,
+          "让平": 0.24956397135114253,
+          "让负": 0.2626861483262779
+        }
+      },
+      "confidence": {
+        "result": "高",
+        "handicap_result": "中"
+      },
+      "risk": "高",
+      "consistency": "通过",
+      "freeze_eligible": true,
+      "tail_error": 8.829005082588992e-09,
+      "matched_rule_ids": [
+        154,
+        21,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        156,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 2,
+      "match_id": "qa-2",
+      "match_number": "QA02",
+      "competition": "英甲",
+      "home_team": "维冈",
+      "away_team": "布莱克浦",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "league-one-2025-2026-poisson-v1",
+      "model_training_matches": 552,
+      "training_cutoff": "2026-05-02",
+      "resolved_teams": {
+        "home": "Wigan",
+        "away": "Blackpool"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.4242395194434331,
+          "平": 0.3013223604561507,
+          "负": 0.2744381201004164
+        },
+        "handicap_result": {
+          "让胜": 0.18104353002156048,
+          "让平": 0.24319598942187257,
+          "让负": 0.575760480556567
+        }
+      },
+      "confidence": {
+        "result": "中低",
+        "handicap_result": "中高"
+      },
+      "risk": "高",
+      "consistency": "边际最高概率组合不相容，必须人工复核",
+      "freeze_eligible": false,
+      "tail_error": 4.425161126420107e-09,
+      "matched_rule_ids": [
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 3,
+      "match_id": "qa-3",
+      "match_number": "QA03",
+      "competition": "德甲",
+      "home_team": "拜仁",
+      "away_team": "多特蒙德",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "bundesliga-2025-2026-poisson-v1",
+      "model_training_matches": 306,
+      "training_cutoff": "2026-05-16",
+      "resolved_teams": {
+        "home": "Bayern Munich",
+        "away": "Dortmund"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让胜",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.6844206791171777,
+          "平": 0.17588723046379842,
+          "负": 0.13969209041902422
+        },
+        "handicap_result": {
+          "让胜": 0.46140207215236745,
+          "让平": 0.22301860696481007,
+          "让负": 0.31557932088282264
+        }
+      },
+      "confidence": {
+        "result": "高",
+        "handicap_result": "中"
+      },
+      "risk": "高",
+      "consistency": "通过",
+      "freeze_eligible": true,
+      "tail_error": 6.3560182672617316e-09,
+      "matched_rule_ids": [
+        21,
+        23,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 4,
+      "match_id": "qa-4",
+      "match_number": "QA04",
+      "competition": "德乙",
+      "home_team": "沙尔克04",
+      "away_team": "柏林赫塔",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "bundesliga2-2025-2026-poisson-v1",
+      "model_training_matches": 306,
+      "training_cutoff": "2026-05-17",
+      "resolved_teams": {
+        "home": "Schalke 04",
+        "away": "Hertha"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.6047423381674464,
+          "平": 0.25150729959683427,
+          "负": 0.14375036223571916
+        },
+        "handicap_result": {
+          "让胜": 0.3273875121812439,
+          "让平": 0.27735482598620265,
+          "让负": 0.3952576618325534
+        }
+      },
+      "confidence": {
+        "result": "中高",
+        "handicap_result": "中低"
+      },
+      "risk": "高",
+      "consistency": "边际最高概率组合不相容，必须人工复核",
+      "freeze_eligible": false,
+      "tail_error": 1.3655654385047455e-09,
+      "matched_rule_ids": [
+        45,
+        77,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 5,
+      "match_id": "qa-5",
+      "match_number": "QA05",
+      "competition": "意甲",
+      "home_team": "国际米兰",
+      "away_team": "尤文图斯",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "serie-a-2025-2026-poisson-v1",
+      "model_training_matches": 380,
+      "training_cutoff": "2026-05-24",
+      "resolved_teams": {
+        "home": "Inter",
+        "away": "Juventus"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.5398289602749843,
+          "平": 0.22741349730121233,
+          "负": 0.2327575424238035
+        },
+        "handicap_result": {
+          "让胜": 0.3072789618338573,
+          "让平": 0.23254999844112698,
+          "让负": 0.46017103972501583
+        }
+      },
+      "confidence": {
+        "result": "中高",
+        "handicap_result": "中"
+      },
+      "risk": "高",
+      "consistency": "边际最高概率组合不相容，必须人工复核",
+      "freeze_eligible": false,
+      "tail_error": 1.3629807282811157e-09,
+      "matched_rule_ids": [
+        153,
+        21,
+        22,
+        23,
+        26,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        154,
+        156,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 6,
+      "match_id": "qa-6",
+      "match_number": "QA06",
+      "competition": "欧冠",
+      "home_team": "皇马",
+      "away_team": "巴黎圣曼",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "ucl-2025-2026-poisson-v1",
+      "model_training_matches": 186,
+      "training_cutoff": "2026-05-06",
+      "resolved_teams": {
+        "home": "Real Madrid",
+        "away": "Paris"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "负",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.4010334547105449,
+          "平": 0.1875113811911081,
+          "负": 0.4114551640983469
+        },
+        "handicap_result": {
+          "让胜": 0.23542882243458654,
+          "让平": 0.1656046322759583,
+          "让负": 0.598966545289455
+        }
+      },
+      "confidence": {
+        "result": "中低",
+        "handicap_result": "中高"
+      },
+      "risk": "高",
+      "consistency": "通过",
+      "freeze_eligible": true,
+      "tail_error": 1.7310920474855607e-09,
+      "matched_rule_ids": [
+        142,
+        21,
+        8,
+        9,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        82,
+        84,
+        87,
+        89,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 7,
+      "match_id": "qa-7",
+      "match_number": "QA07",
+      "competition": "日职",
+      "home_team": "横滨水手",
+      "away_team": "鹿岛鹿角",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "j1-2025-2026-combined-poisson-v1",
+      "model_training_matches": 580,
+      "training_cutoff": "2026-06-06",
+      "resolved_teams": {
+        "home": "横浜FM",
+        "away": "鹿島"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "负",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.25920622096304274,
+          "平": 0.2739962126240299,
+          "负": 0.46679756641292747
+        },
+        "handicap_result": {
+          "让胜": 0.09094225508660056,
+          "让平": 0.16826396587644213,
+          "让负": 0.7407937790369574
+        }
+      },
+      "confidence": {
+        "result": "中",
+        "handicap_result": "高"
+      },
+      "risk": "高",
+      "consistency": "通过",
+      "freeze_eligible": true,
+      "tail_error": 2.8261220030856293e-09,
+      "matched_rule_ids": [
+        23,
+        45,
+        59,
+        65,
+        68,
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        49,
+        52,
+        56,
+        62,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    },
+    {
+      "sequence": 8,
+      "match_id": "qa-8",
+      "match_number": "QA08",
+      "competition": "世界杯",
+      "home_team": "西班牙",
+      "away_team": "阿根廷",
+      "kickoff_time": "2026-09-23T20:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": null,
+      "model_status": "available",
+      "model_version": "world-cup-2026-poisson-v1",
+      "model_training_matches": 104,
+      "training_cutoff": "2026-07-19",
+      "resolved_teams": {
+        "home": "Spain",
+        "away": "Argentina"
+      },
+      "probability_status": "原始研究值，未校准",
+      "result": "胜",
+      "result_status": "已确认",
+      "handicap_result": "让负",
+      "handicap_status": "已确认",
+      "raw_probabilities": {
+        "result": {
+          "胜": 0.6249949540874565,
+          "平": 0.32644719179213655,
+          "负": 0.04855785412040704
+        },
+        "handicap_result": {
+          "让胜": 0.28339551837272237,
+          "让平": 0.3415994357147341,
+          "让负": 0.3750050459125436
+        }
+      },
+      "confidence": {
+        "result": "高",
+        "handicap_result": "中低"
+      },
+      "risk": "高",
+      "consistency": "边际最高概率组合不相容，必须人工复核",
+      "freeze_eligible": false,
+      "tail_error": 3.2826151796783165e-09,
+      "matched_rule_ids": [
+        102,
+        105,
+        113,
+        117,
+        126,
+        129,
+        133,
+        134,
+        135,
+        136,
+        137,
+        14,
+        142,
+        143,
+        144,
+        150,
+        153,
+        154,
+        156,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        45,
+        49,
+        52,
+        56,
+        59,
+        62,
+        65,
+        68,
+        71,
+        74,
+        77,
+        8,
+        82,
+        84,
+        87,
+        89,
+        9,
+        92,
+        95,
+        99,
+        11,
+        138,
+        139,
+        140,
+        147,
+        5
+      ],
+      "major_counterevidence": [
+        "首发未确认"
+      ],
+      "missing": [
+        "确认首发"
+      ]
+    }
+  ],
+  "prefilter_report": {
+    "fixture_count": 8,
+    "returned_fixture_count": 8,
+    "unique_rules": 64,
+    "compact_rule_bytes": 14657,
+    "duplicate_rules_sent": 0
+  },
+  "matched_rules": [
+    {
+      "id": 154,
+      "status": "provisional",
+      "scope": {
+        "competition": "英超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "英超强队客场、主受让1球时，单独检验零封两球胜；强队早早两球领先后保留控场路径，不自动上调总进球。"
+        ]
+      },
+      "text": null
+    },
+    {
+      "id": 21,
+      "status": "provisional",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "强势方有欧战赛程",
+        "handicap": null,
+        "confidence": null
+      },
+      "text": null
+    },
+    {
+      "id": 102,
+      "status": "provisional",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "谢菲联主场略占优但英冠两队奖金接近，伯明翰守住平局的路径不能忽略；让球按主队不穿处理。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 105,
+      "status": "provisional",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "乌德勒支与AZ实力接近且荷甲开放度高，双方进球和4球区间优先于单边胜负。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 113,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -2,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 117,
+      "status": "provisional",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": "PSV实力和客胜方向明显占优，荷甲开放度支持双方进球；客队净胜两球以上更合理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 126,
+      "status": "provisional",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "波尔图客胜方向极强，里奥阿维受让一球仍难抵消实力差；客队零封两球胜。",
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 129,
+      "status": "provisional",
+      "scope": {
+        "competition": "巴甲",
+        "match_type": "联赛",
+        "strength_type": "弗鲁米嫩塞与帕尔梅拉斯官方胜平负接近，巴甲均衡盘不宜强行拆出一方；低比分平局。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 133,
+      "status": "provisional",
+      "scope": {
+        "competition": "美职",
+        "match_type": "联赛",
+        "strength_type": "皇家盐湖城主胜方向和主场条件占优，但MLS开放度使明尼苏达具备进球路径；主队一球胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 134,
+      "status": "provisional",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "英冠双方胜平负接近，博尔顿主让一球但让负奖金明显受防；选择低比分平局。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 135,
+      "status": "provisional",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "葡超均衡盘，维塞乌主场可抵消圣克拉拉的客胜方向；低比分平局为主路径。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 136,
+      "status": "provisional",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "阿拉维斯主场略占优但胜平负奖金接近，赫塔费的防守型客场路径明显；不把主让一球当作主胜。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 137,
+      "status": "provisional",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": "塞维利亚主场方向略占优，但西甲低事件和巴列卡诺防守路径压低大胜概率；平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 14,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": "主弱客强",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 142,
+      "status": "provisional",
+      "scope": {
+        "competition": "法甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 143,
+      "status": "provisional",
+      "scope": {
+        "competition": "西甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 144,
+      "status": "provisional",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": "实力接近、杯赛德比",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 150,
+      "status": "provisional",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中低",
+        "risk_level": null,
+        "trigger_conditions": [
+          "荷甲双方有反击与定位球追平路径时，平局结论与进球尺度分开比较，1:1不得替代2:2路径审查。"
+        ]
+      },
+      "text": null
+    },
+    {
+      "id": 153,
+      "status": "provisional",
+      "scope": {
+        "competition": "意甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "意甲客队转换进攻和多点得分证据成立时，必须把0:1与1:3、1:4等开放路径分开评估；不能默认客胜就是低事件。"
+        ]
+      },
+      "text": null
+    },
+    {
+      "id": 156,
+      "status": "provisional",
+      "scope": {
+        "competition": "法甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "法甲强队有欧战赛程时，使用142前必须独立核验当前防守、对手转换与最终首发；没有大轮换不等于原主胜必然成立。"
+        ]
+      },
+      "text": null
+    },
+    {
+      "id": 22,
+      "status": "provisional",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "反官方最低固定奖金方向",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 23,
+      "status": "provisional",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "新赛季首轮或首发未确认的强弱对阵",
+        "handicap": null,
+        "confidence": null
+      },
+      "text": null
+    },
+    {
+      "id": 24,
+      "status": "provisional",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "赛程密集且弱势方进攻低迷",
+        "handicap": null,
+        "confidence": null
+      },
+      "text": null
+    },
+    {
+      "id": 25,
+      "status": "provisional",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": null
+      },
+      "text": null
+    },
+    {
+      "id": 26,
+      "status": "provisional",
+      "scope": {
+        "competition": null,
+        "match_type": "联赛",
+        "strength_type": "主强客弱",
+        "handicap": -2,
+        "confidence": null
+      },
+      "text": null
+    },
+    {
+      "id": 28,
+      "status": "provisional",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 29,
+      "status": "provisional",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": "主弱客强，近期同对手再战",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 30,
+      "status": "provisional",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 31,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "升班马主场对上季中游队，纸面差距有限",
+        "handicap": null,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 32,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 33,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 34,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 36,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 37,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 38,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧罗巴",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 39,
+      "status": "provisional",
+      "scope": {
+        "competition": "解放者杯",
+        "match_type": "杯赛",
+        "strength_type": "巴甲主队对厄瓜多尔传统强队，主场和本赛季直接交锋支持米拉索尔",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 40,
+      "status": "provisional",
+      "scope": {
+        "competition": "解放者杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 42,
+      "status": "provisional",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "赛程密集且弱势方进攻低迷",
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 45,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 49,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -3,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 52,
+      "status": "provisional",
+      "scope": {
+        "competition": "荷乙",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 56,
+      "status": "provisional",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "官方排名显示伍尔弗第22、布莱克本第2，但胜平负奖金强烈支持主队，属于必须以当前官方定价和主场因素复核的冲突场",
+        "handicap": -1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 59,
+      "status": "provisional",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 62,
+      "status": "provisional",
+      "scope": {
+        "competition": "日乙",
+        "match_type": "联赛",
+        "strength_type": "日乙两队官方奖金接近，秋田的主场优势不足以覆盖富山的客场不败路径；低比分平局优先。",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 65,
+      "status": "provisional",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 68,
+      "status": "provisional",
+      "scope": {
+        "competition": "日职",
+        "match_type": "联赛",
+        "strength_type": "神户主场方向占优，但东京FC具备守住一球差的能力；以低事件的一球胜处理。",
+        "handicap": null,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 71,
+      "status": "provisional",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 74,
+      "status": "provisional",
+      "scope": {
+        "competition": "韩职",
+        "match_type": "联赛",
+        "strength_type": "浦项整体方向略强，但光州主场和受让一球提供缓冲；比赛更像僵持而非客队轻松穿盘。",
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 77,
+      "status": "provisional",
+      "scope": {
+        "competition": "德乙",
+        "match_type": "联赛",
+        "strength_type": "德乙排名、主场和奖金并不完全同向，先按均衡对阵处理；1:1比机械追主让一球更稳妥。",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 8,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 82,
+      "status": "provisional",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 84,
+      "status": "provisional",
+      "scope": {
+        "competition": "英冠",
+        "match_type": "联赛",
+        "strength_type": "诺维奇主场和主胜方向略占优，西布朗具备反击进球条件；主队一球胜而非两球以上。",
+        "handicap": -1,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 87,
+      "status": "provisional",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 89,
+      "status": "provisional",
+      "scope": {
+        "competition": "荷甲",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 9,
+      "status": "provisional",
+      "scope": {
+        "competition": "欧冠",
+        "match_type": "杯赛",
+        "strength_type": "主强客弱",
+        "handicap": -1,
+        "confidence": "低"
+      },
+      "text": null
+    },
+    {
+      "id": 92,
+      "status": "provisional",
+      "scope": {
+        "competition": "葡超",
+        "match_type": "联赛",
+        "strength_type": "阿尔维卡主胜方向明确但葡超低事件特征较强；一球小胜比模板化2:1更匹配。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 95,
+      "status": "provisional",
+      "scope": {
+        "competition": "芬超",
+        "match_type": "联赛",
+        "strength_type": "塞伊奈约基客胜奖金强，玛丽港受让一球仍有被打穿风险；以客队零封取胜处理。",
+        "handicap": 1,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 99,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": "布赖代合作主场与主胜方向占优，赛哈特海湾具备反击进球条件；沙职强弱差不直接等于大胜。",
+        "handicap": -1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 11,
+      "status": "provisional",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": "实力接近",
+        "handicap": null,
+        "confidence": "中低"
+      },
+      "text": null
+    },
+    {
+      "id": 138,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 139,
+      "status": "provisional",
+      "scope": {
+        "competition": "沙职",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": null,
+        "confidence": "中高"
+      },
+      "text": null
+    },
+    {
+      "id": 140,
+      "status": "provisional",
+      "scope": {
+        "competition": "瑞超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中"
+      },
+      "text": null
+    },
+    {
+      "id": 147,
+      "status": "provisional",
+      "scope": {
+        "competition": "挪超",
+        "match_type": "联赛",
+        "strength_type": null,
+        "handicap": 2,
+        "confidence": "中",
+        "risk_level": null,
+        "trigger_conditions": [
+          "挪超强队客场、主受让2球且主队有追平路径时，单独保留一球客胜评估；不得因本场全中上调为稳胆。"
+        ]
+      },
+      "text": null
+    },
+    {
+      "id": 5,
+      "status": "provisional",
+      "scope": {
+        "competition": "巴西杯",
+        "match_type": "杯赛",
+        "strength_type": null,
+        "handicap": 1,
+        "confidence": "中低"
+      },
+      "text": null
+    }
+  ]
+}

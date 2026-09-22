@@ -1,0 +1,655 @@
+{
+  "content_sha256": "0de9383eaa05ac5011f56dd7b4a791828f0fda3d4b9e99df3e94a7526cfde469",
+  "content": {
+    "schema_version": 1,
+    "scope": {
+      "competition_id": "604",
+      "season_id": "14954",
+      "competition": "英锦标赛",
+      "season_name": "2026/2027",
+      "phase_id": "48495",
+      "phase_name": "Group Stage",
+      "source_id": "head:9fc1adae809af19d38c3",
+      "team_identity_domain": "sporttery",
+      "competition_identity_domain": "vendor"
+    },
+    "collected_at": "2026-09-22T15:50:32.346587+00:00",
+    "fixture_id": "2041655",
+    "rows": [
+      {
+        "match_id": "2541106",
+        "match_date": "2026-09-19",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "103",
+        "home_team": "雷丁",
+        "away_team": "诺茨郡",
+        "home_goals_90": 2,
+        "away_goals_90": 0,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541125",
+        "match_date": "2026-09-12",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "103",
+        "away_team_id": "",
+        "home_team": "诺茨郡",
+        "away_team": "布拉德福",
+        "home_goals_90": 0,
+        "away_goals_90": 1,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541134",
+        "match_date": "2026-09-05",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "103",
+        "home_team": "哈德斯",
+        "away_team": "诺茨郡",
+        "home_goals_90": 1,
+        "away_goals_90": 1,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541147",
+        "match_date": "2026-09-02",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "103",
+        "home_team": "唐卡斯特",
+        "away_team": "诺茨郡",
+        "home_goals_90": 1,
+        "away_goals_90": 1,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541157",
+        "match_date": "2026-08-29",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "103",
+        "away_team_id": "",
+        "home_team": "诺茨郡",
+        "away_team": "伯顿",
+        "home_goals_90": 2,
+        "away_goals_90": 1,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541171",
+        "match_date": "2026-08-22",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "103",
+        "home_team": "卢顿",
+        "away_team": "诺茨郡",
+        "home_goals_90": 2,
+        "away_goals_90": 2,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2541187",
+        "match_date": "2026-08-15",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "103",
+        "away_team_id": "",
+        "home_team": "诺茨郡",
+        "away_team": "莱切斯特",
+        "home_goals_90": 1,
+        "away_goals_90": 1,
+        "competition": "英甲",
+        "competition_id": "385",
+        "season_id": "15457",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542685",
+        "match_date": "2026-08-08",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "103",
+        "home_team": "伯恩利",
+        "away_team": "诺茨郡",
+        "home_goals_90": 1,
+        "away_goals_90": 1,
+        "competition": "英联赛杯",
+        "competition_id": "585",
+        "season_id": "14884",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542129",
+        "match_date": "2026-09-19",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "96",
+        "away_team_id": "1523",
+        "home_team": "格里姆",
+        "away_team": "克劳利",
+        "home_goals_90": 2,
+        "away_goals_90": 0,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542144",
+        "match_date": "2026-09-12",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "96",
+        "away_team_id": "",
+        "home_team": "格里姆",
+        "away_team": "布流浪",
+        "home_goals_90": 2,
+        "away_goals_90": 0,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542157",
+        "match_date": "2026-09-05",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "96",
+        "home_team": "切尔滕",
+        "away_team": "格里姆",
+        "home_goals_90": 2,
+        "away_goals_90": 2,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542172",
+        "match_date": "2026-09-02",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "96",
+        "home_team": "阿克宁顿",
+        "away_team": "格里姆",
+        "home_goals_90": 2,
+        "away_goals_90": 2,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542180",
+        "match_date": "2026-08-29",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "96",
+        "away_team_id": "",
+        "home_team": "格里姆",
+        "away_team": "福利特",
+        "home_goals_90": 2,
+        "away_goals_90": 2,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542185",
+        "match_date": "2026-08-22",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "",
+        "away_team_id": "96",
+        "home_team": "沃尔索尔",
+        "away_team": "格里姆",
+        "home_goals_90": 0,
+        "away_goals_90": 0,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542200",
+        "match_date": "2026-08-15",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "96",
+        "away_team_id": "",
+        "home_team": "格里姆",
+        "away_team": "埃克塞特",
+        "home_goals_90": 1,
+        "away_goals_90": 0,
+        "competition": "英乙",
+        "competition_id": "434",
+        "season_id": "15458",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      },
+      {
+        "match_id": "2542690",
+        "match_date": "2026-08-08",
+        "kickoff_time": null,
+        "time_precision": "date",
+        "home_team_id": "96",
+        "away_team_id": "66",
+        "home_team": "格里姆",
+        "away_team": "布莱克浦",
+        "home_goals_90": 1,
+        "away_goals_90": 3,
+        "competition": "英联赛杯",
+        "competition_id": "585",
+        "season_id": "14884",
+        "status": "completed_90",
+        "score_basis": "90_minutes",
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "is_friendly": false
+      }
+    ],
+    "prior_rows": [],
+    "sources": [
+      {
+        "source_id": "head:9fc1adae809af19d38c3",
+        "kind": "head",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041655&source=web",
+        "fetched_at": "2026-09-22T15:42:30.175199+00:00",
+        "source_updated_at": null,
+        "sha256": "9fc1adae809af19d38c3d771e31f067fd003dd53c0cf06c0931b1bfeaa37e96b",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "recent:6332655f0a3e52b830a3",
+        "kind": "recent",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041655&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+        "fetched_at": "2026-09-22T15:42:30.424769+00:00",
+        "source_updated_at": null,
+        "sha256": "6332655f0a3e52b830a33df8b86a93f018cbf390112cfe7628b3d415286d3360",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "h2h:83a89839fc054b580008",
+        "kind": "h2h",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041655&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+        "fetched_at": "2026-09-22T15:42:31.029517+00:00",
+        "source_updated_at": null,
+        "sha256": "83a89839fc054b5800086e7af18fb91901efa15d4edf13e4111a1eb0321c7b90",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "future:b51bc26e8d04d0c34cc9",
+        "kind": "future",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041655&termLimits=4",
+        "fetched_at": "2026-09-22T15:42:31.224349+00:00",
+        "source_updated_at": null,
+        "sha256": "b51bc26e8d04d0c34cc94a1d92f76d81ccb7aa5491b6d2f0493039003ff2f810",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "source_id": "injuries:fa5ae3d107c150c28032",
+        "kind": "injuries",
+        "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041655",
+        "fetched_at": "2026-09-22T15:42:31.521572+00:00",
+        "source_updated_at": null,
+        "sha256": "fa5ae3d107c150c28032e3cad3c9e1faede3093f91f33831597edb0ba9f068fa",
+        "cache_hit": false,
+        "parser_version": "sporttery-evidence-v1",
+        "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+      },
+      {
+        "url": "https://gtfc.co.uk/tickets-for-notts-county-port-vale-and-home-clash-against-shrewsbury-town-on-sale-from-tomorrow/",
+        "title": "Tickets for Notts County, Port Vale and home clash against Shrewsbury Town On Sale from Tomorrow - Grimsby Town Football Club",
+        "published_at": "2026-09-08T09:56:35+00:00",
+        "fetched_at": "2026-09-22T15:45:24.575295+00:00",
+        "source_level": "official",
+        "source_level_claimed": "official",
+        "source_level_verified": true,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:cb9a2ca8965571863fdc",
+        "publication_time_status": "parsed",
+        "final_url": "https://gtfc.co.uk/tickets-for-notts-county-port-vale-and-home-clash-against-shrewsbury-town-on-sale-from-tomorrow/",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "f4525e040c2f5cf925f829a30c007866acf1a0b7d3c978fde704da7bd013f953",
+        "content_bytes": 6473,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-cb9a2ca8965571863fdc.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-cb9a2ca8965571863fdc.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.skysports.com/football/notts-county-vs-grimsby-town/577353",
+        "title": "EFL Trophy (Sky Sports)",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:24.938006+00:00",
+        "source_level": "major_media",
+        "source_level_claimed": "major_media",
+        "source_level_verified": true,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:dbd8c18cfe6e49c129a6",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.skysports.com/football/notts-county-vs-grimsby-town/577353",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "0435002f76030962d3ab43ac9bccbc341c9b777f0e342e5fb602166feeaa4c8a",
+        "content_bytes": 93934,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-dbd8c18cfe6e49c129a6.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-dbd8c18cfe6e49c129a6.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.playmakerstats.com/match/2026-09-22-notts-county-grimsby-town/12480844",
+        "title": "Just a moment...",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:26.628566+00:00",
+        "source_level": "other",
+        "source_level_claimed": "specialist_data",
+        "source_level_verified": false,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:312a8c78acc7f02d524f",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.playmakerstats.com/match/2026-09-22-notts-county-grimsby-town/12480844",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "fc38f0fde3747b2c26fa4bdcaa34b81632daa099799c2f266247bff0607451ef",
+        "content_bytes": 535,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-312a8c78acc7f02d524f.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-312a8c78acc7f02d524f.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.oddschecker.com/football/english/efl-trophy/notts-county-v-grimsby/winner",
+        "title": "Notts County vs Grimsby Betting Odds | Oddschecker",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:26.835791+00:00",
+        "source_level": "other",
+        "source_level_claimed": "odds_source",
+        "source_level_verified": false,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:88d188734a815ecef12b",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.oddschecker.com/football/english/efl-trophy/notts-county-v-grimsby/winner",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "5a1c37734c6f0ea45bdb62429a2c9f9ceab2543f52021dc9360e285f423774bb",
+        "content_bytes": 43251,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-88d188734a815ecef12b.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-88d188734a815ecef12b.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://stake.com/es/sports/soccer/england/efl-trophy/46918222-notts-county-grimsby",
+        "title": "Just a moment...",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:29.118469+00:00",
+        "source_level": "other",
+        "source_level_claimed": "odds_source",
+        "source_level_verified": false,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:866635147bfd63e2ec70",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://stake.com/es/sports/soccer/england/efl-trophy/46918222-notts-county-grimsby",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "7256967257dde20b782bfa4ab98b9adba75532d1ae6c446af0c0ca20f137585e",
+        "content_bytes": 497,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-866635147bfd63e2ec70.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-866635147bfd63e2ec70.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.sportsmole.co.uk/football/notts-county/efl-trophy/preview/notts-county-vs-grimsby-town-prediction-team-news-lineups_605517.html",
+        "title": "Notts County vs Grimsby Town - prediction, team news, lineups",
+        "published_at": "2026-09-20T16:20:00+00:00",
+        "fetched_at": "2026-09-22T15:45:29.401786+00:00",
+        "source_level": "other",
+        "source_level_claimed": "other",
+        "source_level_verified": true,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:d6449d2163d0a1a7f1bd",
+        "publication_time_status": "parsed",
+        "final_url": "https://www.sportsmole.co.uk/football/notts-county/efl-trophy/preview/notts-county-vs-grimsby-town-prediction-team-news-lineups_605517.html",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "5ab316074744d4264c1e335098b8d3b2c84f78bd81ed13bd61a59d8c5458e6e5",
+        "content_bytes": 6301,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-d6449d2163d0a1a7f1bd.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-d6449d2163d0a1a7f1bd.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.sportytrader.com/en/odds/notts-county-grimsby-town-8736231/",
+        "title": "Notts County Grimsby Town Odds 22 September 2026 (EFL Trophy Betting)",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:29.831192+00:00",
+        "source_level": "other",
+        "source_level_claimed": "odds_source",
+        "source_level_verified": false,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:0f4206e94646cf06e8bc",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.sportytrader.com/en/odds/notts-county-grimsby-town-8736231/",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "c94b0bcefc122b76ba2eae9f4dee9c9843684c29d993453802a266d80e6ef4f2",
+        "content_bytes": 140389,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-0f4206e94646cf06e8bc.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-0f4206e94646cf06e8bc.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      },
+      {
+        "url": "https://www.oddsator.com/football/england/efl-trophy/grimsby-vs-notts-county-2026-09-22",
+        "title": "Notts County vs Grimsby Odds — EFL Trophy | Oddsator",
+        "published_at": null,
+        "fetched_at": "2026-09-22T15:45:35.028901+00:00",
+        "source_level": "other",
+        "source_level_claimed": "odds_source",
+        "source_level_verified": false,
+        "team_mapping": [
+          "both"
+        ],
+        "confirmation_status": "single_source_unconfirmed",
+        "fetch_status": "fetched",
+        "failure_reason": null,
+        "source_id": "web:6decf5e27cb8e87f8202",
+        "publication_time_status": "missing_or_unparseable",
+        "final_url": "https://www.oddsator.com/football/england/efl-trophy/grimsby-vs-notts-county-2026-09-22",
+        "redirect_chain": [],
+        "retrieval_method": "jina_reader_fake_ip",
+        "retrieval_intermediary": "https://r.jina.ai/",
+        "content_type": "text/plain; charset=utf-8",
+        "content_sha256": "ca87c0a02b1bff47de15c53535ba52527666327daeaa121e854ccd3071eb5288",
+        "content_bytes": 9805,
+        "body_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-6decf5e27cb8e87f8202.body",
+        "receipt_path": ".\\workbench\\runtime\\evidence\\live-research\\live-20260922T154232182472-0c6d4d58\\sources\\web-6decf5e27cb8e87f8202.receipt.json",
+        "fixture_ids": [
+          "2041655"
+        ],
+        "fixture_team_mapping": {
+          "2041655": [
+            "both"
+          ]
+        }
+      }
+    ]
+  }
+}

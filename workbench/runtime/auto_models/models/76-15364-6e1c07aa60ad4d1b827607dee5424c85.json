@@ -1,0 +1,92 @@
+{
+  "version": "76-15364-6e1c07aa60ad4d1b827607dee5424c85",
+  "dataset_path": "..\\runtime\\auto_models\\datasets\\76-15364-6e1c07aa60ad4d1b827607dee5424c85.json",
+  "dataset_sha256": "b0a2a3787ca187c55802c75a2bdab85f5155ab2b2f07f7593b50c90674131fbf",
+  "model": {
+    "schema_version": 1,
+    "model_type": "competition_season_regularized_poisson_map",
+    "competition_id": "76",
+    "season_id": "15364",
+    "cutoff": "2026-09-22T13:58:48.067990+00:00",
+    "training_match_count": 6,
+    "valid_rows_sha256": "c2b53cd4c7587214e51f241f8c5b4eb1e86ae055561ed44350ae39117207d466",
+    "excluded_rows": {},
+    "teams": [
+      "2060",
+      "2064",
+      "2068",
+      "2069",
+      "2071",
+      "2074",
+      "2076",
+      "2085"
+    ],
+    "team_match_counts": {
+      "2060": 2,
+      "2064": 1,
+      "2068": 1,
+      "2069": 2,
+      "2071": 1,
+      "2074": 2,
+      "2076": 2,
+      "2085": 1
+    },
+    "baseline_rate": 1.7916666666666667,
+    "prior_center_source": "same_competition_and_season_verified_90_minute_goals",
+    "attack": {
+      "2060": 0.4379226384590198,
+      "2064": -0.011950264218116185,
+      "2068": -0.05099809359381719,
+      "2069": -0.1797561737894991,
+      "2071": -0.05578854393002864,
+      "2074": -0.06940758344918932,
+      "2076": -0.1568060891951596,
+      "2085": -0.2246943127686188
+    },
+    "defense": {
+      "2060": 0.46517239887633177,
+      "2064": -0.08367193967117746,
+      "2068": -0.09037984395325166,
+      "2069": 0.34650572345027647,
+      "2071": -0.22610004640726997,
+      "2074": 0.3259245616727794,
+      "2076": -0.5432249617366717,
+      "2085": 0.11725248936769501
+    },
+    "fit_status": "regularized_poisson_map",
+    "optimizer": {
+      "used": true,
+      "method": "L-BFGS-B",
+      "converged": true,
+      "regularization_strength": 4.0,
+      "regularization_tuning": "fixed_engineering_hyperparameter_not_tuned",
+      "objective": 17.974219558795767,
+      "iterations": 11,
+      "analytic_gradient": true
+    },
+    "venue_modelled": false,
+    "home_advantage_modelled": false,
+    "cross_competition_transfer": false,
+    "odds_used": false,
+    "probability_calibrated": false
+  },
+  "prediction_mode": "current_season_team_model",
+  "evaluation": {
+    "competition_id": "76",
+    "season_id": "15364",
+    "min_train": 8,
+    "valid_match_count": 6,
+    "valid_rows_sha256": "c2b53cd4c7587214e51f241f8c5b4eb1e86ae055561ed44350ae39117207d466",
+    "excluded_rows": {},
+    "denominator": 0,
+    "no_future_leakage": true,
+    "same_day_training_excluded": true,
+    "probability_calibrated": false,
+    "folds": [],
+    "status": "not_enough_data",
+    "reason": "no_date_has_required_strictly_earlier_training_prefix"
+  },
+  "created_at": "2026-09-22T13:58:48.067990+00:00",
+  "freeze_eligible": false,
+  "active_registry_modified": false
+}

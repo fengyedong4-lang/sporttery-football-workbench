@@ -1,0 +1,341 @@
+{
+  "schema_version": 4,
+  "prediction_date": "YYYY-MM-DD",
+  "prediction_version": 1,
+  "state": "draft",
+  "generated_at": null,
+  "finalized_at": null,
+  "parent_version": null,
+  "amendment": {
+    "version_type": null,
+    "reason_category": null,
+    "reason_detail": null,
+    "evidence_source": null,
+    "changed_at": null,
+    "changes": []
+  },
+  "freeze": {"is_frozen": false, "frozen_at": null, "frozen_by": null, "freeze_reason": null},
+  "prediction_scope": ["result", "handicap_result"],
+  "applied_review_rule_ids": [],
+  "rule_application_note": null,
+  "rule_application_timeline": {
+    "independent_judgment_file": null,
+    "independent_judgment_sha256": null,
+    "independent_judgment_saved_at": null,
+    "rules_read_at": null,
+    "rules_applied_at": null,
+    "comparison_saved_at": null,
+    "no_post_match_backfill": true
+  },
+  "snapshot_hash": null,
+  "general_notes": "仅供后续新记录；正式冻结前补齐事实、时间和状态。固定奖金最终以实际出票时显示为准。",
+  "relative_picks": {
+    "status": "draft",
+    "selected_at": null,
+    "selection_basis": null,
+    "confidence_note": null,
+    "items": []
+  },
+  "relative_picks_supplement_ref": {
+    "is_separate_supplement": false,
+    "supplement_id": null,
+    "supplement_path": null,
+    "created_at": null,
+    "referenced_prediction_version": null
+  },
+  "matches": [
+    {
+      "sequence": 1,
+      "match_number": "周一001",
+      "competition": "联赛或杯赛名称",
+      "match_type": "联赛",
+      "match_status": "待核实",
+      "match_status_checked_at": null,
+      "kickoff_time": "YYYY-MM-DDTHH:MM:SS+08:00",
+      "kickoff_timezone": "Asia/Shanghai",
+      "local_kickoff_time": null,
+      "venue": null,
+      "home_team": "主队",
+      "away_team": "客队",
+      "strength_type": "待核实",
+      "pre_match_facts": {
+        "home_rank": null,
+        "away_rank": null,
+        "home_points": null,
+        "away_points": null,
+        "matches_played": {"home": null, "away": null},
+        "recent_form": {"home": [], "away": [], "formal_matches_only": true},
+        "h2h": {
+          "last_5": [],
+          "last_10": [],
+          "same_venue": [],
+          "continuity_assessment": "待核实",
+          "weight": "低"
+        },
+        "home_away_form": {"home_team_at_home": [], "away_team_away": []},
+        "injuries": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": null,
+          "confirmation_level": "待核实"
+        },
+        "suspensions": {
+          "home": [],
+          "away": [],
+          "confirmed": false,
+          "published_at": null,
+          "checked_at": null,
+          "confirmation_level": "待核实"
+        },
+        "lineup_confirmed": false,
+        "lineups": {
+          "home": [],
+          "away": [],
+          "published_at": null,
+          "checked_at": null,
+          "confirmation_level": "待核实"
+        },
+        "motivation": {"home": "待核实", "away": "待核实"},
+        "future_schedule_3_to_5_days": {"home": [], "away": []},
+        "travel_and_fatigue": {"home": "待核实", "away": "待核实"},
+        "weather": "待核实",
+        "tactical_matchup": "待核实",
+        "discipline_risk": {"home": "待核实", "away": "待核实"},
+        "match_openness": null,
+        "direction_confidence": null,
+        "risk_level": null,
+        "fact_sources": [
+          {
+            "url": null,
+            "source_type": null,
+            "published_at": null,
+            "checked_at": null,
+            "confirmation_level": "待核实",
+            "note": null
+          }
+        ]
+      },
+      "official_data": {
+        "source_type": "未获取",
+        "source_url": null,
+        "published_at": null,
+        "checked_at": null,
+        "source_note": null,
+        "sale_status": "待核实",
+        "spf": {
+          "status": "待核实",
+          "official_win_odds": null,
+          "official_draw_odds": null,
+          "official_loss_odds": null
+        },
+        "handicap": {
+          "status": "待核实",
+          "official_handicap": null,
+          "handicap_win_odds": null,
+          "handicap_draw_odds": null,
+          "handicap_loss_odds": null
+        },
+        "score": {"status": "不在本次预测范围", "bonuses": {}},
+        "total_goals": {"status": "不在本次预测范围", "bonuses": {}}
+      },
+      "prediction": {
+        "predicted_result": null,
+        "predicted_handicap_result": null,
+        "predicted_score": null,
+        "predicted_total_goals": null,
+        "prediction_reason": null,
+        "match_openness": null,
+        "direction_confidence": null,
+        "risk_level": null,
+        "play_status": {
+          "result": {"status": "待核实", "selection": null, "confidence": null, "reason_unavailable": null},
+          "handicap_result": {"status": "待核实", "selection": null, "confidence": null, "reason_unavailable": null}
+        },
+        "three_way_probabilities": {
+          "home": null,
+          "draw": null,
+          "away": null,
+          "method": null,
+          "reason_unavailable": "draft模板尚未估计；正式记录须填写三项合计100，或三项全为null并说明原因。",
+          "evidence_checked_at": null,
+          "estimated_at": null
+        },
+        "handicap_assessment": {
+          "status": "待核实",
+          "official_handicap": null,
+          "expression": "d+h",
+          "d_definition": "主队90分钟进球数减客队90分钟进球数",
+          "h_definition": "中国体彩官方主队让球数",
+          "handicap_win_condition": "d+h>0",
+          "handicap_draw_condition": "d+h=0",
+          "handicap_loss_condition": "d+h<0",
+          "most_likely_region": null,
+          "region_probabilities": {"d_plus_h_gt_0": null, "d_plus_h_eq_0": null, "d_plus_h_lt_0": null},
+          "reason_unavailable": "draft模板尚未取得官方让球或完成区间判断。",
+          "assessed_at": null
+        },
+        "handicap_probability_ranges": {
+          "home_not_win_probability": null,
+          "home_win_by_one_probability": null,
+          "home_win_by_two_plus_probability": null,
+          "legacy_note": "仅为旧脚本兼容；v4通用判断使用handicap_assessment中的d+h三分。"
+        },
+        "analysis_dimensions": {
+          "双方真实实力及联赛水平": "待核实",
+          "近期5至10场攻防状态": "待核实",
+          "主客场表现": "待核实",
+          "当前积分排名及争冠保级晋级形势": "待核实",
+          "小组积分及出线条件": "不适用",
+          "杯赛首回合或次回合总比分": "不适用",
+          "球队真实战意": "待核实",
+          "轮换留力或赛程取舍": "待核实",
+          "未来3至5天关键赛程": "待核实",
+          "伤停停赛及预计首发": "待核实",
+          "最终首发和替补阵容深度": "首发未确认",
+          "战术风格及相互克制": "待核实",
+          "定位球防反击防高空球能力": "待核实",
+          "近期进球效率和防守稳定性": "待核实",
+          "红黄牌犯规及纪律风险": "待核实",
+          "赛程密度旅行体能天气": "待核实",
+          "近期交锋持续性压制": "待核实",
+          "领先后收缩崩盘或被逆转倾向": "待核实",
+          "低级别或波动联赛异常发挥风险": "待核实"
+        },
+        "prediction_plays": [],
+        "not_requested_plays": ["score", "total_goals"],
+        "prediction_scope_note": "prediction_plays只列已保存唯一正式选项的玩法；未开售、待核实或无法获取的玩法在play_status中记录，不得填正式选项。",
+        "analysis_result": null,
+        "handicap_confidence": null,
+        "applied_review_rules": [],
+        "unoffered_play_note": null,
+        "draw_positive_evidence": null,
+        "favorite_no_win_path": null,
+        "counter_evidence_effect": null,
+        "net_margin_assessment": null,
+        "clean_sheet_assessment": null,
+        "strict_stable": false,
+        "upset_tag": false,
+        "rule_application_comparison": {
+          "before": {
+            "source_file": null,
+            "source_sha256": null,
+            "saved_at": null,
+            "result": null,
+            "handicap_result": null,
+            "result_confidence": null,
+            "handicap_confidence": null,
+            "probabilities": null,
+            "evidence_refs": []
+          },
+          "after": {
+            "saved_at": null,
+            "result": null,
+            "handicap_result": null,
+            "result_confidence": null,
+            "handicap_confidence": null,
+            "probabilities": null,
+            "evidence_refs": []
+          },
+          "applied_rule_ids": [],
+          "effects": [],
+          "changes_final_direction": false,
+          "created_pre_match": false,
+          "no_post_match_backfill": true
+        }
+      },
+      "metaphysics": {
+        "enabled": false,
+        "disabled_reason": "固定主客取用神规则或可复核起局尚未完成",
+        "data_model_weight": 1.0,
+        "metaphysics_weight": 0.0,
+        "fixed_home_away_mapping": null,
+        "local_kickoff_time": null,
+        "beijing_time": null,
+        "venue": null,
+        "raw_charts": {"qimen": null, "daliuren": null, "liuyao": null, "meihua": null},
+        "conclusions": {
+          "data_model": null,
+          "qimen": null,
+          "daliuren": null,
+          "liuyao_score_range": null,
+          "meihua": null,
+          "combined_metaphysics": null,
+          "agreement_level": "未启用"
+        },
+        "pre_match_interpretation": null
+      },
+      "final_result": {
+        "match_completion_status": "待核实",
+        "score_90": null,
+        "verified_90_minutes": false,
+        "fact_confirmation": {
+          "status": "待核实",
+          "source_url": null,
+          "source_type": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": null
+        },
+        "official_settlement": {
+          "status": "待核实",
+          "source_url": null,
+          "source_checked_at": null,
+          "confirmed_at": null,
+          "note": "赛果事实确认不等于体彩官方结算确认。"
+        },
+        "result_source": null,
+        "source_checked_at": null,
+        "first_goal": null,
+        "goal_timeline": [],
+        "red_card": [],
+        "yellow_cards": {},
+        "fouls": {},
+        "penalties": [],
+        "var_events": [],
+        "own_goals": [],
+        "injuries_in_match": [],
+        "substitutions": [],
+        "starting_lineup_changes": null,
+        "shots": {},
+        "shots_on_target": {},
+        "possession": {},
+        "expected_goals": {},
+        "corners": {},
+        "box_touches_or_dangerous_attacks": {},
+        "goalkeeper_performance": null,
+        "stoppage_time_goals": [],
+        "abnormal_finishing_efficiency": null,
+        "final_score": null,
+        "actual_result": null,
+        "actual_handicap_result": null,
+        "actual_total_goals": null,
+        "extra_time_score": null,
+        "penalty_shootout_score": null,
+        "unavailable_fields": []
+      },
+      "hits": {"hit_result": null, "hit_handicap": null, "hit_score": null, "hit_total_goals": null},
+      "review": {
+        "prediction_error_type": [],
+        "review_summary": null,
+        "next_round_adjustment": [],
+        "review_action": {
+          "action": "暂不调整",
+          "target_rule_ids": [],
+          "candidate_rule": null,
+          "evidence": [],
+          "reason": null
+        },
+        "red_card_analysis": {
+          "score_before_red_card": null,
+          "trend_before_red_card": null,
+          "impact_on_result": null,
+          "impact_type": null
+        },
+        "risk_identified_but_not_reflected": false,
+        "quality_note": null
+      }
+    }
+  ]
+}

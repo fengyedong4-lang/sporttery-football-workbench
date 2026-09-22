@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "report_id": "5eaae5fe30ea43fcb44241126cf12699",
+  "created_at": "2026-09-22T15:05:56.392342+00:00",
+  "batch_id": "effective:2026-09-22",
+  "kind": "formal_effective",
+  "source_sha256": "1cfca0e7832ff87a081193b3d2f2e1d32c0c17497c5957c931f8365890c578ce",
+  "status": "partial_pending",
+  "statistics_label": "合法冻结正式选项统计",
+  "statistics": {
+    "result": {
+      "hits": 1,
+      "denominator": 1,
+      "rate": 1.0,
+      "excluded": 3,
+      "brier_samples": 0,
+      "brier_mean": null,
+      "brier_coverage": 0.0
+    },
+    "handicap_result": {
+      "hits": 1,
+      "denominator": 1,
+      "rate": 1.0,
+      "excluded": 3,
+      "brier_samples": 0,
+      "brier_mean": null,
+      "brier_coverage": 0.0
+    },
+    "combined": {
+      "hits": 2,
+      "denominator": 2,
+      "rate": 1.0
+    }
+  },
+  "matches": [
+    {
+      "match_id": "2026-09-22:周二001",
+      "official_match_id": "",
+      "match_number": "周二001",
+      "competition": "亚运男足",
+      "home_team": "韩国亚",
+      "away_team": "沙特亚",
+      "kickoff_time": "2026-09-22T18:00:00+08:00",
+      "prediction_date": "2026-09-22",
+      "prediction_version": 2,
+      "saved_at": "2026-09-22T16:55:49.211667+08:00",
+      "pregame_eligible": true,
+      "formal_eligible": true,
+      "official_handicap": -1,
+      "picks": {
+        "result": "胜",
+        "handicap_result": "让胜"
+      },
+      "analysis_picks": {
+        "result": null,
+        "handicap_result": null
+      },
+      "probabilities": {
+        "result": {
+          "胜": null,
+          "平": null,
+          "负": null
+        }
+      },
+      "probability_scale": 100,
+      "original_reasoning": "韩国阵容层级优势仍在，李永俊9月21日归队增加锋线选择，但旅行、合练不足及黄牌管理限制出场确定性；双方已出线，不提高大胜预期。",
+      "counterevidence": [],
+      "missing_before": [],
+      "model_status": null,
+      "model_version": null,
+      "analysis_method": null,
+      "model_method": null,
+      "match_type": "杯赛小组赛",
+      "strength_type": "韩国U23含超龄对沙特U21",
+      "confidence": "中",
+      "evidence_scope": {},
+      "facts_before": [],
+      "source_record_sha256": "ea07684cc1687d9d5805e79407cbdc4f0f05df18a88505d02d8f0038c4bfb90e",
+      "result": {
+        "verified_90_minutes": true,
+        "official_settlement_verified": true,
+        "score": "2:0",
+        "reason": null,
+        "official_match_id": "2041642",
+        "source": {
+          "url": "https://webapi.sporttery.cn/gateway/uniform/football/getUniformMatchResultV1.qry?matchBeginDate=2026-09-22&matchEndDate=2026-09-22&leagueId=&pageSize=30&pageNo=1&isFix=0&matchPage=1&pcOrWap=1",
+          "fetched_at": "2026-09-22T15:04:54.825287+00:00",
+          "sha256": "abf1c7da0d125fb769c322de71746fbdc302d28b6853e50b00763a8de401146b",
+          "page": 1,
+          "score_basis_url": "https://www.sporttery.cn/jc/zqsgkj/",
+          "status_mapping_url": "https://static.sporttery.cn/res_1_0/jcw/default/jc/sgkj/jc_sgkj_gz.js",
+          "source_updated_at": "2026-09-22 22:15:01",
+          "receipt": ".\\workbench\\runtime\\reviews\\manual_sources\\ceb88be9155341fa9839c091de154dd4.json"
+        },
+        "raw_status": "2",
+        "raw_score": "2:0",
+        "identity_basis": "exact_official_names_number_date",
+        "home_goals_90": 2,
+        "away_goals_90": 0,
+        "score_basis": "90分钟含补时，不含加时和点球大战"
+      },
+      "comparison": {
+        "result": {
+          "predicted": "胜",
+          "actual": "胜",
+          "hit": true,
+          "included": true,
+          "exclusion_reason": null,
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        },
+        "handicap_result": {
+          "predicted": "让胜",
+          "actual": "让胜",
+          "hit": true,
+          "included": true,
+          "exclusion_reason": null,
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        }
+      },
+      "confirmed_deviations": [],
+      "supported_reasoning_issues": [],
+      "causal_hypotheses": [
+        "已取得部分官方过程事实，仍不能将进球、阵容或事件直接认定为预测错误原因；具体因果需要更多可对照证据。"
+      ],
+      "missing_process_fields": [
+        "红黄牌与时点",
+        "点球/VAR/乌龙",
+        "首发和换人",
+        "伤病",
+        "射门/射正",
+        "控球率",
+        "预期进球",
+        "角球",
+        "门将表现",
+        "补时进球",
+        "犯规",
+        "禁区触球"
+      ],
+      "next_check": "下轮保留独立判断与反证如何影响选项的日志；没有充分证据的偏差暂不调整模型参数。",
+      "lesson_candidates": [],
+      "process": {
+        "facts": [
+          {
+            "fact_id": "2041642:POST001",
+            "summary": "官方直播状态：直播结束；阶段：比赛结束；分节原始比分：[{\"score\": \"0:0\", \"sectionNo\": 1}, {\"score\": \"2:0\", \"sectionNo\": 2}]",
+            "category": "period_scores",
+            "source_url": "https://webapi.sporttery.cn/gateway/uniform/fb/getMatchScoreV1.qry?matchId=2041642",
+            "source_sha256": "e24cdb36a7904465174bd8bb403a27894e3f0f1b9b273f394ca1ea3291b42eeb"
+          },
+          {
+            "fact_id": "2041642:POST002",
+            "summary": "67分钟（补时标记未单列）：主队 Shin Min-Ha，进球，子类型goal；原始代码G",
+            "category": "event",
+            "source_url": "https://webapi.sporttery.cn/gateway/uniform/fb/getMatchEventV1.qry?matchId=2041642",
+            "source_sha256": "cdb767a7a9fa2b3f15d90c28e16bc6a134f916fce16a9e6d53579ca90b7e80df"
+          },
+          {
+            "fact_id": "2041642:POST003",
+            "summary": "69分钟（补时标记未单列）：主队 Kim Myeong-Jun，进球，子类型goal；原始代码G",
+            "category": "event",
+            "source_url": "https://webapi.sporttery.cn/gateway/uniform/fb/getMatchEventV1.qry?matchId=2041642",
+            "source_sha256": "cdb767a7a9fa2b3f15d90c28e16bc6a134f916fce16a9e6d53579ca90b7e80df"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://webapi.sporttery.cn/gateway/uniform/fb/getMatchScoreV1.qry?matchId=2041642",
+            "fetched_at": "2026-09-22T15:04:55.179526+00:00",
+            "sha256": "e24cdb36a7904465174bd8bb403a27894e3f0f1b9b273f394ca1ea3291b42eeb",
+            "kind": "score"
+          },
+          {
+            "url": "https://webapi.sporttery.cn/gateway/uniform/fb/getMatchEventV1.qry?matchId=2041642",
+            "fetched_at": "2026-09-22T15:04:55.345513+00:00",
+            "sha256": "cdb767a7a9fa2b3f15d90c28e16bc6a134f916fce16a9e6d53579ca90b7e80df",
+            "kind": "events"
+          },
+          {
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/matchlive/getTeamStatisV1.qry?gmMatchId=2041642",
+            "fetched_at": "2026-09-22T15:04:55.507389+00:00",
+            "sha256": "8a7fc093289e61dadbc1ad2c3aa0bafac4ec43d6afc801fdcac055270baaecfb",
+            "kind": "stats"
+          },
+          {
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/matchlive/getPlayerStatisV1.qry?gmMatchId=2041642",
+            "fetched_at": "2026-09-22T15:04:55.655062+00:00",
+            "sha256": "e4b4264bf9f1a501a9f297ac0b1743f2664ddc3cd966302833cb84f3ef5d06c4",
+            "kind": "players"
+          }
+        ],
+        "missing": [
+          "红黄牌与时点",
+          "点球/VAR/乌龙",
+          "首发和换人",
+          "伤病",
+          "射门/射正",
+          "控球率",
+          "预期进球",
+          "角球",
+          "门将表现",
+          "补时进球",
+          "犯规",
+          "禁区触球"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "match_id": "2026-09-22:周二002",
+      "official_match_id": "",
+      "match_number": "周二002",
+      "competition": "英锦标赛",
+      "home_team": "米尔顿",
+      "away_team": "克劳利",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "prediction_date": "2026-09-22",
+      "prediction_version": 2,
+      "saved_at": "2026-09-22T16:55:49.211667+08:00",
+      "pregame_eligible": true,
+      "formal_eligible": true,
+      "official_handicap": -1,
+      "picks": {
+        "result": "胜",
+        "handicap_result": null
+      },
+      "analysis_picks": {
+        "result": null,
+        "handicap_result": null
+      },
+      "probabilities": {
+        "result": {
+          "胜": null,
+          "平": null,
+          "负": null
+        }
+      },
+      "probability_scale": 100,
+      "original_reasoning": "米尔顿对英乙克劳利仍有层级优势，客队近5场4负；Wilson及Mendez-Laing持续伤缺削弱边路，主队近5场4平1负。保留低信心主胜，撤下让胜：净胜2+无可靠优势，亦无足够证据证明恰胜1球明显占优。",
+      "counterevidence": [],
+      "missing_before": [],
+      "model_status": null,
+      "model_version": null,
+      "analysis_method": null,
+      "model_method": null,
+      "match_type": "杯赛小组赛",
+      "strength_type": "英甲主队对英乙客队",
+      "confidence": "中低",
+      "evidence_scope": {},
+      "facts_before": [],
+      "source_record_sha256": "e4c6db28b4e1e9ece9681457b1cb5f72d05e14d420525a15896e6e91334eadf3",
+      "result": {
+        "verified_90_minutes": false,
+        "official_settlement_verified": false,
+        "score": null,
+        "reason": "赛果身份未匹配或存在重复冲突"
+      },
+      "comparison": {
+        "result": {
+          "predicted": "胜",
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        },
+        "handicap_result": {
+          "predicted": null,
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        }
+      },
+      "confirmed_deviations": [],
+      "supported_reasoning_issues": [],
+      "causal_hypotheses": [
+        "赛果尚未核实，暂不归因或调整。"
+      ],
+      "missing_process_fields": [
+        "进球时间线",
+        "红黄牌与时点",
+        "点球/VAR/乌龙",
+        "首发和换人",
+        "伤病",
+        "射门/射正",
+        "控球率",
+        "预期进球",
+        "角球",
+        "门将表现",
+        "补时进球",
+        "犯规",
+        "禁区触球"
+      ],
+      "next_check": "下轮保留独立判断与反证如何影响选项的日志；没有充分证据的偏差暂不调整模型参数。",
+      "lesson_candidates": [],
+      "process": {
+        "facts": [],
+        "sources": [],
+        "missing": [
+          "进球时间线",
+          "红黄牌与时点",
+          "点球/VAR/乌龙",
+          "首发和换人",
+          "伤病",
+          "射门/射正",
+          "控球率",
+          "预期进球",
+          "角球",
+          "门将表现",
+          "补时进球",
+          "犯规",
+          "禁区触球"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "match_id": "2026-09-22:周二003",
+      "official_match_id": "",
+      "match_number": "周二003",
+      "competition": "英锦标赛",
+      "home_team": "诺茨郡",
+      "away_team": "格里姆",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "prediction_date": "2026-09-22",
+      "prediction_version": 2,
+      "saved_at": "2026-09-22T16:55:49.211667+08:00",
+      "pregame_eligible": true,
+      "formal_eligible": true,
+      "official_handicap": -1,
+      "picks": {
+        "result": "负",
+        "handicap_result": "让负"
+      },
+      "analysis_picks": {
+        "result": null,
+        "handicap_result": null
+      },
+      "probabilities": {
+        "result": {
+          "胜": null,
+          "平": null,
+          "负": null
+        }
+      },
+      "probability_scale": 100,
+      "original_reasoning": "格里姆斯比近期状态仍较好；Cook伤情待进一步确认、Shelton上轮伤退削弱进攻稳定性，Pym已复出并零封缓解门将问题。英甲主队的对手强度构成反证，客胜仅低信心，降低多进球预期。",
+      "counterevidence": [],
+      "missing_before": [],
+      "model_status": null,
+      "model_version": null,
+      "analysis_method": null,
+      "model_method": null,
+      "match_type": "杯赛小组赛",
+      "strength_type": "英甲主队对英乙客队",
+      "confidence": "低",
+      "evidence_scope": {},
+      "facts_before": [],
+      "source_record_sha256": "8e1f3ca0f009da7aba96759d15f9d55278691dd13dd3b94e418c444808b649c0",
+      "result": {
+        "verified_90_minutes": false,
+        "official_settlement_verified": false,
+        "score": null,
+        "reason": "赛果身份未匹配或存在重复冲突"
+      },
+      "comparison": {
+        "result": {
+          "predicted": "负",
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        },
+        "handicap_result": {
+          "predicted": "让负",
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        }
+      },
+      "confirmed_deviations": [],
+      "supported_reasoning_issues": [],
+      "causal_hypotheses": [
+        "赛果尚未核实，暂不归因或调整。"
+      ],
+      "missing_process_fields": [
+        "进球时间线",
+        "红黄牌与时点",
+        "点球/VAR/乌龙",
+        "首发和换人",
+        "伤病",
+        "射门/射正",
+        "控球率",
+        "预期进球",
+        "角球",
+        "门将表现",
+        "补时进球",
+        "犯规",
+        "禁区触球"
+      ],
+      "next_check": "下轮保留独立判断与反证如何影响选项的日志；没有充分证据的偏差暂不调整模型参数。",
+      "lesson_candidates": [],
+      "process": {
+        "facts": [],
+        "sources": [],
+        "missing": [
+          "进球时间线",
+          "红黄牌与时点",
+          "点球/VAR/乌龙",
+          "首发和换人",
+          "伤病",
+          "射门/射正",
+          "控球率",
+          "预期进球",
+          "角球",
+          "门将表现",
+          "补时进球",
+          "犯规",
+          "禁区触球"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "match_id": "2026-09-22:周二004",
+      "official_match_id": "",
+      "match_number": "周二004",
+      "competition": "英锦标赛",
+      "home_team": "维冈",
+      "away_team": "布莱克浦",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "prediction_date": "2026-09-22",
+      "prediction_version": 2,
+      "saved_at": "2026-09-22T16:55:49.211667+08:00",
+      "pregame_eligible": true,
+      "formal_eligible": true,
+      "official_handicap": -1,
+      "picks": {
+        "result": "负",
+        "handicap_result": "让负"
+      },
+      "analysis_picks": {
+        "result": null,
+        "handicap_result": null
+      },
+      "probabilities": {
+        "result": {
+          "胜": null,
+          "平": null,
+          "负": null
+        }
+      },
+      "probability_scale": 100,
+      "original_reasoning": "维冈近3场未进球与客队近期持续进球支持客胜，但布莱克浦近4场失11球；伤停及征召消息冲突只降低置信，不当作确认缺阵。主不胜仍比客胜更有支持，2:2是防守波动备选。",
+      "counterevidence": [],
+      "missing_before": [],
+      "model_status": null,
+      "model_version": null,
+      "analysis_method": null,
+      "model_method": null,
+      "match_type": "杯赛小组赛",
+      "strength_type": "同为英甲，客队近期进攻更强",
+      "confidence": "低",
+      "evidence_scope": {},
+      "facts_before": [],
+      "source_record_sha256": "75c37b3d666f144163f659a024bef4d95fa42c0f95f30b4c0265baeea40499d7",
+      "result": {
+        "verified_90_minutes": false,
+        "official_settlement_verified": false,
+        "score": null,
+        "reason": "赛果身份未匹配或存在重复冲突"
+      },
+      "comparison": {
+        "result": {
+          "predicted": "负",
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        },
+        "handicap_result": {
+          "predicted": "让负",
+          "actual": null,
+          "hit": null,
+          "included": false,
+          "exclusion_reason": "赛果身份未匹配或存在重复冲突",
+          "analysis_only": false,
+          "brier": null,
+          "probability_status": "无有效赛前三项概率，排除概率评分"
+        }
+      },
+      "confirmed_deviations": [],
+      "supported_reasoning_issues": [],
+      "causal_hypotheses": [
+        "赛果尚未核实，暂不归因或调整。"
+      ],
+      "missing_process_fields": [
+        "进球时间线",
+        "红黄牌与时点",
+        "点球/VAR/乌龙",
+        "首发和换人",
+        "伤病",
+        "射门/射正",
+        "控球率",
+        "预期进球",
+        "角球",
+        "门将表现",
+        "补时进球",
+        "犯规",
+        "禁区触球"
+      ],
+      "next_check": "下轮保留独立判断与反证如何影响选项的日志；没有充分证据的偏差暂不调整模型参数。",
+      "lesson_candidates": [],
+      "process": {
+        "facts": [],
+        "sources": [],
+        "missing": [
+          "进球时间线",
+          "红黄牌与时点",
+          "点球/VAR/乌龙",
+          "首发和换人",
+          "伤病",
+          "射门/射正",
+          "控球率",
+          "预期进球",
+          "角球",
+          "门将表现",
+          "补时进球",
+          "犯规",
+          "禁区触球"
+        ],
+        "errors": []
+      }
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getUniformMatchResultV1.qry?matchBeginDate=2026-09-22&matchEndDate=2026-09-22&leagueId=&pageSize=30&pageNo=1&isFix=0&matchPage=1&pcOrWap=1",
+      "fetched_at": "2026-09-22T15:04:54.825287+00:00",
+      "sha256": "abf1c7da0d125fb769c322de71746fbdc302d28b6853e50b00763a8de401146b",
+      "page": 1,
+      "score_basis_url": "https://www.sporttery.cn/jc/zqsgkj/",
+      "status_mapping_url": "https://static.sporttery.cn/res_1_0/jcw/default/jc/sgkj/jc_sgkj_gz.js",
+      "source_updated_at": "2026-09-22 22:15:01",
+      "receipt": ".\\workbench\\runtime\\reviews\\manual_sources\\ceb88be9155341fa9839c091de154dd4.json"
+    },
+    {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getUniformMatchResultV1.qry?matchBeginDate=2026-09-23&matchEndDate=2026-09-23&leagueId=&pageSize=30&pageNo=1&isFix=0&matchPage=1&pcOrWap=1",
+      "fetched_at": "2026-09-22T15:04:55.020345+00:00",
+      "sha256": "94e68f0848d2b37d3b979f64f70f8c7a547dd10b3c2d8278c068d19243e7a9dd",
+      "page": 1,
+      "score_basis_url": "https://www.sporttery.cn/jc/zqsgkj/",
+      "status_mapping_url": "https://static.sporttery.cn/res_1_0/jcw/default/jc/sgkj/jc_sgkj_gz.js",
+      "source_updated_at": "2026-09-22 22:15:01",
+      "receipt": ".\\workbench\\runtime\\reviews\\manual_sources\\8fde23b35bd249839912c7ae7eb7e84e.json"
+    }
+  ],
+  "fetch_errors": [],
+  "astra_analysis": {
+    "status": "completed",
+    "model": "gpt-6-astra",
+    "calls": 1,
+    "usage": {
+      "input_tokens": 14559,
+      "cached_input_tokens": 0,
+      "output_tokens": 1504
+    },
+    "matches": [
+      {
+        "match_id": "2026-09-22:周二001",
+        "reasoning_gap": "①方向与净胜范围：胜、让胜均按comparison命中；已核实的90分钟比分为2:0，确认净胜2球。未提供让球数及“大胜”的具体门槛，无法还原赛前预设的净胜区间。②阵容层级优势：POST001记录上半场0:0、下半场2:0，POST002、POST003记录67、69分钟进球；这些事实确认得分时段，不能验证阵容优势的具体体现。③李永俊归队增加锋线选择：缺少归队、首发及换人资料，无法核实本场可用性；进球记录未出现其姓名不代表未出场或没有贡献。④旅行、合练不足及黄牌管理：缺少训练、行程、纪律及出场记录，无法判断这些顾虑是否落实为使用限制，事件列表缺项不等于没有相关事件。⑤双方已出线、不提高大胜预期：现有过程事实无法核实出线背景，也不能从比分推断战意或轮换；尚无证据认定该判断出现具体偏差。⑥反证列表与facts_before均为空，无法逐项核验赛前反证，也不能将空列表视为不存在反证。",
+        "hypothesis": "待验证：赛前所述旅行、合练及黄牌顾虑是否对应李永俊的实际出场安排。即使出场受到限制，也不能据此认定其造成上半场未进球或下半场集中进球。",
+        "next_check": "下次核验先补齐本场球队归队与合练记录、赛前黄牌累计及适用规则、正式首发和换人时间线，逐项检查原理由是否有证据支持；同时调取保存时的让球数与净胜区间定义，核对让胜及“不提高大胜预期”的具体含义。",
+        "lesson": null,
+        "evidence_level": "定性复盘建议；因果未证实，需人工核验"
+      }
+    ],
+    "reason": null,
+    "warnings": [
+      "code_mode_disabled_fail_closed"
+    ]
+  },
+  "probability_layer": "独立保存的赛前三项概率；Astra只做定性解释，不覆盖概率",
+  "rules_modified": false,
+  "prediction_modified": false,
+  "limitations": [
+    "官方赛果页明确90分钟；只接受已完成且Payout的数值比分",
+    "只取得赛果，过程字段明确缺失；不虚构原因",
+    "赛后生成或无可靠保存时间的记录不计赛前成绩",
+    "本报告不更新权威历史，只在runtime独立版本保存"
+  ],
+  "report_sha256": "ffe63f531e9d0e53484a332cd50179723a3b0a946e5e770a4c720b96a619bacf"
+}

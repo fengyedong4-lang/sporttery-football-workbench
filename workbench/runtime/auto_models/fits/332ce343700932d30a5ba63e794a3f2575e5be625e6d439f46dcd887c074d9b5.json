@@ -1,0 +1,346 @@
+{
+  "content": {
+    "fit_key": "332ce343700932d30a5ba63e794a3f2575e5be625e6d439f46dcd887c074d9b5",
+    "model": {
+      "schema_version": 1,
+      "model_type": "competition_season_regularized_poisson_map",
+      "competition_id": "fd:D2",
+      "season_id": "2627",
+      "cutoff": "2026-09-22T15:02:40.737793+00:00",
+      "training_match_count": 513,
+      "valid_rows_sha256": "b81e2b2ca5ffef036e9ee8ffc8dfa5609cad69aa10722090cd56b1d72edbccaa",
+      "excluded_rows": {},
+      "teams": [
+        "fd:D2:Bielefeld",
+        "fd:D2:Bochum",
+        "fd:D2:Braunschweig",
+        "fd:D2:Cottbus",
+        "fd:D2:Darmstadt",
+        "fd:D2:Dresden",
+        "fd:D2:Elversberg",
+        "fd:D2:FC Koln",
+        "fd:D2:Fortuna Dusseldorf",
+        "fd:D2:Greuther Furth",
+        "fd:D2:Hamburg",
+        "fd:D2:Hannover",
+        "fd:D2:Heidenheim",
+        "fd:D2:Hertha",
+        "fd:D2:Holstein Kiel",
+        "fd:D2:Kaiserslautern",
+        "fd:D2:Karlsruhe",
+        "fd:D2:Magdeburg",
+        "fd:D2:Nurnberg",
+        "fd:D2:Osnabruck",
+        "fd:D2:Paderborn",
+        "fd:D2:Preußen Münster",
+        "fd:D2:Regensburg",
+        "fd:D2:Schalke 04",
+        "fd:D2:St Pauli",
+        "fd:D2:Ulm",
+        "fd:D2:Wolfsburg"
+      ],
+      "team_match_counts": {
+        "fd:D2:Bielefeld": 40,
+        "fd:D2:Bochum": 40,
+        "fd:D2:Braunschweig": 57,
+        "fd:D2:Cottbus": 6,
+        "fd:D2:Darmstadt": 57,
+        "fd:D2:Dresden": 40,
+        "fd:D2:Elversberg": 51,
+        "fd:D2:FC Koln": 17,
+        "fd:D2:Fortuna Dusseldorf": 51,
+        "fd:D2:Greuther Furth": 57,
+        "fd:D2:Hamburg": 17,
+        "fd:D2:Hannover": 57,
+        "fd:D2:Heidenheim": 6,
+        "fd:D2:Hertha": 57,
+        "fd:D2:Holstein Kiel": 40,
+        "fd:D2:Kaiserslautern": 57,
+        "fd:D2:Karlsruhe": 57,
+        "fd:D2:Magdeburg": 57,
+        "fd:D2:Nurnberg": 57,
+        "fd:D2:Osnabruck": 6,
+        "fd:D2:Paderborn": 51,
+        "fd:D2:Preußen Münster": 51,
+        "fd:D2:Regensburg": 17,
+        "fd:D2:Schalke 04": 51,
+        "fd:D2:St Pauli": 6,
+        "fd:D2:Ulm": 17,
+        "fd:D2:Wolfsburg": 6
+      },
+      "baseline_rate": 1.4790448343079923,
+      "prior_center_source": "same_competition_and_season_verified_90_minute_goals",
+      "attack": {
+        "fd:D2:Bielefeld": 0.046916396153560185,
+        "fd:D2:Bochum": -0.10295272642010751,
+        "fd:D2:Braunschweig": -0.17409050310940302,
+        "fd:D2:Cottbus": 0.33903923520245194,
+        "fd:D2:Darmstadt": -0.024071387431163424,
+        "fd:D2:Dresden": 0.04416886490967617,
+        "fd:D2:Elversberg": 0.22807067617730847,
+        "fd:D2:FC Koln": -0.1615523842725733,
+        "fd:D2:Fortuna Dusseldorf": -0.17897842069634318,
+        "fd:D2:Greuther Furth": -0.056902894238549086,
+        "fd:D2:Hamburg": 0.3987100360660143,
+        "fd:D2:Hannover": 0.008849437566360481,
+        "fd:D2:Heidenheim": 0.2844661919014698,
+        "fd:D2:Hertha": 0.0006736892082059874,
+        "fd:D2:Holstein Kiel": -0.15213496760191278,
+        "fd:D2:Kaiserslautern": -0.009410283301378643,
+        "fd:D2:Karlsruhe": -0.017278473222545145,
+        "fd:D2:Magdeburg": 0.1356720958598764,
+        "fd:D2:Nurnberg": 0.07411872385148405,
+        "fd:D2:Osnabruck": -0.02830678320568209,
+        "fd:D2:Paderborn": 0.12083950759193975,
+        "fd:D2:Preußen Münster": -0.210176621260026,
+        "fd:D2:Regensburg": -0.444314912843866,
+        "fd:D2:Schalke 04": -0.08054707441468596,
+        "fd:D2:St Pauli": -0.11276633303115863,
+        "fd:D2:Ulm": -0.17954972292321214,
+        "fd:D2:Wolfsburg": 0.39435439071190265
+      },
+      "defense": {
+        "fd:D2:Bielefeld": -0.05640335752421741,
+        "fd:D2:Bochum": 0.09191637419158144,
+        "fd:D2:Braunschweig": -0.11759101325736318,
+        "fd:D2:Cottbus": -0.24495958497102868,
+        "fd:D2:Darmstadt": -4.430496974885057e-06,
+        "fd:D2:Dresden": -0.12724855345173172,
+        "fd:D2:Elversberg": 0.2839394665953298,
+        "fd:D2:FC Koln": 0.40688538330964447,
+        "fd:D2:Fortuna Dusseldorf": -0.083757411543082,
+        "fd:D2:Greuther Furth": -0.20799958167970434,
+        "fd:D2:Hamburg": 0.11345776095217268,
+        "fd:D2:Hannover": 0.15092766865364854,
+        "fd:D2:Heidenheim": -0.2402617018662926,
+        "fd:D2:Hertha": 0.10300269690683653,
+        "fd:D2:Holstein Kiel": 0.023781897051616194,
+        "fd:D2:Kaiserslautern": 0.05577821470019077,
+        "fd:D2:Karlsruhe": -0.1582560262774426,
+        "fd:D2:Magdeburg": -0.14090351236044882,
+        "fd:D2:Nurnberg": 0.05617113262643496,
+        "fd:D2:Osnabruck": -0.2148159697135582,
+        "fd:D2:Paderborn": 0.09131699581511081,
+        "fd:D2:Preußen Münster": -0.07057402436521605,
+        "fd:D2:Regensburg": -0.20898894134523924,
+        "fd:D2:Schalke 04": 0.20577519844253478,
+        "fd:D2:St Pauli": 0.14733279137046665,
+        "fd:D2:Ulm": -0.09910541660321667,
+        "fd:D2:Wolfsburg": 0.09772482900059276
+      },
+      "fit_status": "regularized_poisson_map",
+      "optimizer": {
+        "used": true,
+        "method": "L-BFGS-B",
+        "converged": true,
+        "regularization_strength": 4.0,
+        "regularization_tuning": "fixed_engineering_hyperparameter_not_tuned",
+        "objective": 1534.9165122742952,
+        "iterations": 25,
+        "analytic_gradient": true
+      },
+      "venue_modelled": false,
+      "home_advantage_modelled": false,
+      "cross_competition_transfer": false,
+      "odds_used": false,
+      "probability_calibrated": false
+    },
+    "evaluation": {
+      "competition_id": "fd:D2",
+      "season_id": "2627",
+      "min_train": 8,
+      "valid_match_count": 513,
+      "valid_rows_sha256": "b81e2b2ca5ffef036e9ee8ffc8dfa5609cad69aa10722090cd56b1d72edbccaa",
+      "excluded_rows": {},
+      "denominator": 81,
+      "no_future_leakage": true,
+      "same_day_training_excluded": true,
+      "probability_calibrated": false,
+      "folds": [
+        {
+          "test_date": "2026-05-02",
+          "test_matches": 4,
+          "training_matches": 432,
+          "latest_training_date": "2026-04-26",
+          "training_rows_sha256": "5ad5c6b31072203151203259cfe41a8d8183df98cc17c2cca9d5e14437d99d82"
+        },
+        {
+          "test_date": "2026-05-03",
+          "test_matches": 5,
+          "training_matches": 436,
+          "latest_training_date": "2026-05-02",
+          "training_rows_sha256": "2615b1a91ca522ddfb67613c4bb288d152ee7b11b8ffa6ce419f5b77ec9c5852"
+        },
+        {
+          "test_date": "2026-05-08",
+          "test_matches": 2,
+          "training_matches": 441,
+          "latest_training_date": "2026-05-03",
+          "training_rows_sha256": "51afa2947f5a38863b531e025eb5718745323ff643d136a2a811844a9d97f3c3"
+        },
+        {
+          "test_date": "2026-05-09",
+          "test_matches": 4,
+          "training_matches": 443,
+          "latest_training_date": "2026-05-08",
+          "training_rows_sha256": "882b505c3804e8c2c2475381db11b7114dfb507ce5a9bb85a13703096f1aaaa6"
+        },
+        {
+          "test_date": "2026-05-10",
+          "test_matches": 3,
+          "training_matches": 447,
+          "latest_training_date": "2026-05-09",
+          "training_rows_sha256": "8f1683e6c6d18b51a7d54cf4c0c9050e94b71b7f0a30ef6cb243261e759dff98"
+        },
+        {
+          "test_date": "2026-05-17",
+          "test_matches": 9,
+          "training_matches": 450,
+          "latest_training_date": "2026-05-10",
+          "training_rows_sha256": "18eb7e7c68d350392a67bdb8c297b0facbfaf48e49648e78336cd92c0fba70f2"
+        },
+        {
+          "test_date": "2026-08-07",
+          "test_matches": 1,
+          "training_matches": 459,
+          "latest_training_date": "2026-05-17",
+          "training_rows_sha256": "7262b3080d81ac669429ee331fdeb264bf305bdf8221ab215673b87232764bed"
+        },
+        {
+          "test_date": "2026-08-08",
+          "test_matches": 5,
+          "training_matches": 460,
+          "latest_training_date": "2026-08-07",
+          "training_rows_sha256": "d6e1a6a36b407c71845d82efed86f3ccbeb3b74191b882d573aa0d3de1d9604a"
+        },
+        {
+          "test_date": "2026-08-09",
+          "test_matches": 3,
+          "training_matches": 465,
+          "latest_training_date": "2026-08-08",
+          "training_rows_sha256": "292efe237cfd0b7b381dc8ee5c476640bda7ff369ac107c94f2ea8b41b73c2ff"
+        },
+        {
+          "test_date": "2026-08-14",
+          "test_matches": 2,
+          "training_matches": 468,
+          "latest_training_date": "2026-08-09",
+          "training_rows_sha256": "0373c8f24985876953aab5be3ea629b573359aadfb64277015f4dde2b2ea979c"
+        },
+        {
+          "test_date": "2026-08-15",
+          "test_matches": 4,
+          "training_matches": 470,
+          "latest_training_date": "2026-08-14",
+          "training_rows_sha256": "2d0a3b5b4a6d06f4601b897789a1ca9a21318aef477bd0393bc33134fe4e9976"
+        },
+        {
+          "test_date": "2026-08-16",
+          "test_matches": 3,
+          "training_matches": 474,
+          "latest_training_date": "2026-08-15",
+          "training_rows_sha256": "6e3c9f0191172ec50454c134caf046fa28afe221469866b1b58af956e7495082"
+        },
+        {
+          "test_date": "2026-08-28",
+          "test_matches": 2,
+          "training_matches": 477,
+          "latest_training_date": "2026-08-16",
+          "training_rows_sha256": "69cba5a6fccc7c1f28f1dd189bbe409f10d65eca6b0437cfa752101bd1f11220"
+        },
+        {
+          "test_date": "2026-08-29",
+          "test_matches": 4,
+          "training_matches": 479,
+          "latest_training_date": "2026-08-28",
+          "training_rows_sha256": "d52e113fe34ed8f796bdd75683fca42c420a60f773744a668fa9a355fd5db08c"
+        },
+        {
+          "test_date": "2026-08-30",
+          "test_matches": 3,
+          "training_matches": 483,
+          "latest_training_date": "2026-08-29",
+          "training_rows_sha256": "6f25bf44c8f00109752cd26857b19d66a10798aa8725f75d3a0c63ff8753b6b6"
+        },
+        {
+          "test_date": "2026-09-04",
+          "test_matches": 2,
+          "training_matches": 486,
+          "latest_training_date": "2026-08-30",
+          "training_rows_sha256": "e65249b5b9e0a0062f1b3cf28d19240bee4cd4c773d8ac4baf7dc296bee89e29"
+        },
+        {
+          "test_date": "2026-09-05",
+          "test_matches": 4,
+          "training_matches": 488,
+          "latest_training_date": "2026-09-04",
+          "training_rows_sha256": "f938219e9d86c55ee5fd58b5ecf8d813d87f6a63e269dda9a2edf85a260ca3cd"
+        },
+        {
+          "test_date": "2026-09-06",
+          "test_matches": 3,
+          "training_matches": 492,
+          "latest_training_date": "2026-09-05",
+          "training_rows_sha256": "f88cc3489a384c2c02949297d43fb20ac9ecc766fdcbc30d50c4ec859e75d212"
+        },
+        {
+          "test_date": "2026-09-11",
+          "test_matches": 2,
+          "training_matches": 495,
+          "latest_training_date": "2026-09-06",
+          "training_rows_sha256": "be2458c873e2ce935373f66ac6c2591f0568183f8f85164f6abe90a5235420f2"
+        },
+        {
+          "test_date": "2026-09-12",
+          "test_matches": 4,
+          "training_matches": 497,
+          "latest_training_date": "2026-09-11",
+          "training_rows_sha256": "521396c7cc4cbd4eda53646ad15a3fcc6b35608fd22bd4c8b5142726bb64a14c"
+        },
+        {
+          "test_date": "2026-09-13",
+          "test_matches": 3,
+          "training_matches": 501,
+          "latest_training_date": "2026-09-12",
+          "training_rows_sha256": "a49b30213fc63541e8ce3a70d791f8ce4930bd19132169fa57f21bd51197b939"
+        },
+        {
+          "test_date": "2026-09-18",
+          "test_matches": 2,
+          "training_matches": 504,
+          "latest_training_date": "2026-09-13",
+          "training_rows_sha256": "6810b63fb0fbb71059f9aefeab91d25ae0d6a651250ac7d9a79927eefce05ef6"
+        },
+        {
+          "test_date": "2026-09-19",
+          "test_matches": 4,
+          "training_matches": 506,
+          "latest_training_date": "2026-09-18",
+          "training_rows_sha256": "146eb8b7bad640e5c589ffafa760666bd503b75e69c4eb4c3fec61e26a63dafe"
+        },
+        {
+          "test_date": "2026-09-20",
+          "test_matches": 3,
+          "training_matches": 510,
+          "latest_training_date": "2026-09-19",
+          "training_rows_sha256": "015969764eab32b9741c053a75fdbdd22470a9b83c4da415a497b4e83d0d4ba5"
+        }
+      ],
+      "source_availability_replayed": false,
+      "evaluation_type": "retrospective_time_split_by_match_date_not_point_in_time_source_archive",
+      "evaluation_window": "last_24_distinct_dates",
+      "status": "ok",
+      "brier": 0.6735686813889578,
+      "log_loss": 1.1069691414073528,
+      "accuracy": 0.41975308641975306,
+      "baseline": {
+        "description": "same-prefix competition-season goal-rate only",
+        "brier": 0.66197851887416,
+        "log_loss": 1.0915414004924748,
+        "accuracy": 0.32098765432098764,
+        "denominator": 81
+      }
+    }
+  },
+  "sha256": "261b2084830f8c2d6b81424e0a497cc317889c13fb88fcc8a82193ffa7248ec2"
+}

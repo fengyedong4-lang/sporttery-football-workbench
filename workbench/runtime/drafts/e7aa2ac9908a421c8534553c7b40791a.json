@@ -1,0 +1,3102 @@
+{
+  "schema_version": 1,
+  "mode": "A",
+  "run_id": "e7aa2ac9908a421c8534553c7b40791a",
+  "created_at": "2026-09-22T08:08:42.147932+00:00",
+  "completed_at": "2026-09-22T08:12:28.103205+00:00",
+  "official_fetch_performed": false,
+  "llm_calls": 1,
+  "llm_usage": {
+    "input_tokens": 25118,
+    "cached_input_tokens": 21888,
+    "output_tokens": 3139
+  },
+  "matches": [
+    {
+      "sequence": 1,
+      "match_id": "2041642",
+      "match_number": "周二001",
+      "competition": "亚运男足",
+      "home_team": "韩国亚",
+      "away_team": "沙特亚",
+      "kickoff_time": "2026-09-22T18:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": "126e84c0d8da7c1f5c85e63e6c0fec4987b14e0f9a85fd1713c4b4ec05daeb9a",
+      "model_status": "evidence_fallback",
+      "reason": "没有覆盖赛事的模型: 亚运男足",
+      "result": null,
+      "handicap_result": null,
+      "freeze_eligible": false,
+      "analysis_status": "insufficient_evidence",
+      "analysis_method": "codex_evidence_v1",
+      "analysis_label": "Codex证据解读（gpt-6-astra，非专属训练模型）",
+      "analysis_summary": "双方各仅有一场有效正式赛，且本场阵容未知。韩国亚与沙特亚均战胜卡塔尔亚，但共同对手的单场赛果不足以建立双方直接交锋的强弱方向，胜平负均不选。支持事实 source_ids：recent:47b83a76eb94c4e32d55。",
+      "analysis_result": null,
+      "analysis_handicap_result": null,
+      "raw_probabilities": null,
+      "probability_status": "证据定性分析，不生成伪精确概率；独立统计基线另存",
+      "confidence": {
+        "result": "低",
+        "handicap_result": null
+      },
+      "risk": "高",
+      "supporting_evidence": [
+        "韩国亚：精确球队ID、180天内正式赛有效1场，1胜0平0负，进4失1；未校正对手强弱。排除9条。",
+        "沙特亚：精确球队ID、180天内正式赛有效1场，1胜0平0负，进2失0；未校正对手强弱。排除9条。"
+      ],
+      "major_counterevidence": [
+        "2026-09-15 亚运男足（赛事ID76，赛季ID15364）：卡塔尔亚 1:4 韩国亚，90分钟事实。",
+        "2026-09-18 亚运男足（赛事ID76，赛季ID15364）：沙特亚 2:0 卡塔尔亚，90分钟事实。"
+      ],
+      "counterevidence_actions": [
+        {
+          "evidence": "2026-09-15 亚运男足（赛事ID76，赛季ID15364）：卡塔尔亚 1:4 韩国亚，90分钟事实。；2026-09-18 亚运男足（赛事ID76，赛季ID15364）：沙特亚 2:0 卡塔尔亚，90分钟事实。",
+          "effect": "F003提供韩国亚进攻表现较好的线索，F005则提供沙特亚零封获胜的线索，两者均不能直接外推本场。沙特亚的表现削弱了仅凭韩国亚上场大胜选择主胜的依据，也没有支持本场平局的直接证据，故维持双项null。反证 source_ids：recent:47b83a76eb94c4e32d55。"
+        }
+      ],
+      "missing": [
+        "确认首发与阵型",
+        "伤停原始发布时间及俱乐部确认",
+        "战术/机会质量/纪律事件",
+        "天气、场地和旅行信息",
+        "已核实的完整积分榜与出线条件",
+        "180天内可核实的同队正式交锋",
+        "韩国亚后5天接口无可用赛程，不代表无比赛",
+        "沙特亚后5天接口无可用赛程，不代表无比赛",
+        "韩国亚伤停接口无条目，不等于全员健康",
+        "沙特亚伤停接口无条目，不等于全员健康",
+        "双方同一竞赛同一赛季且各至少3场的可比样本",
+        "同一代际、阵容可核实的更多正式赛样本",
+        "确认首发、阵型及阵容连续性",
+        "伤停原始发布时间及官方确认；接口无条目不等于全员健康",
+        "战术、机会质量及纪律事件",
+        "天气、实际场地及旅行信息",
+        "完整积分榜与出线条件",
+        "双方后续赛程核实；接口无可用赛程不代表没有比赛",
+        "资料原始发布时间及体彩结算口径确认"
+      ],
+      "evidence_stats": {
+        "home": {
+          "sample_size": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 4,
+          "goals_against": 1,
+          "home_matches": 0,
+          "away_matches": 1,
+          "same_role_matches": 0,
+          "different_role_matches": 1,
+          "exact_goal_differences": {
+            "3": 1
+          },
+          "competition_season_groups": {
+            "76::15364": 1
+          }
+        },
+        "away": {
+          "sample_size": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 2,
+          "goals_against": 0,
+          "home_matches": 1,
+          "away_matches": 0,
+          "same_role_matches": 0,
+          "different_role_matches": 1,
+          "exact_goal_differences": {
+            "2": 1
+          },
+          "competition_season_groups": {
+            "76::15364": 1
+          }
+        }
+      },
+      "method_parameters": {
+        "lookback_days": 180,
+        "half_life_days": 45,
+        "recent_match_limit_per_team": 10,
+        "minimum_matches_per_team_in_common_group": 3,
+        "comparison_status": "insufficient",
+        "common_competition_season": null
+      },
+      "matched_evidence_ids": [
+        "recent:47b83a76eb94c4e32d55"
+      ],
+      "summary": "双方各仅有一场有效正式赛，且本场阵容未知。韩国亚与沙特亚均战胜卡塔尔亚，但共同对手的单场赛果不足以建立双方直接交锋的强弱方向，胜平负均不选。支持事实 source_ids：recent:47b83a76eb94c4e32d55。",
+      "evidence": {
+        "identity_verified": true,
+        "collected_at": "2026-09-22T08:08:42.147932+00:00",
+        "match_id": "2041642",
+        "sources": [
+          {
+            "source_id": "head:48eb073ddd35da079ef5",
+            "kind": "head",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041642&source=web",
+            "fetched_at": "2026-09-22T08:00:46.461789+00:00",
+            "source_updated_at": null,
+            "sha256": "48eb073ddd35da079ef5baf187d4826193bebd343c032dfb378b2fc85403d152",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "recent:47b83a76eb94c4e32d55",
+            "kind": "recent",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041642&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:46.664840+00:00",
+            "source_updated_at": null,
+            "sha256": "47b83a76eb94c4e32d550c500e1bb3f3497a811bbc410675a6a8f67a0a2a86f4",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "h2h:fe4f816f46fb0bd8c553",
+            "kind": "h2h",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041642&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:46.907203+00:00",
+            "source_updated_at": null,
+            "sha256": "fe4f816f46fb0bd8c5534ec7e6ac0e26fe403ada66d7658744f8420438428611",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "future:67793051e445e0726963",
+            "kind": "future",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041642&termLimits=4",
+            "fetched_at": "2026-09-22T08:00:47.552249+00:00",
+            "source_updated_at": null,
+            "sha256": "67793051e445e0726963ce4add4ce48aeb30ca222cf2b832949fd13f91155a9e",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "injuries:819dd40caed4c16ab40a",
+            "kind": "injuries",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041642",
+            "fetched_at": "2026-09-22T08:00:47.682304+00:00",
+            "source_updated_at": null,
+            "sha256": "819dd40caed4c16ab40a39d4cea8064c228d34a3ab1bd9db4f5eeae20714b9cd",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          }
+        ],
+        "teams": {
+          "home": {
+            "team_id": "2049",
+            "name": "韩国亚",
+            "recent_matches": [
+              {
+                "match_id": "2608901",
+                "match_date": "2026-09-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "2639",
+                "away_team_id": "2049",
+                "home_team": "卡塔尔亚",
+                "away_team": "韩国亚",
+                "home_goals_90": 1,
+                "away_goals_90": 4,
+                "competition": "亚运男足",
+                "competition_id": "76",
+                "season_id": "15364",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:47b83a76eb94c4e32d55",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "球队ID不符，含青年队或其他代表队": 2,
+              "过旧、未来或仅日期无法核实的同日比赛": 7
+            }
+          },
+          "away": {
+            "team_id": "2051",
+            "name": "沙特亚",
+            "recent_matches": [
+              {
+                "match_id": "2608896",
+                "match_date": "2026-09-18",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "2051",
+                "away_team_id": "2639",
+                "home_team": "沙特亚",
+                "away_team": "卡塔尔亚",
+                "home_goals_90": 2,
+                "away_goals_90": 0,
+                "competition": "亚运男足",
+                "competition_id": "76",
+                "season_id": "15364",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:47b83a76eb94c4e32d55",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "球队ID不符，含青年队或其他代表队": 1,
+              "过旧、未来或仅日期无法核实的同日比赛": 8
+            }
+          }
+        },
+        "facts": [
+          {
+            "fact_id": "2041642:F001",
+            "dimension": "赛制",
+            "summary": "官方赛事：亚运男足；赛季2026；阶段Group Stage；分组Group D。未据此推断战意或场地。",
+            "source_ids": [
+              "head:48eb073ddd35da079ef5"
+            ]
+          },
+          {
+            "fact_id": "2041642:F002",
+            "dimension": "近期状态",
+            "summary": "韩国亚：精确球队ID、180天内正式赛有效1场，1胜0平0负，进4失1；未校正对手强弱。排除9条。",
+            "source_ids": [
+              "recent:47b83a76eb94c4e32d55"
+            ]
+          },
+          {
+            "fact_id": "2041642:F003",
+            "dimension": "近期赛果",
+            "summary": "2026-09-15 亚运男足（赛事ID76，赛季ID15364）：卡塔尔亚 1:4 韩国亚，90分钟事实。",
+            "source_ids": [
+              "recent:47b83a76eb94c4e32d55"
+            ]
+          },
+          {
+            "fact_id": "2041642:F004",
+            "dimension": "近期状态",
+            "summary": "沙特亚：精确球队ID、180天内正式赛有效1场，1胜0平0负，进2失0；未校正对手强弱。排除9条。",
+            "source_ids": [
+              "recent:47b83a76eb94c4e32d55"
+            ]
+          },
+          {
+            "fact_id": "2041642:F005",
+            "dimension": "近期赛果",
+            "summary": "2026-09-18 亚运男足（赛事ID76，赛季ID15364）：沙特亚 2:0 卡塔尔亚，90分钟事实。",
+            "source_ids": [
+              "recent:47b83a76eb94c4e32d55"
+            ]
+          }
+        ],
+        "warnings": [
+          "韩国亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+          "沙特亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "韩国亚后5天接口无可用赛程，不代表无比赛",
+          "沙特亚后5天接口无可用赛程，不代表无比赛",
+          "韩国亚伤停接口无条目，不等于全员健康",
+          "沙特亚伤停接口无条目，不等于全员健康"
+        ],
+        "h2h": {
+          "matches": [],
+          "excluded": {
+            "过旧、未来或仅日期无法核实的同日比赛": 2
+          }
+        }
+      },
+      "statistical_baseline": {
+        "analysis_status": "insufficient_evidence",
+        "analysis_method": "recent_form_poisson_v1",
+        "analysis_label": "近期赛果统计基线（非专属训练模型）",
+        "analysis_summary": "仅完成双方独立近期事实摘要；双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+        "analysis_result": null,
+        "analysis_handicap_result": null,
+        "raw_probabilities": null,
+        "probability_status": "未生成：证据不足",
+        "confidence": {
+          "result": "低",
+          "handicap_result": null
+        },
+        "risk": "高",
+        "supporting_evidence": [
+          "主队有效样本1场：1胜0平0负，进4球失1球。",
+          "客队有效样本1场：1胜0平0负，进2球失0球。"
+        ],
+        "major_counterevidence": [
+          "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+          "精确球队ID过滤后样本稀疏，存在换代与阵容连续性风险。",
+          "韩国亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+          "沙特亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "counterevidence_actions": [
+          {
+            "evidence": "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "精确球队ID过滤后样本稀疏，存在换代与阵容连续性风险。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "韩国亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "沙特亚近期有效样本只有1场，不以其他年龄组、往届或热身赛填充",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          }
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "韩国亚后5天接口无可用赛程，不代表无比赛",
+          "沙特亚后5天接口无可用赛程，不代表无比赛",
+          "韩国亚伤停接口无条目，不等于全员健康",
+          "沙特亚伤停接口无条目，不等于全员健康",
+          "双方同一竞赛同一赛季且各至少3场的可比样本"
+        ],
+        "evidence_stats": {
+          "home": {
+            "sample_size": 1,
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals_for": 4,
+            "goals_against": 1,
+            "home_matches": 0,
+            "away_matches": 1,
+            "same_role_matches": 0,
+            "different_role_matches": 1,
+            "exact_goal_differences": {
+              "3": 1
+            },
+            "competition_season_groups": {
+              "76::15364": 1
+            }
+          },
+          "away": {
+            "sample_size": 1,
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals_for": 2,
+            "goals_against": 0,
+            "home_matches": 1,
+            "away_matches": 0,
+            "same_role_matches": 0,
+            "different_role_matches": 1,
+            "exact_goal_differences": {
+              "2": 1
+            },
+            "competition_season_groups": {
+              "76::15364": 1
+            }
+          }
+        },
+        "method_parameters": {
+          "lookback_days": 180,
+          "half_life_days": 45,
+          "recent_match_limit_per_team": 10,
+          "minimum_matches_per_team_in_common_group": 3,
+          "comparison_status": "insufficient",
+          "common_competition_season": null
+        },
+        "matched_evidence_ids": [
+          "recent:47b83a76eb94c4e32d55"
+        ],
+        "freeze_eligible": false
+      },
+      "matched_rule_ids": [],
+      "rule_application_status": "证据通道独立判断；未自动应用历史场景规则",
+      "llm_status": "completed",
+      "result_status": "证据不足",
+      "handicap_status": "证据不足",
+      "llm_reason": null,
+      "handicap_reason": "官方h=-1：d≥2对应让胜，d=1对应让平，d≤0对应让负。F003仅说明韩国亚曾对卡塔尔亚取得多球优势，不能确定对沙特亚也能如此；F005显示沙特亚有零封获胜表现，为韩国亚不胜路径提供制约线索。本场韩国亚恰好净胜一球没有正面事实支持，现有样本也不足以比较多球取胜与不胜路径，因此让球选项为null。",
+      "support_fact_ids": [
+        "2041642:F002",
+        "2041642:F004"
+      ],
+      "counter_fact_ids": [
+        "2041642:F003",
+        "2041642:F005"
+      ]
+    },
+    {
+      "sequence": 2,
+      "match_id": "2041643",
+      "match_number": "周二002",
+      "competition": "英锦标赛",
+      "home_team": "米尔顿",
+      "away_team": "克劳利",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": "126e84c0d8da7c1f5c85e63e6c0fec4987b14e0f9a85fd1713c4b4ec05daeb9a",
+      "model_status": "evidence_fallback",
+      "reason": "没有覆盖赛事的模型: 英锦标赛",
+      "result": "平",
+      "handicap_result": "让负",
+      "freeze_eligible": false,
+      "analysis_status": "available",
+      "analysis_method": "codex_evidence_v1",
+      "analysis_label": "Codex证据解读（gpt-6-astra，非专属训练模型）",
+      "analysis_summary": "低置信度倾向平局。米尔顿所列近期英甲主场反复战平，F004、F007、F008构成平局正面证据，克劳利客场战平的F015提供补充。判断依据是具体平局记录，不以双方不同级别联赛的进失球均值认定强弱。支持事实 source_ids：recent:3ec5bebb903724fee586。",
+      "analysis_result": "平",
+      "analysis_handicap_result": "让负",
+      "raw_probabilities": null,
+      "probability_status": "证据定性分析，不生成伪精确概率；独立统计基线另存",
+      "confidence": {
+        "result": "低",
+        "handicap_result": "低"
+      },
+      "risk": "高",
+      "supporting_evidence": [
+        "米尔顿：精确球队ID、180天内正式赛有效8场，0胜6平2负，进9失14；未校正对手强弱。排除2条。",
+        "2026-09-18 英甲（赛事ID385，赛季ID15457）：温布尔登 0:0 米尔顿，90分钟事实。",
+        "2026-09-12 英甲（赛事ID385，赛季ID15457）：米尔顿 1:1 彼得堡联，90分钟事实。",
+        "2026-08-29 英甲（赛事ID385，赛季ID15457）：米尔顿 0:0 莱切斯特，90分钟事实。",
+        "2026-08-22 英甲（赛事ID385，赛季ID15457）：米尔顿 1:1 哈德斯，90分钟事实。",
+        "2026-09-02 英乙（赛事ID434，赛季ID15458）：北安普敦 1:1 克劳利，90分钟事实。"
+      ],
+      "major_counterevidence": [
+        "2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。",
+        "2026-09-12 英乙（赛事ID434，赛季ID15458）：克劳利 1:3 切尔滕，90分钟事实。",
+        "2026-09-05 英乙（赛事ID434，赛季ID15458）：阿克宁顿 3:2 克劳利，90分钟事实。",
+        "2026-08-29 英乙（赛事ID434，赛季ID15458）：克劳利 0:2 布流浪，90分钟事实。",
+        "2026-08-22 英乙（赛事ID434，赛季ID15458）：罗奇代尔 1:2 克劳利，90分钟事实。",
+        "2026-08-15 英乙（赛事ID434，赛季ID15458）：克劳利 0:1 克鲁，90分钟事实。"
+      ],
+      "counterevidence_actions": [
+        {
+          "evidence": "2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。；2026-09-12 英乙（赛事ID434，赛季ID15458）：克劳利 1:3 切尔滕，90分钟事实。；2026-09-05 英乙（赛事ID434，赛季ID15458）：阿克宁顿 3:2 克劳利，90分钟事实。；2026-08-29 英乙（赛事ID434，赛季ID15458）：克劳利 0:2 布流浪，90分钟事实。；2026-08-22 英乙（赛事ID434，赛季ID15458）：罗奇代尔 1:2 克劳利，90分钟事实。；2026-08-15 英乙（赛事ID434，赛季ID15458）：克劳利 0:1 克鲁，90分钟事实。",
+          "effect": "克劳利近期接连失利，且存在多球败局，支持米尔顿取胜甚至拉开分差的另一条路径；F017又显示克劳利曾客场取胜，说明米尔顿不胜也未必是平局。这些反证使平局仅保留低置信度，并削弱让负判断，不能把米尔顿的联赛平局表现直接视为本场结果。反证 source_ids：recent:3ec5bebb903724fee586。"
+        }
+      ],
+      "missing": [
+        "确认首发与阵型",
+        "伤停原始发布时间及俱乐部确认",
+        "战术/机会质量/纪律事件",
+        "天气、场地和旅行信息",
+        "已核实的完整积分榜与出线条件",
+        "180天内可核实的同队正式交锋",
+        "双方同一竞赛同一赛季且各至少3场的可比样本",
+        "双方对手强度及跨级别可比依据",
+        "本场确认首发、阵型及轮换安排",
+        "战术、机会质量及纪律事件",
+        "天气、实际场地及旅行信息",
+        "完整积分榜与出线条件",
+        "资料原始发布时间及体彩结算口径确认"
+      ],
+      "evidence_stats": {
+        "home": {
+          "sample_size": 8,
+          "wins": 0,
+          "draws": 6,
+          "losses": 2,
+          "goals_for": 9,
+          "goals_against": 14,
+          "home_matches": 3,
+          "away_matches": 5,
+          "same_role_matches": 3,
+          "different_role_matches": 5,
+          "exact_goal_differences": {
+            "-3": 1,
+            "-2": 1,
+            "0": 6
+          },
+          "competition_season_groups": {
+            "385::15457": 7,
+            "585::14884": 1
+          }
+        },
+        "away": {
+          "sample_size": 9,
+          "wins": 2,
+          "draws": 1,
+          "losses": 6,
+          "goals_for": 8,
+          "goals_against": 14,
+          "home_matches": 3,
+          "away_matches": 6,
+          "same_role_matches": 6,
+          "different_role_matches": 3,
+          "exact_goal_differences": {
+            "-2": 3,
+            "-1": 3,
+            "0": 1,
+            "1": 1,
+            "2": 1
+          },
+          "competition_season_groups": {
+            "434::15458": 7,
+            "585::14884": 2
+          }
+        }
+      },
+      "method_parameters": {
+        "lookback_days": 180,
+        "half_life_days": 45,
+        "recent_match_limit_per_team": 10,
+        "minimum_matches_per_team_in_common_group": 3,
+        "comparison_status": "insufficient",
+        "common_competition_season": null
+      },
+      "matched_evidence_ids": [
+        "recent:3ec5bebb903724fee586"
+      ],
+      "summary": "低置信度倾向平局。米尔顿所列近期英甲主场反复战平，F004、F007、F008构成平局正面证据，克劳利客场战平的F015提供补充。判断依据是具体平局记录，不以双方不同级别联赛的进失球均值认定强弱。支持事实 source_ids：recent:3ec5bebb903724fee586。",
+      "evidence": {
+        "identity_verified": true,
+        "collected_at": "2026-09-22T08:08:42.148938+00:00",
+        "match_id": "2041643",
+        "sources": [
+          {
+            "source_id": "head:7ade4bda5cbe57048ec4",
+            "kind": "head",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041643&source=web",
+            "fetched_at": "2026-09-22T08:00:46.536235+00:00",
+            "source_updated_at": null,
+            "sha256": "7ade4bda5cbe57048ec4bfdfa968db42f45a179fab4e074acc01cc4417c1d093",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "recent:3ec5bebb903724fee586",
+            "kind": "recent",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041643&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:46.772340+00:00",
+            "source_updated_at": null,
+            "sha256": "3ec5bebb903724fee5863e899f418a91df7f1b1a32df4d986262dacc0d09d0a5",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "h2h:52429b5522e70ceb551d",
+            "kind": "h2h",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041643&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:47.137915+00:00",
+            "source_updated_at": null,
+            "sha256": "52429b5522e70ceb551d1e133c5ce45fa75ae28abfb72aa9485d73847cc61660",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "future:f36ef304e3af7884756d",
+            "kind": "future",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041643&termLimits=4",
+            "fetched_at": "2026-09-22T08:00:48.231193+00:00",
+            "source_updated_at": null,
+            "sha256": "f36ef304e3af7884756df07fad0d2b29b1b5cd895ed197c305596abcd85ba857",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "injuries:8cf2255b61b9500fa4e6",
+            "kind": "injuries",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041643",
+            "fetched_at": "2026-09-22T08:00:48.357670+00:00",
+            "source_updated_at": null,
+            "sha256": "8cf2255b61b9500fa4e63f57cb227b9f12d2fdc8dd1b1eba002ecda799d0954d",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          }
+        ],
+        "teams": {
+          "home": {
+            "team_id": "78",
+            "name": "米尔顿",
+            "recent_matches": [
+              {
+                "match_id": "2541115",
+                "match_date": "2026-09-18",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "1165",
+                "away_team_id": "78",
+                "home_team": "温布尔登",
+                "away_team": "米尔顿",
+                "home_goals_90": 0,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541126",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "78",
+                "away_team_id": "",
+                "home_team": "米尔顿",
+                "away_team": "彼得堡联",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541128",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "78",
+                "home_team": "威科姆",
+                "away_team": "米尔顿",
+                "home_goals_90": 3,
+                "away_goals_90": 3,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541142",
+                "match_date": "2026-09-03",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "78",
+                "home_team": "维冈",
+                "away_team": "米尔顿",
+                "home_goals_90": 3,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541158",
+                "match_date": "2026-08-29",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "78",
+                "away_team_id": "",
+                "home_team": "米尔顿",
+                "away_team": "莱切斯特",
+                "home_goals_90": 0,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541170",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "78",
+                "away_team_id": "",
+                "home_team": "米尔顿",
+                "away_team": "哈德斯",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541186",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "78",
+                "home_team": "牛津联",
+                "away_team": "米尔顿",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542698",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "78",
+                "home_team": "诺维奇",
+                "away_team": "米尔顿",
+                "home_goals_90": 4,
+                "away_goals_90": 1,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 2
+            }
+          },
+          "away": {
+            "team_id": "1523",
+            "name": "克劳利",
+            "recent_matches": [
+              {
+                "match_id": "2542129",
+                "match_date": "2026-09-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "1523",
+                "home_team": "格里姆",
+                "away_team": "克劳利",
+                "home_goals_90": 2,
+                "away_goals_90": 0,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542146",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "1523",
+                "away_team_id": "",
+                "home_team": "克劳利",
+                "away_team": "切尔滕",
+                "home_goals_90": 1,
+                "away_goals_90": 3,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542159",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "1523",
+                "home_team": "阿克宁顿",
+                "away_team": "克劳利",
+                "home_goals_90": 3,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542165",
+                "match_date": "2026-09-02",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "1523",
+                "home_team": "北安普敦",
+                "away_team": "克劳利",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542182",
+                "match_date": "2026-08-29",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "1523",
+                "away_team_id": "",
+                "home_team": "克劳利",
+                "away_team": "布流浪",
+                "home_goals_90": 0,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542190",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "1523",
+                "home_team": "罗奇代尔",
+                "away_team": "克劳利",
+                "home_goals_90": 1,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542202",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "1523",
+                "away_team_id": "",
+                "home_team": "克劳利",
+                "away_team": "克鲁",
+                "home_goals_90": 0,
+                "away_goals_90": 1,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542709",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "61",
+                "away_team_id": "1523",
+                "home_team": "沃特福德",
+                "away_team": "克劳利",
+                "home_goals_90": 1,
+                "away_goals_90": 0,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2529924",
+                "match_date": "2026-08-04",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "1523",
+                "home_team": "约克城",
+                "away_team": "克劳利",
+                "home_goals_90": 0,
+                "away_goals_90": 2,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:3ec5bebb903724fee586",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 1
+            }
+          }
+        },
+        "facts": [
+          {
+            "fact_id": "2041643:F001",
+            "dimension": "赛制",
+            "summary": "官方赛事：英锦标赛；赛季2026/2027；阶段Group Stage；分组南部赛区H组。未据此推断战意或场地。",
+            "source_ids": [
+              "head:7ade4bda5cbe57048ec4"
+            ]
+          },
+          {
+            "fact_id": "2041643:F002",
+            "dimension": "近期状态",
+            "summary": "米尔顿：精确球队ID、180天内正式赛有效8场，0胜6平2负，进9失14；未校正对手强弱。排除2条。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F003",
+            "dimension": "近期赛果",
+            "summary": "2026-09-18 英甲（赛事ID385，赛季ID15457）：温布尔登 0:0 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F004",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英甲（赛事ID385，赛季ID15457）：米尔顿 1:1 彼得堡联，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F005",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英甲（赛事ID385，赛季ID15457）：威科姆 3:3 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F006",
+            "dimension": "近期赛果",
+            "summary": "2026-09-03 英甲（赛事ID385，赛季ID15457）：维冈 3:1 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F007",
+            "dimension": "近期赛果",
+            "summary": "2026-08-29 英甲（赛事ID385，赛季ID15457）：米尔顿 0:0 莱切斯特，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F008",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英甲（赛事ID385，赛季ID15457）：米尔顿 1:1 哈德斯，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F009",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英甲（赛事ID385，赛季ID15457）：牛津联 2:2 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F010",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：诺维奇 4:1 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F011",
+            "dimension": "近期状态",
+            "summary": "克劳利：精确球队ID、180天内正式赛有效9场，2胜1平6负，进8失14；未校正对手强弱。排除1条。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F012",
+            "dimension": "近期赛果",
+            "summary": "2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F013",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英乙（赛事ID434，赛季ID15458）：克劳利 1:3 切尔滕，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F014",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英乙（赛事ID434，赛季ID15458）：阿克宁顿 3:2 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F015",
+            "dimension": "近期赛果",
+            "summary": "2026-09-02 英乙（赛事ID434，赛季ID15458）：北安普敦 1:1 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F016",
+            "dimension": "近期赛果",
+            "summary": "2026-08-29 英乙（赛事ID434，赛季ID15458）：克劳利 0:2 布流浪，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F017",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英乙（赛事ID434，赛季ID15458）：罗奇代尔 1:2 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F018",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英乙（赛事ID434，赛季ID15458）：克劳利 0:1 克鲁，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F019",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：沃特福德 1:0 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F020",
+            "dimension": "近期赛果",
+            "summary": "2026-08-04 英联赛杯（赛事ID585，赛季ID14884）：约克城 0:2 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:3ec5bebb903724fee586"
+            ]
+          },
+          {
+            "fact_id": "2041643:F021",
+            "dimension": "未来赛程",
+            "summary": "米尔顿本场后5天内已公布：09-26 22:00 英甲 米尔顿对布罗姆利（北京时间）；不能由赛程直接断言轮换。",
+            "source_ids": [
+              "future:f36ef304e3af7884756d"
+            ]
+          },
+          {
+            "fact_id": "2041643:F022",
+            "dimension": "未来赛程",
+            "summary": "克劳利本场后5天内已公布：09-26 19:30 英乙 克劳利对巴尼特（北京时间）；不能由赛程直接断言轮换。",
+            "source_ids": [
+              "future:f36ef304e3af7884756d"
+            ]
+          },
+          {
+            "fact_id": "2041643:F023",
+            "dimension": "伤停待核实",
+            "summary": "米尔顿接口列出：基恩·威尔逊；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:8cf2255b61b9500fa4e6"
+            ]
+          },
+          {
+            "fact_id": "2041643:F024",
+            "dimension": "伤停待核实",
+            "summary": "克劳利接口列出：曼诺内、S. Duke-McKenna、K. Jennings；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:8cf2255b61b9500fa4e6"
+            ]
+          }
+        ],
+        "warnings": [
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋"
+        ],
+        "h2h": {
+          "matches": [],
+          "excluded": {
+            "过旧、未来或仅日期无法核实的同日比赛": 10
+          }
+        }
+      },
+      "statistical_baseline": {
+        "analysis_status": "insufficient_evidence",
+        "analysis_method": "recent_form_poisson_v1",
+        "analysis_label": "近期赛果统计基线（非专属训练模型）",
+        "analysis_summary": "仅完成双方独立近期事实摘要；双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+        "analysis_result": null,
+        "analysis_handicap_result": null,
+        "raw_probabilities": null,
+        "probability_status": "未生成：证据不足",
+        "confidence": {
+          "result": "低",
+          "handicap_result": null
+        },
+        "risk": "高",
+        "supporting_evidence": [
+          "主队有效样本8场：0胜6平2负，进9球失14球。",
+          "客队有效样本9场：2胜1平6负，进8球失14球。"
+        ],
+        "major_counterevidence": [
+          "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "counterevidence_actions": [
+          {
+            "evidence": "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          }
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "双方同一竞赛同一赛季且各至少3场的可比样本"
+        ],
+        "evidence_stats": {
+          "home": {
+            "sample_size": 8,
+            "wins": 0,
+            "draws": 6,
+            "losses": 2,
+            "goals_for": 9,
+            "goals_against": 14,
+            "home_matches": 3,
+            "away_matches": 5,
+            "same_role_matches": 3,
+            "different_role_matches": 5,
+            "exact_goal_differences": {
+              "-3": 1,
+              "-2": 1,
+              "0": 6
+            },
+            "competition_season_groups": {
+              "385::15457": 7,
+              "585::14884": 1
+            }
+          },
+          "away": {
+            "sample_size": 9,
+            "wins": 2,
+            "draws": 1,
+            "losses": 6,
+            "goals_for": 8,
+            "goals_against": 14,
+            "home_matches": 3,
+            "away_matches": 6,
+            "same_role_matches": 6,
+            "different_role_matches": 3,
+            "exact_goal_differences": {
+              "-2": 3,
+              "-1": 3,
+              "0": 1,
+              "1": 1,
+              "2": 1
+            },
+            "competition_season_groups": {
+              "434::15458": 7,
+              "585::14884": 2
+            }
+          }
+        },
+        "method_parameters": {
+          "lookback_days": 180,
+          "half_life_days": 45,
+          "recent_match_limit_per_team": 10,
+          "minimum_matches_per_team_in_common_group": 3,
+          "comparison_status": "insufficient",
+          "common_competition_season": null
+        },
+        "matched_evidence_ids": [
+          "recent:3ec5bebb903724fee586"
+        ],
+        "freeze_eligible": false
+      },
+      "matched_rule_ids": [],
+      "rule_application_status": "证据通道独立判断；未自动应用历史场景规则",
+      "llm_status": "completed",
+      "result_status": "分析候选",
+      "handicap_status": "分析候选",
+      "llm_reason": null,
+      "handicap_reason": "官方h=-1：d≥2为让胜，d=1为让平，d≤0为让负。让胜路径有克劳利多球失利的F012、F013、F016支持，但米尔顿F002未显示近期取胜表现，缺少主队兑现大胜的对应证据。让平路径有克劳利一球失利的F014、F018作为边界线索，但不足以锁定本场净胜一球。让负路径有米尔顿主场反复战平的F004、F007、F008及克劳利客场战平的F015支持；相较另外两种路径，这组实际不胜记录更直接，故低置信度选让负。",
+      "support_fact_ids": [
+        "2041643:F002",
+        "2041643:F003",
+        "2041643:F004",
+        "2041643:F007",
+        "2041643:F008",
+        "2041643:F015"
+      ],
+      "counter_fact_ids": [
+        "2041643:F012",
+        "2041643:F013",
+        "2041643:F014",
+        "2041643:F016",
+        "2041643:F017",
+        "2041643:F018"
+      ]
+    },
+    {
+      "sequence": 3,
+      "match_id": "2041655",
+      "match_number": "周二003",
+      "competition": "英锦标赛",
+      "home_team": "诺茨郡",
+      "away_team": "格里姆",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": "126e84c0d8da7c1f5c85e63e6c0fec4987b14e0f9a85fd1713c4b4ec05daeb9a",
+      "model_status": "evidence_fallback",
+      "reason": "没有覆盖赛事的模型: 英锦标赛",
+      "result": "平",
+      "handicap_result": "让负",
+      "freeze_eligible": false,
+      "analysis_status": "available",
+      "analysis_method": "codex_evidence_v1",
+      "analysis_label": "Codex证据解读（gpt-6-astra，非专属训练模型）",
+      "analysis_summary": "低置信度倾向平局。诺茨郡有F005、F006、F009等平局记录，格里姆所列英乙客场F014、F015、F017均战平，双方分别存在明确的平局表现。格里姆近期获胜发生在主场，不能直接外推本场客胜，也不以跨级别进失球汇总判定其更强。支持事实 source_ids：recent:6332655f0a3e52b830a3。",
+      "analysis_result": "平",
+      "analysis_handicap_result": "让负",
+      "raw_probabilities": null,
+      "probability_status": "证据定性分析，不生成伪精确概率；独立统计基线另存",
+      "confidence": {
+        "result": "低",
+        "handicap_result": "低"
+      },
+      "risk": "高",
+      "supporting_evidence": [
+        "诺茨郡：精确球队ID、180天内正式赛有效8场，1胜5平2负，进8失10；未校正对手强弱。排除2条。",
+        "2026-09-05 英甲（赛事ID385，赛季ID15457）：哈德斯 1:1 诺茨郡，90分钟事实。",
+        "2026-09-02 英甲（赛事ID385，赛季ID15457）：唐卡斯特 1:1 诺茨郡，90分钟事实。",
+        "2026-08-15 英甲（赛事ID385，赛季ID15457）：诺茨郡 1:1 莱切斯特，90分钟事实。",
+        "2026-09-05 英乙（赛事ID434，赛季ID15458）：切尔滕 2:2 格里姆，90分钟事实。",
+        "2026-09-02 英乙（赛事ID434，赛季ID15458）：阿克宁顿 2:2 格里姆，90分钟事实。",
+        "2026-08-22 英乙（赛事ID434，赛季ID15458）：沃尔索尔 0:0 格里姆，90分钟事实。"
+      ],
+      "major_counterevidence": [
+        "2026-09-19 英甲（赛事ID385，赛季ID15457）：雷丁 2:0 诺茨郡，90分钟事实。",
+        "2026-09-12 英甲（赛事ID385，赛季ID15457）：诺茨郡 0:1 布拉德福，90分钟事实。",
+        "2026-08-29 英甲（赛事ID385，赛季ID15457）：诺茨郡 2:1 伯顿，90分钟事实。",
+        "2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。",
+        "2026-09-12 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 布流浪，90分钟事实。",
+        "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：格里姆 1:3 布莱克浦，90分钟事实。"
+      ],
+      "counterevidence_actions": [
+        {
+          "evidence": "2026-09-19 英甲（赛事ID385，赛季ID15457）：雷丁 2:0 诺茨郡，90分钟事实。；2026-09-12 英甲（赛事ID385，赛季ID15457）：诺茨郡 0:1 布拉德福，90分钟事实。；2026-08-29 英甲（赛事ID385，赛季ID15457）：诺茨郡 2:1 伯顿，90分钟事实。；2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。；2026-09-12 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 布流浪，90分钟事实。；2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：格里姆 1:3 布莱克浦，90分钟事实。",
+          "effect": "诺茨郡最近连续失利且未进球，格里姆近期主场零封获胜，为客胜提供替代路径，但主客场与联赛级别差异限制外推。另一方面，诺茨郡F007主场取胜、格里姆F019杯赛失利，也支持主胜可能。双向反证削弱平局倾向；主胜反证同时削弱让负，因此均仅保留低置信度。反证 source_ids：recent:6332655f0a3e52b830a3。"
+        }
+      ],
+      "missing": [
+        "确认首发与阵型",
+        "伤停原始发布时间及俱乐部确认",
+        "战术/机会质量/纪律事件",
+        "天气、场地和旅行信息",
+        "已核实的完整积分榜与出线条件",
+        "180天内可核实的同队正式交锋",
+        "双方同一竞赛同一赛季且各至少3场的可比样本",
+        "双方对手强度及跨级别可比依据",
+        "本场确认首发、阵型及轮换安排",
+        "战术、机会质量及纪律事件",
+        "天气、实际场地及旅行信息",
+        "完整积分榜与出线条件",
+        "资料原始发布时间及体彩结算口径确认"
+      ],
+      "evidence_stats": {
+        "home": {
+          "sample_size": 8,
+          "wins": 1,
+          "draws": 5,
+          "losses": 2,
+          "goals_for": 8,
+          "goals_against": 10,
+          "home_matches": 3,
+          "away_matches": 5,
+          "same_role_matches": 3,
+          "different_role_matches": 5,
+          "exact_goal_differences": {
+            "-2": 1,
+            "-1": 1,
+            "0": 5,
+            "1": 1
+          },
+          "competition_season_groups": {
+            "385::15457": 7,
+            "585::14884": 1
+          }
+        },
+        "away": {
+          "sample_size": 8,
+          "wins": 3,
+          "draws": 4,
+          "losses": 1,
+          "goals_for": 12,
+          "goals_against": 9,
+          "home_matches": 5,
+          "away_matches": 3,
+          "same_role_matches": 3,
+          "different_role_matches": 5,
+          "exact_goal_differences": {
+            "-2": 1,
+            "0": 4,
+            "1": 1,
+            "2": 2
+          },
+          "competition_season_groups": {
+            "434::15458": 7,
+            "585::14884": 1
+          }
+        }
+      },
+      "method_parameters": {
+        "lookback_days": 180,
+        "half_life_days": 45,
+        "recent_match_limit_per_team": 10,
+        "minimum_matches_per_team_in_common_group": 3,
+        "comparison_status": "insufficient",
+        "common_competition_season": null
+      },
+      "matched_evidence_ids": [
+        "recent:6332655f0a3e52b830a3"
+      ],
+      "summary": "低置信度倾向平局。诺茨郡有F005、F006、F009等平局记录，格里姆所列英乙客场F014、F015、F017均战平，双方分别存在明确的平局表现。格里姆近期获胜发生在主场，不能直接外推本场客胜，也不以跨级别进失球汇总判定其更强。支持事实 source_ids：recent:6332655f0a3e52b830a3。",
+      "evidence": {
+        "identity_verified": true,
+        "collected_at": "2026-09-22T08:08:42.148938+00:00",
+        "match_id": "2041655",
+        "sources": [
+          {
+            "source_id": "head:9fc1adae809af19d38c3",
+            "kind": "head",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041655&source=web",
+            "fetched_at": "2026-09-22T08:00:46.402955+00:00",
+            "source_updated_at": null,
+            "sha256": "9fc1adae809af19d38c3d771e31f067fd003dd53c0cf06c0931b1bfeaa37e96b",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "recent:6332655f0a3e52b830a3",
+            "kind": "recent",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041655&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:46.635464+00:00",
+            "source_updated_at": null,
+            "sha256": "6332655f0a3e52b830a33df8b86a93f018cbf390112cfe7628b3d415286d3360",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "h2h:83a89839fc054b580008",
+            "kind": "h2h",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041655&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:46.869851+00:00",
+            "source_updated_at": null,
+            "sha256": "83a89839fc054b5800086e7af18fb91901efa15d4edf13e4111a1eb0321c7b90",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "future:b51bc26e8d04d0c34cc9",
+            "kind": "future",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041655&termLimits=4",
+            "fetched_at": "2026-09-22T08:00:47.087391+00:00",
+            "source_updated_at": null,
+            "sha256": "b51bc26e8d04d0c34cc94a1d92f76d81ccb7aa5491b6d2f0493039003ff2f810",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "injuries:fa5ae3d107c150c28032",
+            "kind": "injuries",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041655",
+            "fetched_at": "2026-09-22T08:00:47.242393+00:00",
+            "source_updated_at": null,
+            "sha256": "fa5ae3d107c150c28032e3cad3c9e1faede3093f91f33831597edb0ba9f068fa",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          }
+        ],
+        "teams": {
+          "home": {
+            "team_id": "103",
+            "name": "诺茨郡",
+            "recent_matches": [
+              {
+                "match_id": "2541106",
+                "match_date": "2026-09-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "103",
+                "home_team": "雷丁",
+                "away_team": "诺茨郡",
+                "home_goals_90": 2,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541125",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "103",
+                "away_team_id": "",
+                "home_team": "诺茨郡",
+                "away_team": "布拉德福",
+                "home_goals_90": 0,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541134",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "103",
+                "home_team": "哈德斯",
+                "away_team": "诺茨郡",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541147",
+                "match_date": "2026-09-02",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "103",
+                "home_team": "唐卡斯特",
+                "away_team": "诺茨郡",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541157",
+                "match_date": "2026-08-29",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "103",
+                "away_team_id": "",
+                "home_team": "诺茨郡",
+                "away_team": "伯顿",
+                "home_goals_90": 2,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541171",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "103",
+                "home_team": "卢顿",
+                "away_team": "诺茨郡",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541187",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "103",
+                "away_team_id": "",
+                "home_team": "诺茨郡",
+                "away_team": "莱切斯特",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542685",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "103",
+                "home_team": "伯恩利",
+                "away_team": "诺茨郡",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 2
+            }
+          },
+          "away": {
+            "team_id": "96",
+            "name": "格里姆",
+            "recent_matches": [
+              {
+                "match_id": "2542129",
+                "match_date": "2026-09-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "1523",
+                "home_team": "格里姆",
+                "away_team": "克劳利",
+                "home_goals_90": 2,
+                "away_goals_90": 0,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542144",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "",
+                "home_team": "格里姆",
+                "away_team": "布流浪",
+                "home_goals_90": 2,
+                "away_goals_90": 0,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542157",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "96",
+                "home_team": "切尔滕",
+                "away_team": "格里姆",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542172",
+                "match_date": "2026-09-02",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "96",
+                "home_team": "阿克宁顿",
+                "away_team": "格里姆",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542180",
+                "match_date": "2026-08-29",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "",
+                "home_team": "格里姆",
+                "away_team": "福利特",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542185",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "96",
+                "home_team": "沃尔索尔",
+                "away_team": "格里姆",
+                "home_goals_90": 0,
+                "away_goals_90": 0,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542200",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "",
+                "home_team": "格里姆",
+                "away_team": "埃克塞特",
+                "home_goals_90": 1,
+                "away_goals_90": 0,
+                "competition": "英乙",
+                "competition_id": "434",
+                "season_id": "15458",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542690",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "66",
+                "home_team": "格里姆",
+                "away_team": "布莱克浦",
+                "home_goals_90": 1,
+                "away_goals_90": 3,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:6332655f0a3e52b830a3",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 2
+            }
+          }
+        },
+        "facts": [
+          {
+            "fact_id": "2041655:F001",
+            "dimension": "赛制",
+            "summary": "官方赛事：英锦标赛；赛季2026/2027；阶段Group Stage；分组北部赛区F组。未据此推断战意或场地。",
+            "source_ids": [
+              "head:9fc1adae809af19d38c3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F002",
+            "dimension": "近期状态",
+            "summary": "诺茨郡：精确球队ID、180天内正式赛有效8场，1胜5平2负，进8失10；未校正对手强弱。排除2条。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F003",
+            "dimension": "近期赛果",
+            "summary": "2026-09-19 英甲（赛事ID385，赛季ID15457）：雷丁 2:0 诺茨郡，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F004",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英甲（赛事ID385，赛季ID15457）：诺茨郡 0:1 布拉德福，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F005",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英甲（赛事ID385，赛季ID15457）：哈德斯 1:1 诺茨郡，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F006",
+            "dimension": "近期赛果",
+            "summary": "2026-09-02 英甲（赛事ID385，赛季ID15457）：唐卡斯特 1:1 诺茨郡，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F007",
+            "dimension": "近期赛果",
+            "summary": "2026-08-29 英甲（赛事ID385，赛季ID15457）：诺茨郡 2:1 伯顿，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F008",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英甲（赛事ID385，赛季ID15457）：卢顿 2:2 诺茨郡，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F009",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英甲（赛事ID385，赛季ID15457）：诺茨郡 1:1 莱切斯特，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F010",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：伯恩利 1:1 诺茨郡，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F011",
+            "dimension": "近期状态",
+            "summary": "格里姆：精确球队ID、180天内正式赛有效8场，3胜4平1负，进12失9；未校正对手强弱。排除2条。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F012",
+            "dimension": "近期赛果",
+            "summary": "2026-09-19 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 克劳利，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F013",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英乙（赛事ID434，赛季ID15458）：格里姆 2:0 布流浪，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F014",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英乙（赛事ID434，赛季ID15458）：切尔滕 2:2 格里姆，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F015",
+            "dimension": "近期赛果",
+            "summary": "2026-09-02 英乙（赛事ID434，赛季ID15458）：阿克宁顿 2:2 格里姆，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F016",
+            "dimension": "近期赛果",
+            "summary": "2026-08-29 英乙（赛事ID434，赛季ID15458）：格里姆 2:2 福利特，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F017",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英乙（赛事ID434，赛季ID15458）：沃尔索尔 0:0 格里姆，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F018",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英乙（赛事ID434，赛季ID15458）：格里姆 1:0 埃克塞特，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F019",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：格里姆 1:3 布莱克浦，90分钟事实。",
+            "source_ids": [
+              "recent:6332655f0a3e52b830a3"
+            ]
+          },
+          {
+            "fact_id": "2041655:F020",
+            "dimension": "未来赛程",
+            "summary": "诺茨郡本场后5天内已公布：09-26 22:00 英甲 诺茨郡对布莱克浦（北京时间）；不能由赛程直接断言轮换。",
+            "source_ids": [
+              "future:b51bc26e8d04d0c34cc9"
+            ]
+          },
+          {
+            "fact_id": "2041655:F021",
+            "dimension": "未来赛程",
+            "summary": "格里姆本场后5天内已公布：09-26 22:00 英乙 纽波特郡对格里姆（北京时间）；不能由赛程直接断言轮换。",
+            "source_ids": [
+              "future:b51bc26e8d04d0c34cc9"
+            ]
+          },
+          {
+            "fact_id": "2041655:F022",
+            "dimension": "伤停待核实",
+            "summary": "诺茨郡接口列出：M. Sanders、普拉特、L. Macarai、D. Campbell、S. Robertson、E. Acauah；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:fa5ae3d107c150c28032"
+            ]
+          },
+          {
+            "fact_id": "2041655:F023",
+            "dimension": "伤停待核实",
+            "summary": "格里姆接口列出：A. 库克、J. Amaluzor、D. Tharme、R. Staunton、J. Andrews、H. Cartwright、C. Gardner；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:fa5ae3d107c150c28032"
+            ]
+          }
+        ],
+        "warnings": [
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋"
+        ],
+        "h2h": {
+          "matches": [],
+          "excluded": {
+            "过旧、未来或仅日期无法核实的同日比赛": 10
+          }
+        }
+      },
+      "statistical_baseline": {
+        "analysis_status": "insufficient_evidence",
+        "analysis_method": "recent_form_poisson_v1",
+        "analysis_label": "近期赛果统计基线（非专属训练模型）",
+        "analysis_summary": "仅完成双方独立近期事实摘要；双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+        "analysis_result": null,
+        "analysis_handicap_result": null,
+        "raw_probabilities": null,
+        "probability_status": "未生成：证据不足",
+        "confidence": {
+          "result": "低",
+          "handicap_result": null
+        },
+        "risk": "高",
+        "supporting_evidence": [
+          "主队有效样本8场：1胜5平2负，进8球失10球。",
+          "客队有效样本8场：3胜4平1负，进12球失9球。"
+        ],
+        "major_counterevidence": [
+          "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "counterevidence_actions": [
+          {
+            "evidence": "双方共同competition_id+season_id下未同时达到各3场，禁止用旧样本或跨赛事样本补齐。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          },
+          {
+            "evidence": "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。",
+            "effect": "保持高风险，不生成概率或分析选项"
+          }
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "双方同一竞赛同一赛季且各至少3场的可比样本"
+        ],
+        "evidence_stats": {
+          "home": {
+            "sample_size": 8,
+            "wins": 1,
+            "draws": 5,
+            "losses": 2,
+            "goals_for": 8,
+            "goals_against": 10,
+            "home_matches": 3,
+            "away_matches": 5,
+            "same_role_matches": 3,
+            "different_role_matches": 5,
+            "exact_goal_differences": {
+              "-2": 1,
+              "-1": 1,
+              "0": 5,
+              "1": 1
+            },
+            "competition_season_groups": {
+              "385::15457": 7,
+              "585::14884": 1
+            }
+          },
+          "away": {
+            "sample_size": 8,
+            "wins": 3,
+            "draws": 4,
+            "losses": 1,
+            "goals_for": 12,
+            "goals_against": 9,
+            "home_matches": 5,
+            "away_matches": 3,
+            "same_role_matches": 3,
+            "different_role_matches": 5,
+            "exact_goal_differences": {
+              "-2": 1,
+              "0": 4,
+              "1": 1,
+              "2": 2
+            },
+            "competition_season_groups": {
+              "434::15458": 7,
+              "585::14884": 1
+            }
+          }
+        },
+        "method_parameters": {
+          "lookback_days": 180,
+          "half_life_days": 45,
+          "recent_match_limit_per_team": 10,
+          "minimum_matches_per_team_in_common_group": 3,
+          "comparison_status": "insufficient",
+          "common_competition_season": null
+        },
+        "matched_evidence_ids": [
+          "recent:6332655f0a3e52b830a3"
+        ],
+        "freeze_eligible": false
+      },
+      "matched_rule_ids": [],
+      "rule_application_status": "证据通道独立判断；未自动应用历史场景规则",
+      "llm_status": "completed",
+      "result_status": "分析候选",
+      "handicap_status": "分析候选",
+      "llm_reason": null,
+      "handicap_reason": "官方h=-1：d≥2为让胜，d=1为让平，d≤0为让负。让胜路径可参考格里姆F019的多球败局，但该场属于英联赛杯，不能直接移植；诺茨郡F002、F007也未提供近期多球取胜记录。让平边界有诺茨郡F007主场净胜一球的正面线索，但单场、不同对手不足以确定本场边界。让负路径同时得到诺茨郡近期平负记录F003至F006及格里姆客场平局F014、F015、F017支持，证据较为连续，故低置信度选让负。",
+      "support_fact_ids": [
+        "2041655:F002",
+        "2041655:F005",
+        "2041655:F006",
+        "2041655:F009",
+        "2041655:F014",
+        "2041655:F015",
+        "2041655:F017"
+      ],
+      "counter_fact_ids": [
+        "2041655:F003",
+        "2041655:F004",
+        "2041655:F007",
+        "2041655:F012",
+        "2041655:F013",
+        "2041655:F019"
+      ]
+    },
+    {
+      "sequence": 4,
+      "match_id": "2041644",
+      "match_number": "周二004",
+      "competition": "英锦标赛",
+      "home_team": "维冈",
+      "away_team": "布莱克浦",
+      "kickoff_time": "2026-09-23T02:00:00+08:00",
+      "official_handicap": -1,
+      "status": "候选预测，尚未正式冻结",
+      "lineup_status": "未请求",
+      "source_snapshot_id": "126e84c0d8da7c1f5c85e63e6c0fec4987b14e0f9a85fd1713c4b4ec05daeb9a",
+      "model_status": "evidence_fallback",
+      "reason": "没有覆盖赛事的模型: 英锦标赛",
+      "result": "负",
+      "handicap_result": "让负",
+      "freeze_eligible": false,
+      "analysis_status": "available",
+      "analysis_method": "codex_evidence_v1",
+      "analysis_label": "Codex证据解读（gpt-6-astra，非专属训练模型）",
+      "analysis_summary": "低置信度倾向布莱克浦客胜。维冈F003至F005连续未进球；面对同赛季英甲共同对手斯托克港、威科姆，布莱克浦的F019、F020较维冈F005、F003更有利，F014也显示其近期仍能取得进球。这些事实支持客队方向，但共同对手比较存在比赛时间和主客场差异。支持事实 source_ids：recent:d73251917d91c221f441。",
+      "analysis_result": "负",
+      "analysis_handicap_result": "让负",
+      "raw_probabilities": null,
+      "probability_status": "证据定性分析，不生成伪精确概率；独立统计基线另存",
+      "confidence": {
+        "result": "低",
+        "handicap_result": "低"
+      },
+      "risk": "高",
+      "supporting_evidence": [
+        "2026-09-19 英甲（赛事ID385，赛季ID15457）：维冈 0:1 威科姆，90分钟事实。",
+        "2026-09-12 英甲（赛事ID385，赛季ID15457）：谢周三 0:0 维冈，90分钟事实。",
+        "2026-09-05 英甲（赛事ID385，赛季ID15457）：维冈 0:4 斯托克港，90分钟事实。",
+        "2026-09-12 英甲（赛事ID385，赛季ID15457）：布莱克浦 2:2 布罗姆利，90分钟事实。",
+        "2026-08-22 英甲（赛事ID385，赛季ID15457）：斯托克港 1:2 布莱克浦，90分钟事实。",
+        "2026-08-15 英甲（赛事ID385，赛季ID15457）：布莱克浦 1:1 威科姆，90分钟事实。"
+      ],
+      "major_counterevidence": [
+        "2026-09-03 英甲（赛事ID385，赛季ID15457）：维冈 3:1 米尔顿，90分钟事实。",
+        "2026-09-19 英甲（赛事ID385，赛季ID15457）：布莱克浦 2:4 普利茅斯，90分钟事实。",
+        "2026-09-05 英甲（赛事ID385，赛季ID15457）：雷丁 3:1 布莱克浦，90分钟事实。",
+        "2026-09-03 英甲（赛事ID385，赛季ID15457）：巴恩斯利 2:1 布莱克浦，90分钟事实。"
+      ],
+      "counterevidence_actions": [
+        {
+          "evidence": "2026-09-03 英甲（赛事ID385，赛季ID15457）：维冈 3:1 米尔顿，90分钟事实。；2026-09-19 英甲（赛事ID385，赛季ID15457）：布莱克浦 2:4 普利茅斯，90分钟事实。；2026-09-05 英甲（赛事ID385，赛季ID15457）：雷丁 3:1 布莱克浦，90分钟事实。；2026-09-03 英甲（赛事ID385，赛季ID15457）：巴恩斯利 2:1 布莱克浦，90分钟事实。",
+          "effect": "布莱克浦F013、F015、F016均失利，其中F015、F016为客场失利，说明持续失球可能抵消其进攻表现，形成被逼平或客场落败的不胜路径。维冈F006曾主场多球取胜，证明其并非没有获胜及拉开分差的能力。这些反证明显削弱客胜与让负判断，因此均仅保留低置信度。反证 source_ids：recent:d73251917d91c221f441。"
+        }
+      ],
+      "missing": [
+        "确认首发与阵型",
+        "伤停原始发布时间及俱乐部确认",
+        "战术/机会质量/纪律事件",
+        "天气、场地和旅行信息",
+        "已核实的完整积分榜与出线条件",
+        "180天内可核实的同队正式交锋",
+        "维冈后5天接口无可用赛程，不代表无比赛",
+        "本场确认首发、阵型及轮换安排",
+        "机会质量、战术及纪律事件",
+        "对手强度校准及更多当前客场适配证据",
+        "天气、实际场地及旅行信息",
+        "完整积分榜与出线条件",
+        "维冈后续赛程核实；接口无可用赛程不代表没有比赛",
+        "资料原始发布时间及体彩结算口径确认"
+      ],
+      "evidence_stats": {
+        "home": {
+          "sample_size": 9,
+          "wins": 2,
+          "draws": 2,
+          "losses": 5,
+          "goals_for": 9,
+          "goals_against": 15,
+          "home_matches": 5,
+          "away_matches": 4,
+          "same_role_matches": 5,
+          "different_role_matches": 4,
+          "exact_goal_differences": {
+            "-4": 1,
+            "-2": 1,
+            "-1": 3,
+            "0": 2,
+            "1": 1,
+            "2": 1
+          },
+          "competition_season_groups": {
+            "385::15457": 7,
+            "585::14884": 1,
+            "604::14954": 1
+          }
+        },
+        "away": {
+          "sample_size": 9,
+          "wins": 3,
+          "draws": 2,
+          "losses": 4,
+          "goals_for": 17,
+          "goals_against": 18,
+          "home_matches": 5,
+          "away_matches": 4,
+          "same_role_matches": 4,
+          "different_role_matches": 5,
+          "exact_goal_differences": {
+            "-3": 1,
+            "-2": 2,
+            "-1": 1,
+            "0": 2,
+            "1": 1,
+            "2": 1,
+            "4": 1
+          },
+          "competition_season_groups": {
+            "385::15457": 7,
+            "585::14884": 2
+          }
+        }
+      },
+      "method_parameters": {
+        "lookback_days": 180,
+        "half_life_days": 45,
+        "recent_match_limit_per_team": 10,
+        "minimum_matches_per_team_in_common_group": 3,
+        "comparison_status": "comparable",
+        "common_competition_season": {
+          "competition_id": "385",
+          "season_id": "15457",
+          "home_matches": 7,
+          "away_matches": 7
+        },
+        "lambda_home": 1.3335039386662522,
+        "lambda_away": 1.7394380276230916,
+        "result_top_margin": 0.17551579342765466,
+        "draw_balance_supported": false,
+        "handicap_exact_boundary_paths": 0
+      },
+      "matched_evidence_ids": [
+        "recent:d73251917d91c221f441"
+      ],
+      "summary": "低置信度倾向布莱克浦客胜。维冈F003至F005连续未进球；面对同赛季英甲共同对手斯托克港、威科姆，布莱克浦的F019、F020较维冈F005、F003更有利，F014也显示其近期仍能取得进球。这些事实支持客队方向，但共同对手比较存在比赛时间和主客场差异。支持事实 source_ids：recent:d73251917d91c221f441。",
+      "evidence": {
+        "identity_verified": true,
+        "collected_at": "2026-09-22T08:08:42.216395+00:00",
+        "match_id": "2041644",
+        "sources": [
+          {
+            "source_id": "head:65d1d7960f11b0606172",
+            "kind": "head",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchHeadV1.qry?sportteryMatchId=2041644&source=web",
+            "fetched_at": "2026-09-22T08:00:47.488740+00:00",
+            "source_updated_at": null,
+            "sha256": "65d1d7960f11b06061721284c26051551f629f73856b11b5e0d8b09f24b6d5d1",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "recent:d73251917d91c221f441",
+            "kind": "recent",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchResultV1.qry?sportteryMatchId=2041644&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:47.764542+00:00",
+            "source_updated_at": null,
+            "sha256": "d73251917d91c221f4411a6edf418a482da683e91b86b179ebc32802b7ce2826",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "h2h:e6b4224f14d54915dd54",
+            "kind": "h2h",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getResultHistoryV1.qry?sportteryMatchId=2041644&termLimits=10&tournamentFlag=0&homeAwayFlag=0",
+            "fetched_at": "2026-09-22T08:00:47.994127+00:00",
+            "source_updated_at": null,
+            "sha256": "e6b4224f14d54915dd54315d67a667419ccc9a236f5771a14d244d56b1325a51",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "future:4836892b56605c6a17b2",
+            "kind": "future",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getFutureMatchesV1.qry?sportteryMatchId=2041644&termLimits=4",
+            "fetched_at": "2026-09-22T08:00:48.195150+00:00",
+            "source_updated_at": null,
+            "sha256": "4836892b56605c6a17b2bd5a6f8115e801fe7dbcebc5cf8b2f42480cca7828fc",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          },
+          {
+            "source_id": "injuries:c42e93189db387b5693d",
+            "kind": "injuries",
+            "url": "https://webapi.sporttery.cn/gateway/uniform/football/getInjurySuspensionV1.qry?sportteryMatchId=2041644",
+            "fetched_at": "2026-09-22T08:00:48.326247+00:00",
+            "source_updated_at": null,
+            "sha256": "c42e93189db387b5693db01b126699ccc51c07477ceecb27e4a83b1eeddcdf5c",
+            "cache_hit": true,
+            "parser_version": "sporttery-evidence-v1",
+            "hash_basis": "canonical_json_utf8_sorted_keys_compact"
+          }
+        ],
+        "teams": {
+          "home": {
+            "team_id": "63",
+            "name": "维冈",
+            "recent_matches": [
+              {
+                "match_id": "2541104",
+                "match_date": "2026-09-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "",
+                "home_team": "维冈",
+                "away_team": "威科姆",
+                "home_goals_90": 0,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541122",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "63",
+                "home_team": "谢周三",
+                "away_team": "维冈",
+                "home_goals_90": 0,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541129",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "",
+                "home_team": "维冈",
+                "away_team": "斯托克港",
+                "home_goals_90": 0,
+                "away_goals_90": 4,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541142",
+                "match_date": "2026-09-03",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "78",
+                "home_team": "维冈",
+                "away_team": "米尔顿",
+                "home_goals_90": 3,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541163",
+                "match_date": "2026-08-30",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "1165",
+                "away_team_id": "63",
+                "home_team": "温布尔登",
+                "away_team": "维冈",
+                "home_goals_90": 1,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541165",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "",
+                "home_team": "维冈",
+                "away_team": "莱顿东方",
+                "home_goals_90": 0,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2614853",
+                "match_date": "2026-08-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "63",
+                "away_team_id": "",
+                "home_team": "维冈",
+                "away_team": "Aston Villa",
+                "home_goals_90": 3,
+                "away_goals_90": 2,
+                "competition": "英锦标赛",
+                "competition_id": "604",
+                "season_id": "14954",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541180",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "63",
+                "home_team": "剑桥联",
+                "away_team": "维冈",
+                "home_goals_90": 3,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542678",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "63",
+                "home_team": "巴恩斯利",
+                "away_team": "维冈",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 1
+            }
+          },
+          "away": {
+            "team_id": "66",
+            "name": "布莱克浦",
+            "recent_matches": [
+              {
+                "match_id": "2541113",
+                "match_date": "2026-09-19",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "66",
+                "away_team_id": "",
+                "home_team": "布莱克浦",
+                "away_team": "普利茅斯",
+                "home_goals_90": 2,
+                "away_goals_90": 4,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541118",
+                "match_date": "2026-09-12",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "66",
+                "away_team_id": "",
+                "home_team": "布莱克浦",
+                "away_team": "布罗姆利",
+                "home_goals_90": 2,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541130",
+                "match_date": "2026-09-05",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "66",
+                "home_team": "雷丁",
+                "away_team": "布莱克浦",
+                "home_goals_90": 3,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541151",
+                "match_date": "2026-09-03",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "66",
+                "home_team": "巴恩斯利",
+                "away_team": "布莱克浦",
+                "home_goals_90": 2,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541162",
+                "match_date": "2026-08-29",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "66",
+                "away_team_id": "",
+                "home_team": "布莱克浦",
+                "away_team": "彼得堡联",
+                "home_goals_90": 4,
+                "away_goals_90": 0,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2616475",
+                "match_date": "2026-08-26",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "66",
+                "away_team_id": "99",
+                "home_team": "布莱克浦",
+                "away_team": "林肯城",
+                "home_goals_90": 1,
+                "away_goals_90": 4,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541166",
+                "match_date": "2026-08-22",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "",
+                "away_team_id": "66",
+                "home_team": "斯托克港",
+                "away_team": "布莱克浦",
+                "home_goals_90": 1,
+                "away_goals_90": 2,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2541183",
+                "match_date": "2026-08-15",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "66",
+                "away_team_id": "",
+                "home_team": "布莱克浦",
+                "away_team": "威科姆",
+                "home_goals_90": 1,
+                "away_goals_90": 1,
+                "competition": "英甲",
+                "competition_id": "385",
+                "season_id": "15457",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              },
+              {
+                "match_id": "2542690",
+                "match_date": "2026-08-08",
+                "kickoff_time": null,
+                "time_precision": "date",
+                "home_team_id": "96",
+                "away_team_id": "66",
+                "home_team": "格里姆",
+                "away_team": "布莱克浦",
+                "home_goals_90": 1,
+                "away_goals_90": 3,
+                "competition": "英联赛杯",
+                "competition_id": "585",
+                "season_id": "14884",
+                "status": "completed_90",
+                "score_basis": "90_minutes",
+                "source_id": "recent:d73251917d91c221f441",
+                "is_friendly": false
+              }
+            ],
+            "excluded": {
+              "友谊/热身赛": 1
+            }
+          }
+        },
+        "facts": [
+          {
+            "fact_id": "2041644:F001",
+            "dimension": "赛制",
+            "summary": "官方赛事：英锦标赛；赛季2026/2027；阶段Group Stage；分组北部赛区B组。未据此推断战意或场地。",
+            "source_ids": [
+              "head:65d1d7960f11b0606172"
+            ]
+          },
+          {
+            "fact_id": "2041644:F002",
+            "dimension": "近期状态",
+            "summary": "维冈：精确球队ID、180天内正式赛有效9场，2胜2平5负，进9失15；未校正对手强弱。排除1条。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F003",
+            "dimension": "近期赛果",
+            "summary": "2026-09-19 英甲（赛事ID385，赛季ID15457）：维冈 0:1 威科姆，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F004",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英甲（赛事ID385，赛季ID15457）：谢周三 0:0 维冈，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F005",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英甲（赛事ID385，赛季ID15457）：维冈 0:4 斯托克港，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F006",
+            "dimension": "近期赛果",
+            "summary": "2026-09-03 英甲（赛事ID385，赛季ID15457）：维冈 3:1 米尔顿，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F007",
+            "dimension": "近期赛果",
+            "summary": "2026-08-30 英甲（赛事ID385，赛季ID15457）：温布尔登 1:0 维冈，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F008",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英甲（赛事ID385，赛季ID15457）：维冈 0:2 莱顿东方，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F009",
+            "dimension": "近期赛果",
+            "summary": "2026-08-19 英锦标赛（赛事ID604，赛季ID14954）：维冈 3:2 Aston Villa，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F010",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英甲（赛事ID385，赛季ID15457）：剑桥联 3:2 维冈，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F011",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：巴恩斯利 1:1 维冈，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F012",
+            "dimension": "近期状态",
+            "summary": "布莱克浦：精确球队ID、180天内正式赛有效9场，3胜2平4负，进17失18；未校正对手强弱。排除1条。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F013",
+            "dimension": "近期赛果",
+            "summary": "2026-09-19 英甲（赛事ID385，赛季ID15457）：布莱克浦 2:4 普利茅斯，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F014",
+            "dimension": "近期赛果",
+            "summary": "2026-09-12 英甲（赛事ID385，赛季ID15457）：布莱克浦 2:2 布罗姆利，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F015",
+            "dimension": "近期赛果",
+            "summary": "2026-09-05 英甲（赛事ID385，赛季ID15457）：雷丁 3:1 布莱克浦，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F016",
+            "dimension": "近期赛果",
+            "summary": "2026-09-03 英甲（赛事ID385，赛季ID15457）：巴恩斯利 2:1 布莱克浦，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F017",
+            "dimension": "近期赛果",
+            "summary": "2026-08-29 英甲（赛事ID385，赛季ID15457）：布莱克浦 4:0 彼得堡联，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F018",
+            "dimension": "近期赛果",
+            "summary": "2026-08-26 英联赛杯（赛事ID585，赛季ID14884）：布莱克浦 1:4 林肯城，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F019",
+            "dimension": "近期赛果",
+            "summary": "2026-08-22 英甲（赛事ID385，赛季ID15457）：斯托克港 1:2 布莱克浦，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F020",
+            "dimension": "近期赛果",
+            "summary": "2026-08-15 英甲（赛事ID385，赛季ID15457）：布莱克浦 1:1 威科姆，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F021",
+            "dimension": "近期赛果",
+            "summary": "2026-08-08 英联赛杯（赛事ID585，赛季ID14884）：格里姆 1:3 布莱克浦，90分钟事实。",
+            "source_ids": [
+              "recent:d73251917d91c221f441"
+            ]
+          },
+          {
+            "fact_id": "2041644:F022",
+            "dimension": "未来赛程",
+            "summary": "布莱克浦本场后5天内已公布：09-26 22:00 英甲 诺茨郡对布莱克浦（北京时间）；不能由赛程直接断言轮换。",
+            "source_ids": [
+              "future:4836892b56605c6a17b2"
+            ]
+          },
+          {
+            "fact_id": "2041644:F023",
+            "dimension": "伤停待核实",
+            "summary": "维冈接口列出：J. Carragher、R. Trevitt；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:c42e93189db387b5693d"
+            ]
+          },
+          {
+            "fact_id": "2041644:F024",
+            "dimension": "伤停待核实",
+            "summary": "布莱克浦接口列出：沃恩、霍尼曼、F. Horsfall、N·恩尼斯、D. Taylor、恩万科沃；原始发布时间未知，未获俱乐部确认，不作为确定缺阵或主力身份。",
+            "source_ids": [
+              "injuries:c42e93189db387b5693d"
+            ]
+          }
+        ],
+        "warnings": [
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "维冈后5天接口无可用赛程，不代表无比赛"
+        ],
+        "h2h": {
+          "matches": [],
+          "excluded": {
+            "过旧、未来或仅日期无法核实的同日比赛": 10
+          }
+        }
+      },
+      "statistical_baseline": {
+        "analysis_status": "available",
+        "analysis_method": "recent_form_poisson_v1",
+        "analysis_label": "近期赛果统计基线（非专属训练模型）",
+        "analysis_summary": "已按双方同一竞赛、同一赛季的近期赛果生成统计候选；该结果不是专属训练模型，也未校准对手强度或阵容。",
+        "analysis_result": "负",
+        "analysis_handicap_result": "让负",
+        "raw_probabilities": {
+          "result": {
+            "胜": 0.29499071124379267,
+            "平": 0.23450278408475997,
+            "负": 0.47050650467144733
+          },
+          "handicap_result": {
+            "让胜": 0.12799414323508262,
+            "让平": 0.16699656800871016,
+            "让负": 0.7050092887562073
+          }
+        },
+        "probability_status": "原始近期赛果统计值，未训练、未校准",
+        "confidence": {
+          "result": "中低",
+          "handicap_result": "中低"
+        },
+        "risk": "高",
+        "supporting_evidence": [
+          "主队有效样本9场：2胜2平5负，进9球失15球。",
+          "客队有效样本9场：3胜2平4负，进17球失18球。",
+          "共同竞赛赛季样本为主队7场、客队7场。",
+          "45天半衰期加权后，主队进攻均值0.64、防守失球均值1.61；客队进攻均值1.87、防守失球均值2.02。"
+        ],
+        "major_counterevidence": [
+          "方法未校准对手强度、伤停、首发、赛程和阵容换代。",
+          "这是近期赛果统计基线，不是该联赛或球队的专属训练模型。",
+          "客队有效样本以异主客角色为主，当前客场适配证据有限。",
+          "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。"
+        ],
+        "counterevidence_actions": [
+          {
+            "evidence": "方法未校准对手强度、伤停、首发、赛程和阵容换代。",
+            "effect": "维持高风险并限制置信度最高为中低"
+          },
+          {
+            "evidence": "这是近期赛果统计基线，不是该联赛或球队的专属训练模型。",
+            "effect": "维持高风险并限制置信度最高为中低"
+          },
+          {
+            "evidence": "客队有效样本以异主客角色为主，当前客场适配证据有限。",
+            "effect": "维持高风险并限制置信度最高为中低"
+          },
+          {
+            "evidence": "统计源注明90分钟含补时；不等于体彩结算确认。资料源发布时间未提供，获取时间不能替代发布时间。",
+            "effect": "维持高风险并限制置信度最高为中低"
+          }
+        ],
+        "missing": [
+          "确认首发与阵型",
+          "伤停原始发布时间及俱乐部确认",
+          "战术/机会质量/纪律事件",
+          "天气、场地和旅行信息",
+          "已核实的完整积分榜与出线条件",
+          "180天内可核实的同队正式交锋",
+          "维冈后5天接口无可用赛程，不代表无比赛"
+        ],
+        "evidence_stats": {
+          "home": {
+            "sample_size": 9,
+            "wins": 2,
+            "draws": 2,
+            "losses": 5,
+            "goals_for": 9,
+            "goals_against": 15,
+            "home_matches": 5,
+            "away_matches": 4,
+            "same_role_matches": 5,
+            "different_role_matches": 4,
+            "exact_goal_differences": {
+              "-4": 1,
+              "-2": 1,
+              "-1": 3,
+              "0": 2,
+              "1": 1,
+              "2": 1
+            },
+            "competition_season_groups": {
+              "385::15457": 7,
+              "585::14884": 1,
+              "604::14954": 1
+            }
+          },
+          "away": {
+            "sample_size": 9,
+            "wins": 3,
+            "draws": 2,
+            "losses": 4,
+            "goals_for": 17,
+            "goals_against": 18,
+            "home_matches": 5,
+            "away_matches": 4,
+            "same_role_matches": 4,
+            "different_role_matches": 5,
+            "exact_goal_differences": {
+              "-3": 1,
+              "-2": 2,
+              "-1": 1,
+              "0": 2,
+              "1": 1,
+              "2": 1,
+              "4": 1
+            },
+            "competition_season_groups": {
+              "385::15457": 7,
+              "585::14884": 2
+            }
+          }
+        },
+        "method_parameters": {
+          "lookback_days": 180,
+          "half_life_days": 45,
+          "recent_match_limit_per_team": 10,
+          "minimum_matches_per_team_in_common_group": 3,
+          "comparison_status": "comparable",
+          "common_competition_season": {
+            "competition_id": "385",
+            "season_id": "15457",
+            "home_matches": 7,
+            "away_matches": 7
+          },
+          "lambda_home": 1.3335039386662522,
+          "lambda_away": 1.7394380276230916,
+          "result_top_margin": 0.17551579342765466,
+          "draw_balance_supported": false,
+          "handicap_exact_boundary_paths": 0
+        },
+        "matched_evidence_ids": [
+          "recent:d73251917d91c221f441"
+        ],
+        "freeze_eligible": false
+      },
+      "matched_rule_ids": [],
+      "rule_application_status": "证据通道独立判断；未自动应用历史场景规则",
+      "llm_status": "completed",
+      "result_status": "分析候选",
+      "handicap_status": "分析候选",
+      "llm_reason": null,
+      "handicap_reason": "官方h=-1：d≥2为让胜，d=1为让平，d≤0为让负。让胜路径有维冈F006净胜两球，以及布莱克浦F013、F015多球失利的实际支持，不能排除。让平路径有布莱克浦F016客场净负一球作为边界线索，但缺少维冈针对本场对手恰好净胜一球的充分依据。让负路径得到维冈F003至F005零进球且不胜，以及共同对手比较F003、F005、F019、F020支持。综合近期表现，低置信度偏向让负，同时保留主队一球或多球取胜的反证影响。",
+      "support_fact_ids": [
+        "2041644:F003",
+        "2041644:F004",
+        "2041644:F005",
+        "2041644:F014",
+        "2041644:F019",
+        "2041644:F020"
+      ],
+      "counter_fact_ids": [
+        "2041644:F006",
+        "2041644:F013",
+        "2041644:F015",
+        "2041644:F016"
+      ]
+    }
+  ],
+  "prefilter_report": {
+    "fixture_count": 4,
+    "returned_fixture_count": 4,
+    "unique_rules": 0,
+    "compact_rule_bytes": 2,
+    "duplicate_rules_sent": 0
+  },
+  "matched_rules": [],
+  "evidence_fetch_performed": true,
+  "llm_status": "completed",
+  "llm_reason": null,
+  "llm_model": "gpt-6-astra",
+  "llm_warnings": [
+    "code_mode_disabled_fail_closed"
+  ]
+}
