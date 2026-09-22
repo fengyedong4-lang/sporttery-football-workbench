@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "built_at": "2026-09-22T16:50:00.840410+00:00",
+  "built_at": "2026-09-22T16:55:54.046612+00:00",
   "distribution": "source-and-path-redacted-prediction-archives",
   "original_records_unchanged": true,
   "exclusions": [
@@ -521,9 +521,9 @@
     },
     {
       "path": "workbench/backend/app/services/auto_model.py",
-      "bytes": 24205,
-      "sha256": "684d7ed7932c22aa40db0b5f10d064e8f1e80430f161e6572c71f29dc5923167",
-      "source_sha256": "684d7ed7932c22aa40db0b5f10d064e8f1e80430f161e6572c71f29dc5923167",
+      "bytes": 25075,
+      "sha256": "96a78d3e6517482647d64c7a80227ad0e6047e76b9af0c22b0289e36fcb4a51d",
+      "source_sha256": "96a78d3e6517482647d64c7a80227ad0e6047e76b9af0c22b0289e36fcb4a51d",
       "path_redactions": 0
     },
     {
@@ -703,9 +703,9 @@
     },
     {
       "path": "workbench/backend/tests/test_auto_model.py",
-      "bytes": 8675,
-      "sha256": "0939846f3806f860f91010e4ea559d3b9c5f88e624bcca836c5b8b4c630da868",
-      "source_sha256": "0939846f3806f860f91010e4ea559d3b9c5f88e624bcca836c5b8b4c630da868",
+      "bytes": 10760,
+      "sha256": "fef680e10a10bf9822f4125db78288ab98fe7379aff348ab9d93839fceb6e311",
+      "source_sha256": "fef680e10a10bf9822f4125db78288ab98fe7379aff348ab9d93839fceb6e311",
       "path_redactions": 0
     },
     {

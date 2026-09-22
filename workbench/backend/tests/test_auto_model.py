@@ -2,9 +2,12 @@ from copy import deepcopy
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 import json
+from pathlib import Path
+import threading
 
 from app.schemas import Fixture, OfficialPlay
 from app.services.auto_model import build_auto_models, digest
+from app.services import auto_model
 from app.services.evidence import _recent_row
 from app.services.evidence_workflow import fill_evidence_fallbacks
 from app.services import evidence_workflow
@@ -149,10 +152,53 @@ def test_youth_old_generation_never_transfers_team_strength(tmp_path):
     assert analysis['analysis_result'] is None
 
 
-def test_concurrent_requests_preserve_content_archive_and_versions(tmp_path):
+def test_concurrent_requests_preserve_content_archive_and_versions(tmp_path, monkeypatch):
     f,b = sample(tmp_path)
+    clock = threading.local()
+    china = timezone(timedelta(hours=8))
+    early_cutoff = (
+        datetime.now(timezone.utc).astimezone(china) + timedelta(days=1)
+    ).replace(hour=12, minute=0, second=0, microsecond=0).astimezone(timezone.utc)
+    late_cutoff = early_cutoff + timedelta(seconds=1)
+
+    class ThreadClock(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            value = early_cutoff if clock.request == "early" else late_cutoff
+            return value.astimezone(tz) if tz is not None else value.replace(tzinfo=None)
+
+    original_cached_fit = auto_model._cached_fit
+    early_waiting = threading.Event()
+    late_finished = threading.Event()
+
+    def force_later_request_to_fill_cache_first(*args, cutoff, **kwargs):
+        if cutoff == early_cutoff:
+            early_waiting.set()
+            assert late_finished.wait(timeout=5), "later request did not finish the shared fit"
+            return original_cached_fit(*args, cutoff=cutoff, **kwargs)
+        assert cutoff == late_cutoff
+        assert early_waiting.wait(timeout=5), "earlier request did not reach the shared fit"
+        try:
+            return original_cached_fit(*args, cutoff=cutoff, **kwargs)
+        finally:
+            late_finished.set()
+
+    def run(request):
+        clock.request = request
+        return build_auto_models([(f,{})], [b], evidence_dir=tmp_path/'evidence')[0][0]
+
+    monkeypatch.setattr(auto_model, "datetime", ThreadClock)
+    monkeypatch.setattr(auto_model, "_cached_fit", force_later_request_to_fill_cache_first)
     with ThreadPoolExecutor(max_workers=2) as pool:
-        results = list(pool.map(lambda _: build_auto_models([(f,{})], [b], evidence_dir=tmp_path/'evidence')[0][0], range(2)))
-    assert all(r['status'] == 'trained' for r in results)
+        futures = [pool.submit(run, request) for request in ("early", "late")]
+        results = [future.result() for future in futures]
+    assert all(r['status'] == 'trained' for r in results), [
+        {"status": r["status"], "reason": r.get("reason")} for r in results
+    ]
     assert results[0]['version'] != results[1]['version']
+    assert results[0]['fit_cache_hit'] is True
+    assert results[1]['fit_cache_hit'] is False
+    early_artifact = json.loads(Path(results[0]['artifact_path']).read_text(encoding='utf8'))
+    assert datetime.fromisoformat(early_artifact['model']['cutoff']) <= early_cutoff
     assert len(list((tmp_path/'auto_models'/'corpus'/'604-14954').glob('*.json'))) == 1
+    assert len(list((tmp_path/'auto_models'/'fits').glob('*.json'))) == 1

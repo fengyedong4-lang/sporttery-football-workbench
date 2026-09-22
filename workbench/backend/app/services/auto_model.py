@@ -166,19 +166,30 @@ def _documents(bundle: dict, evidence_dir: Path, root: Path, cutoff: datetime) -
 
 def _cached_fit(rows, scope, *, root, cutoff, youth, prior_only):
     from .cold_start_model import ColdStartModel, temporal_evaluate
-    key = digest({"method": METHOD, "rows": rows, "scope": scope, "youth": youth, "prior_only": prior_only})
+    # ColdStartModel excludes rows by Beijing calendar date, not by the
+    # microsecond at which a concurrent request reaches the fitter.  Keep that
+    # real input boundary in the cache identity so different as-of dates never
+    # share a fit, while same-day requests can safely reuse identical rows.
+    cutoff_day = cutoff.astimezone(CHINA).date().isoformat()
+    key = digest({"method": METHOD, "rows": rows, "scope": scope, "youth": youth,
+                  "prior_only": prior_only, "cutoff_day": cutoff_day})
     path = root / "fits" / f"{key}.json"
     with _CORPUS_LOCK:
         if path.exists():
             record = json.loads(path.read_text(encoding="utf8"))
             content = record["content"]
-            if digest(content) != record["sha256"] or content["fit_key"] != key:
+            if (digest(content) != record["sha256"] or content["fit_key"] != key
+                    or content.get("cutoff_day") != cutoff_day):
                 raise ModelError("已训练参数缓存校验失败，未静默覆盖")
             data = content["model"]
             stamp = datetime.fromisoformat(data["cutoff"])
-            if stamp > cutoff:
-                raise ModelError("已训练参数缓存晚于本次截止时间")
-            model = ColdStartModel(competition_id=data["competition_id"], season_id=data["season_id"], cutoff=stamp,
+            if stamp.tzinfo is None or stamp.astimezone(CHINA).date().isoformat() != cutoff_day:
+                raise ModelError("已训练参数缓存截止日与本次请求不一致")
+            # A later same-day request may win the cache race.  Parameters are
+            # still identical because rows and the day-level exclusion boundary
+            # are in the key; expose no timestamp later than this caller knew.
+            request_stamp = min(stamp, cutoff)
+            model = ColdStartModel(competition_id=data["competition_id"], season_id=data["season_id"], cutoff=request_stamp,
                 baseline_rate=data["baseline_rate"], teams=data["teams"], attack=data["attack"], defense=data["defense"],
                 team_match_counts=data["team_match_counts"], training_match_count=data["training_match_count"],
                 valid_rows_sha256=data["valid_rows_sha256"], excluded_rows=data["excluded_rows"],
@@ -189,7 +200,7 @@ def _cached_fit(rows, scope, *, root, cutoff, youth, prior_only):
         evaluation = (temporal_evaluate(rows, competition_id=scope["competition_id"], season_id=scope["season_id"],
                        include_seasons=True, isolate_generations=youth, max_folds=24) if not prior_only
                       else {"status": "prior_transfer_not_validated", "denominator": 0, "no_future_leakage": True})
-        content = {"fit_key": key, "model": {**model.to_dict(),
+        content = {"fit_key": key, "cutoff_day": cutoff_day, "model": {**model.to_dict(),
                    "model_type": "competition_2025_cross_season_regularized_poisson_map",
                    "prior_center_source": "same_competition_verified_90_minute_results_since_2025",
                    "generation_isolation": youth}, "evaluation": evaluation}
